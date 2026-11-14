@@ -451,6 +451,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R020",
+      "label": "R020",
+      "title": "For every fixed denominator pair in any residual square-cycle system each simultaneous CRT root supports at most one primitive numerator slope in the high chamber.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -848,6 +858,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A041",
+      "label": "A041",
+      "title": "CRT lattice slope uniqueness and exact witness fibre comparison",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json",
       "scope": "evidence"
     },
     {
@@ -1328,6 +1348,16 @@
       "relation": "uses_primitive_states_and_overlap_conditions"
     },
     {
+      "source": "R020",
+      "target": "C014",
+      "relation": "uses_exact_adjacent_coprimality"
+    },
+    {
+      "source": "R020",
+      "target": "R017",
+      "relation": "uses_reflected_witness_for_replay"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1605,6 +1635,11 @@
     {
       "source": "A040",
       "target": "R019",
+      "relation": "supports"
+    },
+    {
+      "source": "A041",
+      "target": "R020",
       "relation": "supports"
     },
     {

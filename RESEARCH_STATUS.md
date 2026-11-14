@@ -80,6 +80,10 @@ five-state nonpermutation realization at its specified witness base.
 The [complement descent obstruction](research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md)
 excludes ordinary divisor-complement moves in one opposite pair
 and bounds the source height for any fixed rational relative weights.
+The [lattice fibre theorem](research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md)
+gives at most one primitive numerator slope per CRT root above
+a fixed denominator pair. The two witness fibres and their reflected
+counterparts are exhausted by independent divisor and lattice checks.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

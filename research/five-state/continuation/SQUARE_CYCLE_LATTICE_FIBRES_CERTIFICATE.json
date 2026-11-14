@@ -1,0 +1,60 @@
+[
+  {
+    "code": 119772,
+    "fixed_DQ": [
+      1265,
+      731
+    ],
+    "square_root_signatures": 32,
+    "cores_fixed_DQ": [
+      [
+        406,
+        712,
+        1265,
+        731
+      ]
+    ],
+    "fixed_AC": [
+      406,
+      712
+    ],
+    "cores_fixed_AC": [
+      [
+        406,
+        712,
+        1265,
+        731
+      ]
+    ],
+    "realizations": [
+      [
+        [
+          406,
+          712,
+          1265,
+          731,
+          557
+        ],
+        [
+          88011536665779,
+          223336848698040
+        ]
+      ]
+    ]
+  },
+  {
+    "code": 606897,
+    "fixed_DQ": [
+      712,
+      406
+    ],
+    "square_root_signatures": 32,
+    "cores_fixed_DQ": [],
+    "fixed_AC": [
+      731,
+      1265
+    ],
+    "cores_fixed_AC": [],
+    "realizations": []
+  }
+]

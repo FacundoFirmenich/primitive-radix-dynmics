@@ -1,6 +1,7 @@
 """Exhaust selected bounded cofactor chambers, with no coordinate cutoff."""
 import argparse
 import json
+from fractions import Fraction
 from functools import lru_cache
 from itertools import product
 from math import gcd
@@ -38,6 +39,24 @@ def options(bound):
         for k in range(-10*h+1, 10*h):
             if gcd(h,k)==1:
                 yield k,h
+
+
+def chamber_quotients(code, r, side, coefficients, bound):
+    """Filter each signed quotient by its exact range on the chamber simplex."""
+    if code == 119772:
+        # Twice the coordinates (A,C,D,Q) on the slice A=1.
+        vertices = ((2,r,2*r,r),(2,r,2*r,4),(2,4,2*r,4),(2,4,8,4))
+    else:
+        # Eight times the coordinates on the slice Q=1.
+        vertices = ((6,12,12,8),(8,12,12,8),(8,12,16,8),(8,16,16,8))
+    alpha,beta,gamma,delta = coefficients
+    if side == "AC":
+        values = [(Fraction(d-alpha*q,a),Fraction(d-beta*q,c)) for a,c,d,q in vertices]
+    else:
+        values = [(Fraction(c-gamma*a,d),Fraction(c-delta*a,q)) for a,c,d,q in vertices]
+    intervals = [(min(values_i),max(values_i)) for values_i in zip(*values)]
+    return tuple([(k,h) for k,h in options(bound) if low < Fraction(k,h) < high]
+                 for low,high in intervals)
 
 
 def tuples_from_pair(coeff, ratios, side, strict_factor):
@@ -83,7 +102,6 @@ def tuples_from_pair(coeff, ratios, side, strict_factor):
 
 
 def witnesses(code,r,side,bound):
-    rows = list(options(bound))
     scale = (r,1,r,1) if code==119772 else (1,3,1,3)
     count=0
     tested=set()
@@ -92,7 +110,8 @@ def witnesses(code,r,side,bound):
         coeff=list(scale)
         for i, sign in zip((0,1) if side=="AC" else (2,3), signs):
             coeff[i] *= sign
-        for one,two in product(rows,repeat=2):
+        admissible = chamber_quotients(code,r,side,coeff,bound)
+        for one,two in product(*admissible):
             modulus_overlap = 1 if r==2 else 2
             if modulus_overlap % gcd(one[1],two[1]):
                 continue

@@ -48,6 +48,10 @@
 | R019 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Ordinary opposite-pair divisor complements never preserve the primitive square-cycle constraints on residual high cores. Fixed rational relative weights force bounded source height. | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md` | uses_opposite_square_cycles:R009<br>uses_primitive_states_and_overlap_conditions:C014 |
 | R020 | `PROVED_SYMBOLIC` | For every fixed denominator pair in any residual square-cycle system each simultaneous CRT root supports at most one primitive numerator slope in the high chamber. | `research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md` | uses_exact_adjacent_coprimality:C014<br>uses_reflected_witness_for_replay:R017 |
 | R021 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The least base of a five-state nonpermutation realization is at least 18371540497. The two open orientations individually have base lower bounds of 31820229419 and 66963421866. | `research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND_PARALLEL.md` | extends_verified_coordinate_ranges:R010 |
+| R022 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | For each of the five strict shifts and each prime p>3 the state projection has p^4-4p^3+14p^2-22p+11 locally admissible classes. The residue counts lift with an explicit common p-adic Haar density. | `research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md` | uses_ten_edge_conditions_and_overlaps:C014 |
+| R023 | `PROVED_SYMBOLIC` | Fix A and C in a residual square cycle. Each simultaneous root class refined by the strict shift and Q modulo three when needed supports at most one primitive D/Q slope in the high chamber. | `research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md` | extends_chamber_lattice_rigidity:R020<br>uses_high_chamber_and_overlaps:C014 |
+| R024 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The known factor-three realization is the unique realization on the cofactor plane 7D=21Q-16A, with no height bound. | `research/five-state/continuation/WITNESS_COFACTOR_PLANE.md` | specializes_plane_quotient_method:R013<br>certifies_uniqueness_in_known_witness_plane:C011 |
+| R025 | `PROVED_SYMBOLIC` | Polynomial quotients built from independent powers of the four core ideals and the principal fifth-modulus ideal are constant in matching homogeneous degree. | `research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md` | uses_square_cycles_and_coefficient_mismatch:R009 |
 
 ## Artifact registry
 
@@ -95,3 +99,7 @@
 | A040 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json` | R019 |
 | A041 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json` | R020 |
 | A042 | `computation_record` | `research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs` | R021 |
+| A043 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md;research/five-state/continuation/verify_square_prime_patterns.py` | R022 |
+| A044 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md` | R023 |
+| A045 | `exact_certificate` | `research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py` | R024 |
+| A046 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md` | R025 |

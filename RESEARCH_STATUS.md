@@ -62,6 +62,8 @@ surface containing none of the eight cycle lines.
 The [powered quotient obstruction](research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md)
 shows that the direct construction from the four cycle ideals yields
 only a constant quotient at every common power on the full core space.
+The [weighted extension](research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md)
+allows different powers and includes the principal fifth-modulus ideal.
 The [prime-support theorem](research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md)
 gives finiteness when the weighted part of the moduli supported
 on any fixed prime set exceeds the fourth power of the height
@@ -71,6 +73,14 @@ The [zero-constant exclusion](research/five-state/continuation/SQUARE_CYCLE_ZERO
 exhausts the degeneracies of the complementary cofactor identities:
 all four complementary constants are nonzero for every signed
 allocation in the three residual systems.
+The [prime-pattern count](research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md)
+gives the same generic-prime state projection in all five strict shifts
+and certifies its prime-power lifts. The
+[reverse-lattice theorem](research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md)
+extends primitive slope rigidity to fibres over fixed numerators.
+The [witness-plane proof](research/five-state/continuation/WITNESS_COFACTOR_PLANE.md)
+establishes uniqueness at all heights on `7D=21Q-16A`.
+Both open existence questions and unrestricted witness uniqueness remain open.
 The [common factor-three arithmetic](research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md)
 identifies the square systems after reflection and identifies the
 base congruences for the shift \(D=3E-A\). The two orientations

@@ -471,6 +471,46 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R022",
+      "label": "R022",
+      "title": "For each of the five strict shifts and each prime p>3 the state projection has p^4-4p^3+14p^2-22p+11 locally admissible classes. The residue counts lift with an explicit common p-adic Haar density.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R023",
+      "label": "R023",
+      "title": "Fix A and C in a residual square cycle. Each simultaneous root class refined by the strict shift and Q modulo three when needed supports at most one primitive D/Q slope in the high chamber.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R024",
+      "label": "R024",
+      "title": "The known factor-three realization is the unique realization on the cofactor plane 7D=21Q-16A, with no height bound.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/WITNESS_COFACTOR_PLANE.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R025",
+      "label": "R025",
+      "title": "Polynomial quotients built from independent powers of the four core ideals and the principal fifth-modulus ideal are constant in matching homogeneous degree.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -888,6 +928,46 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs",
+      "scope": "evidence"
+    },
+    {
+      "id": "A043",
+      "label": "A043",
+      "title": "Prime pattern proof and exact rank checker",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md;research/five-state/continuation/verify_square_prime_patterns.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A044",
+      "label": "A044",
+      "title": "Reverse CRT slope theorem",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A045",
+      "label": "A045",
+      "title": "Uniqueness on the witness cofactor plane and quadratic replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A046",
+      "label": "A046",
+      "title": "Weighted cycle ideal quotient obstruction",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md",
       "scope": "evidence"
     },
     {
@@ -1383,6 +1463,36 @@
       "relation": "extends_verified_coordinate_ranges"
     },
     {
+      "source": "R022",
+      "target": "C014",
+      "relation": "uses_ten_edge_conditions_and_overlaps"
+    },
+    {
+      "source": "R023",
+      "target": "R020",
+      "relation": "extends_chamber_lattice_rigidity"
+    },
+    {
+      "source": "R023",
+      "target": "C014",
+      "relation": "uses_high_chamber_and_overlaps"
+    },
+    {
+      "source": "R024",
+      "target": "R013",
+      "relation": "specializes_plane_quotient_method"
+    },
+    {
+      "source": "R024",
+      "target": "C011",
+      "relation": "certifies_uniqueness_in_known_witness_plane"
+    },
+    {
+      "source": "R025",
+      "target": "R009",
+      "relation": "uses_square_cycles_and_coefficient_mismatch"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1670,6 +1780,26 @@
     {
       "source": "A042",
       "target": "R021",
+      "relation": "supports"
+    },
+    {
+      "source": "A043",
+      "target": "R022",
+      "relation": "supports"
+    },
+    {
+      "source": "A044",
+      "target": "R023",
+      "relation": "supports"
+    },
+    {
+      "source": "A045",
+      "target": "R024",
+      "relation": "supports"
+    },
+    {
+      "source": "A046",
+      "target": "R025",
       "relation": "supports"
     },
     {

@@ -41,3 +41,7 @@ A039,Base-first complete checker and witness-base result,research/five-state/con
 A040,Opposite-pair descent obstruction and exact replay,research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json,exact_certificate,R019
 A041,CRT lattice slope uniqueness and exact witness fibre comparison,research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json,proof_record,R020
 A042,Parallel local search block records and range enumeration,research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs,computation_record,R021
+A043,Prime pattern proof and exact rank checker,research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md;research/five-state/continuation/verify_square_prime_patterns.py,proof_record,R022
+A044,Reverse CRT slope theorem,research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md,proof_record,R023
+A045,Uniqueness on the witness cofactor plane and quadratic replay,research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py,exact_certificate,R024
+A046,Weighted cycle ideal quotient obstruction,research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md,proof_record,R025

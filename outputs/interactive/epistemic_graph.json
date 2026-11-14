@@ -391,6 +391,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R014",
+      "label": "R014",
+      "title": "The degree-four-t intersection of the four t-th powers of the cycle ideals is spanned by the t-th power of the coordinate product in all three residual systems.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -708,6 +718,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A033",
+      "label": "A033",
+      "title": "Global obstruction to the powered cycle ideal quotient",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md",
       "scope": "evidence"
     },
     {
@@ -1138,6 +1158,11 @@
       "relation": "uses_signed_cofactor_planes"
     },
     {
+      "source": "R014",
+      "target": "R013",
+      "relation": "uses_four_cycle_ideals"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1370,6 +1395,11 @@
     {
       "source": "A032",
       "target": "R013",
+      "relation": "supports"
+    },
+    {
+      "source": "A033",
+      "target": "R014",
       "relation": "supports"
     },
     {

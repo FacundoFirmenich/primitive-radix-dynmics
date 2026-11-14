@@ -59,6 +59,9 @@ The [surface quotient theorem](research/five-state/continuation/SQUARE_CYCLE_SUR
 gives an effective search on every fixed plane, including each
 individual signed cofactor slice. It gives finiteness on each
 surface containing none of the eight cycle lines.
+The [powered quotient obstruction](research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md)
+shows that the direct construction from the four cycle ideals yields
+only a constant quotient at every common power on the full core space.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

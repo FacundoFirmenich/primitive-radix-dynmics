@@ -40,13 +40,15 @@ No `19/20` closure is claimed.
 3. global uniqueness or a parametric family for the known realized action graph.
 
 The [oriented status ledger](research/five-state/continuation/ORIENTED_STATUS.csv)
-covers all 40 restored orientations: 29 exclusions replayed here,
+covers all 40 restored orientations: 32 exclusions replayed here,
 one archived exclusion recorded separately, one realized-containing
-orientation and nine open orientations. The archived exclusion is the
+orientation and six open orientations. The archived exclusion is the
 strict-T orientation of DF015-0016 and still needs full proof readback.
 The [predecessor and resultant proofs](research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md)
 exclude all strict-T factor-two orientations and four additional strict-S
 orientations. The known state tuple has no global uniqueness certificate.
+The [additional resultant exclusions](research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md)
+cover DF015-0011/S, DF015-0017/S and DF015-0005/T.
 
 ## External gates
 

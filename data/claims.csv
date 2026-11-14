@@ -28,3 +28,4 @@ R001,"The strict-T factor-three form DF015-0015-B1 has no realization in its hig
 R002,"The eight oriented S-strict rows in the two shared systems have no realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md,research_frontier
 R003,"An all-high finite closed component cannot have exactly one strict T edge of factor two.",PROVED_SYMBOLIC,research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md,research_frontier
 R004,"The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md,research_frontier
+R005,"The strict-S orientations of DF015-0011 and DF015-0017, and the strict-T orientation of DF015-0005, have no primitive realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md,research_frontier

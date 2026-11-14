@@ -31,6 +31,7 @@
 | R002 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The eight oriented S-strict rows in the two shared systems have no realization. | `research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md` | uses_necessary_cycle_divisibilities:C019 |
 | R003 | `PROVED_SYMBOLIC` | An all-high finite closed component cannot have exactly one strict T edge of factor two. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_exact_reduction:C002 |
 | R004 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_predecessor_lemma:R003 |
+| R005 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-S orientations of DF015-0011 and DF015-0017, and the strict-T orientation of DF015-0005, have no primitive realization. | `research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md` | uses_predecessor_lemma:R003 |
 
 ## Artifact registry
 
@@ -60,3 +61,4 @@
 | A022 | `software` | `research/five-state/continuation/verify_shared_chambers.py` | R002 |
 | A023 | `exact_certificate` | `research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json` | R004 |
 | A024 | `catalogue` | `research/five-state/continuation/ORIENTED_STATUS.csv` | R001;R002;R003;R004 |
+| A025 | `exact_certificate` | `research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json` | R005 |

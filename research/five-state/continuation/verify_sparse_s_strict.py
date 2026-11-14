@@ -1,4 +1,4 @@
-"""Finite resultant certificate for four sparse S-strict orientations."""
+"""Finite resultant certificates for six S-strict orientations."""
 
 import json
 from fractions import Fraction
@@ -15,6 +15,7 @@ X = symbols("X")
 T = (2,3,0,1,4)
 MAPS = {(2,4):(0,0,3,4,2), (2,12):(0,0,4,2,3),
         (3,8):(0,0,3,4,2), (3,18):(0,0,4,2,3)}
+DENSE_MAPS = {(2,11):(4,4,3,2,0), (3,17):(4,4,3,2,0)}
 
 
 def bounded_quotients(r):
@@ -60,13 +61,14 @@ def common_roots(first, second, modulus):
     return [root for root, _ in progressions]
 
 
-def replay():
+def replay(cycle_length=3):
+    maps = MAPS if cycle_length == 3 else DENSE_MAPS
     campaigns = []
     for r in (2,3):
         core = set()
         runs = []
         d_ratio = r-(r-1)*X
-        first = Poly(d_ratio**3-1, X)
+        first = Poly(d_ratio**cycle_length-1, X)
         for k in bounded_quotients(r):
             second = Poly((r-1)*(X*X+r*(r+1)*X) + k*d_ratio, X)
             constant = int(resultant(first, second))
@@ -85,13 +87,16 @@ def replay():
                             continue
                         if gcd(r,a*c*d*q) != 1 or gcd(a*c,d*q) != 1:
                             continue
-                        if (c*c-a*a) % q or (c*c-r*r*a*a) % d or (d*d-q*q) % a:
+                        if (c*c-a*a) % q or (c*c-r*r*a*a) % d:
+                            continue
+                        cycle_modulus = a if cycle_length == 3 else c
+                        if (d*d-q*q) % cycle_modulus:
                             continue
                         if (r-1)*(c*c-a*a-r*(r+1)*a*q) != k*q*d:
                             continue
                         core.add((a,c,d,q))
             runs.append({"quotient":k,"resultant":constant,"pairs_tested":tested})
-        for (factor, index), s in MAPS.items():
+        for (factor, index), s in maps.items():
             if factor != r:
                 continue
             key = representative(T,s,1,1,r)[0]
@@ -100,14 +105,15 @@ def replay():
                 raise ArithmeticError("Certificate graph does not match archived normal form")
             p, offset = fibre_coordinates(s,1,r,0)
             q, _ = fibre_coordinates(T,None,r,offset)
-            expected = ((0,1,0),(0,r,1),(1,1,0),(1,1,1),(1,1,2))
+            expected = ((0,1,0),(0,r,1),(1,1,0),(1,1,1),(int(cycle_length==3),1,2))
             if tuple((*p[i],q[i][0]-offset) for i in range(5)) != expected:
                 raise ArithmeticError("Prescribed action graph does not induce the stated fibres")
             survivors = []
             checked = 0
             for a,c,d,q in sorted(core):
-                for e in range(c+1,2*c):
-                    pairs = ((a,q),(r*a,d),(c,q),(c,d),(c,e))
+                numerator = c if cycle_length == 3 else a
+                for e in range(numerator+1,2*numerator):
+                    pairs = ((a,q),(r*a,d),(c,q),(c,d),(numerator,e))
                     if len(set(pairs)) != 5 or any(gcd(p,v) != 1 for p,v in pairs):
                         continue
                     checked += 1
@@ -122,4 +128,4 @@ def replay():
 
 
 if __name__ == "__main__":
-    print(json.dumps(replay(), indent=2))
+    print(json.dumps(replay() + replay(2), indent=2))

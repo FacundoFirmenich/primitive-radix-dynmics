@@ -14,8 +14,8 @@
     "status": "PASS"
   },
   "claim_graph": {
-    "claims": 29,
-    "dependency_edges": 29,
+    "claims": 30,
+    "dependency_edges": 30,
     "status": "PASS"
   },
   "embargo": {

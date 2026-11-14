@@ -301,6 +301,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R005",
+      "label": "R005",
+      "title": "The strict-S orientations of DF015-0011 and DF015-0017, and the strict-T orientation of DF015-0005, have no primitive realization.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -538,6 +548,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/ORIENTED_STATUS.csv",
+      "scope": "evidence"
+    },
+    {
+      "id": "A025",
+      "label": "A025",
+      "title": "Strict-T rectangle resultant certificate",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json",
       "scope": "evidence"
     },
     {
@@ -908,6 +928,11 @@
       "relation": "uses_predecessor_lemma"
     },
     {
+      "source": "R005",
+      "target": "R003",
+      "relation": "uses_predecessor_lemma"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1100,6 +1125,11 @@
     {
       "source": "A024",
       "target": "R004",
+      "relation": "supports"
+    },
+    {
+      "source": "A025",
+      "target": "R005",
       "relation": "supports"
     },
     {

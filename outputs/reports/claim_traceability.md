@@ -47,6 +47,7 @@
 | R018 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The known factor-three tuple is the sole oriented five-state nonpermutation realization at base 88011536665779. | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | uses_oriented_exclusions:R006<br>uses_exhaustive_oriented_status:R010<br>uses_known_realization:C011 |
 | R019 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Ordinary opposite-pair divisor complements never preserve the primitive square-cycle constraints on residual high cores. Fixed rational relative weights force bounded source height. | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md` | uses_opposite_square_cycles:R009<br>uses_primitive_states_and_overlap_conditions:C014 |
 | R020 | `PROVED_SYMBOLIC` | For every fixed denominator pair in any residual square-cycle system each simultaneous CRT root supports at most one primitive numerator slope in the high chamber. | `research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md` | uses_exact_adjacent_coprimality:C014<br>uses_reflected_witness_for_replay:R017 |
+| R021 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The least base of a five-state nonpermutation realization is at least 18371540497. The two open orientations individually have base lower bounds of 31820229419 and 66963421866. | `research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND_PARALLEL.md` | extends_verified_coordinate_ranges:R010 |
 
 ## Artifact registry
 
@@ -93,3 +94,4 @@
 | A039 | `exact_certificate` | `research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json` | R018 |
 | A040 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json` | R019 |
 | A041 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json` | R020 |
+| A042 | `computation_record` | `research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs` | R021 |

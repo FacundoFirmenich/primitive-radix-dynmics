@@ -1,0 +1,511 @@
+{
+  "source_sha256": "34f631dbf8266fb9f3668fdfe640aa8ccc6323835126ccab53ad312eee5c726c",
+  "searches": [
+    {
+      "kind": 2,
+      "minimum": 100001,
+      "maximum": 150000,
+      "candidates": 111701038,
+      "blocks": [
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 100001,
+          "maximum": 105000,
+          "seconds": 202.697,
+          "candidates": 8826811,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:41:19.4149545Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 105001,
+          "maximum": 110000,
+          "seconds": 165.57,
+          "candidates": 9332172,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:44:05.0475626Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 110001,
+          "maximum": 115000,
+          "seconds": 131.388,
+          "candidates": 9848998,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:46:16.4295657Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 115001,
+          "maximum": 120000,
+          "seconds": 124.928,
+          "candidates": 10370665,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:48:21.3837366Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 120001,
+          "maximum": 125000,
+          "seconds": 141.564,
+          "candidates": 10895726,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:50:42.9408282Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 125001,
+          "maximum": 130000,
+          "seconds": 258.764,
+          "candidates": 11409868,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:55:01.6871503Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 130001,
+          "maximum": 135000,
+          "seconds": 361.98,
+          "candidates": 11953008,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:01:03.6434099Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 135001,
+          "maximum": 140000,
+          "seconds": 264.316,
+          "candidates": 12486557,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:05:27.9449154Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 140001,
+          "maximum": 145000,
+          "seconds": 287.394,
+          "candidates": 13010956,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:10:15.3249279Z"
+        },
+        {
+          "status": "verified",
+          "kind": 2,
+          "minimum": 145001,
+          "maximum": 150000,
+          "seconds": 318.777,
+          "candidates": 13566277,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:15:34.0873835Z"
+        }
+      ]
+    },
+    {
+      "kind": 606897,
+      "minimum": 100001,
+      "maximum": 270000,
+      "candidates": 53826511,
+      "blocks": [
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 100001,
+          "maximum": 105000,
+          "seconds": 31.537,
+          "candidates": 757323,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:38:28.3469043Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 105001,
+          "maximum": 110000,
+          "seconds": 58.136,
+          "candidates": 804408,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:39:26.6042475Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 110001,
+          "maximum": 115000,
+          "seconds": 43.329,
+          "candidates": 851747,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:40:09.9405314Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 115001,
+          "maximum": 120000,
+          "seconds": 43.517,
+          "candidates": 895903,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:40:53.4710323Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 120001,
+          "maximum": 125000,
+          "seconds": 43.502,
+          "candidates": 943315,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:41:36.9740411Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 125001,
+          "maximum": 130000,
+          "seconds": 42.527,
+          "candidates": 993783,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:42:19.5006556Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 130001,
+          "maximum": 135000,
+          "seconds": 48.217,
+          "candidates": 1038522,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:43:07.7177155Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 135001,
+          "maximum": 140000,
+          "seconds": 36.477,
+          "candidates": 1086485,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:43:44.1955765Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 140001,
+          "maximum": 145000,
+          "seconds": 28.048,
+          "candidates": 1145023,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:44:12.2672273Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 145001,
+          "maximum": 150000,
+          "seconds": 30.426,
+          "candidates": 1185992,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:44:42.6947804Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 150001,
+          "maximum": 155000,
+          "seconds": 42.011,
+          "candidates": 1238612,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:45:24.7056072Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 155001,
+          "maximum": 160000,
+          "seconds": 38.267,
+          "candidates": 1292593,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:46:02.9728471Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 160001,
+          "maximum": 165000,
+          "seconds": 34.739,
+          "candidates": 1335087,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:46:37.7134450Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 165001,
+          "maximum": 170000,
+          "seconds": 33.006,
+          "candidates": 1389483,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:47:10.7203340Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 170001,
+          "maximum": 175000,
+          "seconds": 40.947,
+          "candidates": 1439631,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:47:51.6678941Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 175001,
+          "maximum": 180000,
+          "seconds": 37.585,
+          "candidates": 1489135,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:48:29.2545093Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 180001,
+          "maximum": 185000,
+          "seconds": 47.427,
+          "candidates": 1545663,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:49:16.7542675Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 185001,
+          "maximum": 190000,
+          "seconds": 44.199,
+          "candidates": 1593831,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:50:00.9768413Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 190001,
+          "maximum": 195000,
+          "seconds": 42.289,
+          "candidates": 1647232,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:50:43.2677580Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 195001,
+          "maximum": 200000,
+          "seconds": 49.783,
+          "candidates": 1697662,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:51:33.0504302Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 200001,
+          "maximum": 205000,
+          "seconds": 60.047,
+          "candidates": 1756052,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:52:33.0955303Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 205001,
+          "maximum": 210000,
+          "seconds": 132.994,
+          "candidates": 1805258,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:54:46.0825358Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 210001,
+          "maximum": 215000,
+          "seconds": 129.289,
+          "candidates": 1854216,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:56:55.4480765Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 215001,
+          "maximum": 220000,
+          "seconds": 111.4,
+          "candidates": 1912674,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T12:58:46.8440520Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 220001,
+          "maximum": 225000,
+          "seconds": 122.311,
+          "candidates": 1967404,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:00:49.1657445Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 225001,
+          "maximum": 230000,
+          "seconds": 100.661,
+          "candidates": 2021668,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:02:29.8238629Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 230001,
+          "maximum": 235000,
+          "seconds": 91.599,
+          "candidates": 2081250,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:04:01.4202016Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 235001,
+          "maximum": 240000,
+          "seconds": 84.519,
+          "candidates": 2127454,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:05:25.9371762Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 240001,
+          "maximum": 245000,
+          "seconds": 98.244,
+          "candidates": 2186280,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:07:04.1928003Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 245001,
+          "maximum": 250000,
+          "seconds": 106.259,
+          "candidates": 2236757,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:08:50.4497264Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 250001,
+          "maximum": 255000,
+          "seconds": 99.456,
+          "candidates": 2286145,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:10:29.9939217Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 255001,
+          "maximum": 260000,
+          "seconds": 127.051,
+          "candidates": 2353962,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:12:37.0413098Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 260001,
+          "maximum": 265000,
+          "seconds": 100.622,
+          "candidates": 2402285,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:14:17.6607752Z"
+        },
+        {
+          "status": "verified",
+          "kind": 606897,
+          "minimum": 265001,
+          "maximum": 270000,
+          "seconds": 105.327,
+          "candidates": 2463676,
+          "pre_crt_survivors": [],
+          "realizations": [],
+          "timestamp_utc": "2026-11-14T13:16:02.9858584Z"
+        }
+      ]
+    }
+  ],
+  "lower_bounds_by_row": {
+    "119772_2": 31820229419,
+    "119772_3": 18371540497,
+    "606897_3": 66963421866
+  },
+  "global_five_state_lower_bound": 18371540497
+}

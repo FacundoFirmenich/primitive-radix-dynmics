@@ -52,3 +52,4 @@ R019,R009,uses_opposite_square_cycles
 R019,C014,uses_primitive_states_and_overlap_conditions
 R020,C014,uses_exact_adjacent_coprimality
 R020,R017,uses_reflected_witness_for_replay
+R021,R010,extends_verified_coordinate_ranges

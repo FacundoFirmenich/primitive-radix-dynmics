@@ -461,6 +461,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R021",
+      "label": "R021",
+      "title": "The least base of a five-state nonpermutation realization is at least 18371540497. The two open orientations individually have base lower bounds of 31820229419 and 66963421866.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND_PARALLEL.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -868,6 +878,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A042",
+      "label": "A042",
+      "title": "Parallel local search block records and range enumeration",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs",
       "scope": "evidence"
     },
     {
@@ -1358,6 +1378,11 @@
       "relation": "uses_reflected_witness_for_replay"
     },
     {
+      "source": "R021",
+      "target": "R010",
+      "relation": "extends_verified_coordinate_ranges"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1640,6 +1665,11 @@
     {
       "source": "A041",
       "target": "R020",
+      "relation": "supports"
+    },
+    {
+      "source": "A042",
+      "target": "R021",
       "relation": "supports"
     },
     {

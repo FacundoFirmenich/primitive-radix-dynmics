@@ -55,6 +55,10 @@ curve for both open orientations and the realized orientation.
 It gives an explicit height bound for each rational parametrization.
 An infinite set of cores would have Zariski closure of dimension at
 least two. Global existence and uniqueness remain open.
+The [surface quotient theorem](research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md)
+gives an effective search on every fixed plane, including each
+individual signed cofactor slice. It gives finiteness on each
+surface containing none of the eight cycle lines.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

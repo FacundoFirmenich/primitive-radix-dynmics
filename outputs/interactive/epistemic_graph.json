@@ -381,6 +381,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R013",
+      "label": "R013",
+      "title": "Each plane and each surface avoiding the eight cycle lines contains finitely many primitive high cores. A single fixed signed cofactor denominator gives an effective finite search.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -688,6 +698,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A032",
+      "label": "A032",
+      "title": "Surface and plane finiteness via bounded discrete quotients",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
       "scope": "evidence"
     },
     {
@@ -1108,6 +1128,16 @@
       "relation": "generalizes_polynomial_obstruction"
     },
     {
+      "source": "R013",
+      "target": "R012",
+      "relation": "uses_curve_finiteness_and_rational_parameter_bound"
+    },
+    {
+      "source": "R013",
+      "target": "R009",
+      "relation": "uses_signed_cofactor_planes"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1335,6 +1365,11 @@
     {
       "source": "A031",
       "target": "R012",
+      "relation": "supports"
+    },
+    {
+      "source": "A032",
+      "target": "R013",
       "relation": "supports"
     },
     {

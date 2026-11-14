@@ -30,3 +30,4 @@ A028,Square-cycle cofactor normalization control,research/five-state/continuatio
 A029,Bounded square cycle witness census,research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md,computation_record,R010
 A030,Localized witnesses in all five shift chambers,research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json,regression_certificate,R011
 A031,Curve finiteness via heights and reciprocity,research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md,proof_record,R012
+A032,Surface and plane finiteness via bounded discrete quotients,research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md,proof_record,R013

@@ -39,6 +39,7 @@
 | R010 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The least base with a five-state nonpermutation high component is at least 9185770249. | `research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND.md` | uses_global_oriented_exclusions:R006<br>uses_known_tuple_and_base_class:C011 |
 | R011 | `PROVED_SYMBOLIC` | Each remaining square-cycle shift has open-chamber representatives satisfying direct localized edge and defect conditions at every prescribed finite prime list. | `research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES.md` | uses_exact_reduction:C002 |
 | R012 | `PROVED_SYMBOLIC` | Every fixed algebraic curve contains finitely many primitive high cores of each residual square-cycle system. Each rational parametrization has a computable parameter-height bound. | `research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md` | uses_exact_state_and_base_conditions:C014<br>generalizes_polynomial_obstruction:R007 |
+| R013 | `PROVED_SYMBOLIC` | Each plane and each surface avoiding the eight cycle lines contains finitely many primitive high cores. A single fixed signed cofactor denominator gives an effective finite search. | `research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md` | uses_curve_finiteness_and_rational_parameter_bound:R012<br>uses_signed_cofactor_planes:R009 |
 
 ## Artifact registry
 
@@ -75,3 +76,4 @@
 | A029 | `computation_record` | `research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md` | R010 |
 | A030 | `regression_certificate` | `research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json` | R011 |
 | A031 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md` | R012 |
+| A032 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md` | R013 |

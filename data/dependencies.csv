@@ -38,3 +38,5 @@ R010,C011,uses_known_tuple_and_base_class
 R011,C002,uses_exact_reduction
 R012,C014,uses_exact_state_and_base_conditions
 R012,R007,generalizes_polynomial_obstruction
+R013,R012,uses_curve_finiteness_and_rational_parameter_bound
+R013,R009,uses_signed_cofactor_planes

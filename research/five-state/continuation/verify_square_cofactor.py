@@ -27,6 +27,16 @@ def replay():
                          (-delta*h[3],h[3],0,-k[3])))
         if matrix.rank() != 3 or matrix*Matrix(coordinates) != Matrix.zeros(4,1):
             raise ArithmeticError((signs,matrix))
+        na = (k[3]*h[2])**2 - (alpha*k[2]*h[3])**2
+        nc = (gamma*k[3]*h[2])**2 - (beta*delta*k[2]*h[3])**2
+        nd = (beta*k[0]*h[1])**2 - (gamma*alpha*k[1]*h[0])**2
+        nq = (k[0]*h[1])**2 - (delta*k[1]*h[0])**2
+        if not (na or nc) or not (nd or nq):
+            raise ArithmeticError("Degenerate constants")
+        if any((4*n)%m for n,m in zip((na,nc,nd,nq),coordinates,strict=True)):
+            raise ArithmeticError("State coordinates do not divide the paired constants")
+        if any(max(coordinates) > 16*max(abs(x),abs(y)) for x,y in ((na,nc),(nd,nq))):
+            raise ArithmeticError("Paired height bound violation")
         bounds = []
         for ids in combinations(range(4),3):
             reduced = matrix[list(ids),:]
@@ -39,7 +49,8 @@ def replay():
             if max(map(abs,cofactor)) > 6000*h[ids[0]]*h[ids[1]]*h[ids[2]]:
                 raise ArithmeticError("Height bound violation")
             bounds.append(6000*h[ids[0]]*h[ids[1]]*h[ids[2]])
-        profiles.append({"signs":signs,"cofactors":h,"minimum_bound":min(bounds)})
+        profiles.append({"signs":signs,"cofactors":h,"minimum_bound":min(bounds),
+                         "paired_constants":[na,nc,nd,nq]})
     return {"primitive_core":coordinates,"independent_sign_profiles":len(profiles),"profiles":profiles}
 
 

@@ -65,6 +65,43 @@ again impossible by oddness. Thus both allocations are proper
 and nontrivial in every modulus in this case.
 
 This reduces a uniform cofactor bound to a finite classification.
+
+## Two cofactors suffice on one side of the cycle
+
+Fix the reduced quotients \(k_A/h_A,k_C/h_C\), including their
+signs. Set
+\[
+ \begin{split}
+ N_D&=(\beta' k_A h_C)^2-(\gamma'\alpha' k_C h_A)^2,\\
+ N_Q&=(k_A h_C)^2-(\delta' k_C h_A)^2 .
+ \end{split}
+\]
+At least one is nonzero because
+\(\lvert\beta'\delta'\rvert\ne\lvert\gamma'\alpha'\rvert\).
+Modulo \(D\), the linear equations for \(A,C\) and the square
+congruence at \(D\) give \(D\mid Q^2 N_D\). Modulo \(Q\) they
+give \(Q\mid D^2 N_Q\). The exact CRT criterion gives
+\(\gcd(Q,D)\le2\), so \(D\mid4N_D\) and \(Q\mid4N_Q\).
+Highness gives a ratio below four between any two core
+coordinates. Hence all core coordinates are at most
+\(16\max(|N_D|,|N_Q|)\).
+
+The reverse calculation fixes the signed quotients at \(D,Q\).
+Modulo \(A\), substitute \(k_DD\equiv h_DC\) and
+\(k_QQ\equiv h_QC\). Modulo \(C\), substitute
+\(k_DD\equiv-\gamma'h_DA\) and \(k_QQ\equiv-\delta'h_QA\).
+The resulting constants are
+\[
+ \begin{split}
+ N_A&=(k_Q h_D)^2-(\alpha' k_D h_Q)^2,\\
+ N_C&=(\gamma' k_Q h_D)^2-(\beta'\delta' k_D h_Q)^2 .
+ \end{split}
+\]
+At least one is nonzero. The bound \(\gcd(A,C)\le2\) gives
+\(A\mid4N_A\) and \(C\mid4N_C\), leading to the same coordinate
+bound. Bounded cofactors on either side suffice. On any
+sequence of unbounded height, the maximum of the two smaller
+sign cofactors on each side must therefore tend to infinity.
 The determinant of the four-row system gives a further integer
 condition. Reduce the numerator of that determinant, after
 clearing the four cofactors, modulo any prime \(p\) dividing

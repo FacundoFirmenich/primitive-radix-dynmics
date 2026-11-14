@@ -37,6 +37,7 @@
 | R008 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | For 606897 every root of unity on the four ordinary cycle moduli differs from both uniform signs. | `research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md` | uses_exact_state_and_base_conditions:C014 |
 | R009 | `PROVED_SYMBOLIC` | Each signed square-cycle cofactor system has at most one primitive core per choice of quotients; bounded cofactors give an explicit coordinate bound. | `research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md` | uses_exact_state_and_base_conditions:C014 |
 | R010 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The least base with a five-state nonpermutation high component is at least 9185770249. | `research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND.md` | uses_global_oriented_exclusions:R006<br>uses_known_tuple_and_base_class:C011 |
+| R011 | `PROVED_SYMBOLIC` | Each remaining square-cycle shift has open-chamber representatives satisfying direct localized edge and defect conditions at every prescribed finite prime list. | `research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES.md` | uses_exact_reduction:C002 |
 
 ## Artifact registry
 
@@ -71,3 +72,4 @@
 | A027 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json` | R008 |
 | A028 | `regression_certificate` | `research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json` | R009 |
 | A029 | `computation_record` | `research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md` | R010 |
+| A030 | `regression_certificate` | `research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json` | R011 |

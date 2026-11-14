@@ -361,6 +361,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R011",
+      "label": "R011",
+      "title": "Each remaining square-cycle shift has open-chamber representatives satisfying direct localized edge and defect conditions at every prescribed finite prime list.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -648,6 +658,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A030",
+      "label": "A030",
+      "title": "Localized witnesses in all five shift chambers",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json",
       "scope": "evidence"
     },
     {
@@ -1053,6 +1073,11 @@
       "relation": "uses_known_tuple_and_base_class"
     },
     {
+      "source": "R011",
+      "target": "C002",
+      "relation": "uses_exact_reduction"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1270,6 +1295,11 @@
     {
       "source": "A029",
       "target": "R010",
+      "relation": "supports"
+    },
+    {
+      "source": "A030",
+      "target": "R011",
       "relation": "supports"
     },
     {

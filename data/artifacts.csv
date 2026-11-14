@@ -28,3 +28,4 @@ A026,Five further factor-three exclusion certificates,research/five-state/contin
 A027,Square-cycle pure sign exclusion,research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json,exact_certificate,R008
 A028,Square-cycle cofactor normalization control,research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json,regression_certificate,R009
 A029,Bounded square cycle witness census,research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md,computation_record,R010
+A030,Localized witnesses in all five shift chambers,research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json,regression_certificate,R011

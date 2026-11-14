@@ -7,12 +7,30 @@ from math import gcd
 
 from sympy import divisors
 
-from verify_exceptional_crt import ACTIONS, edge_certificate, states_for
+from verify_exceptional_crt import ACTIONS, edge_certificate, merge_residues, states_for
 
 
 @lru_cache(maxsize=65536)
 def positive_divisors(n):
     return tuple(map(int, divisors(abs(n))))
+
+
+def missing_coordinate(fixed, rules):
+    """The missing coordinate lies in one progression or an empty intersection."""
+    residues = []
+    for coefficient, rhs, modulus in rules:
+        overlap = gcd(coefficient,modulus)
+        if rhs%overlap:
+            return range(0)
+        modulus //= overlap
+        residue = (rhs//overlap*pow(coefficient//overlap,-1,modulus))%modulus
+        residues.append((residue,modulus))
+    solution = merge_residues(residues)
+    if solution is None:
+        return range(0)
+    residue,step=solution
+    start=fixed//4+1
+    return range(start+(residue-start)%step,4*fixed,step)
 
 
 def options(bound):
@@ -36,9 +54,13 @@ def tuples_from_pair(coeff, ratios, side, strict_factor):
     first = positive_divisors(4*n1) if n1 else ()
     second = positive_divisors(4*n2) if n2 else ()
     if not first:
-        pairs = ((u,v) for v in second for u in range(v//4+1,4*v))
+        pairs = ((u,v) for v in second
+                 for u in missing_coordinate(v,((1,alpha*v,abs(k)),(1,beta*v,abs(l)))
+                                             if side=="AC" else ((gamma,v,abs(k)),(delta,v,abs(l)))))
     elif not second:
-        pairs = ((u,v) for u in first for v in range(u//4+1,4*u))
+        pairs = ((u,v) for u in first
+                 for v in missing_coordinate(u,((alpha,u,abs(k)),(beta,u,abs(l)))
+                                             if side=="AC" else ((1,gamma*u,abs(k)),(1,delta*u,abs(l)))))
     else:
         pairs = ((u,v) for u in first for v in second if u < 4*v and v < 4*u)
     for u,v in pairs:

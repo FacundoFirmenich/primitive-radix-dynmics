@@ -1,7 +1,7 @@
 {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "name": "Primitive Team Radix Dynamics: research and reproducibility companion",
+  "name": "Primitive Radix Dynamics: research and reproducibility companion",
   "version": "0.3.0-rc7",
   "codeRepository": "https://github.com/FacundoFirmenich/primitive-radix-dynmics",
   "license": "https://spdx.org/licenses/MIT.html",

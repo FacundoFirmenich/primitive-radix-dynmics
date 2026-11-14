@@ -42,6 +42,7 @@
 | R013 | `PROVED_SYMBOLIC` | Each plane and each surface avoiding the eight cycle lines contains finitely many primitive high cores. A single fixed signed cofactor denominator gives an effective finite search. | `research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md` | uses_curve_finiteness_and_rational_parameter_bound:R012<br>uses_signed_cofactor_planes:R009 |
 | R014 | `PROVED_SYMBOLIC` | The degree-four-t intersection of the four t-th powers of the cycle ideals is spanned by the t-th power of the coordinate product in all three residual systems. | `research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md` | uses_four_cycle_ideals:R013 |
 | R015 | `PROVED_SYMBOLIC` | For any fixed prime set and positive eta, each residual system has finitely many realizations with weighted prime part [ACDQ]^2[E] at least H^(4+eta). | `research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md` | uses_plane_finiteness:R013<br>uses_exact_fifth_state_and_overlap_conditions:C014 |
+| R016 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | All four complementary cofactor constants are nonzero for every signed choice on any residual square-cycle realization. | `research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md` | adjudicates_complementary_cofactor_degeneracies:R009 |
 
 ## Artifact registry
 
@@ -82,3 +83,5 @@
 | A033 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md` | R014 |
 | A034 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md` | R015 |
 | A035 | `software` | `research/five-state/continuation/verify_square_prime_support.py` | R015 |
+| A036 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json` | R016 |
+| A037 | `software` | `research/five-state/continuation/verify_opposite_zero_constants.py` | R016 |

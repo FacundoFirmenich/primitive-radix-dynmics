@@ -34,3 +34,5 @@ A032,Surface and plane finiteness via bounded discrete quotients,research/five-s
 A033,Global obstruction to the powered cycle ideal quotient,research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md,proof_record,R014
 A034,Fixed-prime support theorem with the fifth-state direction,research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md,proof_record,R015
 A035,Rank and 2-adic tests for the fifth-state direction,research/five-state/continuation/verify_square_prime_support.py,software,R015
+A036,Exhaustive integer certificate for vanishing complementary constants,research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json,exact_certificate,R016
+A037,Deterministic checker for vanishing complementary constants,research/five-state/continuation/verify_opposite_zero_constants.py,software,R016

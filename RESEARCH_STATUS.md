@@ -67,6 +67,10 @@ gives finiteness when the weighted part of the moduli supported
 on any fixed prime set exceeds the fourth power of the height
 by a fixed power. The fifth-state modulus enters as an independent
 linear form at every allowed overlap.
+The [zero-constant exclusion](research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md)
+exhausts the degeneracies of the complementary cofactor identities:
+all four complementary constants are nonzero for every signed
+allocation in the three residual systems.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

@@ -411,6 +411,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R016",
+      "label": "R016",
+      "title": "All four complementary cofactor constants are nonzero for every signed choice on any residual square-cycle realization.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -758,6 +768,26 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/verify_square_prime_support.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A036",
+      "label": "A036",
+      "title": "Exhaustive integer certificate for vanishing complementary constants",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A037",
+      "label": "A037",
+      "title": "Deterministic checker for vanishing complementary constants",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_opposite_zero_constants.py",
       "scope": "evidence"
     },
     {
@@ -1203,6 +1233,11 @@
       "relation": "uses_exact_fifth_state_and_overlap_conditions"
     },
     {
+      "source": "R016",
+      "target": "R009",
+      "relation": "adjudicates_complementary_cofactor_degeneracies"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1450,6 +1485,16 @@
     {
       "source": "A035",
       "target": "R015",
+      "relation": "supports"
+    },
+    {
+      "source": "A036",
+      "target": "R016",
+      "relation": "supports"
+    },
+    {
+      "source": "A037",
+      "target": "R016",
       "relation": "supports"
     },
     {

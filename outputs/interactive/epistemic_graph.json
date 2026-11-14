@@ -371,6 +371,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R012",
+      "label": "R012",
+      "title": "Every fixed algebraic curve contains finitely many primitive high cores of each residual square-cycle system. Each rational parametrization has a computable parameter-height bound.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -668,6 +678,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A031",
+      "label": "A031",
+      "title": "Curve finiteness via heights and reciprocity",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md",
       "scope": "evidence"
     },
     {
@@ -1078,6 +1098,16 @@
       "relation": "uses_exact_reduction"
     },
     {
+      "source": "R012",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
+      "source": "R012",
+      "target": "R007",
+      "relation": "generalizes_polynomial_obstruction"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1300,6 +1330,11 @@
     {
       "source": "A030",
       "target": "R011",
+      "relation": "supports"
+    },
+    {
+      "source": "A031",
+      "target": "R012",
       "relation": "supports"
     },
     {

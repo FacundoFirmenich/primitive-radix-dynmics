@@ -1,5 +1,9 @@
 # Resultant obstruction for regular polynomial families
 
+The later [curve finiteness theorem](SQUARE_CYCLE_CURVE_FINITE.md)
+also covers sparse rational parameters and fixed curves of positive
+genus. The elementary argument below is the earlier polynomial gate.
+
 Suppose the coordinates \(A,C,D,Q\) in one of the remaining
 square-cycle systems are integer polynomials in \(t\), all of degree
 \(m>0\). Assume that their four adjacent pairs
@@ -82,11 +86,5 @@ without bound and could not be removed by bounded normalization.
 Thus all four adjacent pairs are polynomially coprime. The
 integer square divisibilities hold before removing any common
 factor and imply polynomial divisibility. The same resultant
-argument applies. The claim leaves open sparse sets of rational
-parameters.
-
-The argument excludes ordinary one-parameter polynomial
-families of varying primitive states. It leaves open an
-infinite discrete set and general rational parametrizations
-with unbounded normalization factors. It places no height
+argument applies. This polynomial argument places no height
 bound on isolated solutions.

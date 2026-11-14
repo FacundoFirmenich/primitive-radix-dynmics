@@ -15,15 +15,16 @@ realization. For factor three the AC pair recovers
 ((406,712,1265,731,557)) and exactly its CRT class. The DQ pair
 has no realization within this cofactor bound.
 
-For 606897 both pairs with each cofactor at most five have no
-realization. The bound-five run checked 46,400 pairs of linear
-quotients per side. The bound-eight run for 119772 checked
-140,800 per side at factor two and 321,600 per side at factor
-three. These are pre-chamber counts.
+For 606897 both pairs with each cofactor at most eight have no
+realization. A replay at bound five checked 46,400 pairs of
+linear quotients per side, and the replay at bound eight
+checked 321,600 per side. The bound-eight run for 119772
+checked 140,800 per side at factor two and 321,600 per side
+at factor three. These are pre-chamber counts.
 
 Reproduce from PowerShell with PYTHONPATH=src:
 
     python research/five-state/continuation/search_square_cofactor_pairs.py --bound 8 --code 119772
-    python research/five-state/continuation/search_square_cofactor_pairs.py --bound 5 --code 606897
+    python research/five-state/continuation/search_square_cofactor_pairs.py --bound 8 --code 606897
 
 A realization outside those cofactor ranges remains possible.

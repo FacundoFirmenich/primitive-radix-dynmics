@@ -49,10 +49,12 @@ exclude all strict-T factor-two orientations and four additional strict-S
 orientations. The known state tuple has no global uniqueness certificate.
 The [additional resultant exclusions](research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md)
 cover DF015-0011/S, DF015-0017/S and DF015-0005/T.
-The [square-cycle resultant obstruction](research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md)
-rules out varying integer-polynomial primitive-state families in both
-open orientations and in the realized orientation. Global isolated-state
-adjudication and uniqueness remain open.
+The [square-cycle curve finiteness theorem](research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md)
+gives finitely many primitive high cores on each fixed algebraic
+curve for both open orientations and the realized orientation.
+It gives an explicit height bound for each rational parametrization.
+An infinite set of cores would have Zariski closure of dimension at
+least two. Global existence and uniqueness remain open.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

@@ -68,20 +68,22 @@ In each system \(rE\) is an integer-linear combination of core
 coordinates, so passing from the primitive five-coordinate
 representative to this evaluated core costs only a bounded factor.
 
-If the four adjacent pairs of forms are coprime pairwise over
-\(\mathbb Q\), then a varying rational parametrization is also
-impossible for an entire rational parameter interval. An interval
-contains a rational endpoint \(\alpha\) and infinitely many
-distinct parameters \(\alpha+1/n\) in its interior. Substituting
-this projective linear transformation into the binary forms
-gives integer polynomials in \(n\) after a fixed clearing of
-denominators. Choose \(\alpha\) away from roots so that all four
-degrees are the same. Their bounded common normalization factor
-does not obstruct the polynomial divisibility implication:
-the evaluated modulus divides the quadratic numerator even
-before removal of any common factor. The resultant argument then
-applies. The claim does not cover sparse sets of rational
-parameters near a common root of an adjacent pair of forms.
+A nonconstant rational parametrization likewise cannot give
+primitive solutions at every rational parameter in an interval.
+Choose a rational \(\alpha\) in the interval away from zeros of
+the four forms and take \(\alpha+1/n\) for sufficiently large
+integers \(n\). This projective linear substitution gives four
+integer polynomials of common degree \(m\) after fixed clearing
+of denominators. Their common integer gcd at those parameters
+is bounded by the same homogeneous-ideal argument, applied
+after substitution. If an adjacent pair shared a nonconstant
+polynomial factor, its integer evaluations would grow
+without bound and could not be removed by bounded normalization.
+Thus all four adjacent pairs are polynomially coprime. The
+integer square divisibilities hold before removing any common
+factor and imply polynomial divisibility. The same resultant
+argument applies. The claim leaves open sparse sets of rational
+parameters.
 
 The argument excludes ordinary one-parameter polynomial
 families of varying primitive states. It leaves open an

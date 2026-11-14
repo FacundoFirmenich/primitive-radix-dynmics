@@ -31,3 +31,4 @@ R004,R003,uses_predecessor_lemma
 R005,R003,uses_predecessor_lemma
 R006,R005,uses_rectangle_quotient
 R007,C014,uses_exact_state_and_base_conditions
+R008,C014,uses_exact_state_and_base_conditions

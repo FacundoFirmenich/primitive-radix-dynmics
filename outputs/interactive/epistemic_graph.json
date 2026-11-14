@@ -331,6 +331,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R008",
+      "label": "R008",
+      "title": "For 606897 every root of unity on the four ordinary cycle moduli differs from both uniform signs.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -588,6 +598,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A027",
+      "label": "A027",
+      "title": "Square-cycle pure sign exclusion",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json",
       "scope": "evidence"
     },
     {
@@ -973,6 +993,11 @@
       "relation": "uses_exact_state_and_base_conditions"
     },
     {
+      "source": "R008",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1175,6 +1200,11 @@
     {
       "source": "A026",
       "target": "R006",
+      "relation": "supports"
+    },
+    {
+      "source": "A027",
+      "target": "R008",
       "relation": "supports"
     },
     {

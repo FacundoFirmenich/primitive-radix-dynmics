@@ -53,6 +53,10 @@ The [square-cycle resultant obstruction](research/five-state/continuation/SQUARE
 rules out varying integer-polynomial primitive-state families in both
 open orientations and in the realized orientation. Global isolated-state
 adjudication and uniqueness remain open.
+The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
+forces nontrivial square roots in all four core moduli of 606897.
+The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)
+extends coverage to 100,000 in each designated coordinate.
 
 ## External gates
 

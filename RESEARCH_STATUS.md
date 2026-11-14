@@ -77,6 +77,9 @@ base congruences for the shift \(D=3E-A\). The two orientations
 ask for points in disjoint real chambers of the same arithmetic
 locus. A base-first replay gives the known tuple as the unique
 five-state nonpermutation realization at its specified witness base.
+The [complement descent obstruction](research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md)
+excludes ordinary divisor-complement moves in one opposite pair
+and bounds the source height for any fixed rational relative weights.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

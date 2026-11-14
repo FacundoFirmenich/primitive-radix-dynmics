@@ -38,3 +38,4 @@ A036,Exhaustive integer certificate for vanishing complementary constants,resear
 A037,Deterministic checker for vanishing complementary constants,research/five-state/continuation/verify_opposite_zero_constants.py,software,R016
 A038,Common arithmetic and separated chambers at factor three,research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md,proof_record,R017;R018
 A039,Base-first complete checker and witness-base result,research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json,exact_certificate,R018
+A040,Opposite-pair descent obstruction and exact replay,research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json,exact_certificate,R019

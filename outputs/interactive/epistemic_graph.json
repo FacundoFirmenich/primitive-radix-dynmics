@@ -441,6 +441,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R019",
+      "label": "R019",
+      "title": "Ordinary opposite-pair divisor complements never preserve the primitive square-cycle constraints on residual high cores. Fixed rational relative weights force bounded source height.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -828,6 +838,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A040",
+      "label": "A040",
+      "title": "Opposite-pair descent obstruction and exact replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json",
       "scope": "evidence"
     },
     {
@@ -1298,6 +1318,16 @@
       "relation": "uses_known_realization"
     },
     {
+      "source": "R019",
+      "target": "R009",
+      "relation": "uses_opposite_square_cycles"
+    },
+    {
+      "source": "R019",
+      "target": "C014",
+      "relation": "uses_primitive_states_and_overlap_conditions"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1570,6 +1600,11 @@
     {
       "source": "A039",
       "target": "R018",
+      "relation": "supports"
+    },
+    {
+      "source": "A040",
+      "target": "R019",
       "relation": "supports"
     },
     {

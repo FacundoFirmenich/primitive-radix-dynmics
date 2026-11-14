@@ -45,6 +45,7 @@
 | R016 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | All four complementary cofactor constants are nonzero for every signed choice on any residual square-cycle realization. | `research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md` | adjudicates_complementary_cofactor_degeneracies:R009 |
 | R017 | `PROVED_SYMBOLIC` | The factor-three square systems are reflections of each other. For the shift D=3E-A their full arithmetic CRT fibres agree in shared coordinates before chamber selection. | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | identifies_exact_arithmetic_conditions:C014 |
 | R018 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The known factor-three tuple is the sole oriented five-state nonpermutation realization at base 88011536665779. | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | uses_oriented_exclusions:R006<br>uses_exhaustive_oriented_status:R010<br>uses_known_realization:C011 |
+| R019 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Ordinary opposite-pair divisor complements never preserve the primitive square-cycle constraints on residual high cores. Fixed rational relative weights force bounded source height. | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md` | uses_opposite_square_cycles:R009<br>uses_primitive_states_and_overlap_conditions:C014 |
 
 ## Artifact registry
 
@@ -89,3 +90,4 @@
 | A037 | `software` | `research/five-state/continuation/verify_opposite_zero_constants.py` | R016 |
 | A038 | `proof_record` | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | R017;R018 |
 | A039 | `exact_certificate` | `research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json` | R018 |
+| A040 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json` | R019 |

@@ -1,0 +1,113 @@
+[
+  {
+    "code": 119772,
+    "factor": 2,
+    "move": "AC",
+    "constraints": {
+      "D": 255
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 2,
+    "move": "AC_swap",
+    "constraints": {
+      "D": 15
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 2,
+    "move": "DQ",
+    "constraints": {
+      "A": 15,
+      "C": 15
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 2,
+    "move": "DQ_swap",
+    "constraints": {
+      "C": 15
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 3,
+    "move": "AC",
+    "constraints": {
+      "D": 6560
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 3,
+    "move": "AC_swap",
+    "constraints": {
+      "D": 80
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 3,
+    "move": "DQ",
+    "constraints": {
+      "A": 80,
+      "C": 80
+    },
+    "source_cores": []
+  },
+  {
+    "code": 119772,
+    "factor": 3,
+    "move": "DQ_swap",
+    "constraints": {
+      "C": 80
+    },
+    "source_cores": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "move": "AC",
+    "constraints": {
+      "D": 80,
+      "Q": 80
+    },
+    "source_cores": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "move": "AC_swap",
+    "constraints": {
+      "D": 80
+    },
+    "source_cores": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "move": "DQ",
+    "constraints": {
+      "C": 6560
+    },
+    "source_cores": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "move": "DQ_swap",
+    "constraints": {
+      "C": 80
+    },
+    "source_cores": []
+  }
+]

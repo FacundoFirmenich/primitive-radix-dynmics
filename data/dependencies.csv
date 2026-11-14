@@ -48,3 +48,5 @@ R017,C014,identifies_exact_arithmetic_conditions
 R018,R006,uses_oriented_exclusions
 R018,R010,uses_exhaustive_oriented_status
 R018,C011,uses_known_realization
+R019,R009,uses_opposite_square_cycles
+R019,C014,uses_primitive_states_and_overlap_conditions

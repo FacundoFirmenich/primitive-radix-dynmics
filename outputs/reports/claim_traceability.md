@@ -43,6 +43,8 @@
 | R014 | `PROVED_SYMBOLIC` | The degree-four-t intersection of the four t-th powers of the cycle ideals is spanned by the t-th power of the coordinate product in all three residual systems. | `research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md` | uses_four_cycle_ideals:R013 |
 | R015 | `PROVED_SYMBOLIC` | For any fixed prime set and positive eta, each residual system has finitely many realizations with weighted prime part [ACDQ]^2[E] at least H^(4+eta). | `research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md` | uses_plane_finiteness:R013<br>uses_exact_fifth_state_and_overlap_conditions:C014 |
 | R016 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | All four complementary cofactor constants are nonzero for every signed choice on any residual square-cycle realization. | `research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md` | adjudicates_complementary_cofactor_degeneracies:R009 |
+| R017 | `PROVED_SYMBOLIC` | The factor-three square systems are reflections of each other. For the shift D=3E-A their full arithmetic CRT fibres agree in shared coordinates before chamber selection. | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | identifies_exact_arithmetic_conditions:C014 |
+| R018 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The known factor-three tuple is the sole oriented five-state nonpermutation realization at base 88011536665779. | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | uses_oriented_exclusions:R006<br>uses_exhaustive_oriented_status:R010<br>uses_known_realization:C011 |
 
 ## Artifact registry
 
@@ -85,3 +87,5 @@
 | A035 | `software` | `research/five-state/continuation/verify_square_prime_support.py` | R015 |
 | A036 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json` | R016 |
 | A037 | `software` | `research/five-state/continuation/verify_opposite_zero_constants.py` | R016 |
+| A038 | `proof_record` | `research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md` | R017;R018 |
+| A039 | `exact_certificate` | `research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json` | R018 |

@@ -71,6 +71,12 @@ The [zero-constant exclusion](research/five-state/continuation/SQUARE_CYCLE_ZERO
 exhausts the degeneracies of the complementary cofactor identities:
 all four complementary constants are nonzero for every signed
 allocation in the three residual systems.
+The [common factor-three arithmetic](research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md)
+identifies the square systems after reflection and identifies the
+base congruences for the shift \(D=3E-A\). The two orientations
+ask for points in disjoint real chambers of the same arithmetic
+locus. A base-first replay gives the known tuple as the unique
+five-state nonpermutation realization at its specified witness base.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

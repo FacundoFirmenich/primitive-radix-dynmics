@@ -421,6 +421,26 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R017",
+      "label": "R017",
+      "title": "The factor-three square systems are reflections of each other. For the shift D=3E-A their full arithmetic CRT fibres agree in shared coordinates before chamber selection.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R018",
+      "label": "R018",
+      "title": "The known factor-three tuple is the sole oriented five-state nonpermutation realization at base 88011536665779.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -788,6 +808,26 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/verify_opposite_zero_constants.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A038",
+      "label": "A038",
+      "title": "Common arithmetic and separated chambers at factor three",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A039",
+      "label": "A039",
+      "title": "Base-first complete checker and witness-base result",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json",
       "scope": "evidence"
     },
     {
@@ -1238,6 +1278,26 @@
       "relation": "adjudicates_complementary_cofactor_degeneracies"
     },
     {
+      "source": "R017",
+      "target": "C014",
+      "relation": "identifies_exact_arithmetic_conditions"
+    },
+    {
+      "source": "R018",
+      "target": "R006",
+      "relation": "uses_oriented_exclusions"
+    },
+    {
+      "source": "R018",
+      "target": "R010",
+      "relation": "uses_exhaustive_oriented_status"
+    },
+    {
+      "source": "R018",
+      "target": "C011",
+      "relation": "uses_known_realization"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1495,6 +1555,21 @@
     {
       "source": "A037",
       "target": "R016",
+      "relation": "supports"
+    },
+    {
+      "source": "A038",
+      "target": "R017",
+      "relation": "supports"
+    },
+    {
+      "source": "A038",
+      "target": "R018",
+      "relation": "supports"
+    },
+    {
+      "source": "A039",
+      "target": "R018",
       "relation": "supports"
     },
     {

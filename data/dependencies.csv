@@ -44,3 +44,7 @@ R014,R013,uses_four_cycle_ideals
 R015,R013,uses_plane_finiteness
 R015,C014,uses_exact_fifth_state_and_overlap_conditions
 R016,R009,adjudicates_complementary_cofactor_degeneracies
+R017,C014,identifies_exact_arithmetic_conditions
+R018,R006,uses_oriented_exclusions
+R018,R010,uses_exhaustive_oriented_status
+R018,C011,uses_known_realization

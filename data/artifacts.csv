@@ -36,3 +36,5 @@ A034,Fixed-prime support theorem with the fifth-state direction,research/five-st
 A035,Rank and 2-adic tests for the fifth-state direction,research/five-state/continuation/verify_square_prime_support.py,software,R015
 A036,Exhaustive integer certificate for vanishing complementary constants,research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json,exact_certificate,R016
 A037,Deterministic checker for vanishing complementary constants,research/five-state/continuation/verify_opposite_zero_constants.py,software,R016
+A038,Common arithmetic and separated chambers at factor three,research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md,proof_record,R017;R018
+A039,Base-first complete checker and witness-base result,research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json,exact_certificate,R018

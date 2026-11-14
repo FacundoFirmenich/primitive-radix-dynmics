@@ -29,3 +29,5 @@ R002,C019,uses_necessary_cycle_divisibilities
 R003,C002,uses_exact_reduction
 R004,R003,uses_predecessor_lemma
 R005,R003,uses_predecessor_lemma
+R006,R005,uses_rectangle_quotient
+R007,C014,uses_exact_state_and_base_conditions

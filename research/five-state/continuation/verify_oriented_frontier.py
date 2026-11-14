@@ -26,8 +26,8 @@ def ledger():
             status, evidence = "EXCLUDED", "../../df015-0015/CERTIFICATE.md"
         elif key == ("DF015-0005", "T"):
             status, evidence = "EXCLUDED", "STRICT_T_RECTANGLE_CERTIFICATES.json"
-        elif key == ("DF015-0016", "T"):
-            status, evidence = "ARCHIVED_EXCLUSION", "Round 016 FORM_ADJUDICATION_20.csv, R3_PARTIAL_RECTANGLE_NO_GO"
+        elif letter == "T" and form in {"DF015-0006","DF015-0008","DF015-0016","DF015-0017","DF015-0018"}:
+            status, evidence = "EXCLUDED", "REMAINING_RESULTANT_CERTIFICATES.json"
         elif key == ("DF015-0007", "S"):
             status, evidence = "REALIZED_CONTAINING", "../../../certificates/ARITHMETIC_PROGRESSION.json"
         yield form, letter, factor, status, evidence

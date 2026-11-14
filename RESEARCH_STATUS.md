@@ -35,20 +35,24 @@ No `19/20` closure is claimed.
 
 ## Current high-return gates
 
-1. audit the remaining Round 015 orientations beyond the 11-row continuation;
-2. exact adjudication of `119772` factor 2 and `606897` factor 3;
-3. global uniqueness or a parametric family for the known realized action graph.
+1. exact adjudication of `119772` factor 2 and `606897` factor 3;
+2. global uniqueness or an additional state tuple for the realized action graph.
 
 The [oriented status ledger](research/five-state/continuation/ORIENTED_STATUS.csv)
-covers all 40 restored orientations: 32 exclusions replayed here,
-one archived exclusion recorded separately, one realized-containing
-orientation and six open orientations. The archived exclusion is the
-strict-T orientation of DF015-0016 and still needs full proof readback.
+covers all 40 restored orientations: 37 exclusions, one realized-containing
+orientation and two open orientations. The
+[new factor-three proofs](research/five-state/continuation/REMAINING_RESULTANT_EXCLUSIONS.md)
+give four additional exclusions and verify the archived exclusion of
+DF015-0016/T.
 The [predecessor and resultant proofs](research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md)
 exclude all strict-T factor-two orientations and four additional strict-S
 orientations. The known state tuple has no global uniqueness certificate.
 The [additional resultant exclusions](research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md)
 cover DF015-0011/S, DF015-0017/S and DF015-0005/T.
+The [square-cycle resultant obstruction](research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md)
+rules out varying integer-polynomial primitive-state families in both
+open orientations and in the realized orientation. Global isolated-state
+adjudication and uniqueness remain open.
 
 ## External gates
 

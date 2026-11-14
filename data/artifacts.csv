@@ -24,3 +24,4 @@ A022,Shared chamber exhaustive verification,research/five-state/continuation/ver
 A023,Exact predecessor and resultant certificate,research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json,exact_certificate,R004
 A024,Round 015 oriented status ledger,research/five-state/continuation/ORIENTED_STATUS.csv,catalogue,R001;R002;R003;R004
 A025,Strict-T rectangle resultant certificate,research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json,exact_certificate,R005
+A026,Five further factor-three exclusion certificates,research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json,exact_certificate,R006

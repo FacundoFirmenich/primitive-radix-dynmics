@@ -1,0 +1,25 @@
+[
+  {
+    "forms": [
+      6,
+      16
+    ],
+    "upper_bound": "44/45"
+  },
+  {
+    "forms": [
+      8,
+      18
+    ],
+    "quotient_pairs": 1538,
+    "chamber_points": 0,
+    "cores": []
+  },
+  {
+    "forms": [
+      17
+    ],
+    "quadratic_roots": 4,
+    "cores": []
+  }
+]

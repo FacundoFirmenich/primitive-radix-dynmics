@@ -311,6 +311,26 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R006",
+      "label": "R006",
+      "title": "The strict-T orientations of DF015-0006, DF015-0008, DF015-0016, DF015-0017 and DF015-0018 have no primitive realization.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/REMAINING_RESULTANT_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R007",
+      "label": "R007",
+      "title": "The square-cycle systems of 119772 (factors two and three) and 606897 (factor three) admit no varying integer-polynomial primitive-state family.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -558,6 +578,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A026",
+      "label": "A026",
+      "title": "Five further factor-three exclusion certificates",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json",
       "scope": "evidence"
     },
     {
@@ -933,6 +963,16 @@
       "relation": "uses_predecessor_lemma"
     },
     {
+      "source": "R006",
+      "target": "R005",
+      "relation": "uses_rectangle_quotient"
+    },
+    {
+      "source": "R007",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1130,6 +1170,11 @@
     {
       "source": "A025",
       "target": "R005",
+      "relation": "supports"
+    },
+    {
+      "source": "A026",
+      "target": "R006",
       "relation": "supports"
     },
     {

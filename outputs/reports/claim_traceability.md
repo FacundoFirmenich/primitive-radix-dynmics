@@ -32,6 +32,8 @@
 | R003 | `PROVED_SYMBOLIC` | An all-high finite closed component cannot have exactly one strict T edge of factor two. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_exact_reduction:C002 |
 | R004 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_predecessor_lemma:R003 |
 | R005 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-S orientations of DF015-0011 and DF015-0017, and the strict-T orientation of DF015-0005, have no primitive realization. | `research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md` | uses_predecessor_lemma:R003 |
+| R006 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-T orientations of DF015-0006, DF015-0008, DF015-0016, DF015-0017 and DF015-0018 have no primitive realization. | `research/five-state/continuation/REMAINING_RESULTANT_EXCLUSIONS.md` | uses_rectangle_quotient:R005 |
+| R007 | `PROVED_SYMBOLIC` | The square-cycle systems of 119772 (factors two and three) and 606897 (factor three) admit no varying integer-polynomial primitive-state family. | `research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md` | uses_exact_state_and_base_conditions:C014 |
 
 ## Artifact registry
 
@@ -62,3 +64,4 @@
 | A023 | `exact_certificate` | `research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json` | R004 |
 | A024 | `catalogue` | `research/five-state/continuation/ORIENTED_STATUS.csv` | R001;R002;R003;R004 |
 | A025 | `exact_certificate` | `research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json` | R005 |
+| A026 | `exact_certificate` | `research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json` | R006 |

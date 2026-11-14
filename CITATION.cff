@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this research and reproducibility companion, cite the software and the associated article when available."
-title: "Primitive Team Radix Dynamics: research and reproducibility companion"
+title: "Primitive Radix Dynamics: research and reproducibility companion"
 type: software
 authors:
   - family-names: Firmenich

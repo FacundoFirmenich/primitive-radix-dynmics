@@ -1,4 +1,4 @@
-# Primitive Team Radix Dynamics · RGΦ
+# Primitive Radix Dynamics · RGΦ
 
 
 A research and reproducibility companion for finite rational components of the radix map and its Möbius conjugate. The project tracks the common integer factor removed at each primitive projective step and uses that content to study which finite labelled graphs can be realized in a common radix.

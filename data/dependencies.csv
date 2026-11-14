@@ -33,3 +33,5 @@ R006,R005,uses_rectangle_quotient
 R007,C014,uses_exact_state_and_base_conditions
 R008,C014,uses_exact_state_and_base_conditions
 R009,C014,uses_exact_state_and_base_conditions
+R010,R006,uses_global_oriented_exclusions
+R010,C011,uses_known_tuple_and_base_class

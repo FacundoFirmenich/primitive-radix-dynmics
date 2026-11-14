@@ -351,6 +351,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R010",
+      "label": "R010",
+      "title": "The least base with a five-state nonpermutation high component is at least 9185770249.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -628,6 +638,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A029",
+      "label": "A029",
+      "title": "Bounded square cycle witness census",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md",
       "scope": "evidence"
     },
     {
@@ -1023,6 +1043,16 @@
       "relation": "uses_exact_state_and_base_conditions"
     },
     {
+      "source": "R010",
+      "target": "R006",
+      "relation": "uses_global_oriented_exclusions"
+    },
+    {
+      "source": "R010",
+      "target": "C011",
+      "relation": "uses_known_tuple_and_base_class"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1235,6 +1265,11 @@
     {
       "source": "A028",
       "target": "R009",
+      "relation": "supports"
+    },
+    {
+      "source": "A029",
+      "target": "R010",
       "relation": "supports"
     },
     {

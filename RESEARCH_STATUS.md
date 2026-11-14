@@ -62,6 +62,9 @@ gives one candidate projective core per signed linear system and a
 height bound in terms of three cofactors. In 119772 at factor two
 all four moduli are odd with mixed signs, so the cofactors are
 proper and nontrivial. A uniform bound on these cofactors is open.
+The [first-base lower bound](research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND.md)
+excludes every base below 9,185,770,249 for five-state
+nonpermutation components.
 
 ## External gates
 

@@ -1,0 +1,30 @@
+{
+  "nonsquare_certificate": {
+    "rows": 37,
+    "status": "PASS"
+  },
+  "counterfamily": {
+    "bases_checked": 1001,
+    "unique_strict_edge": "S3:x3->x0",
+    "status": "PASS"
+  },
+  "spectral_cycle": {
+    "cycle_length": 4,
+    "defect_product": 3,
+    "status": "PASS"
+  },
+  "claim_graph": {
+    "claims": 26,
+    "dependency_edges": 26,
+    "status": "PASS"
+  },
+  "embargo": {
+    "manuscript_files": 0,
+    "status": "PASS"
+  },
+  "cpp_replay": {
+    "status": "SKIP",
+    "reason": "no C++17 compiler"
+  },
+  "overall": "PASS"
+}

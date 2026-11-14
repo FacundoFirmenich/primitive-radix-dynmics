@@ -1,0 +1,31 @@
+{
+  "title": "Primitive Team Radix Dynamics: research and reproducibility companion",
+  "description": "Exact proof records, verification software, certificates, provenance ledgers and epistemic navigation supporting the forthcoming article ‘A Sharp Permutation Threshold for Finite High Components in Primitive Radix–Möbius Dynamics’. The manuscript is intentionally excluded during the pre-arXiv embargo.",
+  "creators": [
+    {
+      "name": "Firmenich, Facundo",
+      "affiliation": "Centro de Estudios del Sur (CEDESUR) & Universidad Nacional Arturo Jauretche (UNAJ)",
+      "orcid": "0009-0002-6578-3811"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "arithmetic dynamics",
+    "radix transformations",
+    "Möbius maps",
+    "finite rational components",
+    "content cocycles",
+    "reproducible mathematics",
+    "exact certificates"
+  ],
+  "version": "0.3.0-rc7",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FacundoFirmenich/primitive-radix-dynmics",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

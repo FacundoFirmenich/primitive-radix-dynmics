@@ -1,0 +1,38 @@
+{
+  "scientific_authority_commit": "cd657285f8b98f79e51caa713c138941d7489b12",
+  "programme_commit": "f7fd52837dbf57721bebfcf6b69e07537b98c2e5",
+  "sources": [
+    {
+      "path": "data/claims.csv",
+      "role": "claim ledger"
+    },
+    {
+      "path": "data/dependencies.csv",
+      "role": "dependency ledger"
+    },
+    {
+      "path": "proofs/FOUR_STATE_RIGIDITY.md",
+      "role": "four-state proof"
+    },
+    {
+      "path": "proofs/FIVE_STATE_COUNTERFAMILY.md",
+      "role": "five-state CRT proof"
+    },
+    {
+      "path": "proofs/TRANSITIVE_GENERATOR_RIGIDITY.md",
+      "role": "arbitrary-n proof"
+    },
+    {
+      "path": "proofs/FIXED_BASE_DECIDABILITY.md",
+      "role": "fixed-base theorem"
+    },
+    {
+      "path": "literature/LITERATURE_AUDIT_2026-11-13.md",
+      "role": "novelty boundary"
+    },
+    {
+      "path": "metadata/PUBLICATION_STATE.json",
+      "role": "scope boundary"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: exact-reproducibility
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install reproducibility dependencies
+        run: python -m pip install -e ".[dev]"
+      - name: Reproduce the companion
+        run: make reproduce
+      - name: Replay the five-state exact certificates
+        run: |
+          python research/df015-0015/verify_rgphi_df015_0015.py
+          python research/df015-0015/verify_rgphi_df015_0015_sympy.py
+          python src/rmr/verify_rgphi_farkas_728.py research/five-state/certificates/HIGH_INFEASIBILITY_FARKAS_728.json
+      - name: Check the publication boundary
+        run: python src/integrity/check_public_tree.py

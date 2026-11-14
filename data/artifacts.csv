@@ -1,0 +1,21 @@
+artifact_id,title,path,type,supports_claims
+A001,Nonsquare certificate j=1..37,certificates/NONSQUARE_CERTIFICATE_J1_37.csv,exact_certificate,C009;C010
+A002,Five-state exact states/actions,certificates/STATES_AND_ACTIONS.csv,exact_certificate,C011;C012
+A003,CRT congruences,certificates/CRT_CONGRUENCES.csv,exact_certificate,C011;C014
+A004,Arithmetic progression,certificates/ARITHMETIC_PROGRESSION.json,exact_certificate,C011;C012
+A005,Cycle spectral certificate,certificates/COUNTERFAMILY_CYCLE_CERTIFICATE.json,exact_certificate,C005;C011
+A006,Python exact verifier,src/rmr/verify.py,software,C002;C003;C004;C005;C009;C011;C012
+A007,Independent C++ replay,src/rmr/trusted_checker.cpp,software,C011
+A008,Claim traceability,outputs/reports/claim_traceability.md,generated_report,all
+A009,Epistemic graph,outputs/interactive/epistemic_graph.html,interactive,all
+A010,Reproducible figures,outputs/figures/,generated_figure,C001;C005;C011;C012
+A011,RGΦ-I epistemic supergraph source,interactive/supergraph/supergraph_model.json,communication_map,all
+A012,Epistemic protocol,docs/EPISTEMIC_PROTOCOL.md,governance,all
+A013,Three-page exegesis source,docs/RGPHI_I_PRIMER_EPISTEMICO_ES.md,communication,all
+A014,Five-state canonical normal forms,research/five-state/DIOPHANTINE_NORMAL_FORMS_20.csv,exact_catalogue,C018;C019
+A015,Five-state two-strict exact certificates,research/five-state/certificates/,exact_certificates,C018
+A016,DF015-0015 elliptic reduction record,research/five-state/elliptic/,proof_record,C020
+A017,Two-chart projective-width proof,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,proof_record,C021
+A018,Two-chart and elliptic regression checkers,src/rmr/check_two_chart_projective_width.py;src/rmr/check_elliptic_frontier.py,software,C020;C021
+A019,DF015-0015-B1 exact chamber exclusion,research/df015-0015/,exact_certificate,R001
+A020,Round 018 rational Farkas replay,src/rmr/verify_rgphi_farkas_728.py,software,C018

@@ -1,0 +1,42 @@
+# Python/build residue
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local research cache
+/.research-cache/
+
+# Publication embargo boundary — the manuscript is intentionally absent
+/paper/
+/papers/
+/manuscript/
+/manuscripts/
+/supplement/
+/supplements/
+/private-paper/
+/private-manuscript/
+*.tex
+
+# LaTeX transient files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+
+# OS/editor residue
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local compiled checker
+/outputs/reports/*.bin

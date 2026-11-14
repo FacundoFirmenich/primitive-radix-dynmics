@@ -1,0 +1,336 @@
+{
+  "schemaVersion": "rgphi-supergraph-0.1.0",
+  "title": "RGΦ-I · Supergrafo epistémico",
+  "scientificAuthority": {
+    "repository": "FacundoFirmenich/radix-mobius-rigidity",
+    "commit": "cd657285f8b98f79e51caa713c138941d7489b12",
+    "date": "2026-11-13"
+  },
+  "scope": {
+    "purpose": "Conceptual navigation and audit; no new theorem.",
+    "layout": "Colour and position do not encode evidential strength.",
+    "manuscript": "Formal manuscript and supplement remain outside GitHub pre-arXiv."
+  },
+  "nodes": [
+    {
+      "id": "THESIS",
+      "label": "Tesis",
+      "role": "thesis",
+      "summary": "Primitive-content loss governs exit from the permutation regime."
+    },
+    {
+      "id": "NOTCLAIMS",
+      "label": "Qué no afirma",
+      "role": "boundary",
+      "summary": "No general Möbius/Farey theory, ergodic theory, full n=5/n=6 classification, minimal base or physics."
+    },
+    {
+      "id": "YESCLAIMS",
+      "label": "Qué sí afirma",
+      "role": "claim",
+      "summary": "Exact defects/cocycle, sharp 4→5 threshold, arbitrary-n transitive rigidity and effective recognition."
+    },
+    {
+      "id": "NICHE",
+      "label": "Nicho",
+      "role": "niche",
+      "summary": "Finite arithmetic realization of rational subdynamics in a coupled projective semigroup."
+    },
+    {
+      "id": "GLOSSARY",
+      "label": "Glosario",
+      "role": "definition",
+      "summary": "High component, primitive ray, content, defect, strict edge, Schreier regime, CRT fibre, divisor universe."
+    },
+    {
+      "id": "FORMULARY",
+      "label": "Formulario",
+      "role": "formula",
+      "summary": "T_B, S_B, local gcd defects, content cocycle, cycle identity, divisor universe."
+    },
+    {
+      "id": "CYCLE",
+      "label": "Identidad/presupuesto",
+      "role": "claim",
+      "summary": "Exact cycle identity and high-cycle budget."
+    },
+    {
+      "id": "TRANSITIVE",
+      "label": "Rigidez transitiva",
+      "role": "claim",
+      "summary": "One generator n-cycle => the other identity; n<=tau(B-1)."
+    },
+    {
+      "id": "FOUR",
+      "label": "Rigidez n<=4",
+      "role": "claim",
+      "summary": "Every finite high closed component through four states is permutational."
+    },
+    {
+      "id": "FIVE",
+      "label": "Realización n=5",
+      "role": "claim",
+      "summary": "Exact nonpermutation five-state realization on a complete CRT base fibre."
+    },
+    {
+      "id": "THRESHOLD",
+      "label": "Threshold sharp",
+      "role": "claim",
+      "summary": "Minimum nonpermutation cardinality equals five."
+    },
+    {
+      "id": "EFFECTIVE",
+      "label": "Decidibilidad fixed-(B,n)",
+      "role": "claim",
+      "summary": "Every bounded closed problem lies in an explicit finite divisor universe."
+    },
+    {
+      "id": "MODULI",
+      "label": "Tipos/fibra CRT",
+      "role": "claim",
+      "summary": "Finite decorated types; fixed primitive tuple has empty or one residue-class fibre."
+    },
+    {
+      "id": "G_THRESHOLD",
+      "label": "AND threshold",
+      "role": "gate",
+      "summary": "Requires FOUR and FIVE."
+    },
+    {
+      "id": "G_EFFECTIVE",
+      "label": "AND recognition",
+      "role": "gate",
+      "summary": "Combines type finiteness, CRT fibre and divisor universe."
+    },
+    {
+      "id": "KURKA",
+      "label": "Kůrka",
+      "role": "context",
+      "summary": "Möbius number systems."
+    },
+    {
+      "id": "PANTI",
+      "label": "Panti 2026",
+      "role": "context",
+      "summary": "Farey/projective two-branch classification."
+    },
+    {
+      "id": "DKS",
+      "label": "Dajani–Kraaikamp–Sanderson",
+      "role": "context",
+      "summary": "Inducing/contraction in Farey natural extensions."
+    },
+    {
+      "id": "JAVAHERI",
+      "label": "Javaheri 2026",
+      "role": "context",
+      "summary": "Rational semigroup transitivity."
+    },
+    {
+      "id": "LILIWU",
+      "label": "Li–Li–Wu",
+      "role": "context",
+      "summary": "Rational points in ×b-invariant sets."
+    },
+    {
+      "id": "SILVERMAN",
+      "label": "Arithmetic dynamics",
+      "role": "context",
+      "summary": "Homogeneous lifts/resultant/local arithmetic."
+    },
+    {
+      "id": "SCHREIER",
+      "label": "Schreier/semigroups",
+      "role": "context",
+      "summary": "Group vs transformation-semigroup regime."
+    },
+    {
+      "id": "EVIDENCE",
+      "label": "Evidence/provenance",
+      "role": "evidence",
+      "summary": "Claims bind to proofs/certificates/replays with declared jurisdictions."
+    },
+    {
+      "id": "REVISION",
+      "label": "Revision tests",
+      "role": "revision",
+      "summary": "Explicit conditions that would force local claims to be reconsidered."
+    },
+    {
+      "id": "ADJACENT",
+      "label": "Five-state strict-edge uniqueness",
+      "role": "frontier",
+      "summary": "Proved candidate extension with its scope recorded in the claim ledger."
+    },
+    {
+      "id": "FRONTIER",
+      "label": "Later programme",
+      "role": "frontier",
+      "summary": "Full n=5 arithmetic, n=6, elliptic, S-unit/run arithmetic."
+    },
+    {
+      "id": "SUMMARY",
+      "label": "Resumen",
+      "role": "guide",
+      "summary": "Local arithmetic -> global graph restriction -> exact realization."
+    },
+    {
+      "id": "PROOFROUTE",
+      "label": "Ruta demostrativa",
+      "role": "guide",
+      "summary": "Lift -> defects -> cocycle -> cycle budget -> rigidity -> realization -> recognition."
+    }
+  ],
+  "edges": [
+    {
+      "source": "SUMMARY",
+      "target": "THESIS",
+      "type": "explains"
+    },
+    {
+      "source": "NOTCLAIMS",
+      "target": "THESIS",
+      "type": "bounds"
+    },
+    {
+      "source": "YESCLAIMS",
+      "target": "THESIS",
+      "type": "states"
+    },
+    {
+      "source": "NICHE",
+      "target": "THESIS",
+      "type": "positions"
+    },
+    {
+      "source": "CYCLE",
+      "target": "FOUR",
+      "type": "requires"
+    },
+    {
+      "source": "FOUR",
+      "target": "G_THRESHOLD",
+      "type": "requires"
+    },
+    {
+      "source": "FIVE",
+      "target": "G_THRESHOLD",
+      "type": "requires"
+    },
+    {
+      "source": "G_THRESHOLD",
+      "target": "THRESHOLD",
+      "type": "conditional_support"
+    },
+    {
+      "source": "THRESHOLD",
+      "target": "THESIS",
+      "type": "supports"
+    },
+    {
+      "source": "TRANSITIVE",
+      "target": "THESIS",
+      "type": "supports"
+    },
+    {
+      "source": "MODULI",
+      "target": "G_EFFECTIVE",
+      "type": "requires"
+    },
+    {
+      "source": "EFFECTIVE",
+      "target": "G_EFFECTIVE",
+      "type": "requires"
+    },
+    {
+      "source": "G_EFFECTIVE",
+      "target": "THESIS",
+      "type": "supports"
+    },
+    {
+      "source": "KURKA",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "PANTI",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "DKS",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "JAVAHERI",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "LILIWU",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "SILVERMAN",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "SCHREIER",
+      "target": "NICHE",
+      "type": "contextualizes"
+    },
+    {
+      "source": "EVIDENCE",
+      "target": "CYCLE",
+      "type": "documents"
+    },
+    {
+      "source": "EVIDENCE",
+      "target": "FOUR",
+      "type": "documents"
+    },
+    {
+      "source": "EVIDENCE",
+      "target": "FIVE",
+      "type": "documents"
+    },
+    {
+      "source": "EVIDENCE",
+      "target": "TRANSITIVE",
+      "type": "documents"
+    },
+    {
+      "source": "EVIDENCE",
+      "target": "EFFECTIVE",
+      "type": "documents"
+    },
+    {
+      "source": "REVISION",
+      "target": "FOUR",
+      "type": "would_require_revision"
+    },
+    {
+      "source": "REVISION",
+      "target": "FIVE",
+      "type": "would_require_revision"
+    },
+    {
+      "source": "REVISION",
+      "target": "TRANSITIVE",
+      "type": "would_require_revision"
+    },
+    {
+      "source": "REVISION",
+      "target": "EFFECTIVE",
+      "type": "would_require_revision"
+    },
+    {
+      "source": "ADJACENT",
+      "target": "FRONTIER",
+      "type": "future_extension"
+    }
+  ]
+}

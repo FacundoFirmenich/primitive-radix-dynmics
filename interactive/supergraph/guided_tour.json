@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Tesis",
+    "focus": "THESIS",
+    "nodes": [
+      "THESIS",
+      "SUMMARY"
+    ]
+  },
+  {
+    "title": "Jurisdicción",
+    "focus": "YESCLAIMS",
+    "nodes": [
+      "YESCLAIMS",
+      "NOTCLAIMS"
+    ]
+  },
+  {
+    "title": "Variable aritmética",
+    "focus": "CYCLE",
+    "nodes": [
+      "GLOSSARY",
+      "FORMULARY",
+      "CYCLE"
+    ]
+  },
+  {
+    "title": "Todo n",
+    "focus": "TRANSITIVE",
+    "nodes": [
+      "TRANSITIVE"
+    ]
+  },
+  {
+    "title": "Threshold",
+    "focus": "THRESHOLD",
+    "nodes": [
+      "FOUR",
+      "FIVE",
+      "G_THRESHOLD",
+      "THRESHOLD"
+    ]
+  },
+  {
+    "title": "Reconocimiento",
+    "focus": "EFFECTIVE",
+    "nodes": [
+      "MODULI",
+      "EFFECTIVE",
+      "G_EFFECTIVE"
+    ]
+  },
+  {
+    "title": "Ecosistema",
+    "focus": "NICHE",
+    "nodes": [
+      "NICHE",
+      "KURKA",
+      "PANTI",
+      "DKS",
+      "JAVAHERI",
+      "LILIWU",
+      "SILVERMAN",
+      "SCHREIER"
+    ]
+  },
+  {
+    "title": "Falsación",
+    "focus": "REVISION",
+    "nodes": [
+      "EVIDENCE",
+      "REVISION"
+    ]
+  },
+  {
+    "title": "Frontera",
+    "focus": "ADJACENT",
+    "nodes": [
+      "ADJACENT",
+      "FRONTIER"
+    ]
+  }
+]

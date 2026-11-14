@@ -1,0 +1,25 @@
+key,authors,title,year,identifier,affinity,decision,status
+Renyi1957,"Rényi, Alfréd",Representations for real numbers and their ergodic properties,1957,10.1007/BF02020331,radix/beta foundations,CITE,peer_reviewed
+Parry1960,"Parry, William",On the β-expansions of real numbers,1960,10.1007/BF02020954,beta-expansion dynamics,CITE,peer_reviewed
+DajaniKraaikamp2002,"Dajani, Karma; Kraaikamp, Cor",Ergodic Theory of Numbers,2002,book,number-expansion background,CITE,book
+Nakada1981,"Nakada, Hitoshi",Metrical theory for a class of continued fraction transformations and their natural extensions,1981,10.3836/tjm/1270215165,continued-fraction dynamics,CITE,peer_reviewed
+Series1985,"Series, Caroline",The modular surface and continued fractions,1985,10.1112/jlms/s2-31.1.69,projective/Farey dynamics,CITE,peer_reviewed
+Silverman2007,"Silverman, Joseph H.",The Arithmetic of Dynamical Systems,2007,10.1007/978-0-387-69904-2,arithmetic dynamics context,CITE,book
+Kurka2009,"Kůrka, Petr",Möbius number systems with sofic subshifts,2009,10.1088/0951-7715/22/2/011,closest Möbius-number-system prior art,CITE,peer_reviewed
+KurkaKazda2010,"Kůrka, Petr; Kazda, Alexandr",Möbius number systems based on interval covers,2010,10.1088/0951-7715/23/5/001,closest interval Möbius prior art,CITE,peer_reviewed
+Kurka2012,"Kůrka, Petr",The Stern–Brocot graph in Möbius number systems,2012,10.1088/0951-7715/25/1/57,Stern–Brocot/Möbius neighbor,CITE,peer_reviewed
+Kurka2016,"Kůrka, Petr",Dynamics of Number Systems: Computation with Arbitrary Precision,2016,10.1007/978-3-319-33367-0,broad Möbius-number-system synthesis,CITE,book
+AkiyamaFrougnySakarovitch2008,"Akiyama, Shigeki; Frougny, Christiane; Sakarovitch, Jacques",Powers of rationals modulo 1 and rational base number systems,2008,10.1007/s11856-008-1056-4,rational-base numeration,CONTEXT,peer_reviewed
+KirschenhoferThuswaldner2013,"Kirschenhofer, Peter; Thuswaldner, Jörg",Shift radix systems — a survey,2013,arXiv:1312.0386,shift-radix systems,CONTEXT,preprint
+BenedettoEtAl2019,Benedetto et al.,Current trends and open problems in arithmetic dynamics,2019,10.1090/bull/1665,arithmetic dynamics context,CITE,peer_reviewed
+LiLiWu2023,"Li, Bing; Li, Jie; Wu, Jun",Rational numbers in ×b-invariant sets,2023,10.1090/proc/16278,rational points under radix dynamics,CITE,peer_reviewed
+CaltaKraaikampSchmidt2024,"Calta, Kariane; Kraaikamp, Cor; Schmidt, Thomas A.",Proofs of ergodicity of piecewise Möbius interval maps using planar extensions,2024,10.1016/j.exmath.2024.125575,piecewise Möbius interval dynamics,CITE,peer_reviewed
+Bi2025,"Bi, Yuzheng",Periodic points in the β-transformation with a hole at 0,2025,arXiv:2503.10039,periodic survivor sets for beta maps,CONTEXT,preprint
+LericheSienra2025,"Leriche, Renato; Sienra, Guillermo",Structural stability in piecewise Möbius transformations,2025,arXiv:2504.01334,recent piecewise Möbius dynamics,CONTEXT,preprint
+KongLiWang2025,"Kong, Derong; Li, Bing; Wang, Yao-Qiang",Rational numbers in missing-digit sets,2025,arXiv:2503.22960,rational self-similar survivors,CONTEXT,preprint
+LiWangZhao2025,"Li, Bing; Wang, Yao-Qiang; Zhao, Han",Rational numbers in self-similar sets,2025,arXiv:2512.07139,rational self-similar sets,CONTEXT,preprint
+Panti2026,"Panti, Giovanni",There is only one Farey map,2026,10.1007/s10231-026-01693-1,two-branch projective/Farey classification,CITE,peer_reviewed
+DajaniKraaikampSanderson2026,"Dajani, Karma; Kraaikamp, Cor; Sanderson, Slade",Inducing contractions of the mother of all continued fractions,2026,10.1016/j.jnt.2025.05.015,coupled inducing/contraction in Farey natural extensions,CITE,peer_reviewed
+Javaheri2026,"Javaheri, Mohammad",Transitive actions and purely periodic N-expansions,2026,10.1016/j.jnt.2025.11.013,rational semigroup transitivity and periodic expansions,CITE,peer_reviewed
+Zhao2026,"Zhao, Hang",Common invariant measures for beta-transformations with rational affine relations,2026,arXiv:2609.31156,related common-invariance result in beta dynamics,MONITOR,preprint
+GauthierVigny2025,"Gauthier, Thomas; Vigny, Gabriel",Quantitative equidistribution of periodic points for rational maps,2025,arXiv:2505.02608,broader arithmetic-dynamics periodic-point context,MONITOR,preprint

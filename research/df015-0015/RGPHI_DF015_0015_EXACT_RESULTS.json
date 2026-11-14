@@ -1,0 +1,207 @@
+{
+  "curve_count": 19,
+  "x_count": 772,
+  "rational_fibre_count": 3,
+  "chamber_point_count": 0,
+  "curves": [
+    {
+      "n": 1,
+      "first_x": 25998,
+      "last_x": 26037,
+      "x_count": 40,
+      "rational_fibres": [
+        {
+          "x": 26006,
+          "roots": [
+            {
+              "A_C_D_on_H_equals_1": [
+                "134/22541",
+                "266/22541",
+                "275/22541"
+              ],
+              "in_chamber": false
+            },
+            {
+              "A_C_D_on_H_equals_1": [
+                "-173762/315381457",
+                "2779615/315381457",
+                "3859282/315381457"
+              ],
+              "in_chamber": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "first_x": 25998,
+      "last_x": 26037,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 3,
+      "first_x": 25999,
+      "last_x": 26038,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 4,
+      "first_x": 25999,
+      "last_x": 26039,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 5,
+      "first_x": 26000,
+      "last_x": 26039,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 6,
+      "first_x": 26000,
+      "last_x": 26040,
+      "x_count": 41,
+      "rational_fibres": [
+        {
+          "x": 26034,
+          "roots": [
+            {
+              "A_C_D_on_H_equals_1": [
+                "109/19649",
+                "209/19649",
+                "240/19649"
+              ],
+              "in_chamber": false
+            },
+            {
+              "A_C_D_on_H_equals_1": [
+                "-48689/88803211",
+                "687280/88803211",
+                "1087851/88803211"
+              ],
+              "in_chamber": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "first_x": 26001,
+      "last_x": 26040,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 8,
+      "first_x": 26001,
+      "last_x": 26041,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 9,
+      "first_x": 26002,
+      "last_x": 26041,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 10,
+      "first_x": 26002,
+      "last_x": 26042,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 11,
+      "first_x": 26003,
+      "last_x": 26042,
+      "x_count": 40,
+      "rational_fibres": []
+    },
+    {
+      "n": 12,
+      "first_x": 26003,
+      "last_x": 26043,
+      "x_count": 41,
+      "rational_fibres": [
+        {
+          "x": 26040,
+          "roots": [
+            {
+              "A_C_D_on_H_equals_1": [
+                "7/1228",
+                "13/1228",
+                "15/1228"
+              ],
+              "in_chamber": false
+            },
+            {
+              "A_C_D_on_H_equals_1": [
+                "-931/1734676",
+                "13021/1734676",
+                "21255/1734676"
+              ],
+              "in_chamber": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "first_x": 26004,
+      "last_x": 26044,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 14,
+      "first_x": 26004,
+      "last_x": 26044,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 15,
+      "first_x": 26005,
+      "last_x": 26045,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 16,
+      "first_x": 26005,
+      "last_x": 26045,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 17,
+      "first_x": 26006,
+      "last_x": 26046,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 18,
+      "first_x": 26006,
+      "last_x": 26046,
+      "x_count": 41,
+      "rational_fibres": []
+    },
+    {
+      "n": 19,
+      "first_x": 26007,
+      "last_x": 26047,
+      "x_count": 41,
+      "rational_fibres": []
+    }
+  ]
+}

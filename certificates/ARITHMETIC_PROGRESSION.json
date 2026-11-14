@@ -1,0 +1,25 @@
+{
+  "B0": 88011536665779,
+  "modulus": 223336848698040,
+  "formula": "B_t = B0 + modulus*t, t>=0",
+  "branch_id": "DF015-0007-B2",
+  "canonical_labeling": "RGPHI_I_RC1",
+  "T": [
+    1,
+    0,
+    3,
+    2,
+    4
+  ],
+  "S": [
+    4,
+    2,
+    1,
+    0,
+    0
+  ],
+  "strict_generator": "S",
+  "strict_source": 3,
+  "strict_target": 0,
+  "strict_factor": 3
+}

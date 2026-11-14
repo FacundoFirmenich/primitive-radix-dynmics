@@ -1,0 +1,27 @@
+claim_id,claim,status,primary_evidence,scope
+C001,"Primitive projective radix–Möbius system is defined by T_B, its Möbius-conjugate S_B, branch matrices and primitive normalization.",DEFINITION,certificates/ARITHMETIC_PROGRESSION.json,paper_scope
+C002,"The rational dynamics and primitive projective lift are exactly conjugate under p/q <- (p,q).",PROVED_SYMBOLIC,src/rmr/core.py,paper_scope
+C003,"Local content defects are δ_T=gcd(q,B) and δ_S=gcd(p,B) for a reduced state p/q.",PROVED_SYMBOLIC,src/rmr/core.py,paper_scope
+C004,"For an admissible word, the branch-matrix product equals the product of local defects times the terminal primitive vector.",PROVED_SYMBOLIC,src/rmr/verify.py,paper_scope
+C005,Every rational periodic branch word satisfies the cycle spectral identity and square-discriminant condition.,PROVED_SYMBOLIC,certificates/COUNTERFAMILY_CYCLE_CERTIFICATE.json,paper_scope
+C006,The high-cycle reduction budget bounds the product of defects by the numerical spread of the cycle.,PROVED_SYMBOLIC,proofs/CYCLE_REDUCTION_BUDGET.md,paper_scope
+C007,Every finite high closed SCC of directed diameter at most two is permutational under both generators.,PROVED_SYMBOLIC,proofs/DIAMETER_TWO_RIGIDITY.md,paper_scope
+C008,All-high permutation rigidity holds for cardinalities 2 and 3.,PROVED_SYMBOLIC,proofs/DIAMETER_TWO_RIGIDITY.md,paper_scope
+C009,All-high permutation rigidity holds for cardinality 4.,PROVED_SYMBOLIC_PLUS_CERTIFICATE,proofs/FOUR_STATE_RIGIDITY.md,paper_scope
+C010,The strict-S exceptional branch reduces to 18 necessary nonsquare discriminants excluded modulo 4 5 11 17.,PROVED_SYMBOLIC,proofs/NONSQUARE_18.md,paper_scope
+C011,An exact five-state closed strongly connected nonpermutation counterfamily exists on an infinite arithmetic progression of bases.,PROVED_SYMBOLIC_PLUS_CRT,proofs/FIVE_STATE_COUNTERFAMILY.md,paper_scope
+C012,The least cardinality of an all-high finite nonpermutation closed SCC is exactly five.,PROVED_SHARP,proofs/SHARP_THRESHOLD.md,paper_scope
+C013,For every fixed cardinality there are finitely many abstract defect-decorated RGΦ types.,PROVED_SYMBOLIC,proofs/FINITE_TYPES.md,paper_scope
+C014,"For a fixed primitive state tuple with prescribed transitions/defects, realizing bases are empty or one complete arithmetic progression.",PROVED_SYMBOLIC,proofs/CRT_FIBRE.md,paper_scope
+C015,Every high closed rational set of size at most n at fixed base B lies in an explicit divisor universe and is decidable.,PROVED_SYMBOLIC,proofs/FIXED_BASE_DECIDABILITY.md,paper_scope
+C016,The content defect product of a directed cycle equals each complementary product of state ratios.,PROVED_SYMBOLIC,proofs/EXACT_CYCLE_IDENTITY.md,paper_scope
+C017,"If one restricted generator is a single n-cycle on a finite all-high component, the other generator is the identity; in either transitive architecture n<=tau(B-1).",PROVED_SYMBOLIC,proofs/TRANSITIVE_GENERATOR_RIGIDITY.md,paper_scope
+B001,Complete arithmetic classification of all five-state realizations.,NOT_CLAIMED,,future
+B002,Complete six-state classification.,NOT_CLAIMED,,future
+B003,A physical law or physical interpretation follows from RGΦ I.,NOT_CLAIMED,,excluded
+B004,Absolute historical priority or a first-ever claim beyond the audited novelty boundary.,NOT_CLAIMED,literature/LITERATURE_AUDIT_2026-11-13.md,excluded
+C018,"Every five-state nonpermutation finite high component has exactly one strict edge globally.",PROVED_COMPUTER_ASSISTED_PLUS_SYMBOLIC,proofs/FIVE_STATE_STRICT_EDGE_UNIQUENESS.md,research_frontier
+C019,"Eight active S-strict oriented branches reduce state-side to two T-cycle templates with Q=rD-(r-1)C and explicit quadratic/cubic divisibilities.",PROVED_SYMBOLIC,proofs/FIVE_STATE_COMMON_S_STRICT_TEMPLATES.md,research_frontier
+C020,"For DF015-0015 every primitive realization lies on one of nineteen smooth elliptic cubics and the RGΦ coprime locus is finite on each curve by Siegel.",PROVED_SYMBOLIC_PLUS_EXACT_CAS,proofs/DF015_0015_ELLIPTIC_FRONTIER.md,research_frontier
+C021,"For any unimodular projective conjugacy, cycle content is controlled by the Hilbert width between the two primitive coordinate charts; the original high-cycle budget is the special H-chart case.",PROVED_SYMBOLIC,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,paper_scope
+R001,"The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/df015-0015/CERTIFICATE.md,research_frontier

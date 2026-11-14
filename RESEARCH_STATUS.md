@@ -62,6 +62,11 @@ surface containing none of the eight cycle lines.
 The [powered quotient obstruction](research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md)
 shows that the direct construction from the four cycle ideals yields
 only a constant quotient at every common power on the full core space.
+The [prime-support theorem](research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md)
+gives finiteness when the weighted part of the moduli supported
+on any fixed prime set exceeds the fourth power of the height
+by a fixed power. The fifth-state modulus enters as an independent
+linear form at every allowed overlap.
 The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md)
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)

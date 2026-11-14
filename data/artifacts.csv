@@ -19,3 +19,5 @@ A017,Two-chart projective-width proof,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,proof
 A018,Two-chart and elliptic regression checkers,src/rmr/check_two_chart_projective_width.py;src/rmr/check_elliptic_frontier.py,software,C020;C021
 A019,DF015-0015-B1 exact chamber exclusion,research/df015-0015/,exact_certificate,R001
 A020,Round 018 rational Farkas replay,src/rmr/verify_rgphi_farkas_728.py,software,C018
+A021,Oriented catalogue crosswalk,research/five-state/continuation/ORIENTED_TO_ROUND015.csv,catalogue,R001;R002
+A022,Shared chamber exhaustive verification,research/five-state/continuation/verify_shared_chambers.py,software,R002

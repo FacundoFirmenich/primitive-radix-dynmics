@@ -11,6 +11,7 @@ A research and reproducibility companion for finite rational components of the r
 | Bounds from projective width for two unimodular charts | [Two-chart theorem](proofs/TWO_CHART_PROJECTIVE_WIDTH.md) |
 | Exact decision procedure at fixed radix and bounded cardinality | [Divisor universe](proofs/FIXED_BASE_DECIDABILITY.md) |
 | Exclusion of the oriented form DF015-0015-B1 | [Proof and exact replay](research/df015-0015/CERTIFICATE.md) |
+| Exclusion of both shared strict-S systems at factors 2 and 3 | [Bounded quotients and exact replay](research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md) |
 
 The full five-state arithmetic classification remains open. The oriented and generator-unoriented enumerations use different conventions. See the [research status](RESEARCH_STATUS.md), [catalogue reconciliation](research/five-state/DF015_0015_RECONCILIATION.md), and [claim ledger](data/claims.csv).
 

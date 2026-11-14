@@ -271,6 +271,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R002",
+      "label": "R002",
+      "title": "The eight oriented S-strict rows in the two shared systems have no realization.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -468,6 +478,26 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "src/rmr/verify_rgphi_farkas_728.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A021",
+      "label": "A021",
+      "title": "Oriented catalogue crosswalk",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/ORIENTED_TO_ROUND015.csv",
+      "scope": "evidence"
+    },
+    {
+      "id": "A022",
+      "label": "A022",
+      "title": "Shared chamber exhaustive verification",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_shared_chambers.py",
       "scope": "evidence"
     },
     {
@@ -823,6 +853,11 @@
       "relation": "uses_necessary_cubic_reduction"
     },
     {
+      "source": "R002",
+      "target": "C019",
+      "relation": "uses_necessary_cycle_divisibilities"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -975,6 +1010,21 @@
     {
       "source": "A020",
       "target": "C018",
+      "relation": "supports"
+    },
+    {
+      "source": "A021",
+      "target": "R001",
+      "relation": "supports"
+    },
+    {
+      "source": "A021",
+      "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A022",
+      "target": "R002",
       "relation": "supports"
     },
     {

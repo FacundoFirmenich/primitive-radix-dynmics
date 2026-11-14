@@ -25,3 +25,4 @@ C020,C018,depends_on
 C021,C003,depends_on
 C006,C021,special_case
 R001,C020,uses_necessary_cubic_reduction
+R002,C019,uses_necessary_cycle_divisibilities

@@ -23,9 +23,9 @@
 
 ## Live arithmetic frontier
 
-The later oriented continuation has eleven branches over six ordered skeletons. After the common-template reduction, it is governed by seven factor-specific arithmetic mechanisms. One is the realized `119772`, factor-three branch; six mechanisms remain unresolved.
+The later oriented continuation has eleven branches over six ordered skeletons. After the common-template reduction, it is governed by seven factor-specific arithmetic mechanisms. One is the realized `119772`, factor-three branch; the previous checkpoint left six mechanisms unresolved. The exact chamber elimination now excludes the eight shared-template rows. On this 11-row continuation, two ordered rows remain open: 119772 at factor two and 606897 at factor three. This continuation does not cover every orientation of every Round 015 form.
 
-The normalized twenty-row generator-unoriented status remains:
+The archived normalized twenty-row generator-unoriented ledger recorded:
 
 - 7 impossible;
 - 1 realized-containing;
@@ -35,9 +35,8 @@ No `19/20` closure is claimed.
 
 ## Current high-return gates
 
-1. divisor-allocation / S-unit reduction of the shared dense templates;
-2. reconcile the oriented and normalized catalogues before updating aggregate counts;
-3. exact adjudication of `119772` factor 2 and `606897` factor 3;
+1. audit the remaining Round 015 orientations beyond the 11-row continuation;
+2. exact adjudication of `119772` factor 2 and `606897` factor 3;
 4. global uniqueness or a parametric family for the known realized action graph.
 
 ## External gates

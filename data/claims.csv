@@ -25,3 +25,4 @@ C019,"Eight active S-strict oriented branches reduce state-side to two T-cycle t
 C020,"For DF015-0015 every primitive realization lies on one of nineteen smooth elliptic cubics and the RGΦ coprime locus is finite on each curve by Siegel.",PROVED_SYMBOLIC_PLUS_EXACT_CAS,proofs/DF015_0015_ELLIPTIC_FRONTIER.md,research_frontier
 C021,"For any unimodular projective conjugacy, cycle content is controlled by the Hilbert width between the two primitive coordinate charts; the original high-cycle budget is the special H-chart case.",PROVED_SYMBOLIC,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,paper_scope
 R001,"The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/df015-0015/CERTIFICATE.md,research_frontier
+R002,"The eight oriented S-strict rows in the two shared systems have no realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md,research_frontier

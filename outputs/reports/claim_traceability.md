@@ -28,6 +28,7 @@
 | C020 | `PROVED_SYMBOLIC_PLUS_EXACT_CAS` | For DF015-0015 every primitive realization lies on one of nineteen smooth elliptic cubics and the RGΦ coprime locus is finite on each curve by Siegel. | `proofs/DF015_0015_ELLIPTIC_FRONTIER.md` | depends_on:C018 |
 | C021 | `PROVED_SYMBOLIC` | For any unimodular projective conjugacy, cycle content is controlled by the Hilbert width between the two primitive coordinate charts; the original high-cycle budget is the special H-chart case. | `proofs/TWO_CHART_PROJECTIVE_WIDTH.md` | depends_on:C003 |
 | R001 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber. | `research/df015-0015/CERTIFICATE.md` | uses_necessary_cubic_reduction:C020 |
+| R002 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The eight oriented S-strict rows in the two shared systems have no realization. | `research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md` | uses_necessary_cycle_divisibilities:C019 |
 
 ## Artifact registry
 
@@ -53,3 +54,5 @@
 | A018 | `software` | `src/rmr/check_two_chart_projective_width.py;src/rmr/check_elliptic_frontier.py` | C020;C021 |
 | A019 | `exact_certificate` | `research/df015-0015/` | R001 |
 | A020 | `software` | `src/rmr/verify_rgphi_farkas_728.py` | C018 |
+| A021 | `catalogue` | `research/five-state/continuation/ORIENTED_TO_ROUND015.csv` | R001;R002 |
+| A022 | `software` | `research/five-state/continuation/verify_shared_chambers.py` | R002 |

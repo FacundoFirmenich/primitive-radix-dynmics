@@ -29,6 +29,8 @@
 | C021 | `PROVED_SYMBOLIC` | For any unimodular projective conjugacy, cycle content is controlled by the Hilbert width between the two primitive coordinate charts; the original high-cycle budget is the special H-chart case. | `proofs/TWO_CHART_PROJECTIVE_WIDTH.md` | depends_on:C003 |
 | R001 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber. | `research/df015-0015/CERTIFICATE.md` | uses_necessary_cubic_reduction:C020 |
 | R002 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The eight oriented S-strict rows in the two shared systems have no realization. | `research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md` | uses_necessary_cycle_divisibilities:C019 |
+| R003 | `PROVED_SYMBOLIC` | An all-high finite closed component cannot have exactly one strict T edge of factor two. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_exact_reduction:C002 |
+| R004 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization. | `research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md` | uses_predecessor_lemma:R003 |
 
 ## Artifact registry
 
@@ -56,3 +58,5 @@
 | A020 | `software` | `src/rmr/verify_rgphi_farkas_728.py` | C018 |
 | A021 | `catalogue` | `research/five-state/continuation/ORIENTED_TO_ROUND015.csv` | R001;R002 |
 | A022 | `software` | `research/five-state/continuation/verify_shared_chambers.py` | R002 |
+| A023 | `exact_certificate` | `research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json` | R004 |
+| A024 | `catalogue` | `research/five-state/continuation/ORIENTED_STATUS.csv` | R001;R002;R003;R004 |

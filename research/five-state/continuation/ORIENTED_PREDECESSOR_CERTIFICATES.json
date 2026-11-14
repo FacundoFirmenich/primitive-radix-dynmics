@@ -1,0 +1,915 @@
+{
+  "counts": {
+    "FORCED_STATE_COLLISION": 8,
+    "HIGH_FEASIBLE": 24,
+    "NO_HIGH_PREDECESSOR_BRANCH": 8
+  },
+  "rows": [
+    {
+      "form": "DF015-0001",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0001",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            2,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0002",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0002",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            2,
+            1,
+            10,
+            0,
+            0,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0003",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "high_feasible": true
+        }
+      }
+    },
+    {
+      "form": "DF015-0003",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0004",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0004",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            10,
+            0,
+            2,
+            6,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0005",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            2,
+            0,
+            0,
+            0,
+            4,
+            4,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0005",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            6,
+            10
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0006",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            0,
+            2,
+            0,
+            2,
+            2,
+            6,
+            12,
+            6,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0006",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            6,
+            3,
+            14,
+            0,
+            0,
+            7
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0007",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            3,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            12,
+            0,
+            0,
+            10,
+            10,
+            0,
+            2,
+            6,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0007",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            6,
+            10,
+            0,
+            2,
+            6,
+            4,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0008",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            4,
+            2,
+            0,
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0008",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            14,
+            0,
+            6,
+            10,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            4,
+            0,
+            2,
+            3,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0009",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0009",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            6,
+            10,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0010",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0010",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            2,
+            1,
+            10,
+            0,
+            0,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0011",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0011",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0012",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "NO_HIGH_PREDECESSOR_BRANCH",
+      "branches": {}
+    },
+    {
+      "form": "DF015-0012",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            2,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0013",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0013",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0014",
+      "strict_letter": "T",
+      "factor": 2,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0014",
+      "strict_letter": "S",
+      "factor": 2,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0015",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            2,
+            0,
+            0,
+            0,
+            4,
+            4,
+            2,
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0015",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            6,
+            10,
+            14,
+            0
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            4,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0016",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            0,
+            2,
+            0,
+            2,
+            2,
+            6,
+            12,
+            6,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0016",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            6,
+            3,
+            14,
+            0,
+            0,
+            7
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0017",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            0,
+            0,
+            2,
+            14,
+            0,
+            6,
+            10,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            0,
+            0,
+            1,
+            4,
+            0,
+            2,
+            3,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0017",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            4,
+            2,
+            0,
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0018",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-1": {
+          "high_feasible": true
+        },
+        "1": {
+          "infeasibility_weights": [
+            4,
+            2,
+            0,
+            0,
+            2,
+            4,
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0018",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "HIGH_FEASIBLE",
+      "branches": {
+        "-2": {
+          "high_feasible": true
+        },
+        "-1": {
+          "infeasibility_weights": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "1": {
+          "infeasibility_weights": [
+            0,
+            2,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            6,
+            10
+          ]
+        },
+        "2": {
+          "infeasibility_weights": [
+            0,
+            1,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "form": "DF015-0019",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0019",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0020",
+      "strict_letter": "T",
+      "factor": 3,
+      "status": "FORCED_STATE_COLLISION"
+    },
+    {
+      "form": "DF015-0020",
+      "strict_letter": "S",
+      "factor": 3,
+      "status": "FORCED_STATE_COLLISION"
+    }
+  ]
+}

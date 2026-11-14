@@ -24,7 +24,7 @@ The canonical profiles and the exact exclusion tables are versioned under `resea
 
 ## Terminal symbolic layer
 
-Four labelled factor variants have two strict T-edges into one target. After the fibre quotient they satisfy
+Two canonical factor variants have two strict T-edges into one target. After the fibre quotient they satisfy
 
 [
 BCequiv rAequiv sApmod Q,qquad r,sin{2,3}.
@@ -32,7 +32,7 @@ BCequiv rAequiv sApmod Q,qquad r,sin{2,3}.
 
 If `r=s`, the source states collide. If `r != s`, primitivity gives `Q | (r-s)` and hence `Q=1`, impossible.
 
-The remaining factor variants have one strict T-edge and one strict S-edge at the same source. A defect-one fixed edge gives `B=1 (mod Q)`, while the strict edge gives `Bs=r (mod Q)`; again either the source collides or `Q | (r-s)`.
+The four remaining canonical factor variants have one strict T-edge and one strict S-edge at the same source. A defect-one fixed edge gives `B=1 (mod Q)`, while the strict edge gives `Bs=r (mod Q)`; again either the source collides or `Q | (r-s)`. The two-plus-four split follows the canonical rows in `ARITHMETIC_EXCLUSIONS_6.csv`.
 
 Thus no two-strict profile is realizable. The higher-strict cases are excluded by the finite compatibility gate, so exactly one strict edge remains.
 

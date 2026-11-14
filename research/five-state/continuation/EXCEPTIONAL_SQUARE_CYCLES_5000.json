@@ -1,0 +1,20 @@
+[
+  {
+    "code": 119772,
+    "factor": 2,
+    "bound": "A",
+    "maximum": 5000,
+    "cross_check": 2500,
+    "crt_candidates_checked": 99089,
+    "realizations": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "bound": "Q",
+    "maximum": 5000,
+    "cross_check": 2500,
+    "crt_candidates_checked": 6100,
+    "realizations": []
+  }
+]

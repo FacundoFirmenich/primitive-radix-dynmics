@@ -281,6 +281,26 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R003",
+      "label": "R003",
+      "title": "An all-high finite closed component cannot have exactly one strict T edge of factor two.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R004",
+      "label": "R004",
+      "title": "The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization.",
+      "kind": "claim",
+      "layer": "Rigidity",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -498,6 +518,26 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/verify_shared_chambers.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A023",
+      "label": "A023",
+      "title": "Exact predecessor and resultant certificate",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A024",
+      "label": "A024",
+      "title": "Round 015 oriented status ledger",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/ORIENTED_STATUS.csv",
       "scope": "evidence"
     },
     {
@@ -858,6 +898,16 @@
       "relation": "uses_necessary_cycle_divisibilities"
     },
     {
+      "source": "R003",
+      "target": "C002",
+      "relation": "uses_exact_reduction"
+    },
+    {
+      "source": "R004",
+      "target": "R003",
+      "relation": "uses_predecessor_lemma"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1025,6 +1075,31 @@
     {
       "source": "A022",
       "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A023",
+      "target": "R004",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R001",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R003",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R004",
       "relation": "supports"
     },
     {

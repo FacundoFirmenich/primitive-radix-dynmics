@@ -21,3 +21,5 @@ A019,DF015-0015-B1 exact chamber exclusion,research/df015-0015/,exact_certificat
 A020,Round 018 rational Farkas replay,src/rmr/verify_rgphi_farkas_728.py,software,C018
 A021,Oriented catalogue crosswalk,research/five-state/continuation/ORIENTED_TO_ROUND015.csv,catalogue,R001;R002
 A022,Shared chamber exhaustive verification,research/five-state/continuation/verify_shared_chambers.py,software,R002
+A023,Exact predecessor and resultant certificate,research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json,exact_certificate,R004
+A024,Round 015 oriented status ledger,research/five-state/continuation/ORIENTED_STATUS.csv,catalogue,R001;R002;R003;R004

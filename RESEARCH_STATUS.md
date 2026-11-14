@@ -37,7 +37,16 @@ No `19/20` closure is claimed.
 
 1. audit the remaining Round 015 orientations beyond the 11-row continuation;
 2. exact adjudication of `119772` factor 2 and `606897` factor 3;
-4. global uniqueness or a parametric family for the known realized action graph.
+3. global uniqueness or a parametric family for the known realized action graph.
+
+The [oriented status ledger](research/five-state/continuation/ORIENTED_STATUS.csv)
+covers all 40 restored orientations: 29 exclusions replayed here,
+one archived exclusion recorded separately, one realized-containing
+orientation and nine open orientations. The archived exclusion is the
+strict-T orientation of DF015-0016 and still needs full proof readback.
+The [predecessor and resultant proofs](research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md)
+exclude all strict-T factor-two orientations and four additional strict-S
+orientations. The known state tuple has no global uniqueness certificate.
 
 ## External gates
 

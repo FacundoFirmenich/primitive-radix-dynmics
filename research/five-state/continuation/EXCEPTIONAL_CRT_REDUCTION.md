@@ -76,3 +76,28 @@ three of 119772, including its base residue and period.
 The finite bounds are on A for 119772 and Q for 606897. They cover
 the entire corresponding bounded chamber given the linear shifts,
 but there is no global bound on those coordinates.
+
+## Pairwise overlaps and faster bounded replay
+
+For 606897, under the primitive, distinct and high assumptions plus the
+four cycle conditions and \(C=3E-Q\), CRT compatibility is exactly
+\[
+ \gcd(A,C),\gcd(Q,D)\mid2,\qquad
+ \gcd(E,A)\mid D-Q,\qquad
+ \gcd(E,D)\mid A-C.
+\]
+The four cross pairs of the core moduli are coprime by reducedness.
+Also \(\gcd(E,Q)=\gcd(E,C)=1\).
+On \(\gcd(A,C)\) compatibility reduces to \(D^2\equiv3Q^2\).
+The cycle condition \(D^2\equiv Q^2\) and invertibility of \(Q\)
+give equivalence with divisibility by two. On \(\gcd(Q,D)\)
+compatibility reduces to \(EC\equiv A^2\), and
+\(EC\equiv3E^2\equiv3A^2\) gives the same equivalence.
+The two overlaps with \(E\) give the remaining tests.
+
+Use roots of unity modulo \(Q,C\) for 606897, and modulo \(D,C\)
+for 119772 at factor two. The latter uses \(C<Q<2A<2C\).
+For 606897, \(C<D<2A<2Q<2C\), so a residue modulo \(C\)
+determines \(D\) uniquely. Both loops check the full ten-edge CRT.
+The 5000-bound replay agrees with the earlier test on each 2500-bound
+overlap and reproduces the known factor-three positive control.

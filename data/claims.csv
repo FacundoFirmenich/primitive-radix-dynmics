@@ -26,3 +26,5 @@ C020,"For DF015-0015 every primitive realization lies on one of nineteen smooth 
 C021,"For any unimodular projective conjugacy, cycle content is controlled by the Hilbert width between the two primitive coordinate charts; the original high-cycle budget is the special H-chart case.",PROVED_SYMBOLIC,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,paper_scope
 R001,"The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/df015-0015/CERTIFICATE.md,research_frontier
 R002,"The eight oriented S-strict rows in the two shared systems have no realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md,research_frontier
+R003,"An all-high finite closed component cannot have exactly one strict T edge of factor two.",PROVED_SYMBOLIC,research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md,research_frontier
+R004,"The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization.",PROVED_SYMBOLIC_PLUS_CERTIFICATE,research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md,research_frontier

@@ -57,6 +57,11 @@ The [pure-sign obstruction](research/five-state/continuation/SQUARE_CYCLE_PURE_S
 forces nontrivial square roots in all four core moduli of 606897.
 The [bounded local search](research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md)
 extends coverage to 100,000 in each designated coordinate.
+The [cofactor bound](research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md)
+gives one candidate projective core per signed linear system and a
+height bound in terms of three cofactors. In 119772 at factor two
+all four moduli are odd with mixed signs, so the cofactors are
+proper and nontrivial. A uniform bound on these cofactors is open.
 
 ## External gates
 

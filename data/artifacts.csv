@@ -26,3 +26,4 @@ A024,Round 015 oriented status ledger,research/five-state/continuation/ORIENTED_
 A025,Strict-T rectangle resultant certificate,research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json,exact_certificate,R005
 A026,Five further factor-three exclusion certificates,research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json,exact_certificate,R006
 A027,Square-cycle pure sign exclusion,research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json,exact_certificate,R008
+A028,Square-cycle cofactor normalization control,research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json,regression_certificate,R009

@@ -341,6 +341,16 @@
       "scope": "research_frontier"
     },
     {
+      "id": "R009",
+      "label": "R009",
+      "title": "Each signed square-cycle cofactor system has at most one primitive core per choice of quotients; bounded cofactors give an explicit coordinate bound.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md",
+      "scope": "research_frontier"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -608,6 +618,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A028",
+      "label": "A028",
+      "title": "Square-cycle cofactor normalization control",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json",
       "scope": "evidence"
     },
     {
@@ -998,6 +1018,11 @@
       "relation": "uses_exact_state_and_base_conditions"
     },
     {
+      "source": "R009",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1205,6 +1230,11 @@
     {
       "source": "A027",
       "target": "R008",
+      "relation": "supports"
+    },
+    {
+      "source": "A028",
+      "target": "R009",
       "relation": "supports"
     },
     {

@@ -35,6 +35,7 @@
 | R006 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The strict-T orientations of DF015-0006, DF015-0008, DF015-0016, DF015-0017 and DF015-0018 have no primitive realization. | `research/five-state/continuation/REMAINING_RESULTANT_EXCLUSIONS.md` | uses_rectangle_quotient:R005 |
 | R007 | `PROVED_SYMBOLIC` | The square-cycle systems of 119772 (factors two and three) and 606897 (factor three) admit no varying integer-polynomial primitive-state family. | `research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md` | uses_exact_state_and_base_conditions:C014 |
 | R008 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | For 606897 every root of unity on the four ordinary cycle moduli differs from both uniform signs. | `research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md` | uses_exact_state_and_base_conditions:C014 |
+| R009 | `PROVED_SYMBOLIC` | Each signed square-cycle cofactor system has at most one primitive core per choice of quotients; bounded cofactors give an explicit coordinate bound. | `research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md` | uses_exact_state_and_base_conditions:C014 |
 
 ## Artifact registry
 
@@ -67,3 +68,4 @@
 | A025 | `exact_certificate` | `research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json` | R005 |
 | A026 | `exact_certificate` | `research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json` | R006 |
 | A027 | `exact_certificate` | `research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json` | R008 |
+| A028 | `regression_certificate` | `research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json` | R009 |

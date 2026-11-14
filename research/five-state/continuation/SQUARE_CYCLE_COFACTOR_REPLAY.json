@@ -1,0 +1,251 @@
+{
+  "primitive_core": [
+    406,
+    712,
+    1265,
+    731
+  ],
+  "independent_sign_profiles": 16,
+  "profiles": [
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "cofactors": [
+        7,
+        4,
+        5,
+        43
+      ],
+      "minimum_bound": 840000
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "cofactors": [
+        7,
+        4,
+        5,
+        17
+      ],
+      "minimum_bound": 840000
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "cofactors": [
+        7,
+        4,
+        253,
+        43
+      ],
+      "minimum_bound": 7224000
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "cofactors": [
+        7,
+        4,
+        253,
+        17
+      ],
+      "minimum_bound": 2856000
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "cofactors": [
+        7,
+        178,
+        5,
+        43
+      ],
+      "minimum_bound": 9030000
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "cofactors": [
+        7,
+        178,
+        5,
+        17
+      ],
+      "minimum_bound": 3570000
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "cofactors": [
+        7,
+        178,
+        253,
+        43
+      ],
+      "minimum_bound": 321468000
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "cofactors": [
+        7,
+        178,
+        253,
+        17
+      ],
+      "minimum_bound": 127092000
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "cofactors": [
+        29,
+        4,
+        5,
+        43
+      ],
+      "minimum_bound": 3480000
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "cofactors": [
+        29,
+        4,
+        5,
+        17
+      ],
+      "minimum_bound": 2040000
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "cofactors": [
+        29,
+        4,
+        253,
+        43
+      ],
+      "minimum_bound": 29928000
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "cofactors": [
+        29,
+        4,
+        253,
+        17
+      ],
+      "minimum_bound": 11832000
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "cofactors": [
+        29,
+        178,
+        5,
+        43
+      ],
+      "minimum_bound": 37410000
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "cofactors": [
+        29,
+        178,
+        5,
+        17
+      ],
+      "minimum_bound": 14790000
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "cofactors": [
+        29,
+        178,
+        253,
+        43
+      ],
+      "minimum_bound": 1331796000
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cofactors": [
+        29,
+        178,
+        253,
+        17
+      ],
+      "minimum_bound": 526524000
+    }
+  ]
+}

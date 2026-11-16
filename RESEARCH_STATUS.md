@@ -2,7 +2,7 @@
 
 ## RC3.3 release checkpoint — 16 November 2026
 
-The owner has enabled Zenodo for the corrected repository name. The `rc3.3-zenodo` archival snapshot retains scientific version RC3.3 and includes all nine checker logs declared by the RC3.3 checksum manifest. Verification receipts and their hashes were refreshed by a complete successful replay; the scientific results and open frontier are unchanged. A DOI is reported only after Zenodo assigns it.
+Zenodo has published the `rc3.3-zenodo` snapshot as [10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311), retaining scientific version RC3.3. The all-versions DOI is `10.5281/zenodo.24270310`. The archive includes all nine checker logs declared by the RC3.3 checksum manifest. Verification receipts and hashes were refreshed by a complete successful replay; scientific results and the open frontier are unchanged. The downloaded Zenodo ZIP was checked against all 278 files of tagged commit `7d94e81d06944f36640ab289b87473fc0292c6df`, including all 60 RC3.3 checksum entries.
 
 Repository renamed by its owner to `primitive-radix-mobius-dynamics`; the existing `rc3.3` release and its source commit are preserved. Current citation/Zenodo metadata use the new URL. This is a metadata-only correction, with no new mathematical claim.
 

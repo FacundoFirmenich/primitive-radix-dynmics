@@ -2,9 +2,11 @@
 
 ## RC3.3 — 16 November 2026
 
+Archived release: [RC3.3 on Zenodo](https://doi.org/10.5281/zenodo.24270311) · [GitHub release](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo). The version DOI identifies the code and certificates. The all-versions DOI is [10.5281/zenodo.24270310](https://doi.org/10.5281/zenodo.24270310).
+
 The current oriented frontier is **37 excluded / 1 realized-containing / 2 open**. Scoped all-height cofactor and fifth-coordinate checkers are in [`research/rc33`](research/rc33/README.md); run `make rc33-verify`. Public static epistemic maps are available in [English](outputs/interactive/rc33_epistemic_EN.html) and [Spanish](outputs/interactive/rc33_epistemic_ES.html). The manuscripts and their complete HTML editions are excluded during the pre-arXiv embargo.
 
-The owner renamed the repository to `primitive-radix-mobius-dynamics` on 16 November 2026. The existing `rc3.3` release and its commit are preserved under the new URL. Citation and Zenodo metadata use the corrected URL. Zenodo activation and any DOI assignment are recorded separately; no DOI is invented here.
+The owner renamed the repository to `primitive-radix-mobius-dynamics` on 16 November 2026. The original `rc3.3` release is preserved. After the owner enabled Zenodo, the `rc3.3-zenodo` archival event registered the DOI above. All 278 archived files match commit `7d94e81d06944f36640ab289b87473fc0292c6df`; all 60 RC3.3 checksum entries verify against the downloaded Zenodo archive.
 
 
 

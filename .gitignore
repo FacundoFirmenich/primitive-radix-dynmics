@@ -43,3 +43,14 @@ Thumbs.db
 
 research/rc33/**/__pycache__/
 research/rc33/**/*.bin
+
+# Archived checker receipts listed in research/rc33/SHA256SUMS.txt.
+!/research/rc33/certificates/nested/c4_plane_separate.log
+!/research/rc33/certificates/nested/helical_memory.log
+!/research/rc33/certificates/nested/nested_identities.log
+!/research/rc33/certificates/nested/nested_planes_controls.log
+!/research/rc33/certificates/nested/nested_strata_h14.log
+!/research/rc33/results/integrated_joint.log
+!/research/rc33/results/integrated_nested.log
+!/research/rc33/results/integrated_prime_packing.log
+!/research/rc33/results/integrated_truth_preservation.log

@@ -1,0 +1,39 @@
+{
+  "identity": "M=g*h, Lminus=g*k, gcd(k,h)=1 implies M | Lminus*Lplus iff h | Lplus",
+  "tested_family_n": [
+    10,
+    500
+  ],
+  "all_unit_pairwise_coprime_chamber_cores": 65,
+  "full_square_cores": 0,
+  "explicit_relaxation_counterexample": {
+    "n": 12,
+    "positive_ratios": [
+      "694459/532009",
+      "26/97",
+      "25/99",
+      "28/101"
+    ],
+    "cofactor_denominators": [
+      532009,
+      97,
+      99,
+      101
+    ],
+    "core": [
+      532009,
+      782693,
+      1114047,
+      904253
+    ],
+    "conjugate_factor_residues": [
+      262508,
+      21,
+      64,
+      86
+    ],
+    "full_square_conditions": false
+  },
+  "scope": "refutes sufficiency of the positive nested identity plus cofactor and coordinate coprimality; does not refute the actual arithmetic target",
+  "source_sha256": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726"
+}

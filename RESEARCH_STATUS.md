@@ -2,6 +2,8 @@
 
 ## RC3.3 release checkpoint — 16 November 2026
 
+The owner has enabled Zenodo for the corrected repository name. The `rc3.3-zenodo` archival snapshot retains scientific version RC3.3 and includes all nine checker logs declared by the RC3.3 checksum manifest. Verification receipts and their hashes were refreshed by a complete successful replay; the scientific results and open frontier are unchanged. A DOI is reported only after Zenodo assigns it.
+
 Repository renamed by its owner to `primitive-radix-mobius-dynamics`; the existing `rc3.3` release and its source commit are preserved. Current citation/Zenodo metadata use the new URL. This is a metadata-only correction, with no new mathematical claim.
 
 The complete oriented ledger remains **37 excluded / 1 realized-containing / 2 open**. The historical 7/1/12 count below is an archived unoriented checkpoint, not the current oriented frontier. New scoped arithmetic evidence is under `research/rc33/`; run `make rc33-verify`. Fifth-coordinate nonabsorption and all-height h<=14 strata strengthen the reduction, without closing global existence, uniqueness or least-base questions. Article/supplement/companion manuscripts remain embargoed.

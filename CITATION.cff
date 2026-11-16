@@ -12,12 +12,4 @@ doi: "10.5281/zenodo.24270311"
 repository-code: "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics"
 url: "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics"
 license: MIT
-preferred-citation:
-  type: article
-  title: "Finite Rational Components in Primitive Radix–Möbius Dynamics: Content and a Sharp Threshold"
-  authors:
-    - family-names: Firmenich
-      given-names: Facundo
-      orcid: "https://orcid.org/0009-0002-6578-3811"
-  year: 2026
-  notes: "The manuscript has no registered identifier in this repository."
+date-released: "2026-11-16"

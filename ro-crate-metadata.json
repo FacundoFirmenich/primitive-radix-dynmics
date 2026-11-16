@@ -1,8 +1,38 @@
 {
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
-    {"@id": "ro-crate-metadata.json", "@type": "CreativeWork", "about": {"@id": "./"}},
-    {"@id": "./", "@type": "Dataset", "name": "Primitive Radix Dynamics reproducibility companion", "license": {"@id": "https://spdx.org/licenses/MIT.html"}, "author": {"@id": "https://orcid.org/0009-0002-6578-3811"}},
-    {"@id": "https://orcid.org/0009-0002-6578-3811", "@type": "Person", "name": "Facundo Firmenich"}
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Primitive Radix Dynamics reproducibility companion",
+      "license": {
+        "@id": "https://spdx.org/licenses/MIT.html"
+      },
+      "author": {
+        "@id": "https://orcid.org/0009-0002-6578-3811"
+      },
+      "citation": {
+        "@id": "https://doi.org/10.5281/zenodo.24270311"
+      }
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-6578-3811",
+      "@type": "Person",
+      "name": "Facundo Firmenich"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24270311",
+      "@type": "SoftwareSourceCode",
+      "name": "RC3.3 verification software and exact certificates",
+      "version": "RC3.3",
+      "url": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo"
+    }
   ]
 }

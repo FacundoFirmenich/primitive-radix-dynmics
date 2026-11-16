@@ -1,0 +1,17 @@
+{
+  "scientific_version": "RC3.3",
+  "repo": "FacundoFirmenich/primitive-radix-mobius-dynamics",
+  "tag_name": "rc3.3-zenodo",
+  "html_url": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo",
+  "published_at": "2026-11-16T05:04:28Z",
+  "target_commitish": "7d94e81d06944f36640ab289b87473fc0292c6df",
+  "doi": "10.5281/zenodo.24270311",
+  "concept_doi": "10.5281/zenodo.24270310",
+  "zenodo_record": "https://zenodo.org/records/24270311",
+  "zenodo_archive_checks": {
+    "md5_matches": true,
+    "files_byte_identical_to_tagged_commit": 278,
+    "rc33_sha256_entries": 60,
+    "all_pass": true
+  }
+}

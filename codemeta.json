@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "Primitive Radix Dynamics: research and reproducibility companion",
   "version": "0.3.0-rc7",
-  "codeRepository": "https://github.com/FacundoFirmenich/primitive-radix-dynmics",
+  "codeRepository": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics",
   "license": "https://spdx.org/licenses/MIT.html",
   "programmingLanguage": [
     "Python",
@@ -23,5 +23,12 @@
     "radix transformations",
     "finite rational components",
     "reproducible mathematics"
-  ]
+  ],
+  "citation": {
+    "@type": "SoftwareSourceCode",
+    "name": "Primitive radix–Möbius dynamics: RC3.3 exact certificates and verification software",
+    "version": "RC3.3",
+    "identifier": "https://doi.org/10.5281/zenodo.24270311",
+    "url": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo"
+  }
 }

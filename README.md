@@ -1,5 +1,11 @@
 # Primitive Radix Dynamics · RGΦ
 
+## Archived reproducibility release — RC3.3
+
+**[DOI: 10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311)** · [GitHub release](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo) · [Zenodo record](https://zenodo.org/records/24270311).
+
+The DOI identifies the RC3.3 verification software and exact certificates. The archived source is pinned to [commit `7d94e81`](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/commit/7d94e81d06944f36640ab289b87473fc0292c6df). Cite this version when reproducing the RC3.3 results. The all-versions DOI is [10.5281/zenodo.24270310](https://doi.org/10.5281/zenodo.24270310).
+
 
 A research and reproducibility companion for finite rational components of the radix map and its Möbius conjugate. The project tracks the common integer factor removed at each primitive projective step and uses that content to study which finite labelled graphs can be realized in a common radix.
 

@@ -1,5 +1,9 @@
 # Research status — live dashboard
 
+## Registered reproducibility archive — 16 November 2026
+
+The RC3.3 code-and-certificates archive is registered as [https://doi.org/10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311), tag `rc3.3-zenodo`, source commit `7d94e81d06944f36640ab289b87473fc0292c6df`. This citation points to the pinned release. Its complete receipt is in `docs/ZENODO_RC33_RECEIPT.json`.
+
 **State:** public reproducibility companion and active five-state arithmetic research  
 **Public baseline:** `main`  
 **Manuscript presence:** intentionally absent from the repository  

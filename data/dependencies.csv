@@ -59,3 +59,7 @@ R023,C014,uses_high_chamber_and_overlaps
 R024,R013,specializes_plane_quotient_method
 R024,C011,certifies_uniqueness_in_known_witness_plane
 R025,R009,uses_square_cycles_and_coefficient_mismatch
+RC33-E,C003,depends_on
+RC33-H14,R020,depends_on
+RC33-CAP,RC33-H14,depends_on
+RC33-DESC,C003,depends_on

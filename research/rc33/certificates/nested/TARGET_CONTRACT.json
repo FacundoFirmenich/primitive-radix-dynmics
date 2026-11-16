@@ -1,0 +1,54 @@
+{
+  "checkpoint": "NEST-ATTACK-001",
+  "base": "RC3.3; source crosswalk 2b94a857d220465443a735f7d5fa67ea8007a4a7; active e230180527a4b576c4a70f601a548b2bedbf4523",
+  "input_hashes": {
+    "/workspace/rgphi-rc33-reviewed/source/companion.tex": "a70e5aa477377d3976573ef124209bc11789555f1d084af3d393d19b193fa25e",
+    "/workspace/rgphi-rc33-reviewed/source/main.tex": "830e06aabfd28df32f258aa88d96026a568a9c23791e3c42a7c10ef9434e130d"
+  },
+  "goals": [
+    "Existence or impossibility of 119772/r2",
+    "Existence or impossibility of 606897/r3",
+    "Global uniqueness of known 119772/r3 primitive carrier",
+    "Least base globally (separate five-state and unrestricted cardinality quantifiers)"
+  ],
+  "accepted_proof": "All-height reduction with complete exact exhaustion, or full primitive witness plus CRT/direct edges; finite bounded searches alone are not global closure.",
+  "nesting_interpretation": "Nested exact identities, integer quotient renormalisation, coefficient-carrying mutations and sign-allocation trees; not literal import of PiNest statistical claims.",
+  "routes": [
+    {
+      "id": "N1",
+      "mechanism": "Two nested integer levels on a single cofactor plane; quadratic exhaustion",
+      "first_check": "119772/r2 at A cofactor3, all sign and chamber-admissible ratios",
+      "success": "all-height adjudication of this stratum"
+    },
+    {
+      "id": "N2",
+      "mechanism": "Complement mutations changing all four coordinates or carrying coefficients",
+      "first_check": "test exact preservation and height on primitive square-cycle cores",
+      "success": "closed invariant class and strictly decreasing integer height"
+    },
+    {
+      "id": "N3",
+      "mechanism": "Branch-word spectral nesting reversed into trace congruences",
+      "first_check": "derive TSTS trace in branch digits and eliminate its coefficient constraints",
+      "success": "new independent height or branch-digit restriction; equivalence alone is not progress"
+    },
+    {
+      "id": "N4",
+      "mechanism": "strict-prime valuation lift of complement descent",
+      "outcome": "global obstruction to the specified parallel complement template",
+      "continuation": "coefficient-carrying descents remain open; require a seed-return theorem and an integer height"
+    },
+    {
+      "id": "N5",
+      "mechanism": "joint quotient fibers, exact postfilter intersections, and conjugate-factor truth preservation",
+      "outcome": "local transversality, exact finite candidate collapse, and explicit relaxed counterexample",
+      "continuation": "transport conjugate factor and neighbor weights at every renormalization"
+    }
+  ],
+  "status": "heuristic_attack_phase_completed_with_scoped_results; global program open",
+  "created_utc": "2026-11-15T19:27:27.828420+00:00",
+  "followup_inputs": [
+    "helical projected-return versus full-state distinction",
+    "hyperaccess as joint compatibility and exact fiber collapse"
+  ]
+}

@@ -9,7 +9,15 @@ ROOT=Path(__file__).resolve().parents[2]; OUT=ROOT/'outputs/figures'; OUT.mkdir(
 plt.rcParams.update({'font.size':10,'font.family':'DejaVu Sans','axes.linewidth':0.8,'figure.dpi':160,'savefig.dpi':240})
 
 def save(fig,name):
+    for ax in fig.axes:
+        for patch in ax.patches:
+            patch.set_edgecolor('#315FA7')
+            if patch.get_fill(): patch.set_facecolor('#D4DEF2')
+        for line in ax.lines: line.set_color('#315FA7')
+        for spine in ax.spines.values(): spine.set_edgecolor('#9BAED0')
     for ext in ('svg','png','pdf'): fig.savefig(OUT/f'{name}.{ext}',bbox_inches='tight',transparent=False)
+    for p in OUT.glob(name+'.svg'):
+        p.write_text('\n'.join(line.rstrip() for line in p.read_text().splitlines())+'\n')
     plt.close(fig)
 
 def box(ax,xy,w,h,text,lw=1.4):

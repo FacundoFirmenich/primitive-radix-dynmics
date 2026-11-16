@@ -45,3 +45,5 @@ A043,Prime pattern proof and exact rank checker,research/five-state/continuation
 A044,Reverse CRT slope theorem,research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md,proof_record,R023
 A045,Uniqueness on the witness cofactor plane and quadratic replay,research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py,exact_certificate,R024
 A046,Weighted cycle ideal quotient obstruction,research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md,proof_record,R025
+A-RC33-E,Fifth-coordinate exact leaves,research/rc33/code/check_fifth_coordinate.py,exact_checker,RC33-E
+A-RC33-H,Signed cofactor all-height coverage,research/rc33/code/check_integrated_certificates.py,exact_checker,RC33-H14;RC33-CAP

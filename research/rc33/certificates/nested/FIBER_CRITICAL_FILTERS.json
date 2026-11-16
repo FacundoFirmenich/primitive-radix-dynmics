@@ -1,0 +1,104 @@
+[
+  {
+    "code": 119772,
+    "r": 2,
+    "nonknown_generated_candidates": 572,
+    "distinct_failure_clauses": 72,
+    "minimum_postfilter_predicate_count": 3,
+    "minimum_sets": [
+      [
+        "strict_prime_unit",
+        "overlap_AC",
+        "overlap_DQ"
+      ],
+      [
+        "strict_prime_unit",
+        "overlap_AC",
+        "square_D"
+      ],
+      [
+        "strict_prime_unit",
+        "overlap_AC",
+        "square_Q"
+      ],
+      [
+        "strict_prime_unit",
+        "overlap_DQ",
+        "square_A"
+      ],
+      [
+        "strict_prime_unit",
+        "overlap_DQ",
+        "square_C"
+      ],
+      [
+        "strict_prime_unit",
+        "square_A",
+        "square_D"
+      ],
+      [
+        "strict_prime_unit",
+        "square_A",
+        "square_Q"
+      ],
+      [
+        "strict_prime_unit",
+        "square_C",
+        "square_D"
+      ],
+      [
+        "strict_prime_unit",
+        "square_C",
+        "square_Q"
+      ],
+      [
+        "square_A",
+        "square_C",
+        "square_Q"
+      ]
+    ],
+    "scope": "postfilters on the generated bounded-cofactor rational fibers, not independent replacement of assumptions used to generate those fibers"
+  },
+  {
+    "code": 119772,
+    "r": 3,
+    "nonknown_generated_candidates": 1253,
+    "distinct_failure_clauses": 80,
+    "minimum_postfilter_predicate_count": 2,
+    "minimum_sets": [
+      [
+        "strict_prime_unit",
+        "square_A"
+      ]
+    ],
+    "scope": "postfilters on the generated bounded-cofactor rational fibers, not independent replacement of assumptions used to generate those fibers"
+  },
+  {
+    "code": 606897,
+    "r": 3,
+    "nonknown_generated_candidates": 1543,
+    "distinct_failure_clauses": 91,
+    "minimum_postfilter_predicate_count": 4,
+    "minimum_sets": [
+      [
+        "strict_prime_unit",
+        "overlap_DQ",
+        "square_A",
+        "square_Q"
+      ],
+      [
+        "strict_prime_unit",
+        "square_A",
+        "square_D",
+        "square_Q"
+      ],
+      [
+        "square_A",
+        "square_C",
+        "square_D",
+        "square_Q"
+      ]
+    ],
+    "scope": "postfilters on the generated bounded-cofactor rational fibers, not independent replacement of assumptions used to generate those fibers"
+  }
+]

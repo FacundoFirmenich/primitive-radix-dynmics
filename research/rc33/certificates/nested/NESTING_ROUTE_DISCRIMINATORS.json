@@ -1,0 +1,231 @@
+{
+  "positive_119_equation": "u*v*w*z - (r - 1)**2 + (w + z)*(r*v + u)",
+  "positive_606_equation": "u*v*w*z + (u + v)*(3*w + z) - 4",
+  "determinants_verified": true,
+  "relaxed_all_denominators_grow_family": {
+    "u": "-(2*t - 1)*(2*t + 1)/(t*(t**2 + 2))",
+    "Q_over_A": "-(t - 1)*(t + 1)/(t*(t**2 + 2))",
+    "C_over_A": "3/(t**2 + 2)",
+    "D_over_A": "(2*t**2 + 1)/(t*(t**2 + 2))",
+    "samples": [
+      {
+        "n": 101,
+        "positive_ratios": [
+          "48122864/35432985",
+          "105/404",
+          "105/404",
+          "105/404"
+        ],
+        "reduced_denominators": [
+          35432985,
+          404,
+          404,
+          404
+        ],
+        "arithmetic_status": "not claimed a core; shared denominators violate the coprime cofactor jurisdiction"
+      },
+      {
+        "n": 1001,
+        "positive_ratios": [
+          "48015631664/33239427285",
+          "1005/4004",
+          "1005/4004",
+          "1005/4004"
+        ],
+        "reduced_denominators": [
+          33239427285,
+          4004,
+          4004,
+          4004
+        ],
+        "arithmetic_status": "not claimed a core; shared denominators violate the coprime cofactor jurisdiction"
+      },
+      {
+        "n": 10001,
+        "positive_ratios": [
+          "48001596319664/33023904270285",
+          "10005/40004",
+          "10005/40004",
+          "10005/40004"
+        ],
+        "reduced_denominators": [
+          33023904270285,
+          40004,
+          40004,
+          40004
+        ],
+        "arithmetic_status": "not claimed a core; shared denominators violate the coprime cofactor jurisdiction"
+      }
+    ]
+  },
+  "mutation_checks": [
+    {
+      "mask": 1,
+      "new_primitive_coordinates": [
+        7904,
+        731,
+        712,
+        1265
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 2,
+      "new_primitive_coordinates": [
+        406,
+        468,
+        712,
+        1265
+      ],
+      "height": 1265,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 3,
+      "new_primitive_coordinates": [
+        7904,
+        468,
+        712,
+        1265
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 4,
+      "new_primitive_coordinates": [
+        406,
+        731,
+        1497,
+        1265
+      ],
+      "height": 1497,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 5,
+      "new_primitive_coordinates": [
+        7904,
+        731,
+        1497,
+        1265
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 6,
+      "new_primitive_coordinates": [
+        406,
+        468,
+        1497,
+        1265
+      ],
+      "height": 1497,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 7,
+      "new_primitive_coordinates": [
+        7904,
+        468,
+        1497,
+        1265
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 8,
+      "new_primitive_coordinates": [
+        406,
+        731,
+        712,
+        772
+      ],
+      "height": 772,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 9,
+      "new_primitive_coordinates": [
+        7904,
+        731,
+        712,
+        772
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 10,
+      "new_primitive_coordinates": [
+        203,
+        234,
+        356,
+        386
+      ],
+      "height": 386,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 11,
+      "new_primitive_coordinates": [
+        1976,
+        117,
+        178,
+        193
+      ],
+      "height": 1976,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 12,
+      "new_primitive_coordinates": [
+        406,
+        731,
+        1497,
+        772
+      ],
+      "height": 1497,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 13,
+      "new_primitive_coordinates": [
+        7904,
+        731,
+        1497,
+        772
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 14,
+      "new_primitive_coordinates": [
+        406,
+        468,
+        1497,
+        772
+      ],
+      "height": 1497,
+      "same_weighted_cycle_valid_relabellings": []
+    },
+    {
+      "mask": 15,
+      "new_primitive_coordinates": [
+        7904,
+        468,
+        1497,
+        772
+      ],
+      "height": 7904,
+      "same_weighted_cycle_valid_relabellings": []
+    }
+  ],
+  "branch_trace_formula": "2*B**2 + B*(at + ct)*(2*B + bt + dt - 2) + at*ct*(B + bt - 1)*(B + dt - 1)",
+  "witness_trace_identity_pass": true,
+  "height_bound_from_trace_alone": false
+}

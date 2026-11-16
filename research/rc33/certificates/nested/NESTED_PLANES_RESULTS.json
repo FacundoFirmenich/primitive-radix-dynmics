@@ -1,0 +1,232 @@
+[
+  {
+    "r": 2,
+    "alpha": 2,
+    "k": -5,
+    "h": 3,
+    "level_pairs": 8374,
+    "J_strict_bounds": [
+      -25,
+      135
+    ],
+    "K_abs_bound": "51/2",
+    "high_primitive_quadratic_candidates": [
+      [
+        141,
+        231,
+        323,
+        279
+      ]
+    ],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.006082343010348268
+  },
+  {
+    "r": 2,
+    "alpha": 2,
+    "k": -1,
+    "h": 3,
+    "level_pairs": 5494,
+    "J_strict_bounds": [
+      -1,
+      135
+    ],
+    "K_abs_bound": "39/2",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.003628689009929076
+  },
+  {
+    "r": 2,
+    "alpha": -2,
+    "k": 13,
+    "h": 3,
+    "level_pairs": 23254,
+    "J_strict_bounds": [
+      -169,
+      135
+    ],
+    "K_abs_bound": "75/2",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.014352533995406702
+  },
+  {
+    "r": 2,
+    "alpha": -2,
+    "k": 17,
+    "h": 3,
+    "level_pairs": 37558,
+    "J_strict_bounds": [
+      -289,
+      135
+    ],
+    "K_abs_bound": "87/2",
+    "high_primitive_quadratic_candidates": [
+      [
+        1941,
+        2907,
+        4743,
+        3128
+      ],
+      [
+        658281,
+        1033923,
+        1361853,
+        1184203
+      ]
+    ],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.022513474003062584
+  },
+  {
+    "r": 2,
+    "alpha": -2,
+    "k": 19,
+    "h": 3,
+    "level_pairs": 46930,
+    "J_strict_bounds": [
+      -361,
+      135
+    ],
+    "K_abs_bound": "93/2",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.030101212003501132
+  },
+  {
+    "r": 2,
+    "alpha": -2,
+    "k": 23,
+    "h": 3,
+    "level_pairs": 70834,
+    "J_strict_bounds": [
+      -529,
+      135
+    ],
+    "K_abs_bound": "105/2",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.04118784599995706
+  },
+  {
+    "r": 3,
+    "alpha": 3,
+    "k": -5,
+    "h": 2,
+    "level_pairs": 12533,
+    "J_strict_bounds": [
+      -25,
+      60
+    ],
+    "K_abs_bound": "74",
+    "high_primitive_quadratic_candidates": [
+      [
+        5846,
+        10868,
+        18676,
+        11097
+      ]
+    ],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.009374741988722235
+  },
+  {
+    "r": 3,
+    "alpha": -3,
+    "k": 17,
+    "h": 2,
+    "level_pairs": 69053,
+    "J_strict_bounds": [
+      -289,
+      60
+    ],
+    "K_abs_bound": "98",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.04481623400351964
+  },
+  {
+    "r": 3,
+    "alpha": -3,
+    "k": 19,
+    "h": 2,
+    "level_pairs": 86733,
+    "J_strict_bounds": [
+      -361,
+      60
+    ],
+    "K_abs_bound": "102",
+    "high_primitive_quadratic_candidates": [],
+    "realizations": [],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.05397113000799436
+  },
+  {
+    "r": 3,
+    "alpha": 3,
+    "k": -16,
+    "h": 7,
+    "level_pairs": 509335,
+    "J_strict_bounds": [
+      -256,
+      735
+    ],
+    "K_abs_bound": "256",
+    "high_primitive_quadratic_candidates": [
+      [
+        406,
+        712,
+        1265,
+        731
+      ],
+      [
+        3941,
+        7224,
+        14308,
+        7772
+      ],
+      [
+        76223441,
+        143229744,
+        281410822,
+        151878610
+      ]
+    ],
+    "realizations": [
+      {
+        "tuple": [
+          406,
+          712,
+          1265,
+          731,
+          557
+        ],
+        "base_and_period": [
+          88011536665779,
+          223336848698040
+        ]
+      }
+    ],
+    "degenerate_level_equations": [],
+    "coordinate_cutoff": null,
+    "seconds": 0.39991834499232937
+  }
+]

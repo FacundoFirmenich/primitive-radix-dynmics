@@ -27,3 +27,7 @@ reproduce: verify test trace graph figures seal integrity
 
 clean:
 	rm -rf outputs/figures/* outputs/interactive/* outputs/reports/* outputs/checksums/*
+
+.PHONY: rc33-verify
+rc33-verify:
+	$(MAKE) -C research/rc33 verify

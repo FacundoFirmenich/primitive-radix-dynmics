@@ -1,0 +1,92 @@
+{
+  "checkpoint": "NEST-ATTACK-001",
+  "started_utc": "2026-11-16T00:56:41.853614+00:00",
+  "input_hashes_before": {
+    "helical_lift_attack.py": "eb6c1b65bd62a6abdd46174e356c7bf67c1e18e150f269bb2d9427a8b5adf1ca",
+    "joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "nested_identity_attacks.py": "600047bb20d49df8a7d74a429197e485955ffc902346cf1e7b18fe233fd9fd47",
+    "nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "run_all.py": "76f96e53116a392081e130917a954056f014e9351b95490fb97a6dcb7e386816",
+    "source-checker/research/five-state/continuation/verify_exceptional_crt.py": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+    "source-checker/src/rmr/__init__.py": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+    "source-checker/src/rmr/core.py": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+    "truth_preserving_nesting.py": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726",
+    "verify_c4_plane.py": "5bee83c475cb73de513cbde130099077b140afdc7048912fe98567b33c1b9094"
+  },
+  "jobs": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "nested_strata.py",
+        "--max-h",
+        "14"
+      ],
+      "returncode": 0,
+      "seconds": 97.31577369100705,
+      "log": "nested_strata_h14.log",
+      "sha256": "d456507b68a55b036a248eafbed9d0969dc0480a64368987ab6fc519f90f6a54"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "nested_planes.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.9499754220014438,
+      "log": "nested_planes_controls.log",
+      "sha256": "bc4d93294b9b6af61fb182ed0dc12b2d2f8ccbc02c7c7229d96fc2dcc0d93371"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "verify_c4_plane.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.03409287300019059,
+      "log": "c4_plane_separate.log",
+      "sha256": "c1088d3d2e3d1be06c8135592f2c98f6a38276ebf0af5fb6ed89dcaef3c3fc2e"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "nested_identity_attacks.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.32993573100247886,
+      "log": "nested_identities.log",
+      "sha256": "9a3a7b8303a114a2def330cc72dc259949d71daa6d5c16f7658ffae87aa3b9c6"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "helical_lift_attack.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.03125722699041944,
+      "log": "helical_memory.log",
+      "sha256": "926cedcead75aef9a972d50ef5c0ff436d1ac4d87b91290cd64dbc373e5b3553"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "input_hashes_after": {
+    "helical_lift_attack.py": "eb6c1b65bd62a6abdd46174e356c7bf67c1e18e150f269bb2d9427a8b5adf1ca",
+    "joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "nested_identity_attacks.py": "600047bb20d49df8a7d74a429197e485955ffc902346cf1e7b18fe233fd9fd47",
+    "nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "run_all.py": "76f96e53116a392081e130917a954056f014e9351b95490fb97a6dcb7e386816",
+    "source-checker/research/five-state/continuation/verify_exceptional_crt.py": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+    "source-checker/src/rmr/__init__.py": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+    "source-checker/src/rmr/core.py": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+    "truth_preserving_nesting.py": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726",
+    "verify_c4_plane.py": "5bee83c475cb73de513cbde130099077b140afdc7048912fe98567b33c1b9094"
+  },
+  "finished_utc": "2026-11-16T00:58:20.525946+00:00",
+  "status": "PASS_SCOPED_ALL_HEIGHT_STRATA_NOT_GLOBAL_CLASSIFICATION"
+}

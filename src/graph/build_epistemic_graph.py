@@ -21,7 +21,7 @@ for a in arts:
             if cid: edges.append({'source':a['artifact_id'],'target':cid,'relation':'supports'})
 for r in lit:
     if r['decision'] in {'ADD','CITE','CONTEXT'}: edges.append({'source':'L_'+r['key'],'target':'C001','relation':'contextualizes'})
-graph={'meta':{'title':'Primitive Radix Dynamics — Epistemic Graph','version':'0.3.0-rc7','generated_from':['data/claims.csv','data/dependencies.csv','data/artifacts.csv','data/literature.csv']},'nodes':nodes,'edges':edges}
+graph={'meta':{'title':'Primitive Radix Dynamics — Epistemic Graph','version':'RC3.3','generated_from':['data/claims.csv','data/dependencies.csv','data/artifacts.csv','data/literature.csv']},'nodes':nodes,'edges':edges}
 outj=ROOT/'outputs/interactive/epistemic_graph.json'; outj.parent.mkdir(parents=True,exist_ok=True); outj.write_text(json.dumps(graph,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 layers=['Object','Theorems','Rigidity','Certificates','Counterexample','Threshold','Evidence','Literature','Boundary','Claims']
 html_doc=r"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Primitive Radix Dynamics — Epistemic Graph</title><style>

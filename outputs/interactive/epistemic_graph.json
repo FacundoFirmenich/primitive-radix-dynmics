@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Primitive Radix Dynamics — Epistemic Graph",
-    "version": "0.3.0-rc7",
+    "version": "RC3.3",
     "generated_from": [
       "data/claims.csv",
       "data/dependencies.csv",
@@ -511,6 +511,46 @@
       "scope": "research_frontier"
     },
     {
+      "id": "RC33-E",
+      "label": "RC33-E",
+      "title": "The five declared completion chambers have no E-absorption solution under the exact finite reductions; lambda>=2, and lambda>=3 at factor two.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_FINITE_REDUCTION",
+      "artifact": "research/rc33/results/fifth_coordinate_checks.json",
+      "scope": "all_five_chambers; finite_reduction_scope"
+    },
+    {
+      "id": "RC33-H14",
+      "label": "RC33-H14",
+      "title": "All three residual systems with any signed cofactor denominator h<=14 retain only the known primitive carrier; the finite reduction has no coordinate-height cutoff.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_ALL_HEIGHT_STRATA",
+      "artifact": "research/rc33/results/NESTED_COVERAGE_CHECKS.json",
+      "scope": "bounded_cofactor; not_uniform_cofactor_bound"
+    },
+    {
+      "id": "RC33-CAP",
+      "label": "RC33-CAP",
+      "title": "Different carriers must satisfy the proved prime-power capacity and qualified odd-base conditions; survivors of the necessary sieve are not realizations.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_NECESSARY_FILTER",
+      "artifact": "research/rc33/certificates/prime-packing/RESULTS.json",
+      "scope": "necessary_conditions_only"
+    },
+    {
+      "id": "RC33-DESC",
+      "label": "RC33-DESC",
+      "title": "The full parallel quadratic-complement template leaves the unit domain at the strict prime; this excludes that template, not all descents.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_TEMPLATE_OBSTRUCTION",
+      "artifact": "research/rc33/certificates/nested/HELICAL_LIFT_RESULTS.json",
+      "scope": "specific_descent_template_only"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -968,6 +1008,26 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-RC33-E",
+      "label": "A-RC33-E",
+      "title": "Fifth-coordinate exact leaves",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/code/check_fifth_coordinate.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-RC33-H",
+      "label": "A-RC33-H",
+      "title": "Signed cofactor all-height coverage",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/code/check_integrated_certificates.py",
       "scope": "evidence"
     },
     {
@@ -1493,6 +1553,26 @@
       "relation": "uses_square_cycles_and_coefficient_mismatch"
     },
     {
+      "source": "RC33-E",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-H14",
+      "target": "R020",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-CAP",
+      "target": "RC33-H14",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-DESC",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -1800,6 +1880,21 @@
     {
       "source": "A046",
       "target": "R025",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-E",
+      "target": "RC33-E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-H",
+      "target": "RC33-H14",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-H",
+      "target": "RC33-CAP",
       "relation": "supports"
     },
     {

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this research and reproducibility companion, cite the software and the associated article when available."
-title: "Primitive Radix Dynamics: research and reproducibility companion"
+title: "Primitive radix–Möbius dynamics: RC3.3 exact certificates and verification software"
 type: software
 authors:
   - family-names: Firmenich
     given-names: Facundo
     orcid: "https://orcid.org/0009-0002-6578-3811"
     affiliation: "Centro de Estudios del Sur (CEDESUR); Universidad Nacional Arturo Jauretche"
-version: "0.3.0-rc7"
+version: "RC3.3"
 repository-code: "https://github.com/FacundoFirmenich/primitive-radix-dynmics"
 url: "https://github.com/FacundoFirmenich/primitive-radix-dynmics"
 license: MIT

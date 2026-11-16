@@ -1,5 +1,10 @@
 # Research status — live dashboard
 
+## RC3.3 release checkpoint — 16 November 2026
+
+The complete oriented ledger remains **37 excluded / 1 realized-containing / 2 open**. The historical 7/1/12 count below is an archived unoriented checkpoint, not the current oriented frontier. New scoped arithmetic evidence is under `research/rc33/`; run `make rc33-verify`. Fifth-coordinate nonabsorption and all-height h<=14 strata strengthen the reduction, without closing global existence, uniqueness or least-base questions. Article/supplement/companion manuscripts remain embargoed.
+
+
 **State:** public reproducibility companion and active five-state arithmetic research  
 **Public baseline:** `main`  
 **Manuscript presence:** intentionally absent from the repository  

@@ -52,6 +52,10 @@
 | R023 | `PROVED_SYMBOLIC` | Fix A and C in a residual square cycle. Each simultaneous root class refined by the strict shift and Q modulo three when needed supports at most one primitive D/Q slope in the high chamber. | `research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md` | extends_chamber_lattice_rigidity:R020<br>uses_high_chamber_and_overlaps:C014 |
 | R024 | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | The known factor-three realization is the unique realization on the cofactor plane 7D=21Q-16A, with no height bound. | `research/five-state/continuation/WITNESS_COFACTOR_PLANE.md` | specializes_plane_quotient_method:R013<br>certifies_uniqueness_in_known_witness_plane:C011 |
 | R025 | `PROVED_SYMBOLIC` | Polynomial quotients built from independent powers of the four core ideals and the principal fifth-modulus ideal are constant in matching homogeneous degree. | `research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md` | uses_square_cycles_and_coefficient_mismatch:R009 |
+| RC33-E | `CERTIFIED_FINITE_REDUCTION` | The five declared completion chambers have no E-absorption solution under the exact finite reductions; lambda>=2, and lambda>=3 at factor two. | `research/rc33/results/fifth_coordinate_checks.json` | depends_on:C003 |
+| RC33-H14 | `CERTIFIED_ALL_HEIGHT_STRATA` | All three residual systems with any signed cofactor denominator h<=14 retain only the known primitive carrier; the finite reduction has no coordinate-height cutoff. | `research/rc33/results/NESTED_COVERAGE_CHECKS.json` | depends_on:R020 |
+| RC33-CAP | `CERTIFIED_NECESSARY_FILTER` | Different carriers must satisfy the proved prime-power capacity and qualified odd-base conditions; survivors of the necessary sieve are not realizations. | `research/rc33/certificates/prime-packing/RESULTS.json` | depends_on:RC33-H14 |
+| RC33-DESC | `CERTIFIED_TEMPLATE_OBSTRUCTION` | The full parallel quadratic-complement template leaves the unit domain at the strict prime; this excludes that template, not all descents. | `research/rc33/certificates/nested/HELICAL_LIFT_RESULTS.json` | depends_on:C003 |
 
 ## Artifact registry
 
@@ -103,3 +107,5 @@
 | A044 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md` | R023 |
 | A045 | `exact_certificate` | `research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py` | R024 |
 | A046 | `proof_record` | `research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md` | R025 |
+| A-RC33-E | `exact_checker` | `research/rc33/code/check_fifth_coordinate.py` | RC33-E |
+| A-RC33-H | `exact_checker` | `research/rc33/code/check_integrated_certificates.py` | RC33-H14;RC33-CAP |

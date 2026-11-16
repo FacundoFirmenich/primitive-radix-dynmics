@@ -40,3 +40,6 @@ Thumbs.db
 
 # Local compiled checker
 /outputs/reports/*.bin
+
+research/rc33/**/__pycache__/
+research/rc33/**/*.bin

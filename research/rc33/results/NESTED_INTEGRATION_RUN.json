@@ -1,0 +1,136 @@
+{
+  "schema": "rgphi-integrated-arithmetic-run-v2",
+  "run": {
+    "started_utc": "2026-11-16T00:56:41.819729+00:00",
+    "status": "completed",
+    "finished_utc": "2026-11-16T00:58:27.717977+00:00"
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "sympy": "1.14.0"
+  },
+  "input_hashes_before": {
+    "certificates/nested/helical_lift_attack.py": "eb6c1b65bd62a6abdd46174e356c7bf67c1e18e150f269bb2d9427a8b5adf1ca",
+    "certificates/nested/joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "certificates/nested/nested_identity_attacks.py": "600047bb20d49df8a7d74a429197e485955ffc902346cf1e7b18fe233fd9fd47",
+    "certificates/nested/nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "certificates/nested/nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "certificates/nested/run_all.py": "76f96e53116a392081e130917a954056f014e9351b95490fb97a6dcb7e386816",
+    "certificates/nested/source-checker/research/five-state/continuation/verify_exceptional_crt.py": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+    "certificates/nested/source-checker/src/rmr/__init__.py": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+    "certificates/nested/source-checker/src/rmr/core.py": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+    "certificates/nested/truth_preserving_nesting.py": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726",
+    "certificates/nested/verify_c4_plane.py": "5bee83c475cb73de513cbde130099077b140afdc7048912fe98567b33c1b9094",
+    "certificates/prime-packing/prime_power_packing.py": "dc5b00e011fbe0356ce65eff6a094d1797557b3fd4054c8340c3b8b354562c06"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "run_all.py"
+      ],
+      "cwd": "certificates/nested",
+      "returncode": 0,
+      "seconds": 98.71117731599952,
+      "log": "results/integrated_nested.log",
+      "log_sha256": "51e6270755a89a9eacab7ccfb5566904cc3f47c382f7accdaa9f4c4e1d35e118"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "joint_fiber_attack.py"
+      ],
+      "cwd": "certificates/nested",
+      "returncode": 0,
+      "seconds": 0.3992114830034552,
+      "log": "results/integrated_joint.log",
+      "log_sha256": "5040215a3ed1a1db356e2481f7c7a090e9553d911d2be1a494dbc1b0b7164391"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "truth_preserving_nesting.py"
+      ],
+      "cwd": "certificates/nested",
+      "returncode": 0,
+      "seconds": 0.04416679299902171,
+      "log": "results/integrated_truth_preservation.log",
+      "log_sha256": "71172ebf10965737ea4362d004a2d0e6565ef4188ca109425df0561edda9785a"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "prime_power_packing.py"
+      ],
+      "cwd": "certificates/prime-packing",
+      "returncode": 0,
+      "seconds": 6.561122510000132,
+      "log": "results/integrated_prime_packing.log",
+      "log_sha256": "8524d77796e7af03aae0d8b6d3001ee6076413f0e36494cb5bc515803fe5a558"
+    }
+  ],
+  "assertion_tested": "Replay and cross-check the arithmetic integrated into canonical RC3.3.\n\nAssertion tested: every numerator, sign and position for any signed cofactor\ndenominator h<=14 in the three declared residual systems is covered by the\nbounded integer-level reduction; only the known carrier survives.  This is\nan all-height bounded-cofactor assertion, never an unbounded-h conclusion.\nThe packing replay tests necessary filters, not realization of survivors.\n",
+  "review": "sequential self-review, not independent peer review",
+  "input_hashes_after": {
+    "certificates/nested/helical_lift_attack.py": "eb6c1b65bd62a6abdd46174e356c7bf67c1e18e150f269bb2d9427a8b5adf1ca",
+    "certificates/nested/joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "certificates/nested/nested_identity_attacks.py": "600047bb20d49df8a7d74a429197e485955ffc902346cf1e7b18fe233fd9fd47",
+    "certificates/nested/nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "certificates/nested/nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "certificates/nested/run_all.py": "76f96e53116a392081e130917a954056f014e9351b95490fb97a6dcb7e386816",
+    "certificates/nested/source-checker/research/five-state/continuation/verify_exceptional_crt.py": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+    "certificates/nested/source-checker/src/rmr/__init__.py": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+    "certificates/nested/source-checker/src/rmr/core.py": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+    "certificates/nested/truth_preserving_nesting.py": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726",
+    "certificates/nested/verify_c4_plane.py": "5bee83c475cb73de513cbde130099077b140afdc7048912fe98567b33c1b9094",
+    "certificates/prime-packing/prime_power_packing.py": "dc5b00e011fbe0356ce65eff6a094d1797557b3fd4054c8340c3b8b354562c06"
+  },
+  "coverage_checks": {
+    "status": "PASS",
+    "chamber_vertices": "three halfspace enumerations match the encoded tetrahedra",
+    "symbolic_level_cancellation": "PASS",
+    "complete_signed_planes": 702,
+    "reported_raw_candidates_rechecked": 3407,
+    "nonzero_J_level_pairs": 156195248,
+    "h1_nonzero_J_level_pairs": 2008,
+    "zero_level_cases": "handled separately by the enumerator; not included in these pair counters",
+    "scope": "Coverage of h<=14, not a uniform cofactor bound"
+  },
+  "prime_packing_scope": "necessary-filter survivors, not realizations; known carrier retained separately",
+  "output_hashes": {
+    "certificates/nested/C4_PLANE_SEPARATE_CHECK.json": "033ed5c53f1d57515a5666ec16a5bb7b13db2c224f7a1411d87cc27e7a737ade",
+    "certificates/nested/COPRIME_RELAXATION_PROBE.json": "8c9928d32825b3f7cf9c27e53fe2a23587ac8510fa99cb97b12f18a24c684926",
+    "certificates/nested/FIBER_CRITICAL_FILTERS.json": "f530f9c89d73df5b8ca3261329623ada98c707053239b4fe5cfb3c36f9f347b3",
+    "certificates/nested/FIBER_JACOBIAN.json": "30a1a6f72e1e08f7c473c41e5b115c589103120e48095594ead116a4f6df99ec",
+    "certificates/nested/HELICAL_LIFT_RESULTS.json": "5aa31b5d285dafa087a31e54fde187467083853531ac3741ea9e86f35a4ffdad",
+    "certificates/nested/JOINT_FIBER_ATTACK_RESULTS.json": "f4e20ad9c882e8af279ea566e4c1bea68f46a5429fa6cabec260d0a78a03b2c0",
+    "certificates/nested/JOINT_FIBER_RUN_MANIFEST.json": "1ee8576117c1c5c719138e7bde27ac3436fa91ea8a696d9bedf2dde668333085",
+    "certificates/nested/JOINT_FILTER_COUNTS.json": "f1ec2594a29e57fed80e087921c2841d70709dd2fcc9056445891e3c87b45423",
+    "certificates/nested/LOCAL_PRIME_MEMORY_CHECK.json": "9099287602edcdfe2f17b77ed7490a1e5867e5b99a7c22621fc6a1ca0adef067",
+    "certificates/nested/NESTED_IDENTITY_RESULTS.json": "509a73432a99f514543e26b191f2782713d4198b7ddeb129fe010440c66b1755",
+    "certificates/nested/NESTED_PLANES_RESULTS.json": "8285368bb4a33840d1646dbd565c54dc8c33c36d4fbb9fa88a2726f87c451c9c",
+    "certificates/nested/NESTED_STRATA_H8.json": "24bf8e44ab0a0784cb7044914772fad01754a26099720b1e274ca9ab70140ba7",
+    "certificates/nested/NESTED_STRATA_RESULTS.json": "ba35a6b56953f86e38c592545d6117d790f68f5e692a264c583a45b53a902aab",
+    "certificates/nested/NESTING_ROUTE_DISCRIMINATORS.json": "edce954aafc0fd3c20210780570d062b929da2d46da4fd7230a4b7a7e5ef84ca",
+    "certificates/nested/PROOF_AUDIT.json": "3337678d3482680c522cb296dc275d0c7e847a557ce5afa4ca45e4c56ed8dd7a",
+    "certificates/nested/PUBLICATION_REFERENCE_HASHES.json": "eb0be1fa5383108cff4482e0cafca5bd8e85c052a6466c5e0ff4783354f1ed3d",
+    "certificates/nested/PURE_SIGN_NESTED_REPLAY.json": "978761d5005430197451a946437c92eed3a5c3bbca62ddf6757558fa8956088c",
+    "certificates/nested/RESEARCH_STATUS.json": "9be30108e4accc07507eee24dea299fb14debdba1e5b5cd304ff3e83192b2555",
+    "certificates/nested/RUN_MANIFEST.json": "8e99e773a859a190a95114707727f55903e3a8b2a510065335773b93094bd290",
+    "certificates/nested/SOURCE_DEPENDENCIES.json": "0a4a09ded6b1a40a8a281e6f207c868b0c5cd3644b4ecef80347a55333d2f815",
+    "certificates/nested/STRATA_SUMMARY.json": "a7831d510cbd43c801ec133a33ecbd4068e0fa33c5f2d959a5d7872f34a3d44a",
+    "certificates/nested/STRONG_RELAXATION_PROBE.json": "89429066bcdf7a6ba8f84bdfb18f60935794eaf55e0c71ea268c821eb256f7e8",
+    "certificates/nested/TARGET_CONTRACT.json": "b79431c4772c9bd9d8f3c8d2b1d0f4d01f18071ce3509e696b87c1957953c66c",
+    "certificates/nested/TRUTH_PRESERVING_NESTING_RESULTS.json": "d6aa36531c4a99e106936f61a24efe62576ccc9e761f62207f3facaf527ecf90",
+    "certificates/nested/VISUAL_QA.json": "5a4b937103c41db20e560f8b6850759820aecd1c94a8b34b378203104c08b94c",
+    "certificates/prime-packing/RESULTS.json": "8524d77796e7af03aae0d8b6d3001ee6076413f0e36494cb5bc515803fe5a558",
+    "certificates/prime-packing/SOURCE_DEPENDENCIES.json": "dd44c2ee451d4ab57925c8b516b64b8c94b9ae568bd17c2a9e51cac7f1ab9c0c",
+    "certificates/prime-packing/SURVIVING_BASES.json": "ba28fbc3dd510f8181e5e7675ffa0a58c0d2a37b9db7607f63edcd8f9b32b79c",
+    "certificates/prime-packing/VISUAL_QA.json": "1a1284125398a195b52dabcf5024f05ca85f1a9bc4860e18eee2fdb8a7437cae"
+  }
+}

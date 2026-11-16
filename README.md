@@ -4,7 +4,7 @@
 
 The current oriented frontier is **37 excluded / 1 realized-containing / 2 open**. Scoped all-height cofactor and fifth-coordinate checkers are in [`research/rc33`](research/rc33/README.md); run `make rc33-verify`. Public static epistemic maps are available in [English](outputs/interactive/rc33_epistemic_EN.html) and [Spanish](outputs/interactive/rc33_epistemic_ES.html). The manuscripts and their complete HTML editions are excluded during the pre-arXiv embargo.
 
-The owner requested the corrected repository name `primitive-radix-mobius-dynamics`. This integration can publish code but its administration request returned HTTP 403, so the actual repository URL is retained until the rename is available. The author will arrange Zenodo; no DOI is invented here.
+The owner renamed the repository to `primitive-radix-mobius-dynamics` on 16 November 2026. The existing `rc3.3` release and its commit are preserved under the new URL. Citation and Zenodo metadata use the corrected URL. Zenodo activation and any DOI assignment are recorded separately; no DOI is invented here.
 
 
 

@@ -1,8 +1,9 @@
 {
-  "actual_repository": "FacundoFirmenich/primitive-radix-dynmics",
+  "actual_repository": "FacundoFirmenich/primitive-radix-mobius-dynamics",
   "requested_name": "primitive-radix-mobius-dynamics",
-  "rename_status": "blocked: GitHub integration returned HTTP403 for administration request",
+  "rename_status": "completed by repository owner, confirmed through GitHub API on 2026-11-16",
   "DOI": null,
-  "DOI_status": "Zenodo linking to be completed by author; no fictional DOI",
-  "manuscripts": "excluded under current publication boundary"
+  "DOI_status": "awaiting confirmation of Zenodo activation; no DOI assigned in this metadata",
+  "manuscripts": "excluded under current publication boundary",
+  "preserved_release": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3"
 }

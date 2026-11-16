@@ -23,7 +23,7 @@
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/FacundoFirmenich/primitive-radix-dynmics",
+      "identifier": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics",
       "relation": "isIdenticalTo",
       "scheme": "url"
     }

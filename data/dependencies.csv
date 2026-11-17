@@ -97,3 +97,8 @@ F11V,F11K,depends_on
 F11V,F11H,depends_on
 F11V,F11C,depends_on
 F11V,F11R,depends_on
+T07X,C011,depends_on
+T07H,C006,depends_on
+T07H,C003,depends_on
+T07C,T07H,depends_on
+T07B,T07K,depends_on

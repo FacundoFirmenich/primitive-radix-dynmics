@@ -1,6 +1,6 @@
 {
   "checkpoint": "NEST-ATTACK-001",
-  "started_utc": "2026-11-17T13:49:36.265460+00:00",
+  "started_utc": "2026-11-17T14:57:22.466000+00:00",
   "input_hashes_before": {
     "helical_lift_attack.py": "eb6c1b65bd62a6abdd46174e356c7bf67c1e18e150f269bb2d9427a8b5adf1ca",
     "joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
@@ -24,9 +24,9 @@
         "14"
       ],
       "returncode": 0,
-      "seconds": 98.45049627999833,
+      "seconds": 99.15303441300057,
       "log": "nested_strata_h14.log",
-      "sha256": "db91989d14272eea9e69e0e306ccfd119c1b7eeb4377aa45b53a8f88223bbee4"
+      "sha256": "940e35d4d3c94e893cea61a69195fece2b45720da8df6e3d93fd454b924ce05b"
     },
     {
       "argv": [
@@ -35,9 +35,9 @@
         "nested_planes.py"
       ],
       "returncode": 0,
-      "seconds": 1.0576553099963348,
+      "seconds": 1.1003250850044424,
       "log": "nested_planes_controls.log",
-      "sha256": "2dbd3ad239b38fa13ba4853a5be6c827f43370f0c03431e40e2bbbeeee97a888"
+      "sha256": "07d8841eee4d0185c42020bea23e38895cddcfa9c35c3f4a4f30c743aa2dbfce"
     },
     {
       "argv": [
@@ -46,7 +46,7 @@
         "verify_c4_plane.py"
       ],
       "returncode": 0,
-      "seconds": 0.03440152599068824,
+      "seconds": 0.035349694997421466,
       "log": "c4_plane_separate.log",
       "sha256": "c1088d3d2e3d1be06c8135592f2c98f6a38276ebf0af5fb6ed89dcaef3c3fc2e"
     },
@@ -57,7 +57,7 @@
         "nested_identity_attacks.py"
       ],
       "returncode": 0,
-      "seconds": 0.3230609300080687,
+      "seconds": 0.3939114249951672,
       "log": "nested_identities.log",
       "sha256": "9a3a7b8303a114a2def330cc72dc259949d71daa6d5c16f7658ffae87aa3b9c6"
     },
@@ -68,7 +68,7 @@
         "helical_lift_attack.py"
       ],
       "returncode": 0,
-      "seconds": 0.03197945500141941,
+      "seconds": 0.03592360000766348,
       "log": "helical_memory.log",
       "sha256": "926cedcead75aef9a972d50ef5c0ff436d1ac4d87b91290cd64dbc373e5b3553"
     }
@@ -87,6 +87,6 @@
     "truth_preserving_nesting.py": "1b6d5d34d31688474452bf17c54ba98bc62b6cfd246709a57ed7d887766bf726",
     "verify_c4_plane.py": "5bee83c475cb73de513cbde130099077b140afdc7048912fe98567b33c1b9094"
   },
-  "finished_utc": "2026-11-17T13:51:16.171745+00:00",
+  "finished_utc": "2026-11-17T14:59:03.192437+00:00",
   "status": "PASS_SCOPED_ALL_HEIGHT_STRATA_NOT_GLOBAL_CLASSIFICATION"
 }

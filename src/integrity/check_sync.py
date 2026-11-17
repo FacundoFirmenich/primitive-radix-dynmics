@@ -59,8 +59,14 @@ for c in fst:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_
 fst_run=read('outputs/reports/fst11/RUN_MANIFEST.json')
 check(fst_run['status']=='PASS' and fst_run['source_engine_byte_identical'],'FST11 exact replay')
 for path,h in fst_run['input_hashes_before'].items():check(sha(R/path)==h,path+' FST11 source hash')
+t007=read('research/rc33/t007/CLAIMS.json')['claims']
+check(len(t007)==7,'seven T007 claim cards')
+for c in t007:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_file(),c['id']+' T007 evidence')
+r007=read('outputs/reports/t007/RUN_MANIFEST.json')
+check(r007['status']=='PASS' and r007['good_primes']==43 and r007['coefficient_norm_improvement_factor']==172,'T007 exact replay')
+for path,h in r007['input_hashes_before'].items():check(sha(R/path)==h,path+' T007 source hash')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':len(new)+len(fst),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
          'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,

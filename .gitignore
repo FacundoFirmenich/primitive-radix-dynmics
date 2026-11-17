@@ -59,3 +59,7 @@ research/rc33/**/*.bin
 
 # Durable FST11 execution evidence
 !outputs/reports/fst11/*.log
+
+# Durable cross-branch evidence
+!outputs/reports/t007/*.log
+!research/rc33/t007/saved/*.log

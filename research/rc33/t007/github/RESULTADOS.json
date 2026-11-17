@@ -1,0 +1,106 @@
+{
+  "protocol": "Two irreducible full source packets; histories are EXTERNAL interactions",
+  "sixth_order_probe_certificate": {
+    "sixth_order_patterns_total": 64,
+    "patterns_that_split_both_initial_ambiguous_pairs": 52,
+    "selected_pattern": "XXXXXY",
+    "first_pair_count": [
+      270,
+      252
+    ],
+    "second_pair_count": [
+      6,
+      4
+    ]
+  },
+  "exhaustive_scans": [
+    {
+      "n": 16,
+      "histories": 65536,
+      "O5_classes": 65534,
+      "O5_plus_single_sixth_order_count_classes": 65536,
+      "O5_missing_classes": 2,
+      "augmented_missing_classes": 0,
+      "first_duplicate_augmented_history_binary_code": null,
+      "elapsed_seconds_diagnostic_only": 0.68
+    },
+    {
+      "n": 17,
+      "histories": 131072,
+      "O5_classes": 131064,
+      "O5_plus_single_sixth_order_count_classes": 131072,
+      "O5_missing_classes": 8,
+      "augmented_missing_classes": 0,
+      "first_duplicate_augmented_history_binary_code": null,
+      "elapsed_seconds_diagnostic_only": 1.404
+    },
+    {
+      "n": 18,
+      "histories": 262144,
+      "O5_classes": 262120,
+      "O5_plus_single_sixth_order_count_classes": 262144,
+      "O5_missing_classes": 24,
+      "augmented_missing_classes": 0,
+      "first_duplicate_augmented_history_binary_code": null,
+      "elapsed_seconds_diagnostic_only": 2.507
+    },
+    {
+      "n": 19,
+      "histories": 524288,
+      "O5_classes": 524212,
+      "O5_plus_single_sixth_order_count_classes": 524288,
+      "O5_missing_classes": 76,
+      "augmented_missing_classes": 0,
+      "first_duplicate_augmented_history_binary_code": null,
+      "elapsed_seconds_diagnostic_only": 4.948
+    },
+    {
+      "n": 20,
+      "histories": 1048576,
+      "O5_classes": 1048360,
+      "O5_plus_single_sixth_order_count_classes": 1048576,
+      "O5_missing_classes": 216,
+      "augmented_missing_classes": 0,
+      "first_duplicate_augmented_history_binary_code": null,
+      "elapsed_seconds_diagnostic_only": 9.642
+    }
+  ],
+  "commutator_tower": [
+    {
+      "stage": 0,
+      "length_each": 16,
+      "indistinguishable_through_order": 5,
+      "distinguished_at_order": 6,
+      "distinct_histories": true
+    },
+    {
+      "stage": 1,
+      "length_each": 32,
+      "indistinguishable_through_order": 6,
+      "distinguished_at_order": 7,
+      "distinct_histories": true
+    },
+    {
+      "stage": 2,
+      "length_each": 64,
+      "indistinguishable_through_order": 7,
+      "distinguished_at_order": 8,
+      "distinct_histories": true
+    },
+    {
+      "stage": 3,
+      "length_each": 128,
+      "indistinguishable_through_order": 8,
+      "distinguished_at_order": 9,
+      "distinct_histories": true
+    },
+    {
+      "stage": 4,
+      "length_each": 256,
+      "indistinguishable_through_order": 9,
+      "distinguished_at_order": 10,
+      "distinct_histories": true
+    }
+  ],
+  "proof_scope": "Universal commutator/order-lifting theorem plus exhaustive length<=20; no physical ascensional transition"
+}

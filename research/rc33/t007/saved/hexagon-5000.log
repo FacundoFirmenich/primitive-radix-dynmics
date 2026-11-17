@@ -1,0 +1,5 @@
+CONFIG before computation: exact integer hexagon; Q<= 5000; d=4,5,6,7; states P/(dQ),A/Q,A/D,C/D,C/E,P/E; all primitive and high; CRT includes strict residue modulo dQ
+PRE_CRT 4 2733 2315 4122 4097 6723 6527
+PRE_CRT 4 4733 3912 6677 6340 12383 10915
+PRE_CRT 5 201 184 351 275 549 518
+{"Q_max":5000,"primitive_Q_A_pairs":15200912,"first_cycle_D_candidates":75071940,"second_cycle_C_candidates":178433580,"high_primitive_P_candidates":3694849,"E_divisors_in_chamber":5423081,"E_also_root_mod_C":1856,"E_also_root_mod_P":3,"CRT_compatible":0,"seconds":58.0155}

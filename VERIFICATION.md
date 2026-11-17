@@ -39,3 +39,7 @@ A public release additionally requires an independent external clean-room run. I
 The reproducibility entry point is `make reproduce`. It includes both `rc33-verify` and `recent-verify`; the latter executes ten exact-code scripts on temporary copies and validates the source/data checkpoint manifest before and after. See `research/rc33/recent/RESULTS.md` for all 24 added claims and `outputs/reports/recent/RUN_MANIFEST.json` for execution scope. The complete saved t ≤ 5000 run is checked by its code hash, current finite prefix and all 157 terminal candidates; rerun it with `make recent-full-census`.
 
 `make sync-check` validates repository metadata, evidence paths, graph endpoints and the ten approved bilingual figure hashes. `make integrity` verifies the generated-output manifest. The immutable DOI archive remains the 16 November tagged snapshot, as recorded in `metadata/DOI_STATUS.json`.
+
+## T007 cross-branch continuation
+
+`make t007-verify` checks the original and orthogonal exhaustive word observers, explicit one-bit output code, uniform tower controls, all 43 good-prime elliptic constraints and quick Q<=500 hexagon replay. `make t007-full-hexagon` repeats the separately preserved complete Q<=5000 census. This bounded six-state class and local coefficient lattice do not close global five-state rows or elliptic-point independence.

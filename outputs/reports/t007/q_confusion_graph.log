@@ -1,0 +1,16 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "arithmetic": "exact unsigned 16-bit arrays; provable bound comb(20,6)=38760<65536",
+  "equations": "S(wx)=S(w)*(1+x); append-Y selective probe adds N_w(XXXXX)",
+  "universe": "every binary word at each n=16..20",
+  "max_n": 20,
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "zero-truncation_bound": 38760,
+  "memory_policy": "one prefix level; exact byte-record sorting; no hashes of signatures"
+}
+{'n': 16, 'histories': 65536, 'O5_classes': 65534, 'augmented_classes': 65536, 'ambiguous_O5_fibres': 2, 'duplicate_O5_rows': 4}
+{'n': 17, 'histories': 131072, 'O5_classes': 131064, 'augmented_classes': 131072, 'ambiguous_O5_fibres': 8, 'duplicate_O5_rows': 16}
+{'n': 18, 'histories': 262144, 'O5_classes': 262120, 'augmented_classes': 262144, 'ambiguous_O5_fibres': 24, 'duplicate_O5_rows': 48}
+{'n': 19, 'histories': 524288, 'O5_classes': 524212, 'augmented_classes': 524288, 'ambiguous_O5_fibres': 76, 'duplicate_O5_rows': 152}
+{'n': 20, 'histories': 1048576, 'O5_classes': 1048360, 'augmented_classes': 1048576, 'ambiguous_O5_fibres': 216, 'duplicate_O5_rows': 432}

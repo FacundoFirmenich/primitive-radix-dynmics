@@ -1,0 +1,16 @@
+CONFIG: exact postprocessing of q=N(XXXXXY); complete binary universes n=16..20; output one bit; internal counter/codebook memory not counted as one bit; zero-error validation on every ambiguous O5 fibre
+{
+  "status": "PASS",
+  "word_lengths": [
+    16,
+    20
+  ],
+  "complete_collision_fibres_checked": 326,
+  "q_values": 173,
+  "distinct_confusion_edges": 91,
+  "key_alphabet_size": 2,
+  "minimum_output_bits": 1,
+  "encoding": "K(w)=colour[N_w(XXXXXY)], default colour 0 off listed vertices",
+  "coverage_edges_sha256": "f60ffd8613a416eb68d3b84bdb4b6510b4f3af3166ad85eac4fdd504479faa2f",
+  "limits": "Bounded zero-error output-bit certificate. No one-bit instrument-memory claim and no guarantee beyond length 20. Simple key floor(q/2) mod2 already fails at n=19."
+}

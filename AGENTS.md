@@ -2,6 +2,8 @@
 
 Read `PROJECT_CHARTER.md` first. `RESEARCH_STATUS.md` is the only live status dashboard.
 
+When sister-branch material is provided, apply `USER_SISTER_BRANCH_INTEGRATION.md`: integrate its relevant verified value and prepare return annexes for the origin threads. The publication boundary below remains in force.
+
 ## Authority order
 
 1. Exact symbolic proof or deterministic certificate.

@@ -85,6 +85,13 @@
 | F11C | `PROVED_SYMBOLIC` | Language-conditioned finite-precision CRT identification | `research/rc33/fst11/RESULTS.md#f11c` | depends_on:F11H |
 | F11R | `PROVED_SYMBOLIC` | Fixed-scaling regular relation and nonregular unrestricted h=8 fibre | `research/rc33/fst11/RESULTS.md#f11r` | depends_on:F11K |
 | F11V | `EXACT_CERTIFICATE` | Replayed supplied FST11 source, atlas tables and finite direct checks | `research/rc33/fst11/RESULTS.md#f11v` | depends_on:F11K<br>depends_on:F11H<br>depends_on:F11C<br>depends_on:F11R |
+| T07K | `PROVED_SYMBOLIC` | Minimum extra-key alphabet and exact angular branch completion | `research/rc33/t007/RESULTS.md#t07k` | — |
+| T07X | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Frontera VII seed towers have one idempotent RGphi witness action | `research/rc33/t007/RESULTS.md#t07x` | depends_on:C011 |
+| T07H | `PROVED_SYMBOLIC` | Six-state high-defect alternating cycle and unique single-strict-T form | `research/rc33/t007/RESULTS.md#t07h` | depends_on:C006<br>depends_on:C003 |
+| T07C | `EXACT_CERTIFICATE` | No high-defect alternating single-strict-T realization through Q=5000 | `research/rc33/t007/RESULTS.md#t07c` | depends_on:T07H |
+| T07E | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Reconstructed 29-prime relation lattice and 43-prime quotient refinement with exact 172-fold norm improvement | `research/rc33/t007/RESULTS.md#t07e` | — |
+| T07F | `PROVED_SYMBOLIC` | Universal exact first separating order of the Frontera VII commutator tower | `research/rc33/t007/RESULTS.md#t07f` | — |
+| T07B | `EXACT_CERTIFICATE` | One optimal output bit completes O5 on every binary history of lengths 16 through 20 | `research/rc33/t007/RESULTS.md#t07b` | depends_on:T07K |
 
 ## Artifact registry
 
@@ -145,3 +152,4 @@
 | A-R17-TRIADIC | `software_and_exact_data` | `research/rc33/recent/triadic` | R17A;R17F;R17J;R17G;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V |
 | A-R17-REPLAY | `reproducible_checker` | `research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json` | R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V |
 | A-FST11 | `software_and_exact_data` | `research/rc33/fst11` | F11K;F11H;F11C;F11R;F11V |
+| A-T007 | `software_and_exact_certificates` | `research/rc33/t007` | T07K;T07X;T07H;T07C;T07E;T07F;T07B |

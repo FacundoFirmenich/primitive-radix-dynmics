@@ -20,6 +20,8 @@ The two existence orientations, unrestricted uniqueness of the known carrier and
 
 The **FST-11 continuation** adds [five word-observation claims](research/rc33/fst11/RESULTS.md): complete variable-length forms, complementary normalization channels, language-conditioned CRT and a nonregular global fibre. It includes the unchanged received engine and an exact cross-checker.
 
+The **T007 sister-branch continuation** adds [seven scoped records](research/rc33/t007/RESULTS.md): a Q≤5000 six-state hexagon certificate, exact word-tower separation, a checked transfer boundary and a 43-prime elliptic relation sieve with a 172-fold norm improvement.
+
 ## Reproduce
 
 ```bash
@@ -27,7 +29,7 @@ python -m pip install -e '.[dev]'
 make reproduce
 ```
 
-This runs the core verifier, tests, RC3.3 certificate checks, ten recent replay scripts and the FST-11 suite; rebuilds traceability, figures and graphs; audits synchronization; and seals the generated outputs. The expensive complete t ≤ 5000 census is separately available as `make recent-full-census`; the default replay verifies its saved code hash, finite prefix and all 157 terminal candidates.
+This runs the core verifier, tests, RC3.3 certificate checks, ten recent replay scripts the FST-11 suite and the T007 checks; rebuilds traceability, figures and graphs; audits synchronization; and seals the generated outputs. The expensive complete t ≤ 5000 census is separately available as `make recent-full-census`; the default replay verifies its saved code hash, finite prefix and all 157 terminal candidates.
 
 See the [quick start](QUICKSTART_REPRODUCE.md), [verification guide](VERIFICATION.md), [current replay receipt](outputs/reports/recent/RUN_MANIFEST.json) and [synchronization record](docs/SYNC_2026-11-17.md). GitHub Actions runs only by manual dispatch.
 

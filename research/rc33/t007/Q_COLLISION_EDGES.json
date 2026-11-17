@@ -1,0 +1,3588 @@
+[
+  {
+    "n": 16,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXY",
+      "YXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 16,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXY",
+      "YXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXY",
+      "XYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXY",
+      "XYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYX",
+      "YXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYY",
+      "YXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYX",
+      "YXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYY",
+      "YXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXY",
+      "YYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 17,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXY",
+      "YYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXY",
+      "XXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXY",
+      "XXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYX",
+      "XYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYY",
+      "XYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYX",
+      "XYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYY",
+      "XYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXY",
+      "XYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXY",
+      "XYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXX",
+      "YXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXY",
+      "YXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYX",
+      "YXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYY",
+      "YXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXX",
+      "YXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXY",
+      "YXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYX",
+      "YXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYY",
+      "YXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXY",
+      "YXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXY",
+      "YXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYX",
+      "YYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYY",
+      "YYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYX",
+      "YYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYY",
+      "YYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXY",
+      "YYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 18,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXY",
+      "YYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "XXXXYYXXXXXYYYXXXXY",
+      "XXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "XXXXYYYYXXXYYYYYXXY",
+      "XXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYX",
+      "XXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1752,
+      1734
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYY",
+      "XXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYX",
+      "XXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      142,
+      140
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYY",
+      "XXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXYXYYXXXXXYYYXXXXY",
+      "XXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXYXYYYYXXXYYYYYXXY",
+      "XXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXX",
+      "XYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1317,
+      1299
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXY",
+      "XYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYX",
+      "XYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1449,
+      1431
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYY",
+      "XYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXX",
+      "XYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      82,
+      80
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXY",
+      "XYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYX",
+      "XYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      68,
+      66
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYY",
+      "XYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XYXXYYXXXXXYYYXXXXY",
+      "XYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XYXXYYYYXXXYYYYYXXY",
+      "XYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYX",
+      "XYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYY",
+      "XYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYX",
+      "XYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYY",
+      "XYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXX",
+      "YXXXXYYYXXXXXYYXXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1062,
+      1044
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXY",
+      "YXXXXYYYXXXXXYYXXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYX",
+      "YXXXXYYYXXXXXYYXXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1194,
+      1176
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYY",
+      "YXXXXYYYXXXXXYYXXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXX",
+      "YXXXXYYYXXXXXYYXYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      984,
+      966
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXY",
+      "YXXXXYYYXXXXXYYXYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYX",
+      "YXXXXYYYXXXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      1026,
+      1008
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYY",
+      "YXXXXYYYXXXXXYYXYYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      537,
+      513
+    ],
+    "words": [
+      "XYYXXXXYXYYYXXYXXXY",
+      "YXXXYXXYYYXYXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "XYYXXXYXXYYXXYYXXXY",
+      "YXXXYXYXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "XYYXXXYXXYYXYXYXXXY",
+      "YXXXYXYXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "XYYXXYXXXYYXXYYXXXY",
+      "YXXXYYXXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "XYYXXYXXXYYXYXYXXXY",
+      "YXXXYYXXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      327,
+      309
+    ],
+    "words": [
+      "XYYXYXXXYXYYYXXYXXY",
+      "YXXYXXYYYXYXXXYXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYYXYYXXXXXYYYXXXXY",
+      "XYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      166,
+      154
+    ],
+    "words": [
+      "XYYXYYXXXYXYYYXYXXY",
+      "YXXYXYYYXYXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYYXYYYYXXXYYYYYXXY",
+      "XYYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "XYYYXXYYXXYYXYYYXXY",
+      "YXXYYXYYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "XYYYXXYYXXYYYXYYXXY",
+      "YXXYYXYYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "XYYYXYXYXXYYXYYYXXY",
+      "YXXYYYXYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "XYYYXYXYXXYYYXYYXXY",
+      "YXXYYYXYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      81,
+      75
+    ],
+    "words": [
+      "XYYYXYYXXXYXYYYYXXY",
+      "YXXYYYYXYXXXYYXYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXX",
+      "YXXYYYYYXXXYYYYXXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      62,
+      60
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXY",
+      "YXXYYYYYXXXYYYYXXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYX",
+      "YXXYYYYYXXXYYYYXXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      48,
+      46
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYY",
+      "YXXYYYYYXXXYYYYXXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXX",
+      "YXXYYYYYXXXYYYYXYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      33,
+      31
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXY",
+      "YXXYYYYYXXXYYYYXYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYX",
+      "YXXYYYYYXXXYYYYXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      24,
+      22
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYY",
+      "YXXYYYYYXXXYYYYXYYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "YXXXYYXXXXXYYYXXXXY",
+      "YXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "YXXXYYYYXXXYYYYYXXY",
+      "YXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYX",
+      "YXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYY",
+      "YXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYX",
+      "YXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYY",
+      "YXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXYXYYXXXXXYYYXXXXY",
+      "YXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXYXYYYYXXXYYYYYXXY",
+      "YXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXX",
+      "YYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXY",
+      "YYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYX",
+      "YYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYY",
+      "YYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXX",
+      "YYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXY",
+      "YYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYX",
+      "YYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYY",
+      "YYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YYXXYYXXXXXYYYXXXXY",
+      "YYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YYXXYYYYXXXYYYYYXXY",
+      "YYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYX",
+      "YYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYY",
+      "YYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYX",
+      "YYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYY",
+      "YYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYYXYYXXXXXYYYXXXXY",
+      "YYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 19,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYYXYYYYXXXYYYYYXXY",
+      "YYYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      2760,
+      2742
+    ],
+    "words": [
+      "XXXXXYYXXXXXYYYXXXXY",
+      "XXXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      536,
+      534
+    ],
+    "words": [
+      "XXXXXYYYYXXXYYYYYXXY",
+      "XXXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "XXXXYYXXXXXYYYXXXXYX",
+      "XXXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      2952,
+      2934
+    ],
+    "words": [
+      "XXXXYYXXXXXYYYXXXXYY",
+      "XXXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "XXXXYYYYXXXYYYYYXXYX",
+      "XXXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      357,
+      355
+    ],
+    "words": [
+      "XXXXYYYYXXXYYYYYXXYY",
+      "XXXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "XXXYXYYXXXXXYYYXXXXY",
+      "XXXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "XXXYXYYYYXXXYYYYYXXY",
+      "XXXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYXX",
+      "XXYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      2247,
+      2229
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYXY",
+      "XXYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1752,
+      1734
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYYX",
+      "XXYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      2544,
+      2526
+    ],
+    "words": [
+      "XXXYYXXXXXYYYXXXXYYY",
+      "XXYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYXX",
+      "XXYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      212,
+      210
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYXY",
+      "XXYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      142,
+      140
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYYX",
+      "XXYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      198,
+      196
+    ],
+    "words": [
+      "XXXYYYYXXXYYYYYXXYYY",
+      "XXYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "XXYXXYYXXXXXYYYXXXXY",
+      "XXYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "XXYXXYYYYXXXYYYYYXXY",
+      "XXYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXYXYYXXXXXYYYXXXXYX",
+      "XXYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1752,
+      1734
+    ],
+    "words": [
+      "XXYXYYXXXXXYYYXXXXYY",
+      "XXYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXYXYYYYXXXYYYYYXXYX",
+      "XXYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      142,
+      140
+    ],
+    "words": [
+      "XXYXYYYYXXXYYYYYXXYY",
+      "XXYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXXX",
+      "XYXXXXYYYXXXXXYYXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1812,
+      1794
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXXY",
+      "XYXXXXYYYXXXXXYYXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1317,
+      1299
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXYX",
+      "XYXXXXYYYXXXXXYYXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      2109,
+      2091
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYXYY",
+      "XYXXXXYYYXXXXXYYXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYXX",
+      "XYXXXXYYYXXXXXYYXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1779,
+      1761
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYXY",
+      "XYXXXXYYYXXXXXYYXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1449,
+      1431
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYYX",
+      "XYXXXXYYYXXXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1911,
+      1893
+    ],
+    "words": [
+      "XXYYXXXXXYYYXXXXYYYY",
+      "XYXXXXYYYXXXXXYYXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      963
+    ],
+    "words": [
+      "XXYYXXXXYXYYYXXYXXXY",
+      "XYXXXYXXYYYXYXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1087,
+      1063
+    ],
+    "words": [
+      "XXYYXXXYXXYYXXYYXXXY",
+      "XYXXXYXYXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1017,
+      993
+    ],
+    "words": [
+      "XXYYXXXYXXYYXYXYXXXY",
+      "XYXXXYXYXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1086,
+      1062
+    ],
+    "words": [
+      "XXYYXXYXXXYYXXYYXXXY",
+      "XYXXXYYXXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1016,
+      992
+    ],
+    "words": [
+      "XXYYXXYXXXYYXYXYXXXY",
+      "XYXXXYYXXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      657,
+      639
+    ],
+    "words": [
+      "XXYYXYXXXYXYYYXXYXXY",
+      "XYXXYXXYYYXYXXXYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XXYYXYYXXXXXYYYXXXXY",
+      "XXYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      377,
+      365
+    ],
+    "words": [
+      "XXYYXYYXXXYXYYYXYXXY",
+      "XYXXYXYYYXYXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XXYYXYYYYXXXYYYYYXXY",
+      "XXYYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      201,
+      195
+    ],
+    "words": [
+      "XXYYYXXYYXXYYXYYYXXY",
+      "XYXXYYXYYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      186,
+      180
+    ],
+    "words": [
+      "XXYYYXXYYXXYYYXYYXXY",
+      "XYXXYYXYYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      201,
+      195
+    ],
+    "words": [
+      "XXYYYXYXYXXYYXYYYXXY",
+      "XYXXYYYXYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      186,
+      180
+    ],
+    "words": [
+      "XXYYYXYXYXXYYYXYYXXY",
+      "XYXXYYYXYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      216,
+      210
+    ],
+    "words": [
+      "XXYYYXYYXXXYXYYYYXXY",
+      "XYXXYYYYXYXXXYYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXXX",
+      "XYXXYYYYYXXXYYYYXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      152,
+      150
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXXY",
+      "XYXXYYYYYXXXYYYYXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      82,
+      80
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXYX",
+      "XYXXYYYYYXXXYYYYXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      138,
+      136
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYXYY",
+      "XYXXYYYYYXXXYYYYXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYXX",
+      "XYXXYYYYYXXXYYYYXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      103,
+      101
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYXY",
+      "XYXXYYYYYXXXYYYYXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      68,
+      66
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYYX",
+      "XYXXYYYYYXXXYYYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      89,
+      87
+    ],
+    "words": [
+      "XXYYYYXXXYYYYYXXYYYY",
+      "XYXXYYYYYXXXYYYYXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "XYXXXYYXXXXXYYYXXXXY",
+      "XYXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "XYXXXYYYYXXXYYYYYXXY",
+      "XYXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XYXXYYXXXXXYYYXXXXYX",
+      "XYXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1752,
+      1734
+    ],
+    "words": [
+      "XYXXYYXXXXXYYYXXXXYY",
+      "XYXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XYXXYYYYXXXYYYYYXXYX",
+      "XYXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      142,
+      140
+    ],
+    "words": [
+      "XYXXYYYYXXXYYYYYXXYY",
+      "XYXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XYXYXYYXXXXXYYYXXXXY",
+      "XYXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XYXYXYYYYXXXYYYYYXXY",
+      "XYXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYXX",
+      "XYYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1317,
+      1299
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYXY",
+      "XYYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYYX",
+      "XYYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1449,
+      1431
+    ],
+    "words": [
+      "XYXYYXXXXXYYYXXXXYYY",
+      "XYYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYXX",
+      "XYYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      82,
+      80
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYXY",
+      "XYYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYYX",
+      "XYYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      68,
+      66
+    ],
+    "words": [
+      "XYXYYYYXXXYYYYYXXYYY",
+      "XYYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXXX",
+      "YXXXXYYYXXXXXYYXXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1557,
+      1539
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXXY",
+      "YXXXXYYYXXXXXYYXXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1062,
+      1044
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXYX",
+      "YXXXXYYYXXXXXYYXXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1854,
+      1836
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXXYY",
+      "YXXXXYYYXXXXXYYXXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYXX",
+      "YXXXXYYYXXXXXYYXXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1524,
+      1506
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYXY",
+      "YXXXXYYYXXXXXYYXXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1194,
+      1176
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYYX",
+      "YXXXXYYYXXXXXYYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1656,
+      1638
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYXYYY",
+      "YXXXXYYYXXXXXYYXXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXXX",
+      "YXXXXYYYXXXXXYYXYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1314,
+      1296
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXXY",
+      "YXXXXYYYXXXXXYYXYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      984,
+      966
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXYX",
+      "YXXXXYYYXXXXXYYXYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1446,
+      1428
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYXYY",
+      "YXXXXYYYXXXXXYYXYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYXX",
+      "YXXXXYYYXXXXXYYXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1236,
+      1218
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYXY",
+      "YXXXXYYYXXXXXYYXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1026,
+      1008
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYYX",
+      "YXXXXYYYXXXXXYYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1278,
+      1260
+    ],
+    "words": [
+      "XYYXXXXXYYYXXXXYYYYY",
+      "YXXXXYYYXXXXXYYXYYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      537,
+      513
+    ],
+    "words": [
+      "XYYXXXXYXYYYXXYXXXYX",
+      "YXXXYXXYYYXYXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      999,
+      975
+    ],
+    "words": [
+      "XYYXXXXYXYYYXXYXXXYY",
+      "YXXXYXXYYYXYXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "XYYXXXYXXYYXXYYXXXYX",
+      "YXXXYXYXYYXXXYXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1048,
+      1024
+    ],
+    "words": [
+      "XYYXXXYXXYYXXYYXXXYY",
+      "YXXXYXYXYYXXXYXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "XYYXXXYXXYYXYXYXXXYX",
+      "YXXXYXYXYYXXYXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1013,
+      989
+    ],
+    "words": [
+      "XYYXXXYXXYYXYXYXXXYY",
+      "YXXXYXYXYYXXYXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1101,
+      1071
+    ],
+    "words": [
+      "XYYXXXYXYXXXYXYYXXXY",
+      "YXXXYXYYXXXYXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1031,
+      1001
+    ],
+    "words": [
+      "XYYXXXYXYXXXYYXYXXXY",
+      "YXXXYXYYXXXYXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "XYYXXYXXXYYXXYYXXXYX",
+      "YXXXYYXXYYXXXYXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1048,
+      1024
+    ],
+    "words": [
+      "XYYXXYXXXYYXXYYXXXYY",
+      "YXXXYYXXYYXXXYXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "XYYXXYXXXYYXYXYXXXYX",
+      "YXXXYYXXYYXXYXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1013,
+      989
+    ],
+    "words": [
+      "XYYXXYXXXYYXYXYXXXYY",
+      "YXXXYYXXYYXXYXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1101,
+      1071
+    ],
+    "words": [
+      "XYYXXYXXYXXXYXYYXXXY",
+      "YXXXYYXYXXXYXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1031,
+      1001
+    ],
+    "words": [
+      "XYYXXYXXYXXXYYXYXXXY",
+      "YXXXYYXYXXXYXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "XYYXXYYXXXXXYYYXXXXY",
+      "XYYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "XYYXXYYYYXXXYYYYYXXY",
+      "XYYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      327,
+      309
+    ],
+    "words": [
+      "XYYXYXXXYXYYYXXYXXYX",
+      "YXXYXXYYYXYXXXYXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      579,
+      561
+    ],
+    "words": [
+      "XYYXYXXXYXYYYXXYXXYY",
+      "YXXYXXYYYXYXXXYXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYYXYYXXXXXYYYXXXXYX",
+      "XYYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "XYYXYYXXXXXYYYXXXXYY",
+      "XYYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      166,
+      154
+    ],
+    "words": [
+      "XYYXYYXXXYXYYYXYXXYX",
+      "YXXYXYYYXYXXXYYXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      292,
+      280
+    ],
+    "words": [
+      "XYYXYYXXXYXYYYXYXXYY",
+      "YXXYXYYYXYXXXYYXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYYXYYYYXXXYYYYYXXYX",
+      "XYYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "XYYXYYYYXXXYYYYYXXYY",
+      "XYYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      75,
+      69
+    ],
+    "words": [
+      "XYYYXXYXYYYXYXYYYXXY",
+      "YXXYYXYYXYYYXXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      70,
+      64
+    ],
+    "words": [
+      "XYYYXXYXYYYXYYXYYXXY",
+      "YXXYYXYYXYYYXYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "XYYYXXYYXXYYXYYYXXYX",
+      "YXXYYXYYYXXYXYXYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      132,
+      126
+    ],
+    "words": [
+      "XYYYXXYYXXYYXYYYXXYY",
+      "YXXYYXYYYXXYXYXYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "XYYYXXYYXXYYYXYYXXYX",
+      "YXXYYXYYYXXYYXXYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      127,
+      121
+    ],
+    "words": [
+      "XYYYXXYYXXYYYXYYXXYY",
+      "YXXYYXYYYXXYYXXYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      75,
+      69
+    ],
+    "words": [
+      "XYYYXYXXYYYXYXYYYXXY",
+      "YXXYYYXYXYYYXXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      70,
+      64
+    ],
+    "words": [
+      "XYYYXYXXYYYXYYXYYXXY",
+      "YXXYYYXYXYYYXYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "XYYYXYXYXXYYXYYYXXYX",
+      "YXXYYYXYYXXYXYXYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      132,
+      126
+    ],
+    "words": [
+      "XYYYXYXYXXYYXYYYXXYY",
+      "YXXYYYXYYXXYXYXYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "XYYYXYXYXXYYYXYYXXYX",
+      "YXXYYYXYYXXYYXXYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      127,
+      121
+    ],
+    "words": [
+      "XYYYXYXYXXYYYXYYXXYY",
+      "YXXYYYXYYXXYYXXYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "XYYYXYYXXXXXYYYXXXXY",
+      "XYYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      81,
+      75
+    ],
+    "words": [
+      "XYYYXYYXXXYXYYYYXXYX",
+      "YXXYYYYXYXXXYYXYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      137,
+      131
+    ],
+    "words": [
+      "XYYYXYYXXXYXYYYYXXYY",
+      "YXXYYYYXYXXXYYXYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "XYYYXYYYYXXXYYYYYXXY",
+      "XYYYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXXX",
+      "YXXYYYYYXXXYYYYXXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      132,
+      130
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXXY",
+      "YXXYYYYYXXXYYYYXXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      62,
+      60
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXYX",
+      "YXXYYYYYXXXYYYYXXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      118,
+      116
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXXYY",
+      "YXXYYYYYXXXYYYYXXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYXX",
+      "YXXYYYYYXXXYYYYXXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      83,
+      81
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYXY",
+      "YXXYYYYYXXXYYYYXXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      48,
+      46
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYYX",
+      "YXXYYYYYXXXYYYYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      69,
+      67
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYXYYY",
+      "YXXYYYYYXXXYYYYXXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXXX",
+      "YXXYYYYYXXXYYYYXYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      68,
+      66
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXXY",
+      "YXXYYYYYXXXYYYYXYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      33,
+      31
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXYX",
+      "YXXYYYYYXXXYYYYXYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      54,
+      52
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYXYY",
+      "YXXYYYYYXXXYYYYXYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYXX",
+      "YXXYYYYYXXXYYYYXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      39,
+      37
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYXY",
+      "YXXYYYYYXXXYYYYXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      24,
+      22
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYYX",
+      "YXXYYYYYXXXYYYYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      30,
+      28
+    ],
+    "words": [
+      "XYYYYXXXYYYYYXXYYYYY",
+      "YXXYYYYYXXXYYYYXYYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1665,
+      1647
+    ],
+    "words": [
+      "YXXXXYYXXXXXYYYXXXXY",
+      "YXXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      231,
+      229
+    ],
+    "words": [
+      "YXXXXYYYYXXXYYYYYXXY",
+      "YXXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "YXXXYYXXXXXYYYXXXXYX",
+      "YXXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1752,
+      1734
+    ],
+    "words": [
+      "YXXXYYXXXXXYYYXXXXYY",
+      "YXXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "YXXXYYYYXXXYYYYYXXYX",
+      "YXXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      142,
+      140
+    ],
+    "words": [
+      "YXXXYYYYXXXYYYYYXXYY",
+      "YXXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "YXXYXYYXXXXXYYYXXXXY",
+      "YXXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "YXXYXYYYYXXXYYYYYXXY",
+      "YXXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYXX",
+      "YXYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1317,
+      1299
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYXY",
+      "YXYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYYX",
+      "YXYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1449,
+      1431
+    ],
+    "words": [
+      "YXXYYXXXXXYYYXXXXYYY",
+      "YXYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYXX",
+      "YXYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      82,
+      80
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYXY",
+      "YXYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYYX",
+      "YXYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      68,
+      66
+    ],
+    "words": [
+      "YXXYYYYXXXYYYYYXXYYY",
+      "YXYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "YXYXXYYXXXXXYYYXXXXY",
+      "YXYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "YXYXXYYYYXXXYYYYYXXY",
+      "YXYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXYXYYXXXXXYYYXXXXYX",
+      "YXYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "YXYXYYXXXXXYYYXXXXYY",
+      "YXYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXYXYYYYXXXYYYYYXXYX",
+      "YXYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "YXYXYYYYXXXYYYYYXXYY",
+      "YXYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXXX",
+      "YYXXXXYYYXXXXXYYXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1062,
+      1044
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXXY",
+      "YYXXXXYYYXXXXXYYXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXYX",
+      "YYXXXXYYYXXXXXYYXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1194,
+      1176
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYXYY",
+      "YYXXXXYYYXXXXXYYXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYXX",
+      "YYXXXXYYYXXXXXYYXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      984,
+      966
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYXY",
+      "YYXXXXYYYXXXXXYYXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYYX",
+      "YYXXXXYYYXXXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      1026,
+      1008
+    ],
+    "words": [
+      "YXYYXXXXXYYYXXXXYYYY",
+      "YYXXXXYYYXXXXXYYXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      537,
+      513
+    ],
+    "words": [
+      "YXYYXXXXYXYYYXXYXXXY",
+      "YYXXXYXXYYYXYXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "YXYYXXXYXXYYXXYYXXXY",
+      "YYXXXYXYXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "YXYYXXXYXXYYXYXYXXXY",
+      "YYXXXYXYXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      586,
+      562
+    ],
+    "words": [
+      "YXYYXXYXXXYYXXYYXXXY",
+      "YYXXXYYXXYYXXXYXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      551,
+      527
+    ],
+    "words": [
+      "YXYYXXYXXXYYXYXYXXXY",
+      "YYXXXYYXXYYXXYXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      327,
+      309
+    ],
+    "words": [
+      "YXYYXYXXXYXYYYXXYXXY",
+      "YYXXYXXYYYXYXXXYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YXYYXYYXXXXXYYYXXXXY",
+      "YXYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      166,
+      154
+    ],
+    "words": [
+      "YXYYXYYXXXYXYYYXYXXY",
+      "YYXXYXYYYXYXXXYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YXYYXYYYYXXXYYYYYXXY",
+      "YXYYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "YXYYYXXYYXXYYXYYYXXY",
+      "YYXXYYXYYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "YXYYYXXYYXXYYYXYYXXY",
+      "YYXXYYXYYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      76,
+      70
+    ],
+    "words": [
+      "YXYYYXYXYXXYYXYYYXXY",
+      "YYXXYYYXYYXXYXYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      71,
+      65
+    ],
+    "words": [
+      "YXYYYXYXYXXYYYXYYXXY",
+      "YYXXYYYXYYXXYYXXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      81,
+      75
+    ],
+    "words": [
+      "YXYYYXYYXXXYXYYYYXXY",
+      "YYXXYYYYXYXXXYYXYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXXX",
+      "YYXXYYYYYXXXYYYYXXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      62,
+      60
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXXY",
+      "YYXXYYYYYXXXYYYYXXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXYX",
+      "YYXXYYYYYXXXYYYYXXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      48,
+      46
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYXYY",
+      "YYXXYYYYYXXXYYYYXXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYXX",
+      "YYXXYYYYYXXXYYYYXYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      33,
+      31
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYXY",
+      "YYXXYYYYYXXXYYYYXYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYYX",
+      "YYXXYYYYYXXXYYYYXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      24,
+      22
+    ],
+    "words": [
+      "YXYYYYXXXYYYYYXXYYYY",
+      "YYXXYYYYYXXXYYYYXYYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      960,
+      942
+    ],
+    "words": [
+      "YYXXXYYXXXXXYYYXXXXY",
+      "YYXXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      86,
+      84
+    ],
+    "words": [
+      "YYXXXYYYYXXXYYYYYXXY",
+      "YYXXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YYXXYYXXXXXYYYXXXXYX",
+      "YYXYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      987,
+      969
+    ],
+    "words": [
+      "YYXXYYXXXXXYYYXXXXYY",
+      "YYXYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YYXXYYYYXXXYYYYYXXYX",
+      "YYXYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      47,
+      45
+    ],
+    "words": [
+      "YYXXYYYYXXXYYYYYXXYY",
+      "YYXYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YYXYXYYXXXXXYYYXXXXY",
+      "YYXYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YYXYXYYYYXXXYYYYYXXY",
+      "YYXYYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYXX",
+      "YYYXXXXYYYXXXXXYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      732,
+      714
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYXY",
+      "YYYXXXXYYYXXXXXYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYYX",
+      "YYYXXXXYYYXXXXXYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      774,
+      756
+    ],
+    "words": [
+      "YYXYYXXXXXYYYXXXXYYY",
+      "YYYXXXXYYYXXXXXYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYXX",
+      "YYYXXYYYYYXXXYYYYXXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      27,
+      25
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYXY",
+      "YYYXXYYYYYXXXYYYYXXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYYX",
+      "YYYXXYYYYYXXXYYYYXYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      18,
+      16
+    ],
+    "words": [
+      "YYXYYYYXXXYYYYYXXYYY",
+      "YYYXXYYYYYXXXYYYYXYY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      525,
+      507
+    ],
+    "words": [
+      "YYYXXYYXXXXXYYYXXXXY",
+      "YYYXYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      26,
+      24
+    ],
+    "words": [
+      "YYYXXYYYYXXXYYYYYXXY",
+      "YYYXYXXYYYYYXXXYYYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYYXYYXXXXXYYYXXXXYX",
+      "YYYYXXXXYYYXXXXXYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      522,
+      504
+    ],
+    "words": [
+      "YYYXYYXXXXXYYYXXXXYY",
+      "YYYYXXXXYYYXXXXXYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYYXYYYYXXXYYYYYXXYX",
+      "YYYYXXYYYYYXXXYYYYXX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      12,
+      10
+    ],
+    "words": [
+      "YYYXYYYYXXXYYYYYXXYY",
+      "YYYYXXYYYYYXXXYYYYXY"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      270,
+      252
+    ],
+    "words": [
+      "YYYYXYYXXXXXYYYXXXXY",
+      "YYYYYXXXXYYYXXXXXYYX"
+    ]
+  },
+  {
+    "n": 20,
+    "q": [
+      6,
+      4
+    ],
+    "words": [
+      "YYYYXYYYYXXXYYYYYXXY",
+      "YYYYYXXYYYYYXXXYYYYX"
+    ]
+  }
+]

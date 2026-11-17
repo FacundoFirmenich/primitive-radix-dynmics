@@ -1,0 +1,124 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "units": "dimensionless exact integers; external action letters X,Y; ordered noncontiguous subsequences",
+  "seed": [
+    "XYYXXXXXYYYXXXXY",
+    "YXXXXYYYXXXXXYYX"
+  ],
+  "probe": "X**(5+r) Y",
+  "tower": "u[r+1]=u[r]v[r], v[r+1]=v[r]u[r]",
+  "predicted_difference": "18*(-10)**r*2**(r*(r-1)//2)",
+  "full_deck_levels": [
+    0,
+    5
+  ],
+  "single_probe_levels": [
+    0,
+    9
+  ],
+  "lattice": {
+    "N": 486350841114209042571600,
+    "L": 581981400,
+    "a0": 397929094518522627660600,
+    "u": [
+      -6721598835151200,
+      -8984879105202000
+    ],
+    "v": [
+      21459192394840200,
+      -13425212699098200
+    ]
+  },
+  "python": "3.12.14"
+}
+Tower checks PASS
+{
+  "status": "PASS",
+  "patterns_split_both_pairs": 52,
+  "tower": [
+    {
+      "r": 0,
+      "length": 16,
+      "indistinguishable_through": 5,
+      "exact_first_separating_order": 6,
+      "probe_difference": 18
+    },
+    {
+      "r": 1,
+      "length": 32,
+      "indistinguishable_through": 6,
+      "exact_first_separating_order": 7,
+      "probe_difference": -180
+    },
+    {
+      "r": 2,
+      "length": 64,
+      "indistinguishable_through": 7,
+      "exact_first_separating_order": 8,
+      "probe_difference": 3600
+    },
+    {
+      "r": 3,
+      "length": 128,
+      "indistinguishable_through": 8,
+      "exact_first_separating_order": 9,
+      "probe_difference": -144000
+    },
+    {
+      "r": 4,
+      "length": 256,
+      "indistinguishable_through": 9,
+      "exact_first_separating_order": 10,
+      "probe_difference": 11520000
+    },
+    {
+      "r": 5,
+      "length": 512,
+      "indistinguishable_through": 10,
+      "exact_first_separating_order": 11,
+      "probe_difference": -1843200000
+    },
+    {
+      "r": 6,
+      "length": 1024,
+      "indistinguishable_through": 11,
+      "exact_first_separating_order": 12,
+      "probe_difference": 589824000000
+    },
+    {
+      "r": 7,
+      "length": 2048,
+      "indistinguishable_through": 12,
+      "exact_first_separating_order": 13,
+      "probe_difference": -377487360000000
+    },
+    {
+      "r": 8,
+      "length": 4096,
+      "indistinguishable_through": 13,
+      "exact_first_separating_order": 14,
+      "probe_difference": 483183820800000000
+    },
+    {
+      "r": 9,
+      "length": 8192,
+      "indistinguishable_through": 14,
+      "exact_first_separating_order": 15,
+      "probe_difference": -1236950581248000000000
+    }
+  ],
+  "lattice": {
+    "basis_verified": true,
+    "Gauss_reduced": true,
+    "minimum_norm_squared": 125907943435801460896187665440000,
+    "integer_lower_bound_norm": 11220870885800329,
+    "rational_relation_validity": "requires the local-prime constraints; curve reconstructed in a separate audit"
+  },
+  "universal_tower_derivation": {
+    "seed_X_count": 10,
+    "seed_probe_difference": 18,
+    "recurrence": "Delta[r+1]=-10*2**r*Delta[r]",
+    "formula": "18*(-10)**r*2**(r*(r-1)//2)"
+  },
+  "review": "same-session self-review with orthogonal finite implementation"
+}

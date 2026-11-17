@@ -22,6 +22,8 @@ The current oriented classification is **37 excluded / 1 realized-containing / 2
 
 The [FST-11 extension](research/rc33/fst11/RESULTS.md) adds five audited claims: variable-length normal forms, exact prime-erasure fusion, regular-language ambiguity witnesses, conditioned finite precision and a nonregular h=8 fibre. Its finite implementation is separately replayed with `make fst11-verify`; the global arithmetic questions below remain unchanged.
 
+The [T007 cross-branch records](research/rc33/t007/RESULTS.md) add a complete Q<=5000 exclusion in the single-global-strict-T high-defect six-state form, not a six-state classification. The local elliptic relation bound improves by exactly 172 using all good primes in the same p<=199 cutoff; independence remains open. The word-tower theorem belongs primarily to Fronteras, and its witness action is explicitly checked before transfer.
+
 ## Global questions still open
 
 1. Existence of the 119772 factor-two orientation (0003/S).

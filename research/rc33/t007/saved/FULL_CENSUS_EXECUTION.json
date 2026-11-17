@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "configuration": {
+    "units": "dimensionless exact integers, rational projective coordinates and finite fields; radii/angles only in analytic proofs",
+    "observer_n": [
+      16,
+      20
+    ],
+    "probe": "XXXXXY",
+    "tower_formula": "18*(-10)**r*2**(r*(r-1)//2)",
+    "hexagon_d": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "hexagon_Q": 5000,
+    "full_hexagon_rerun": true,
+    "elliptic_parameter": 17,
+    "elliptic_origin": [
+      0,
+      1,
+      -1
+    ],
+    "elliptic_P": [
+      64233,
+      11741,
+      1138
+    ],
+    "elliptic_R": [
+      1,
+      2,
+      2
+    ],
+    "good_prime_bound": 199,
+    "python": "3.12.14"
+  },
+  "actual_full_census_command": {
+    "argv": [
+      "/tmp/rgphi-t007-cvqm08k5/work/hexagon_scan",
+      "5000"
+    ],
+    "returncode": 0,
+    "seconds": 57.145596657996066,
+    "log": "results/t007-full-hexagon/hexagon_census.log",
+    "log_sha256": "aba13e11e612f8c61430945425152b584be61849d48fd36dcee4f177ffaf5fd5"
+  },
+  "source_sha256_before": "e37b777cf930a803e2ee8881ac8cb7903fece762bde862b81101d9c483550359",
+  "source_sha256_after": "e37b777cf930a803e2ee8881ac8cb7903fece762bde862b81101d9c483550359",
+  "full_execution_receipt_sha256": "d3d70f7f7afdbefe3381dc7df2894d1a4a1e7763b98e87bec5d6b6b1ef8865e2",
+  "scope": "Actual complete Q<=5000 execution; preserved separately from quick replays."
+}

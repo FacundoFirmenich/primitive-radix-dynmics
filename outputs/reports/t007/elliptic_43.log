@@ -1,0 +1,652 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "units": "exact projective arithmetic over finite fields",
+  "curve_parameter": 17,
+  "curve": "68A^3-34A^2(w+z)+17Azw-20A^2w-340A^2z+24Aw^2+148Awz+24Az^2-4(z^3+w^3)",
+  "origin": [
+    0,
+    1,
+    -1
+  ],
+  "P": [
+    64233,
+    11741,
+    1138
+  ],
+  "R": [
+    1,
+    2,
+    2
+  ],
+  "primes_max": 199,
+  "curve_and_point_source": "archived RGPHI_ARTICLE_EN.tex elliptic-frontier theorem and positive-rank proposition; O is its specified rational point",
+  "expected_HNF": [
+    [
+      486350841114209042571600,
+      397929094518522627660600
+    ],
+    [
+      0,
+      581981400
+    ]
+  ]
+}
+local 11 14 14 7
+local 13 18 9 5
+local 17 23 23 17
+local 19 28 28 4
+local 23 27 9 1
+local 29 34 34 4
+local 31 39 39 22
+local 37 48 24 8
+local 47 51 17 11
+local 53 54 27 3
+local 59 61 61 49
+local 61 76 76 13
+local 67 82 82 23
+local 71 73 73 25
+local 79 88 8 7
+local 83 89 89 44
+local 89 80 80 37
+local 101 105 35 10
+local 107 117 117 98
+local 109 126 126 81
+local 131 152 76 22
+local 137 150 75 48
+local 163 175 175 123
+local 167 174 87 49
+local 173 181 181 96
+local 179 200 100 37
+local 191 176 176 97
+local 193 213 213 164
+local 197 198 198 83
+{
+  "status": "PASS",
+  "configuration": {
+    "units": "exact projective arithmetic over finite fields",
+    "curve_parameter": 17,
+    "curve": "68A^3-34A^2(w+z)+17Azw-20A^2w-340A^2z+24Aw^2+148Awz+24Az^2-4(z^3+w^3)",
+    "origin": [
+      0,
+      1,
+      -1
+    ],
+    "P": [
+      64233,
+      11741,
+      1138
+    ],
+    "R": [
+      1,
+      2,
+      2
+    ],
+    "primes_max": 199,
+    "curve_and_point_source": "archived RGPHI_ARTICLE_EN.tex elliptic-frontier theorem and positive-rank proposition; O is its specified rational point",
+    "expected_HNF": [
+      [
+        486350841114209042571600,
+        397929094518522627660600
+      ],
+      [
+        0,
+        581981400
+      ]
+    ]
+  },
+  "local_constraints": [
+    {
+      "p": 11,
+      "curve_points": 14,
+      "order_P": 14,
+      "log_R_base_P": 7
+    },
+    {
+      "p": 13,
+      "curve_points": 18,
+      "order_P": 9,
+      "log_R_base_P": 5
+    },
+    {
+      "p": 17,
+      "curve_points": 23,
+      "order_P": 23,
+      "log_R_base_P": 17
+    },
+    {
+      "p": 19,
+      "curve_points": 28,
+      "order_P": 28,
+      "log_R_base_P": 4
+    },
+    {
+      "p": 23,
+      "curve_points": 27,
+      "order_P": 9,
+      "log_R_base_P": 1
+    },
+    {
+      "p": 29,
+      "curve_points": 34,
+      "order_P": 34,
+      "log_R_base_P": 4
+    },
+    {
+      "p": 31,
+      "curve_points": 39,
+      "order_P": 39,
+      "log_R_base_P": 22
+    },
+    {
+      "p": 37,
+      "curve_points": 48,
+      "order_P": 24,
+      "log_R_base_P": 8
+    },
+    {
+      "p": 47,
+      "curve_points": 51,
+      "order_P": 17,
+      "log_R_base_P": 11
+    },
+    {
+      "p": 53,
+      "curve_points": 54,
+      "order_P": 27,
+      "log_R_base_P": 3
+    },
+    {
+      "p": 59,
+      "curve_points": 61,
+      "order_P": 61,
+      "log_R_base_P": 49
+    },
+    {
+      "p": 61,
+      "curve_points": 76,
+      "order_P": 76,
+      "log_R_base_P": 13
+    },
+    {
+      "p": 67,
+      "curve_points": 82,
+      "order_P": 82,
+      "log_R_base_P": 23
+    },
+    {
+      "p": 71,
+      "curve_points": 73,
+      "order_P": 73,
+      "log_R_base_P": 25
+    },
+    {
+      "p": 79,
+      "curve_points": 88,
+      "order_P": 8,
+      "log_R_base_P": 7
+    },
+    {
+      "p": 83,
+      "curve_points": 89,
+      "order_P": 89,
+      "log_R_base_P": 44
+    },
+    {
+      "p": 89,
+      "curve_points": 80,
+      "order_P": 80,
+      "log_R_base_P": 37
+    },
+    {
+      "p": 101,
+      "curve_points": 105,
+      "order_P": 35,
+      "log_R_base_P": 10
+    },
+    {
+      "p": 107,
+      "curve_points": 117,
+      "order_P": 117,
+      "log_R_base_P": 98
+    },
+    {
+      "p": 109,
+      "curve_points": 126,
+      "order_P": 126,
+      "log_R_base_P": 81
+    },
+    {
+      "p": 131,
+      "curve_points": 152,
+      "order_P": 76,
+      "log_R_base_P": 22
+    },
+    {
+      "p": 137,
+      "curve_points": 150,
+      "order_P": 75,
+      "log_R_base_P": 48
+    },
+    {
+      "p": 163,
+      "curve_points": 175,
+      "order_P": 175,
+      "log_R_base_P": 123
+    },
+    {
+      "p": 167,
+      "curve_points": 174,
+      "order_P": 87,
+      "log_R_base_P": 49
+    },
+    {
+      "p": 173,
+      "curve_points": 181,
+      "order_P": 181,
+      "log_R_base_P": 96
+    },
+    {
+      "p": 179,
+      "curve_points": 200,
+      "order_P": 100,
+      "log_R_base_P": 37
+    },
+    {
+      "p": 191,
+      "curve_points": 176,
+      "order_P": 176,
+      "log_R_base_P": 97
+    },
+    {
+      "p": 193,
+      "curve_points": 213,
+      "order_P": 213,
+      "log_R_base_P": 164
+    },
+    {
+      "p": 197,
+      "curve_points": 198,
+      "order_P": 198,
+      "log_R_base_P": 83
+    }
+  ],
+  "good_primes_without_log": [
+    {
+      "p": 7,
+      "order_P": 5,
+      "curve_points": 10
+    },
+    {
+      "p": 41,
+      "order_P": 2,
+      "curve_points": 54
+    },
+    {
+      "p": 43,
+      "order_P": 26,
+      "curve_points": 52
+    },
+    {
+      "p": 73,
+      "order_P": 2,
+      "curve_points": 86
+    },
+    {
+      "p": 97,
+      "order_P": 55,
+      "curve_points": 110
+    },
+    {
+      "p": 103,
+      "order_P": 13,
+      "curve_points": 117
+    },
+    {
+      "p": 113,
+      "order_P": 57,
+      "curve_points": 114
+    },
+    {
+      "p": 127,
+      "order_P": 32,
+      "curve_points": 128
+    },
+    {
+      "p": 139,
+      "order_P": 52,
+      "curve_points": 156
+    },
+    {
+      "p": 149,
+      "order_P": 25,
+      "curve_points": 150
+    },
+    {
+      "p": 151,
+      "order_P": 86,
+      "curve_points": 172
+    },
+    {
+      "p": 157,
+      "order_P": 20,
+      "curve_points": 160
+    },
+    {
+      "p": 181,
+      "order_P": 24,
+      "curve_points": 192
+    },
+    {
+      "p": 199,
+      "order_P": 51,
+      "curve_points": 204
+    }
+  ],
+  "bad_primes": [
+    2,
+    3,
+    5
+  ],
+  "computed_HNF": [
+    [
+      486350841114209042571600,
+      397929094518522627660600
+    ],
+    [
+      0,
+      581981400
+    ]
+  ],
+  "matches_supplied_lattice": true,
+  "runtime_seconds": 0.5260337770014303
+}
+CONFIG before extended lattice computation: every good prime<=199; O=[0,1,-1],P=[64233,11741,1138],R=[1,2,2]; local kernel generated by (ordP,0),(-k,h), hR=kP; exact integer HNF and Gauss reduction
+{
+  "status": "PASS",
+  "good_primes_used": 43,
+  "primes_with_quotient_order_gt_one": 14,
+  "local_constraints": [
+    {
+      "p": 7,
+      "order_P": 5,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 4
+    },
+    {
+      "p": 11,
+      "order_P": 14,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 7
+    },
+    {
+      "p": 13,
+      "order_P": 9,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 5
+    },
+    {
+      "p": 17,
+      "order_P": 23,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 17
+    },
+    {
+      "p": 19,
+      "order_P": 28,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 4
+    },
+    {
+      "p": 23,
+      "order_P": 9,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 1
+    },
+    {
+      "p": 29,
+      "order_P": 34,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 4
+    },
+    {
+      "p": 31,
+      "order_P": 39,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 22
+    },
+    {
+      "p": 37,
+      "order_P": 24,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 8
+    },
+    {
+      "p": 41,
+      "order_P": 2,
+      "quotient_order_R": 9,
+      "multiple_R_log_base_P": 1
+    },
+    {
+      "p": 43,
+      "order_P": 26,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 13
+    },
+    {
+      "p": 47,
+      "order_P": 17,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 11
+    },
+    {
+      "p": 53,
+      "order_P": 27,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 3
+    },
+    {
+      "p": 59,
+      "order_P": 61,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 49
+    },
+    {
+      "p": 61,
+      "order_P": 76,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 13
+    },
+    {
+      "p": 67,
+      "order_P": 82,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 23
+    },
+    {
+      "p": 71,
+      "order_P": 73,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 25
+    },
+    {
+      "p": 73,
+      "order_P": 2,
+      "quotient_order_R": 43,
+      "multiple_R_log_base_P": 0
+    },
+    {
+      "p": 79,
+      "order_P": 8,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 7
+    },
+    {
+      "p": 83,
+      "order_P": 89,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 44
+    },
+    {
+      "p": 89,
+      "order_P": 80,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 37
+    },
+    {
+      "p": 97,
+      "order_P": 55,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 32
+    },
+    {
+      "p": 101,
+      "order_P": 35,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 10
+    },
+    {
+      "p": 103,
+      "order_P": 13,
+      "quotient_order_R": 3,
+      "multiple_R_log_base_P": 12
+    },
+    {
+      "p": 107,
+      "order_P": 117,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 98
+    },
+    {
+      "p": 109,
+      "order_P": 126,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 81
+    },
+    {
+      "p": 113,
+      "order_P": 57,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 34
+    },
+    {
+      "p": 127,
+      "order_P": 32,
+      "quotient_order_R": 4,
+      "multiple_R_log_base_P": 2
+    },
+    {
+      "p": 131,
+      "order_P": 76,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 22
+    },
+    {
+      "p": 137,
+      "order_P": 75,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 48
+    },
+    {
+      "p": 139,
+      "order_P": 52,
+      "quotient_order_R": 3,
+      "multiple_R_log_base_P": 11
+    },
+    {
+      "p": 149,
+      "order_P": 25,
+      "quotient_order_R": 3,
+      "multiple_R_log_base_P": 4
+    },
+    {
+      "p": 151,
+      "order_P": 86,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 62
+    },
+    {
+      "p": 157,
+      "order_P": 20,
+      "quotient_order_R": 8,
+      "multiple_R_log_base_P": 16
+    },
+    {
+      "p": 163,
+      "order_P": 175,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 123
+    },
+    {
+      "p": 167,
+      "order_P": 87,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 49
+    },
+    {
+      "p": 173,
+      "order_P": 181,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 96
+    },
+    {
+      "p": 179,
+      "order_P": 100,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 37
+    },
+    {
+      "p": 181,
+      "order_P": 24,
+      "quotient_order_R": 8,
+      "multiple_R_log_base_P": 5
+    },
+    {
+      "p": 191,
+      "order_P": 176,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 97
+    },
+    {
+      "p": 193,
+      "order_P": 213,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 164
+    },
+    {
+      "p": 197,
+      "order_P": 198,
+      "quotient_order_R": 1,
+      "multiple_R_log_base_P": 83
+    },
+    {
+      "p": 199,
+      "order_P": 51,
+      "quotient_order_R": 2,
+      "multiple_R_log_base_P": 17
+    }
+  ],
+  "HNF": [
+    [
+      41826172335821977661157600,
+      11409091506905850931773600
+    ],
+    [
+      0,
+      200201601600
+    ]
+  ],
+  "reduced_basis": [
+    [
+      1156114999646006400,
+      1545399206094744000
+    ],
+    [
+      -3112923592089511200,
+      3081836187292262400
+    ]
+  ],
+  "minimum_norm_squared": 3724860598604750419152815894376960000,
+  "integer_norm_lower_bound": 1929989792357656595,
+  "previous_minimum_norm_squared": 125907943435801460896187665440000,
+  "scope": "Necessary coefficient lattice, not a proof of independence."
+}

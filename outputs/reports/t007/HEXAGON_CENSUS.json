@@ -1,0 +1,12 @@
+{
+  "Q_max": 500,
+  "primitive_Q_A_pairs": 152228,
+  "first_cycle_D_candidates": 586572,
+  "second_cycle_C_candidates": 1118092,
+  "high_primitive_P_candidates": 21977,
+  "E_divisors_in_chamber": 24052,
+  "E_also_root_mod_C": 75,
+  "E_also_root_mod_P": 1,
+  "CRT_compatible": 0,
+  "seconds": 0.0664337
+}

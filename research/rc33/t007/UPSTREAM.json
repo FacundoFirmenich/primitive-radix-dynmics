@@ -1,0 +1,8 @@
+{
+  "repository": "FacundoFirmenich/maths-4777",
+  "commit": "f90d3d0b5aa877febda17a22dcccf4260aaf4a93",
+  "script": "research/07_conmutadores_y_levantamientos/experimento07.py",
+  "script_sha256": "315f9b6d4e94d14d71fbac7730750cc0c916297d477e50d604a69931cd78e5f9",
+  "source_curve": "archive/source_packages/RGPHI_NEORAMANUJAN_SYNERGY_v3/source_corpus/RGPHI_ARTICLE_EN.tex",
+  "curve_source_sha256": "85e48a970a4c2aa001f482789548e8e05fc4f37c9f847ada38a85cb90f791903"
+}

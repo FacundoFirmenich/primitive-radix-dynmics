@@ -841,6 +841,76 @@
       "scope": "Current exact checks only; unattached historical 47/29 suites and FST10 archive not reproduced."
     },
     {
+      "id": "T07K",
+      "label": "T07K",
+      "title": "Minimum extra-key alphabet and exact angular branch completion",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/t007/RESULTS.md#t07k",
+      "scope": "Exact observable, arbitrary state-dependent key; linearly ordered domain; finite fibres. Area deficit is not an information measure."
+    },
+    {
+      "id": "T07X",
+      "label": "T07X",
+      "title": "Frontera VII seed towers have one idempotent RGphi witness action",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/t007/RESULTS.md#t07x",
+      "scope": "Complete words differ, but all tower words induce E=(0,1,4,4,4) on the fixed witness."
+    },
+    {
+      "id": "T07H",
+      "label": "T07H",
+      "title": "Six-state high-defect alternating cycle and unique single-strict-T form",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/t007/RESULTS.md#t07h",
+      "scope": "Alternation for every d>=4 cycle; action-form theorem additionally assumes the marked T edge is the only global strict edge."
+    },
+    {
+      "id": "T07C",
+      "label": "T07C",
+      "title": "No high-defect alternating single-strict-T realization through Q=5000",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/t007/RESULTS.md#t07c",
+      "scope": "All bases, d=4..7, Q<=5000 in the declared six-state form; no complete six-state classification."
+    },
+    {
+      "id": "T07E",
+      "label": "T07E",
+      "title": "Reconstructed 29-prime relation lattice and 43-prime quotient refinement with exact 172-fold norm improvement",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/t007/RESULTS.md#t07e",
+      "scope": "Specified F17 cubic, O,P,R; all 43 good primes through 199; exact coefficient bounds, not independence."
+    },
+    {
+      "id": "T07F",
+      "label": "T07F",
+      "title": "Universal exact first separating order of the Frontera VII commutator tower",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/t007/RESULTS.md#t07f",
+      "scope": "Word-observer target; Delta_r=Delta_0*(-nX)^r*2^(r(r-1)/2); no terminal-state distinction inferred."
+    },
+    {
+      "id": "T07B",
+      "label": "T07B",
+      "title": "One optimal output bit completes O5 on every binary history of lengths 16 through 20",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/t007/RESULTS.md#t07b",
+      "scope": "Explicit bipartite q-confusion graph with 173 vertices/91 edges; storage of the final output bit only, not instrument memory; no guarantee beyond length20."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1388,6 +1458,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "research/rc33/fst11",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-T007",
+      "label": "A-T007",
+      "title": "Sister-branch exact certificates and source replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/t007",
       "scope": "evidence"
     },
     {
@@ -2143,6 +2223,31 @@
       "relation": "depends_on"
     },
     {
+      "source": "T07X",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
+      "source": "T07H",
+      "target": "C006",
+      "relation": "depends_on"
+    },
+    {
+      "source": "T07H",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "T07C",
+      "target": "T07H",
+      "relation": "depends_on"
+    },
+    {
+      "source": "T07B",
+      "target": "T07K",
+      "relation": "depends_on"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -2750,6 +2855,41 @@
     {
       "source": "A-FST11",
       "target": "F11V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07K",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07X",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07H",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07F",
+      "relation": "supports"
+    },
+    {
+      "source": "A-T007",
+      "target": "T07B",
       "relation": "supports"
     },
     {

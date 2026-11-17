@@ -1,0 +1,43 @@
+{
+  "Q_max": 5000,
+  "primitive_Q_A_pairs": 15200912,
+  "first_cycle_D_candidates": 75071940,
+  "second_cycle_C_candidates": 178433580,
+  "high_primitive_P_candidates": 3694849,
+  "E_divisors_in_chamber": 5423081,
+  "E_also_root_mod_C": 1856,
+  "E_also_root_mod_P": 3,
+  "CRT_compatible": 0,
+  "seconds": 58.0155,
+  "source_sha256": "e37b777cf930a803e2ee8881ac8cb7903fece762bde862b81101d9c483550359",
+  "scope": "complete Q<=5000 run; all bases; d=4..7; the single-global-strict-T six-state form only",
+  "terminal_cores": [
+    [
+      4,
+      2733,
+      2315,
+      4122,
+      4097,
+      6723,
+      6527
+    ],
+    [
+      4,
+      4733,
+      3912,
+      6677,
+      6340,
+      12383,
+      10915
+    ],
+    [
+      5,
+      201,
+      184,
+      351,
+      275,
+      549,
+      518
+    ]
+  ]
+}

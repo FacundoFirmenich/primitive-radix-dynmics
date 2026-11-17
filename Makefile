@@ -24,7 +24,7 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test rc33-verify recent-verify fst11-verify trace graph figures rc33-seal sync-check seal integrity
+reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
 
 recent-verify:
@@ -52,3 +52,9 @@ sync-check:
 .PHONY: fst11-verify
 fst11-verify:
 	$(PYTHON) research/rc33/fst11/replay.py
+
+.PHONY: t007-verify t007-full-hexagon
+t007-verify:
+	$(PYTHON) research/rc33/t007/replay.py
+t007-full-hexagon:
+	$(PYTHON) research/rc33/t007/replay.py --full-hexagon

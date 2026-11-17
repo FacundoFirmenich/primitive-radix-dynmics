@@ -43,5 +43,5 @@
     "consequence": "all k_i vanish; P is a multiple of A*C*D*Q"
   },
   "symbolic_boundary_identities": true,
-  "seconds": 1.0240827230009018
+  "seconds": 1.0440702109917765
 }

@@ -48,3 +48,5 @@ No manuscript is generated: the manuscript is deliberately outside this reposito
 `make sync-check` audits versions, evidence paths, immutable input hashes and graph consistency.
 `make recent-full-census` separately repeats the complete t ≤ 5000 chamber census.
 The full figure export uses CairoSVG and its system Cairo library (for example, `libcairo2` on Ubuntu).
+
+The full T007 layer requires a C++17 compiler (`g++`) and the declared NumPy/SymPy dependencies. Run `make t007-verify`; the optional complete hexagon replay is `make t007-full-hexagon`. Default quick runs preserve the original complete Q<=5000 execution receipt and source hashes under `research/rc33/t007/saved/`.

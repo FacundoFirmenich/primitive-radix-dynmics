@@ -1,0 +1,2 @@
+CONFIG: exact integers; 720 marked maps per supplied word; independent direct loops Q<=30; strict T factor 4..7; all twelve transitions retained
+PASS: skeletons, direct small-prefix coverage and all three terminal unit obstructions

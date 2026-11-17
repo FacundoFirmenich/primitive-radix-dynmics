@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "skeletons": [
+    {
+      "word": "TTTSSS",
+      "marked_skeletons": 720,
+      "survivors": [
+        {
+          "T": [
+            1,
+            2,
+            3,
+            1,
+            4,
+            5
+          ],
+          "S": [
+            3,
+            1,
+            2,
+            4,
+            5,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "word": "TTSTSS",
+      "marked_skeletons": 720,
+      "survivors": [
+        {
+          "T": [
+            1,
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          "S": [
+            4,
+            1,
+            3,
+            2,
+            5,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "word": "TSTSTS",
+      "marked_skeletons": 720,
+      "survivors": [
+        {
+          "T": [
+            1,
+            1,
+            3,
+            2,
+            5,
+            4
+          ],
+          "S": [
+            5,
+            2,
+            1,
+            4,
+            3,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "direct_prefix_Q": 30,
+  "direct_counts": {
+    "primitive_Q_A_pairs": 552,
+    "first_cycle_D_candidates": 1412,
+    "second_cycle_C_candidates": 1880,
+    "high_primitive_P_candidates": 35,
+    "E_divisors_in_chamber": 28,
+    "E_also_root_mod_C": 2,
+    "E_also_root_mod_P": 0
+  },
+  "terminal_cores_Q5000_checked": [
+    [
+      4,
+      2733,
+      2315,
+      4122,
+      4097,
+      6723,
+      6527
+    ],
+    [
+      4,
+      4733,
+      3912,
+      6677,
+      6340,
+      12383,
+      10915
+    ],
+    [
+      5,
+      201,
+      184,
+      351,
+      275,
+      549,
+      518
+    ]
+  ],
+  "terminal_obstruction": "d divides B while at least one required unit coordinate shares a prime with d"
+}

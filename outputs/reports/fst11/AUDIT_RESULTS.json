@@ -87,5 +87,5 @@
   "guaranteed_finite_decoder_words": 1111,
   "prime_set_lattice_pairs_checked": 7200,
   "status": "PASS",
-  "runtime_seconds": 4.609075747997849
+  "runtime_seconds": 4.317548841005191
 }

@@ -59,3 +59,4 @@ A-FST1213,FST12/13 inverse and language-complexity continuation,research/rc33/fs
 A-FST14,Exact terminal inversion under explicit baseline adapter,outputs/reports/fst14/RUN_MANIFEST.json,exact_replay,F14T;F14I;F14R;F14V
 A-SINE-ASSAULT,"Exact phase reconstruction, atomic observer and all-height completion-index strata",outputs/reports/sine-assault/RUN_MANIFEST.json,exact_replay,SPW;SPP;SPF;ATM;LCF;LCG;LCE
 A-CAUSAL-TRACE,"Admissible lift probes, loop blindness and exact11-rank finite-action trace certificate",outputs/reports/causal-traces/RESULTS.json,exact_replay_and_symbolic_record,RTB;RTP;RTH
+A-FST16,"Independent3-adic, joint CRT and DFA reconstruction",outputs/reports/fst16/RUN_MANIFEST.json,exact_replay_and_symbolic_record,F16I;F16C;F16D

@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "engine": "functions.exec V8 exact integer ECMAScript; original Python/browser tests not rerun",
+  "engine": "v24.22.1",
   "source": "research/rc33/causal-traces/verify.cjs",
   "audit_source_sha256": "2eead9f8214946b430634a4254a51059c7b56798273ac8ffd4561a6dc2c79720",
   "results": "outputs/reports/causal-traces/RESULTS.json",
-  "results_sha256": "1a38ffa0dd96f318a7010d8fe5c0a24ffd3bf6a53a2c13d2a940969a94960fec",
+  "results_sha256": "fe11e2d6988ea23ac021895676c36772521614e69151c57bec588707433e15cc",
   "source_commit": "a859725a3ef7c9e5890e48e7929340072752ecee",
   "base_commit": "7842c2d7ae3eddf3537c074e0287539ebc55c9a4",
   "passed_stages": [
@@ -17,9 +17,28 @@
   ],
   "scope": "Recorded integration-time replay. make target regenerates numerical RESULTS; seal refreshes output checksums.",
   "not_performed": [
-    "Private PDF/HTML rebuilds",
-    "Original Python/browser suites",
+    "Original source Python/browser suites",
     "External peer review",
     "Global arithmetic closure"
-  ]
+  ],
+  "native_replay": {
+    "status": "PASS",
+    "recorded_utc": "2026-11-17T20:25:39.938093+00:00",
+    "engine": "v24.22.1",
+    "command": [
+      "node",
+      "--max-old-space-size=1024",
+      "/workspace/rgphi-canonical-final/certificates/causal-traces/verify.cjs",
+      "/tmp/rgphi-causal-rjxqt91e/RESULTS.json"
+    ],
+    "source_sha256": "2eead9f8214946b430634a4254a51059c7b56798273ac8ffd4561a6dc2c79720",
+    "output_sha256": "fe11e2d6988ea23ac021895676c36772521614e69151c57bec588707433e15cc",
+    "all_six_stages_pass": true,
+    "semantically_identical_to_recorded_V8": true,
+    "source_code_unchanged": true,
+    "CPU_seconds": 90,
+    "wall_limit_seconds": 120,
+    "JavaScript_heap_limit_MiB": 1024,
+    "seconds": 4.056246737003676
+  }
 }

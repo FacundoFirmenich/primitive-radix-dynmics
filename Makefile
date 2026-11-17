@@ -24,7 +24,7 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify trace graph figures rc33-seal sync-check seal integrity
+reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify fst16-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
 
 recent-verify:
@@ -75,3 +75,7 @@ sine-assault-verify:
 causal-trace-verify:
 	mkdir -p outputs/reports/causal-traces
 	node research/rc33/causal-traces/verify.cjs outputs/reports/causal-traces/RESULTS.json
+
+.PHONY: fst16-verify
+fst16-verify:
+	$(PYTHON) research/rc33/fst16/replay.py --output outputs/reports/fst16

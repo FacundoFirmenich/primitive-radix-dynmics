@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-11-17T20:29:11.679236+00:00",
+  "python": "3.12.14",
+  "command": [
+    "/workspace/.venvs/rgphi-sync/bin/python",
+    "replay.py",
+    "--output",
+    "/workspace/rgphi-github-sync-2026-11-17/outputs/reports/fst16"
+  ],
+  "seconds": 0.9251932619954459,
+  "CPU_seconds": 60,
+  "memory_bytes": 1073741824,
+  "wall_limit_seconds": 90,
+  "input_artifacts": [
+    {
+      "path": "ADAPTER_NOTICE.md",
+      "sha256": "890e60fd84fec9d5e525d899d1bb9618a792a087228a33cb9d7a621f480836f1",
+      "sha256_after": "890e60fd84fec9d5e525d899d1bb9618a792a087228a33cb9d7a621f480836f1"
+    },
+    {
+      "path": "CLAIMS.json",
+      "sha256": "c2eeaee3810bcfe40efc3a977d5f464a7d70a5ebd0b1dedc502f070d25cc9c62",
+      "sha256_after": "c2eeaee3810bcfe40efc3a977d5f464a7d70a5ebd0b1dedc502f070d25cc9c62"
+    },
+    {
+      "path": "README.md",
+      "sha256": "02cb2f475801d5126726d8d8dfe13faad8a311b00ac388431d682f032e3e9e14",
+      "sha256_after": "02cb2f475801d5126726d8d8dfe13faad8a311b00ac388431d682f032e3e9e14"
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "2d703ad7cf54bb41eb59ced13828c5026f38f52f406fb4e5b68359cb8e7bb2f8",
+      "sha256_after": "2d703ad7cf54bb41eb59ced13828c5026f38f52f406fb4e5b68359cb8e7bb2f8"
+    },
+    {
+      "path": "RETURN_FST16_ES.md",
+      "sha256": "e9e748d8a867909f58040c19d6b2acaf488c9b95bdee931690451e56e86eb37f",
+      "sha256_after": "e9e748d8a867909f58040c19d6b2acaf488c9b95bdee931690451e56e86eb37f"
+    },
+    {
+      "path": "SOURCE_DEPENDENCIES.json",
+      "sha256": "34156f751be30903f08e2b5b58b485788e7a7f4bb67f8d533e682c9152d08fd1",
+      "sha256_after": "34156f751be30903f08e2b5b58b485788e7a7f4bb67f8d533e682c9152d08fd1"
+    },
+    {
+      "path": "audit16.py",
+      "sha256": "6bbe63c319acc78bab224bcf862a49405dc658dd1a4751decdc4e7b4283fc46d",
+      "sha256_after": "6bbe63c319acc78bab224bcf862a49405dc658dd1a4751decdc4e7b4283fc46d"
+    },
+    {
+      "path": "exact_inverse.py",
+      "sha256": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39",
+      "sha256_after": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39"
+    },
+    {
+      "path": "fst12_baseline.py",
+      "sha256": "548337822261f9b85c9b9733cfb46c890ec92f0f1fbe8c5dcdccbe0b2cb59c61",
+      "sha256_after": "548337822261f9b85c9b9733cfb46c890ec92f0f1fbe8c5dcdccbe0b2cb59c61"
+    },
+    {
+      "path": "fst13_baseline.py",
+      "sha256": "eb56b4dafa1d9d1154442e878f41359e5cebee3d5a64da2da03b4094f8b1a3f9",
+      "sha256_after": "eb56b4dafa1d9d1154442e878f41359e5cebee3d5a64da2da03b4094f8b1a3f9"
+    },
+    {
+      "path": "fst14.py",
+      "sha256": "28abe4e95499932ebf44f5747363bf3e06a80d4fc5466bd50dbd168abcbf41f7",
+      "sha256_after": "28abe4e95499932ebf44f5747363bf3e06a80d4fc5466bd50dbd168abcbf41f7"
+    },
+    {
+      "path": "inverse16.py",
+      "sha256": "5e485019c9e17f0a1e78767551b5f6afd06c5589fc4a89540512f8431e978e12",
+      "sha256_after": "5e485019c9e17f0a1e78767551b5f6afd06c5589fc4a89540512f8431e978e12"
+    },
+    {
+      "path": "replay.py",
+      "sha256": "2d9c002fc3f25ff71a0172f9575220ad9cc0432d1571fbe1d64ce19841567a17",
+      "sha256_after": "2d9c002fc3f25ff71a0172f9575220ad9cc0432d1571fbe1d64ce19841567a17"
+    }
+  ],
+  "output_sha256": "2bcd8e8766eded73aab00742f88d863fb6564666fbb390fcd424d13c35315718",
+  "original_FST15_16_artifacts_received": false,
+  "scope": "Independent reconstruction from received prose; copied FST14 engine/adapters unchanged; no original suite, atlas, priority or global arithmetic closure claim."
+}

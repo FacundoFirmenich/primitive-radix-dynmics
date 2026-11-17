@@ -1,0 +1,46 @@
+{
+  "claims": [
+    {
+      "id": "F16I",
+      "claim": "Admissible seven-erasure ranks and values form a bijective3-adic isometry",
+      "status": "proved",
+      "dependencies": [
+        "F13B"
+      ],
+      "scope": "C congruent8mod9; formal j>=0, realizable word window retained; other erased primes may contract",
+      "review": "assisted self-review; exact independent reconstruction from received prose",
+      "publication_scope": "current publication",
+      "public_evidence": "research/rc33/fst16/RESULTS.md#f16i",
+      "verification": "make fst16-verify"
+    },
+    {
+      "id": "F16C",
+      "claim": "Prefix, suffix and ternary residues admit exact joint rank/select and sharp resolution",
+      "status": "proved",
+      "dependencies": [
+        "F16I",
+        "F14I"
+      ],
+      "scope": "Nonempty prefix window for bit formula; joint period T*3^t; values require two more key digits",
+      "review": "assisted self-review; exact independent reconstruction from received prose",
+      "publication_scope": "current publication",
+      "public_evidence": "research/rc33/fst16/RESULTS.md#f16c",
+      "verification": "make fst16-verify"
+    },
+    {
+      "id": "F16D",
+      "claim": "DFA cylinder pruning counts structured fibres exactly",
+      "status": "proved",
+      "dependencies": [
+        "F16C",
+        "F13B"
+      ],
+      "scope": "Any complete decimal DFA; no universal sublinear bound; original FST15/16 engines not received",
+      "review": "assisted self-review; exact independent reconstruction from received prose",
+      "publication_scope": "current publication",
+      "public_evidence": "research/rc33/fst16/RESULTS.md#f16d",
+      "verification": "make fst16-verify"
+    }
+  ],
+  "source_availability": "Received prose, original FST15/16 ZIP/code/atlas not supplied"
+}

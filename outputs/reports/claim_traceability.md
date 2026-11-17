@@ -115,6 +115,9 @@
 | RTB | `PROVED_SYMBOLIC` | Closed-loop traces have Hankel rank at most two and can hide distinct lifted actions | `research/rc33/causal-traces/RESULTS.md#rtb` | depends_on:C004<br>depends_on:C011 |
 | RTP | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Four admissible suffix probes of length at most two recover the known family's2x2 lifted matrix | `research/rc33/causal-traces/RESULTS.md#rtp` | depends_on:C011 |
 | RTH | `EXACT_CERTIFICATE` | The36-action witness has fixed-point-trace Hankel rank11 and30 trace-future classes | `research/rc33/causal-traces/RESULTS.md#rth` | depends_on:C011 |
+| F16I | `PROVED_SYMBOLIC` | Admissible seven-erasure ranks and values form a bijective3-adic isometry | `research/rc33/fst16/RESULTS.md#f16i` | depends_on:F13B |
+| F16C | `PROVED_SYMBOLIC` | Prefix, suffix and ternary residues admit exact joint rank/select and sharp resolution | `research/rc33/fst16/RESULTS.md#f16c` | depends_on:F16I<br>depends_on:F14I |
+| F16D | `PROVED_SYMBOLIC` | DFA cylinder pruning counts structured fibres exactly | `research/rc33/fst16/RESULTS.md#f16d` | depends_on:F16C<br>depends_on:F13B |
 
 ## Artifact registry
 
@@ -180,3 +183,4 @@
 | A-FST14 | `exact_replay` | `outputs/reports/fst14/RUN_MANIFEST.json` | F14T;F14I;F14R;F14V |
 | A-SINE-ASSAULT | `exact_replay` | `outputs/reports/sine-assault/RUN_MANIFEST.json` | SPW;SPP;SPF;ATM;LCF;LCG;LCE |
 | A-CAUSAL-TRACE | `exact_replay_and_symbolic_record` | `outputs/reports/causal-traces/RESULTS.json` | RTB;RTP;RTH |
+| A-FST16 | `exact_replay_and_symbolic_record` | `outputs/reports/fst16/RUN_MANIFEST.json` | F16I;F16C;F16D |

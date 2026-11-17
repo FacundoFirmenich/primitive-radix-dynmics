@@ -1,33 +1,11 @@
 {
-  "status": "research_and_certificates_integrated;private_documents_pending",
+  "status": "integrated_in_all_six_private_manuscripts",
   "edition": "RC3.3",
   "private_baseline_commit": "7842c2d7ae3eddf3537c074e0287539ebc55c9a4",
-  "reason": "Private execution workspace unavailable; no source access, XeLaTeX build or visual inspection.",
-  "pending": [
-    {
-      "document": "COMPANION EN/ES",
-      "destination": "Observation and whole-input appendix; finite transformation action",
-      "claims": [
-        "RTB",
-        "RTP",
-        "RTH"
-      ]
-    },
-    {
-      "document": "SUPPLEMENT EN/ES",
-      "destination": "Probe determinants, rank11 certificate and replay contracts",
-      "claims": [
-        "RTB",
-        "RTP",
-        "RTH"
-      ]
-    },
-    {
-      "document": "MAIN EN/ES",
-      "destination": "Brief pointer to consequences; threshold proof unchanged"
-    }
-  ],
-  "private_PDF_hashes_unchanged": true,
+  "reason": "Private workspace restored; authoritative sources rebuilt and document checks passed.",
+  "pending": [],
+  "private_PDF_hashes_unchanged": false,
   "DOI_tag_unchanged": true,
-  "new_global_rows_closed": 0
+  "new_global_rows_closed": 0,
+  "completed_utc_date": "2026-11-17"
 }

@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "seconds": 0.8516935040097451,
+  "checks": {
+    "valuation_pairs": 15840,
+    "permutation_values": 10920,
+    "lift_inverses": 1620,
+    "general_prime_pairs": 324,
+    "prefix_intervals": 1050,
+    "joint_queries": 15450,
+    "DFA_cases": 6240,
+    "sharp_width_cases": 6612
+  },
+  "original_FST15_16_suites_replayed": false,
+  "original_FST15_16_inputs_received": false,
+  "large_example": {
+    "reconstruction": "h=8,C=8 independently supplies all reported counts; omitted parameters reconstructed, not a recovered original certificate",
+    "A": 3945,
+    "prefix_interval": [
+      0,
+      3944
+    ],
+    "rows": [
+      {
+        "h": 8,
+        "length": 10000,
+        "L": 0,
+        "U": 3944,
+        "A": 3945,
+        "residue": 0,
+        "period": 1,
+        "suffix_period": 1,
+        "three_checks": 0,
+        "first": 0,
+        "count": 3944,
+        "last": 3943,
+        "extra_bits": 12
+      },
+      {
+        "h": 8,
+        "length": 10000,
+        "L": 0,
+        "U": 3944,
+        "A": 3945,
+        "residue": 0,
+        "period": 4,
+        "suffix_period": 4,
+        "three_checks": 0,
+        "first": 0,
+        "count": 986,
+        "last": 3940,
+        "extra_bits": 10
+      },
+      {
+        "h": 8,
+        "length": 10000,
+        "L": 0,
+        "U": 3944,
+        "A": 3945,
+        "residue": 12,
+        "period": 36,
+        "suffix_period": 4,
+        "three_checks": 6,
+        "first": 12,
+        "count": 110,
+        "last": 3936,
+        "extra_bits": 7
+      },
+      {
+        "h": 8,
+        "length": 10000,
+        "L": 0,
+        "U": 3944,
+        "A": 3945,
+        "residue": 84,
+        "period": 2916,
+        "suffix_period": 4,
+        "three_checks": 18,
+        "first": 84,
+        "count": 2,
+        "last": 3000,
+        "extra_bits": 1
+      },
+      {
+        "h": 8,
+        "length": 10000,
+        "L": 0,
+        "U": 3944,
+        "A": 3945,
+        "residue": 3000,
+        "period": 8748,
+        "suffix_period": 4,
+        "three_checks": 21,
+        "first": 3000,
+        "count": 1,
+        "last": 3000,
+        "extra_bits": 0
+      }
+    ],
+    "suffix_candidate_congruence_checks": 5,
+    "DFA": {
+      "count": 3944,
+      "nodes": 21,
+      "accepted_blocks": 1,
+      "singleton_checks": 0,
+      "initial_candidates": 3945
+    },
+    "word3000_sha256": "b89d8872eea85301f1062ed0be21310ef6db3728da65521ac968d7697e817316",
+    "without_suffix_uniform_t": 8,
+    "without_suffix_period": 6561
+  },
+  "generalized_erasure": [
+    {
+      "erased_prime": 2,
+      "exponent_step": 6,
+      "q": 64,
+      "v3_q_minus_1": 2,
+      "value_shift": 0,
+      "image_coset_modulus": 1
+    },
+    {
+      "erased_prime": 7,
+      "exponent_step": 3,
+      "q": 343,
+      "v3_q_minus_1": 2,
+      "value_shift": 0,
+      "image_coset_modulus": 1
+    },
+    {
+      "erased_prime": 109,
+      "exponent_step": 1,
+      "q": 109,
+      "v3_q_minus_1": 3,
+      "value_shift": 1,
+      "image_coset_modulus": 3
+    },
+    {
+      "erased_prime": 163,
+      "exponent_step": 1,
+      "q": 163,
+      "v3_q_minus_1": 4,
+      "value_shift": 2,
+      "image_coset_modulus": 9
+    }
+  ],
+  "key_value_precision_shift": [
+    {
+      "t": 1,
+      "value_classes": 3,
+      "key_classes": 1
+    },
+    {
+      "t": 2,
+      "value_classes": 9,
+      "key_classes": 1
+    },
+    {
+      "t": 3,
+      "value_classes": 27,
+      "key_classes": 3
+    },
+    {
+      "t": 4,
+      "value_classes": 81,
+      "key_classes": 9
+    },
+    {
+      "t": 5,
+      "value_classes": 243,
+      "key_classes": 27
+    },
+    {
+      "t": 6,
+      "value_classes": 729,
+      "key_classes": 81
+    }
+  ],
+  "invariants": "exact integer decisions; no floating logarithm or generic sublinear-DFA claim"
+}

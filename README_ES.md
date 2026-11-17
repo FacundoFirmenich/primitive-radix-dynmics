@@ -1,5 +1,9 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Continuación compilada actual · FST16 y trazas causales
+
+Los tres resultados causales anteriores ya están incorporados a los seis PDF/HTML privados. FST16 añade isometría3-ádica, inversión conjunta de prefijo/sufijo y poda exacta de cilindros DFA, con reconstrucción de los conteos3944/986/110/2/1 a10000 cifras. Se explicitan el desplazamiento clave/valor y las contracciones para otros primos. El registro público suma116 tarjetas y62 de continuación. [Evidencia FST16](research/rc33/fst16/RESULTS.md) · [Evidencia causal](research/rc33/causal-traces/RESULTS.md). El software FST15/16 original no fue suministrado; la reconstrucción independiente se distingue de sus suites ausentes. Los manuscritos siguen fuera del repositorio público y el DOI/tag original no cambia. Los párrafos antiguos de documentos pendientes son checkpoints superados por este corte.
+
 ## Continuación causal por trazas · 17 de noviembre de2026
 
 Tres resultados nuevos se refieren al testigo RGΦ: rango dos de las trazas de retornos y un par indistinguible; cuatro sondas admisibles de longitud máxima dos para toda la familia CRT; y rango11 del Hankel de puntos fijos, con30 clases observables entre36 acciones. [Pruebas y contratos](research/rc33/causal-traces/RESULTS.md) · [Anexo de retorno](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). El replay independiente exacto reproduce2.097.151 historias binarias,265.720 ternarias y Apéry–CRT. Comando: make causal-trace-verify.

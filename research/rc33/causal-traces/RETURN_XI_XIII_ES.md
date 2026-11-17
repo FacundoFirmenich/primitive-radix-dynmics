@@ -16,4 +16,6 @@ El destino editorial es el companion junto a observabilidad y palabras, con cert
 
 El cierre global de RGΦ todavía requiere acotar o reducir uniformemente el índice de completación; la mínima base a cardinalidad arbitraria necesita además un control de cardinalidad. Las sondas y el rango11 no proporcionan por sí solos esa cota.
 
-Reproducción: Node18+; make causal-trace-verify. Los PDF/HTML privados no pudieron reconstruirse: el entorno estaba indisponible. Las inserciones están pendientes y no se presentan como compiladas.
+Reproducción: Node18+; make causal-trace-verify. Ese checkpoint público dejó las inserciones privadas pendientes. La entrega FST16/causal posterior retoma e incorpora esas pruebas a los documentos; su recibo final registra la compilación y revisión actuales. Se mantiene disponible el certificado del checkpoint original.
+
+La acción completa del conjunto finito tiene además un observador causal de36 estados: actualizar la transformación por composición con la letra recibida. Seis bits de código fijo identifican cualquiera de esas acciones. Esto no equivale a observar el levantamiento ni a reconstruir el origen.

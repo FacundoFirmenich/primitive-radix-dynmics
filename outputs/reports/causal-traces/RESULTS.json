@@ -161,7 +161,7 @@
     "probe_determinant": "947592350208144",
     "Hankel_determinant": "-897931262172993824240123924736",
     "triple_count_basis": "Algebraic freeness and reversal proof; no million-key triple table is claimed.",
-    "milliseconds": 26626
+    "milliseconds": 3195
   },
   "ternary": {
     "status": "PASS",
@@ -245,7 +245,7 @@
     "Hankel_determinant": "-2350434697576002270480409656912728517438550870917208503336872589777357438480960577645530924104724951674599218610176",
     "oriented_trace": "273599197347",
     "reverse_trace": "3",
-    "milliseconds": 2930
+    "milliseconds": 692
   },
   "ternary_DFA": {
     "status": "PASS",
@@ -658,7 +658,7 @@
       "55340232221128779837"
     ],
     "exact_generating_function": "(1-3t+5t^2-4t^3-2t^5)/((1-t)^4(1-2t))",
-    "milliseconds": 4
+    "milliseconds": 2
   },
   "apery_crt": {
     "status": "PASS",
@@ -5451,7 +5451,7 @@
     "DP_points": 2450598,
     "CRT_cases": 4096,
     "CRT_modulus": "68399799336",
-    "milliseconds": 1768
+    "milliseconds": 74
   },
   "radix_probes": {
     "status": "PASS",
@@ -7990,6 +7990,6 @@
         }
       ]
     ],
-    "milliseconds": 32
+    "milliseconds": 9
   }
 }

@@ -14,23 +14,23 @@
     "rc33_coupled_ES.svg": "6917e344fc8b689d3cba638e066a7514eaa7722a7863577d39c5c353218b790b"
   },
   "private_document_hashes": {
-    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "d4a69fdd70068a632d93ed0d86ee21be4b621c0cf8fa1a9e021ceaac97052727",
-    "RGPHI_RC3_3_COMPANION_ES.pdf": "9ffd409b6fd08237d717fd08e56334a9a753d15cebe173cfcbf1848f54de2c35",
-    "RGPHI_RC3_3_MAIN_EN.pdf": "36df8c4b4ceae75cc28efa9e6f327e21167e75b3103ed4e37b50aec68cc1259d",
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "8349ff029745d95e477b8d66ac7f7258dd827ccf8739f3f07ab03da766f831b2",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "7705b0f8b8146d23686af067263e09de1f61e0ba7c8c21e076613130707bf7bf",
+    "RGPHI_RC3_3_MAIN_EN.pdf": "f165c6a93f145a9dd9766cf36d5ae07eb198fc776ff58b2f7e98deff222c23ac",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "40a31bef72b896ba15dabc68e4b673a83a2e9119a5dc9daab4e2044b04825a28",
-    "RGPHI_RC3_3_COMPANION_EN.pdf": "36585507056bb605f485a98ac9392c9c11bf7b48b9c804d349dfee8d90a4a734",
-    "RGPHI_RC3_3_MAIN_ES.pdf": "b287e46ec8563776ba297c5979faf5fefb49a76da89e846faae84f56601823a4",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "a12ba14152367961ba01732b983742073c9bf034ed231763323b25c04629392b",
+    "RGPHI_RC3_3_MAIN_ES.pdf": "ea0d59a89163ad430ebdbc466945543cbdf1ce6b093cda9d91d23bc3fc4b3e17",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "8d65b2a1df2ac9f3022dfd8b23817519633302e3596cf0dee05800ad65304728",
-    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "9ce41ed0d4c59d8909c5f5579b8ce4e56f244e1087625fe98cce62380e0396f4"
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "97b7fdbd2bb76036b6f655b276736b4cc3ea841701ddec0c5e4d6161e5f42d10"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "56 scoped continuation cards; current sine/atomic integration and effective completion index; full manuscripts remain private",
+  "continuation": "62 compiled continuation cards;111 private claim cards;116 public records; FST16 and causal proofs integrated in all six private manuscript pairs",
   "public_research_checkpoint": {
-    "added_cards": 3,
-    "total_public_cards": 113,
-    "continuation_cards": 59,
-    "private_document_integration": "pending: source workspace unavailable; private document hashes still identify last compiled56-card continuation"
+    "added_since_sine": 6,
+    "total_public_cards": 116,
+    "continuation_cards": 62,
+    "private_document_integration": "completed; six current PDF/HTML pairs"
   }
 }

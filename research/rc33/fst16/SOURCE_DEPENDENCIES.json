@@ -1,0 +1,11 @@
+{
+  "FST14_byte_identical": {
+    "fst14.py": "28abe4e95499932ebf44f5747363bf3e06a80d4fc5466bd50dbd168abcbf41f7",
+    "fst12_baseline.py": "548337822261f9b85c9b9733cfb46c890ec92f0f1fbe8c5dcdccbe0b2cb59c61",
+    "fst13_baseline.py": "eb56b4dafa1d9d1154442e878f41359e5cebee3d5a64da2da03b4094f8b1a3f9",
+    "exact_inverse.py": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39",
+    "ADAPTER_NOTICE.md": "890e60fd84fec9d5e525d899d1bb9618a792a087228a33cb9d7a621f480836f1"
+  },
+  "original_FST15_FST16_files_supplied": false,
+  "source": "received prose communication; independently reconstructed"
+}

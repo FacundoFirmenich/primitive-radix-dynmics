@@ -1141,6 +1141,36 @@
       "scope": "5x5 finite-state action matrices, distinct from2x2 branch lifts; complete36x36 table and11x11 minor determinant-576. No arithmetic closure."
     },
     {
+      "id": "F16I",
+      "label": "F16I",
+      "title": "Admissible seven-erasure ranks and values form a bijective3-adic isometry",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst16/RESULTS.md#f16i",
+      "scope": "C congruent8mod9; formal j>=0, realizable word window retained; other erased primes may contract"
+    },
+    {
+      "id": "F16C",
+      "label": "F16C",
+      "title": "Prefix, suffix and ternary residues admit exact joint rank/select and sharp resolution",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst16/RESULTS.md#f16c",
+      "scope": "Nonempty prefix window for bit formula; joint period T*3^t; values require two more key digits"
+    },
+    {
+      "id": "F16D",
+      "label": "F16D",
+      "title": "DFA cylinder pruning counts structured fibres exactly",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst16/RESULTS.md#f16d",
+      "scope": "Any complete decimal DFA; no universal sublinear bound; original FST15/16 engines not received"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1738,6 +1768,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "outputs/reports/causal-traces/RESULTS.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-FST16",
+      "label": "A-FST16",
+      "title": "Independent3-adic, joint CRT and DFA reconstruction",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "outputs/reports/fst16/RUN_MANIFEST.json",
       "scope": "evidence"
     },
     {
@@ -2783,6 +2823,31 @@
       "relation": "depends_on"
     },
     {
+      "source": "F16I",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F16C",
+      "target": "F16I",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F16C",
+      "target": "F14I",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F16D",
+      "target": "F16C",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F16D",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -3540,6 +3605,21 @@
     {
       "source": "A-CAUSAL-TRACE",
       "target": "RTH",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST16",
+      "target": "F16I",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST16",
+      "target": "F16C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST16",
+      "target": "F16D",
       "relation": "supports"
     },
     {

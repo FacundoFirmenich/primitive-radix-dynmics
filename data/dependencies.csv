@@ -145,3 +145,8 @@ RTB,C004,depends_on
 RTB,C011,depends_on
 RTP,C011,depends_on
 RTH,C011,depends_on
+F16I,F13B,depends_on
+F16C,F16I,depends_on
+F16C,F14I,depends_on
+F16D,F16C,depends_on
+F16D,F13B,depends_on

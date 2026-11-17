@@ -1,5 +1,9 @@
 # Research status · RC3.3
 
+## Current compiled continuation · FST16 and causal traces
+
+The three prior causal results are now incorporated into the six private PDF/HTML manuscripts. Three FST16 records add a3-adic isometry, coprime prefix/suffix inversion and exact DFA-cylinder pruning, with reconstructed10000-digit counts3944/986/110/2/1. The value/key precision shift and general-prime contractions are explicit. Current public ledger:116 records;62 continuation cards. [FST16 evidence](research/rc33/fst16/RESULTS.md) · [Causal evidence](research/rc33/causal-traces/RESULTS.md). Original FST15/16 software was not supplied; independent reconstruction is distinguished from its missing suites. Private sources remain embargoed; the original DOI/tag is unchanged. Earlier dated pending-document paragraphs are historical checkpoints superseded here.
+
 ## Causal trace continuation · 17 November2026
 
 Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.

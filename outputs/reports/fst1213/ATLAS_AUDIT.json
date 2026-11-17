@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "node": "v24.22.1",
+  "supplied_FST12_selftests": {
+    "passed": 11,
+    "total": 11,
+    "tests": [
+      [
+        "K02",
+        true
+      ],
+      [
+        "prefijo8",
+        true
+      ],
+      [
+        "h-1",
+        true
+      ],
+      [
+        "h3rej",
+        true
+      ],
+      [
+        "c782",
+        true
+      ],
+      [
+        "c-343",
+        true
+      ],
+      [
+        "count8",
+        true
+      ],
+      [
+        "lcm",
+        true
+      ],
+      [
+        "orbitEven",
+        true
+      ],
+      [
+        "orbitNo8",
+        true
+      ],
+      [
+        "orbitSum3",
+        true
+      ]
+    ]
+  },
+  "supplied_FST13_selftests": 11,
+  "extended_exact_checks": {
+    "roundtrips": 11111,
+    "max1000": 395,
+    "bounded1000": 197913
+  },
+  "received_limitations": [
+    {
+      "issue": "Empty modular input displays 0 instead of the empty word.",
+      "impact": "Display only; arithmetic count is correct."
+    },
+    {
+      "issue": "Unused divceil helper truncates positive nonintegral quotients instead of rounding up.",
+      "impact": "Helper is unused in the current active formulas; no current theorem invalidated."
+    }
+  ],
+  "forced_local_patch_checks": {
+    "fresh_VM": true,
+    "empty_witness": "ε",
+    "ceil_cases": 410,
+    "selftest_regressions": 11
+  },
+  "provenance": "Actual received JavaScript executed in Node VM with an inert DOM; no browser or visual-interaction test claimed."
+}

@@ -39,3 +39,11 @@ The t ≤ 5000 exclusion is uniform over bases in its chamber stratum, not over 
 Run `make reproduce` after installing `.[dev]`. The [verification guide](VERIFICATION.md) and [recent replay receipt](outputs/reports/recent/RUN_MANIFEST.json) separate symbolic identities, saved exhaustive computations and current replays.
 
 The immutable archive DOI [10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311) covers the 16 November `rc3.3-zenodo` tag. Current `main` includes the additional integration; no old tag is moved. The [pre-arXiv embargo](docs/PUBLICATION_BOUNDARY.md) excludes complete manuscripts from this public repository.
+
+## FST12/13 continuation
+
+[Nine scoped records](research/rc33/fst1213/RESULTS.md) extend the observation appendix: every admissible prime-erased fibre except the identity-erasure prime3 is non-context-free with a natural-boundary length series; bounded regular-language rank/unrank and arbitrary effective moduli have exact contracts. Fixed-length fibre maxima and entropy retain their prior attribution. The15-family sine critical-word and1922-endpoint counts lack their original definitions in this delivery and are not marked certified. The five global arithmetic questions above are unchanged.
+
+### FST14 terminal-inverse continuation
+
+Four scoped records and a reproducible declared-adapter audit extend FST12/13: exact terminal periods, bounded lifting/CRT inversion and logarithmic suffix resolution. Run `make fst14-verify`. The missing historical baselines and browser suites are not represented as replayed. Current combined continuation:49 cards;103 public claim records. Full manuscripts remain private; original DOI/tag unchanged.

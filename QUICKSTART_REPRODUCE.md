@@ -50,3 +50,9 @@ No manuscript is generated: the manuscript is deliberately outside this reposito
 The full figure export uses CairoSVG and its system Cairo library (for example, `libcairo2` on Ubuntu).
 
 The full T007 layer requires a C++17 compiler (`g++`) and the declared NumPy/SymPy dependencies. Run `make t007-verify`; the optional complete hexagon replay is `make t007-full-hexagon`. Default quick runs preserve the original complete Q<=5000 execution receipt and source hashes under `research/rc33/t007/saved/`.
+
+For the FST12/13 continuation, install Node.js18+ (tested24.22.1) and run `make fst1213-verify`. The original historical Python suites and15-family sine endpoint generator were not supplied; their results are not claimed as replayed.
+
+### FST14 terminal-inverse continuation
+
+Run `make fst14-verify`: four scoped records, a declared baseline adapter, exact terminal periods and lifted inversion. Combined continuation49 cards;103 public records. Full manuscripts remain private and the original DOI/tag is unchanged.

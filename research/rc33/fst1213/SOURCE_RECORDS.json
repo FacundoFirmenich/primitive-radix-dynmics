@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-11-17",
+  "scope": "Exact classical implications and citation metadata; no exhaustive novelty search or priority claim.",
+  "sources": [
+    {
+      "id": "Parikh1966",
+      "title": "On Context-Free Languages",
+      "identifier": "10.1145/321356.321364",
+      "primary_verification": "https://arxiv.org/pdf/2210.02925v1",
+      "locator": "Manfred Kufleitner, Yet another proof of Parikh's Theorem, arXiv:2210.02925v1, Corollary 2, page 4",
+      "checked_implication": "The Parikh image of a context-free language is semilinear. Unary length images therefore have eventual periodicity.",
+      "application": "Canonical lengths have irrational natural density, so cannot be eventually periodic; intersection with a regular canonical selector transfers the obstruction to the full fibre.",
+      "status": "verified",
+      "access_note": "The original ACM PDF returned403; the exact statement and proof were checked in the named primary alternative, not inferred from snippets."
+    },
+    {
+      "id": "Carlson1921",
+      "title": "Über Potenzreihen mit ganzzahligen Koeffizienten",
+      "primary_verification": "https://arxiv.org/pdf/1307.2369v1",
+      "locator": "Bell, Miles and Ward, Towards a Pólya–Carlson dichotomy for algebraic dynamics, arXiv:1307.2369v1, page2, named Pólya–Carlson theorem",
+      "checked_implication": "Integer coefficients and radius one give the rational-or-natural-boundary dichotomy.",
+      "application": "The canonical series has infinitely many binary coefficients and radius one. Its irrational support density excludes rationality.",
+      "status": "verified",
+      "additional_reading": "https://people.math.ethz.ch/~airibar/Polya_Carlson.pdf, Theorem6 and historical references; no claim of having read Carlson's original German publication."
+    },
+    {
+      "id": "Stanley1980",
+      "title": "Differentiably Finite Power Series",
+      "identifier": "10.1016/S0195-6698(80)80051-5",
+      "primary_verification": "https://math.mit.edu/~rstan/pubs/pubfiles/45.pdf",
+      "locator": "Definition1.1 and Theorem1.2, printed page175; author-hosted scan inspected visually",
+      "checked_implication": "D-finite series satisfy a linear differential equation with polynomial coefficients.",
+      "application": "Ordinary-point continuation confines finite singularities to a finite polynomial-zero set, incompatible with a natural boundary. Algebraic functions are D-finite by finite-dimensional differentiation over the algebraic extension.",
+      "status": "verified"
+    }
+  ],
+  "copyright_retention": "Only bibliographic records and the needed mathematical implications are retained in the delivery; no fetched external full text is republished."
+}

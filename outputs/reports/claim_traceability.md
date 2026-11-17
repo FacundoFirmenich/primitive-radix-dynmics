@@ -92,6 +92,19 @@
 | T07E | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Reconstructed 29-prime relation lattice and 43-prime quotient refinement with exact 172-fold norm improvement | `research/rc33/t007/RESULTS.md#t07e` | — |
 | T07F | `PROVED_SYMBOLIC` | Universal exact first separating order of the Frontera VII commutator tower | `research/rc33/t007/RESULTS.md#t07f` | — |
 | T07B | `EXACT_CERTIFICATE` | One optimal output bit completes O5 on every binary history of lengths 16 through 20 | `research/rc33/t007/RESULTS.md#t07b` | depends_on:T07K |
+| F12L | `PROVED_SYMBOLIC` | Every admissible7-primitive fibre is non-context-free with efficient fixed-label membership | `research/rc33/fst1213/RESULTS.md#f12l` | depends_on:F11K |
+| F12A | `PROVED_SYMBOLIC` | Canonical and full fibre length series have the unit circle as a natural boundary | `research/rc33/fst1213/RESULTS.md#f12a` | depends_on:F12L |
+| F12E | `PROVED_SYMBOLIC` | Finite-family prime-erasure fusion and exact uniform key-recovery criterion | `research/rc33/fst1213/RESULTS.md#f12e` | depends_on:F11K<br>depends_on:F11H |
+| F12O | `PROVED_SYMBOLIC` | Exact finite-plus-periodic prefix ambiguity under a complete DFA | `research/rc33/fst1213/RESULTS.md#f12o` | depends_on:F11K |
+| F13B | `PROVED_SYMBOLIC` | Unknown bounded length and regular-language rank/unrank attain the exact auxiliary-code bound | `research/rc33/fst1213/RESULTS.md#f13b` | depends_on:F11K<br>depends_on:F12O<br>depends_on:T07K<br>depends_on:R17M |
+| F13C | `PROVED_SYMBOLIC` | Mean fixed per-fibre index cost is distinct from conditional entropy | `research/rc33/fst1213/RESULTS.md#f13c` | depends_on:R17E |
+| F13M | `PROVED_SYMBOLIC` | Arbitrary unnormalized key modulus has effective resolution M/gcd(M,9) | `research/rc33/fst1213/RESULTS.md#f13m` | depends_on:F11K |
+| F13P | `PROVED_SYMBOLIC` | Erased-prime dichotomy: every prime except3 has non-CFL fibres and natural boundaries | `research/rc33/fst1213/RESULTS.md#f13p` | depends_on:F11K<br>depends_on:F12L<br>depends_on:F12A |
+| F13V | `EXACT_CERTIFICATE` | Received atlas scripts and independent inverse computations replayed in explicit finite domains | `research/rc33/fst1213/RESULTS.md#f13v` | depends_on:F12E<br>depends_on:F12O<br>depends_on:F13B<br>depends_on:F13C<br>depends_on:F13M<br>depends_on:F13P |
+| F14T | `PROVED_SYMBOLIC` | Terminal suffix period and profinite index80 | `research/rc33/fst14/RESULTS.md#f14t` | depends_on:F11K<br>depends_on:F13B |
+| F14I | `PROVED_SYMBOLIC` | Terminal inversion by bounded prime-power lifting and generalized CRT | `research/rc33/fst14/RESULTS.md#f14i` | depends_on:F14T<br>depends_on:F13B |
+| F14R | `PROVED_SYMBOLIC` | Exact separation criterion and logarithmic terminal precision | `research/rc33/fst14/RESULTS.md#f14r` | depends_on:F14T<br>depends_on:F14I |
+| F14V | `EXACT_CERTIFICATE` | Received terminal engine checked under an explicit baseline adapter | `research/rc33/fst14/RESULTS.md#f14v` | depends_on:F14T<br>depends_on:F14I<br>depends_on:F14R |
 
 ## Artifact registry
 
@@ -153,3 +166,5 @@
 | A-R17-REPLAY | `reproducible_checker` | `research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json` | R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V |
 | A-FST11 | `software_and_exact_data` | `research/rc33/fst11` | F11K;F11H;F11C;F11R;F11V |
 | A-T007 | `software_and_exact_certificates` | `research/rc33/t007` | T07K;T07X;T07H;T07C;T07E;T07F;T07B |
+| A-FST1213 | `software_and_exact_certificates` | `research/rc33/fst1213` | F12L;F12A;F12E;F12O;F13B;F13C;F13M;F13P;F13V |
+| A-FST14 | `exact_replay` | `outputs/reports/fst14/RUN_MANIFEST.json` | F14T;F14I;F14R;F14V |

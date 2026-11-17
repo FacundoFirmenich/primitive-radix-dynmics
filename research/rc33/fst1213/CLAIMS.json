@@ -1,0 +1,96 @@
+{
+  "claims": [
+    {
+      "id": "F12L",
+      "claim": "Every admissible7-primitive fibre is non-context-free with efficient fixed-label membership",
+      "scope": "All finite literal decimal words, including empty and leading zeros; each fixed admissible label. Not a theorem about RGphi state realizability.",
+      "dependencies": [
+        "F11K"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f12l"
+    },
+    {
+      "id": "F12A",
+      "claim": "Canonical and full fibre length series have the unit circle as a natural boundary",
+      "scope": "Integer coefficients, radius one and irrational support density; Parikh and P\u00f3lya\u2013Carlson are classical checked inputs.",
+      "dependencies": [
+        "F12L"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f12a"
+    },
+    {
+      "id": "F12E",
+      "claim": "Finite-family prime-erasure fusion and exact uniform key-recovery criterion",
+      "scope": "Nonempty finite family of finite prime sets; recovery of K on8+9Z iff the common erased primes are contained in{3}; prefix ambiguity remains.",
+      "dependencies": [
+        "F11K",
+        "F11H"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f12e"
+    },
+    {
+      "id": "F12O",
+      "claim": "Exact finite-plus-periodic prefix ambiguity under a complete DFA",
+      "scope": "Fixed key and canonical word; orbit preperiod/period and acceptance residues, not necessarily the minimum Boolean period.",
+      "dependencies": [
+        "F11K"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f12o"
+    },
+    {
+      "id": "F13B",
+      "claim": "Unknown bounded length and regular-language rank/unrank attain the exact auxiliary-code bound",
+      "scope": "Exact h and length bound L; fixed-length minimax is reused fromR17M; new bounded count maximized byh=8, with no time-optimality claim.",
+      "dependencies": [
+        "F11K",
+        "F12O",
+        "T07K",
+        "R17M"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f13b"
+    },
+    {
+      "id": "F13C",
+      "claim": "Mean fixed per-fibre index cost is distinct from conditional entropy",
+      "scope": "Uniform words at each exact length; prior fibre law and entropy retained; new mean fixed-index cost with rigorous interval and geometric-tail checks.",
+      "dependencies": [
+        "R17E"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f13c"
+    },
+    {
+      "id": "F13M",
+      "claim": "Arbitrary unnormalized key modulus has effective resolution M/gcd(M,9)",
+      "scope": "Known exact length; consistency test included; complete-DFA count is pseudopolynomial in the numerical effective modulus.",
+      "dependencies": [
+        "F11K"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f13m"
+    },
+    {
+      "id": "F13P",
+      "claim": "Erased-prime dichotomy: every prime except3 has non-CFL fibres and natural boundaries",
+      "scope": "Every nonempty fibre for a fixed prime; p=3 leavesK unchanged and gives regular prefix fibres. Formal transfer of the checked proofs, not a priority claim.",
+      "dependencies": [
+        "F11K",
+        "F12L",
+        "F12A"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f13p"
+    },
+    {
+      "id": "F13V",
+      "claim": "Received atlas scripts and independent inverse computations replayed in explicit finite domains",
+      "scope": "Distributions lengths0..6; 11111 exact ranks plus11111 atlas ranks; two eleven-test HTML suites; source hashes unchanged. Historical Python suites and15-family sine census not supplied.",
+      "dependencies": [
+        "F12E",
+        "F12O",
+        "F13B",
+        "F13C",
+        "F13M",
+        "F13P"
+      ],
+      "public_evidence": "research/rc33/fst1213/RESULTS.md#f13v"
+    }
+  ]
+}

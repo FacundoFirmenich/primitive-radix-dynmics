@@ -43,3 +43,11 @@ The reproducibility entry point is `make reproduce`. It includes both `rc33-veri
 ## T007 cross-branch continuation
 
 `make t007-verify` checks the original and orthogonal exhaustive word observers, explicit one-bit output code, uniform tower controls, all 43 good-prime elliptic constraints and quick Q<=500 hexagon replay. `make t007-full-hexagon` repeats the separately preserved complete Q<=5000 census. This bounded six-state class and local coefficient lattice do not close global five-state rows or elliptic-point independence.
+
+## FST12/13
+
+`make fst1213-verify` executes the exact inverse and both extracted atlas scripts on disposable copies, recording v2 input-before/after hashes and actual commands. Distribution coverage is complete for decimal lengths0..6; rank inversions, DFA domains, effective moduli and interval-entropy precision are explicit in RUN_MANIFEST.json. The non-CFL and natural-boundary claims use written proofs plus checked classical sources, not finite sampling. Node.js18+ is required.
+
+### FST14 terminal-inverse continuation
+
+Run `make fst14-verify`: four scoped records, a declared baseline adapter, exact terminal periods and lifted inversion. Combined continuation49 cards;103 public records. Full manuscripts remain private and the original DOI/tag is unchanged.

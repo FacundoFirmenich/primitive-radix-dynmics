@@ -1,0 +1,57 @@
+{
+  "claims": [
+    {
+      "id": "F14T",
+      "claim": "Terminal suffix period and profinite index80",
+      "status": "proved",
+      "dependencies": [
+        "F11K",
+        "F13B"
+      ],
+      "scope": "Literal suffixes with1<=d<=ell; effective order includes nonunit K0; topological closure in10-adic units.",
+      "review": "same-session assisted self-review; exact independent finite comparisons, not external peer review",
+      "public_evidence": "research/rc33/fst14/RESULTS.md#f14t",
+      "verification": "make fst14-verify"
+    },
+    {
+      "id": "F14I",
+      "claim": "Terminal inversion by bounded prime-power lifting and generalized CRT",
+      "status": "proved",
+      "dependencies": [
+        "F14T",
+        "F13B"
+      ],
+      "scope": "One rank class or none; exact count, selection and auxiliary fixed-code bound; no candidate or period scan.",
+      "review": "same-session assisted self-review; exact independent finite comparisons, not external peer review",
+      "public_evidence": "research/rc33/fst14/RESULTS.md#f14i",
+      "verification": "make fst14-verify"
+    },
+    {
+      "id": "F14R",
+      "claim": "Exact separation criterion and logarithmic terminal precision",
+      "status": "proved",
+      "dependencies": [
+        "F14T",
+        "F14I"
+      ],
+      "scope": "Nonempty fibre, known fixed h and length; suffix resolution log10(ell)+O_h(1), not total compression.",
+      "review": "same-session assisted self-review; exact independent finite comparisons, not external peer review",
+      "public_evidence": "research/rc33/fst14/RESULTS.md#f14r",
+      "verification": "make fst14-verify"
+    },
+    {
+      "id": "F14V",
+      "claim": "Received terminal engine checked under an explicit baseline adapter",
+      "status": "finite certificate",
+      "dependencies": [
+        "F14T",
+        "F14I",
+        "F14R"
+      ],
+      "scope": "8880 complete suffix classes,4849 reconstructions,11025 CRT cases,9 deep lifts; missing historical suites not claimed.",
+      "review": "same-session assisted self-review; exact independent finite comparisons, not external peer review",
+      "public_evidence": "research/rc33/fst14/RESULTS.md#f14v",
+      "verification": "make fst14-verify"
+    }
+  ]
+}

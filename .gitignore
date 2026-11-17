@@ -62,4 +62,7 @@ research/rc33/**/*.bin
 
 # Durable cross-branch evidence
 !outputs/reports/t007/*.log
+!outputs/reports/fst1213/*.log
 !research/rc33/t007/saved/*.log
+
+!outputs/reports/fst14/*.log

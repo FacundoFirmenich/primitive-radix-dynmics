@@ -1,0 +1,14 @@
+[
+  {
+    "HTML": "ATLAS_FST12_COMPLEJIDAD_HIPERACCESO.html",
+    "HTML_sha256": "954c7b0e59f9b5936c8112aece464901bfed804ee53bc405d7131d24b3289103",
+    "exact_extracted_script": "ATLAS_FST12_COMPLEJIDAD_HIPERACCESO.js",
+    "script_sha256": "a0556fa3cc71b1ac8b7a1a9575f00c57f6ce76bc7f16440097ba90aec8c5a99a"
+  },
+  {
+    "HTML": "ATLAS_FST13_INVERSO_OPTIMO.html",
+    "HTML_sha256": "575682abec342496206efa6e64bb081f243a1d8deae9d83f733087499d6c0829",
+    "exact_extracted_script": "ATLAS_FST13_INVERSO_OPTIMO.js",
+    "script_sha256": "e4e60df7189004034d7b14deb6c3b3b6f8e694d2ebff53ff983954a75d5788ee"
+  }
+]

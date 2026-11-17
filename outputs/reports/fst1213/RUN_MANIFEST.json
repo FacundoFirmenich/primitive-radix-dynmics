@@ -1,0 +1,215 @@
+{
+  "schema_version": 2,
+  "claim_id": "F13V",
+  "repository": {
+    "commit": "",
+    "dirty": true
+  },
+  "command": [
+    "/workspace/.venvs/rgphi-sync/bin/python",
+    "replay.py",
+    "--output",
+    "/workspace/rgphi-github-sync-2026-11-17/outputs/reports/fst1213"
+  ],
+  "cwd": "temporary copy of the frozen module",
+  "environment": {
+    "software": [
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Node",
+        "version": "v24.22.1"
+      }
+    ],
+    "hardware": "x86_64; Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact finite distributions, literal inverse ranks, bounded regular rank/unrank, erasure fusions, modular/DFA counts, received atlas selftests and interval arithmetic.",
+    "coefficient_domain": "exact integers, rationals and arbitrary-precision real intervals",
+    "conventions": "Empty word and leading zeros retained; side information excludes transmitting h and length.",
+    "inputs": [
+      "K=8*10**len(w)-9*val(w)",
+      "q=343",
+      "effective modulus=M/gcd(M,9)"
+    ],
+    "bounds": {
+      "distribution_lengths": [
+        0,
+        6
+      ],
+      "roundtrip_lengths": [
+        0,
+        4
+      ],
+      "modular_lengths": [
+        0,
+        3
+      ],
+      "moduli": [
+        1,
+        80
+      ],
+      "bounded_DFA_Lmax": 30,
+      "interval_decimal_digits": 80
+    },
+    "non_claims": [
+      "Historical Python suites were not supplied",
+      "Natural boundaries and non-CFL require the written proof and classical source records",
+      "No15-family/1922-endpoint replay",
+      "No computational optimality or global RGphi arithmetic closure"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-11-17T17:18:24.224354+00:00",
+    "runtime_seconds": 1.6207865929900436,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "per_process_CPU_seconds": 60,
+      "Python_address_space_bytes": 2147483648,
+      "Node_address_space_limit": null
+    },
+    "wall_timeout_seconds": 90
+  },
+  "runs": [
+    {
+      "name": "exact",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "audit_inverse.py"
+      ],
+      "cpu_seconds": 60,
+      "wall_timeout_seconds": 90,
+      "address_space_limit_bytes": 2147483648,
+      "returncode": 0,
+      "seconds": 1.2188048870011698,
+      "status": "completed"
+    },
+    {
+      "name": "atlases",
+      "argv": [
+        "node",
+        "audit_atlases.js"
+      ],
+      "cpu_seconds": 60,
+      "wall_timeout_seconds": 90,
+      "address_space_limit_bytes": null,
+      "returncode": 0,
+      "seconds": 0.38523449598869774,
+      "status": "completed"
+    }
+  ],
+  "input_artifacts": [
+    {
+      "path": "CLAIMS.json",
+      "sha256": "51562044be72106235155916bafbde22111ce17159a04e7d5f90f2387893dfc8",
+      "sha256_after": "51562044be72106235155916bafbde22111ce17159a04e7d5f90f2387893dfc8"
+    },
+    {
+      "path": "FST13_LOCAL_REPAIRS.patch",
+      "sha256": "a0344e85202119e83d803edfaa43f6f1621ef1404dc96ff0c78690a6123d7ecf",
+      "sha256_after": "a0344e85202119e83d803edfaa43f6f1621ef1404dc96ff0c78690a6123d7ecf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2bd0a5c4bf4f69effe0d48202fd69f80678fec33ac883f33e2079b87153cf113",
+      "sha256_after": "2bd0a5c4bf4f69effe0d48202fd69f80678fec33ac883f33e2079b87153cf113"
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "2fcc7a0f50d60e52589a1836ba8da3e6646439ffd7da70943f59ee4c9f9aa309",
+      "sha256_after": "2fcc7a0f50d60e52589a1836ba8da3e6646439ffd7da70943f59ee4c9f9aa309"
+    },
+    {
+      "path": "SOURCE_RECORDS.json",
+      "sha256": "dd9636556c7e21c2906dada6097f0b9be86b4b516cbc1f4734f09339ae292a08",
+      "sha256_after": "dd9636556c7e21c2906dada6097f0b9be86b4b516cbc1f4734f09339ae292a08"
+    },
+    {
+      "path": "audit_atlases.js",
+      "sha256": "dbe225569efc66c4c67b104cc1a2a1752b498a093de0ec58ae89b859f2b4fe8d",
+      "sha256_after": "dbe225569efc66c4c67b104cc1a2a1752b498a093de0ec58ae89b859f2b4fe8d"
+    },
+    {
+      "path": "audit_inverse.py",
+      "sha256": "d11f64739b987414b77f1ec7d2bb78ee6232d72301c8eb4c50241c5641caea28",
+      "sha256_after": "d11f64739b987414b77f1ec7d2bb78ee6232d72301c8eb4c50241c5641caea28"
+    },
+    {
+      "path": "exact_inverse.py",
+      "sha256": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39",
+      "sha256_after": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39"
+    },
+    {
+      "path": "extracted/ATLAS_FST12_COMPLEJIDAD_HIPERACCESO.js",
+      "sha256": "a0556fa3cc71b1ac8b7a1a9575f00c57f6ce76bc7f16440097ba90aec8c5a99a",
+      "sha256_after": "a0556fa3cc71b1ac8b7a1a9575f00c57f6ce76bc7f16440097ba90aec8c5a99a"
+    },
+    {
+      "path": "extracted/ATLAS_FST13_INVERSO_OPTIMO.js",
+      "sha256": "e4e60df7189004034d7b14deb6c3b3b6f8e694d2ebff53ff983954a75d5788ee",
+      "sha256_after": "e4e60df7189004034d7b14deb6c3b3b6f8e694d2ebff53ff983954a75d5788ee"
+    },
+    {
+      "path": "extracted/DOM_DEFAULTS.json",
+      "sha256": "80ea128ddf389a3d176692856c46c84e2c051c238f766bd81706bd109b4ce320",
+      "sha256_after": "80ea128ddf389a3d176692856c46c84e2c051c238f766bd81706bd109b4ce320"
+    },
+    {
+      "path": "extracted/SOURCE_PROVENANCE.json",
+      "sha256": "16a9db5a45f5be2776cfb76307315e10c6c98ff0b8277b7b81b8d95fd14393cf",
+      "sha256_after": "16a9db5a45f5be2776cfb76307315e10c6c98ff0b8277b7b81b8d95fd14393cf"
+    },
+    {
+      "path": "replay.py",
+      "sha256": "aafffae9a5ff5388828aa6f543e72bb374d354371f48f33fb6fc96977c74f967",
+      "sha256_after": "aafffae9a5ff5388828aa6f543e72bb374d354371f48f33fb6fc96977c74f967"
+    },
+    {
+      "path": "validate_sine_patch.py",
+      "sha256": "7e75d145a40db1ca1b3625ff57a505c9aaae4ecebcf6e16ef1744b9ac999d797",
+      "sha256_after": "7e75d145a40db1ca1b3625ff57a505c9aaae4ecebcf6e16ef1744b9ac999d797"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ATLAS_AUDIT.json",
+      "sha256": "92c207efc6cf41052eb6c2149ab0a18f2a68ce3ad0daba047cfca9f8ec7b3212",
+      "kind": "result"
+    },
+    {
+      "path": "EXACT_RESULTS.json",
+      "sha256": "30d25c3aab60f4084687498dcabcc2889f3bb0fb270fb7430986b562d0822783",
+      "kind": "result"
+    },
+    {
+      "path": "atlases.log",
+      "sha256": "958383b4230acf0225fb2349ce8ad951fdafaf4af5f1b5af6bba502904f67ce1",
+      "kind": "log"
+    },
+    {
+      "path": "exact.log",
+      "sha256": "189a1850fedf828121ff518c1670ee36f61f2a674a4a325c7022b6e4a9df098c",
+      "kind": "log"
+    }
+  ],
+  "checks": [
+    "literal finite coverage",
+    "independent BigInt atlas source",
+    "two local patch regressions",
+    "unchanged received payloads"
+  ],
+  "result": "implementation and finite assertion verified in the stated ranges",
+  "residual_risks": [
+    "Same-session assisted self-review",
+    "Partial source availability for historical campaigns and the sine patch"
+  ],
+  "status": "PASS"
+}

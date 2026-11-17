@@ -1,0 +1,142 @@
+{"equations": ["K(w)=8*10^ell-9*val(w)", "K_j=K0*343^j", "K0*343^j=-9*s mod 10^d", "T=ord_(10^d/gcd(K0,10^d))(343)"], "variables": {"h": "signed primitive label", "ell": "literal word length", "d": "literal suffix length", "j": "zero-based fibre index"}, "units": "dimensionless exact integers", "python": "3.12.14", "parameters": {"short_suffix_depths": [1, 2, 3], "deep_suffix_depths": [10, 31, 110], "deep_exponent": 10000000000123456789, "labels": [8, 782, -1, 2, 5, 32, 125, -10], "universal_order_depths": [1, 7], "fibre_count_lengths": [0, 100], "literal_lengths": [1, 27], "literal_suffix_depths": [1, 4], "CRT_moduli": [1, 14], "fusion_lengths": [3, 19], "example_lengths": [20, 50, 100, 1000, 10000]}, "historical_baselines": "not supplied; explicit exact adapter"}
+{
+  "status": "PASS",
+  "adapter_contract": "explicit independently checked three-function adapter; missing baselines not claimed",
+  "orders_checked": 31,
+  "suffix_classes_exhausted": 8880,
+  "literal_reconstructions": 4849,
+  "fast_counts_checked": 808,
+  "generalized_CRT_cases": 11025,
+  "nested_suffix_fusions": 607,
+  "labels": [
+    8,
+    782,
+    -1,
+    2,
+    5,
+    32,
+    125,
+    -10
+  ],
+  "deep_lifts": [
+    {
+      "h": 782,
+      "digits": 10,
+      "index": "10000000000123456789",
+      "residue": "23456789",
+      "period": "25000000"
+    },
+    {
+      "h": 782,
+      "digits": 31,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "25000000000000000000000000000"
+    },
+    {
+      "h": 782,
+      "digits": 110,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "h": 8,
+      "digits": 10,
+      "index": "10000000000123456789",
+      "residue": "4706789",
+      "period": "6250000"
+    },
+    {
+      "h": 8,
+      "digits": 31,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "6250000000000000000000000000"
+    },
+    {
+      "h": 8,
+      "digits": 110,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "62500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "h": -1,
+      "digits": 10,
+      "index": "10000000000123456789",
+      "residue": "23456789",
+      "period": "50000000"
+    },
+    {
+      "h": -1,
+      "digits": 31,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "50000000000000000000000000000"
+    },
+    {
+      "h": -1,
+      "digits": 110,
+      "index": "10000000000123456789",
+      "residue": "10000000000123456789",
+      "period": "500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "examples": [
+    {
+      "ell": 20,
+      "candidates": 8,
+      "minimum_suffix_digits": 3
+    },
+    {
+      "ell": 50,
+      "candidates": 19,
+      "minimum_suffix_digits": 3
+    },
+    {
+      "ell": 100,
+      "candidates": 39,
+      "minimum_suffix_digits": 4
+    },
+    {
+      "ell": 1000,
+      "candidates": 394,
+      "minimum_suffix_digits": 5
+    },
+    {
+      "ell": 10000,
+      "candidates": 3944,
+      "minimum_suffix_digits": 7
+    }
+  ],
+  "suffix_02": {
+    "h": 782,
+    "length": 1000,
+    "suffix": "02",
+    "rank_limit": 394,
+    "period": 4,
+    "residue": 0,
+    "count": 99,
+    "status": "NOT_IDENTIFIABLE",
+    "extra_bits": 7,
+    "first_rank": 0,
+    "last_rank": 392
+  },
+  "suffix_00002": {
+    "h": 782,
+    "length": 1000,
+    "suffix": "00002",
+    "rank_limit": 394,
+    "period": 500,
+    "residue": 392,
+    "count": 1,
+    "status": "UNIQUE",
+    "extra_bits": 0,
+    "first_rank": 392,
+    "last_rank": 392
+  },
+  "historical_50_tests_replayed": false,
+  "historical_browser_tests_replayed": false,
+  "new_global_RGPHI_rows_closed": 0
+}

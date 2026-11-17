@@ -1,0 +1,21 @@
+{
+  "ATLAS_FST12_COMPLEJIDAD_HIPERACCESO.html": {
+    "h": "-1",
+    "j": "15",
+    "N": "50",
+    "word": "8802",
+    "langword": "8123",
+    "lang": "all"
+  },
+  "ATLAS_FST13_INVERSO_OPTIMO.html": {
+    "word-input": "927",
+    "h-in": "-1",
+    "ell-in": "3",
+    "rank-in": "1",
+    "dist-ell": "6",
+    "mod-word": "927",
+    "M-in": "999",
+    "filter-word": "all",
+    "filter-inverse": "all"
+  }
+}

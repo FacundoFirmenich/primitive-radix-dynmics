@@ -1,0 +1,133 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "equations": [
+    "K(w)=8*10**len(w)-9*val(w)",
+    "H=K/7**v7(K)",
+    "Amax=number of j>=0 with343**j<=10**ell",
+    "Qeffective=M/gcd(9,M)"
+  ],
+  "units": "dimensionless exact integers; conditional entropies in bits",
+  "words_all_lengths": [
+    0,
+    6
+  ],
+  "inverse_roundtrips_max_length": 4,
+  "erasure_primes": [
+    2,
+    5,
+    7,
+    11,
+    17,
+    19,
+    31,
+    73,
+    101
+  ],
+  "length_examples": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    10,
+    20,
+    50,
+    100,
+    1000
+  ],
+  "DFA_modular_lengths": [
+    0,
+    3
+  ],
+  "moduli": [
+    1,
+    80
+  ],
+  "DFA_bounded_lengths": [
+    0,
+    30
+  ],
+  "entropy_cutoff_f_inclusive": 25,
+  "interval_decimal_precision": 80,
+  "python": "3.12.14",
+  "mpmath": "1.3.0"
+}
+All small-universe distributions and inverse ranks PASS
+{
+  "status": "PASS",
+  "inverse_roundtrips": 11111,
+  "prime_erasure_fusion_cases": 6464,
+  "unary_orbit_cases": 360,
+  "regular_bounded_count_cases": 210,
+  "modular_classes_checked": 12960,
+  "modular_DFA_cases": 960,
+  "maximum_examples": [
+    {
+      "length": 0,
+      "maximum_candidates": 1,
+      "fixed_bits": 0
+    },
+    {
+      "length": 1,
+      "maximum_candidates": 1,
+      "fixed_bits": 0
+    },
+    {
+      "length": 2,
+      "maximum_candidates": 1,
+      "fixed_bits": 0
+    },
+    {
+      "length": 3,
+      "maximum_candidates": 2,
+      "fixed_bits": 1
+    },
+    {
+      "length": 6,
+      "maximum_candidates": 3,
+      "fixed_bits": 2
+    },
+    {
+      "length": 10,
+      "maximum_candidates": 4,
+      "fixed_bits": 2
+    },
+    {
+      "length": 20,
+      "maximum_candidates": 8,
+      "fixed_bits": 3
+    },
+    {
+      "length": 50,
+      "maximum_candidates": 20,
+      "fixed_bits": 5
+    },
+    {
+      "length": 100,
+      "maximum_candidates": 40,
+      "fixed_bits": 6
+    },
+    {
+      "length": 1000,
+      "maximum_candidates": 395,
+      "fixed_bits": 9
+    }
+  ],
+  "bounded_L1000": 197913,
+  "entropy": {
+    "cutoff_inclusive": 25,
+    "tail_upper_rational": [
+      39542896,
+      141463119736973268332311491931466351427544142957613598379569585930779
+    ],
+    "entropy_interval_bits": {
+      "lower": "0.005837332402614633262170598195366035702112945184445901448070833064920961084455667999",
+      "upper_including_tail": "0.005837332402614633262170598195366035702112945184445901448071112592871945929999562005"
+    },
+    "mean_fixed_index_length_interval_bits": {
+      "lower": "0.005847854308123188048597485321408384833833061720968711965535432301498085912062556169",
+      "upper_including_tail": "0.005847854308123188048597485321408384833833061720968711965535711829449070757606450142"
+    },
+    "rounding_contract": "mpmath interval arithmetic with 80 decimal digits; geometric tail is an exact rational upper bound for both quantities"
+  }
+}

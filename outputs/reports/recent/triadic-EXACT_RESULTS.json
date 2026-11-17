@@ -1293,6 +1293,6 @@
     "different_actor_counts": true
   },
   "algebra_passed": true,
-  "seconds": 7.842405553004937,
+  "seconds": 6.821621076000156,
   "sympy_version": "1.14.0"
 }

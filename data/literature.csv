@@ -27,3 +27,8 @@ BoyleSchmieding2016,"Boyle, Mike; Schmieding, Scott","Finite group extensions of
 LejeuneRigoRosenfeld2020,"Lejeune, Marie; Rigo, Michel; Rosenfeld, Matthieu",The binomial equivalence classes of finite words,2020,10.1142/S0218196720500459,ordered-subsequence equivalence,CONTEXT,peer_reviewed
 Teh2016,"Teh, Wen Chean",Parikh Matrices and Strong M-Equivalence,2016,10.1142/S0129054116500155,Parikh matrix mappings and observation fibres,CONTEXT,peer_reviewed
 AlloucheShallit2003,"Allouche, Jean-Paul; Shallit, Jeffrey","Automatic Sequences: Theory, Applications, Generalizations",2003,10.1017/CBO9780511546563,regular languages and finite-state arithmetic,CONTEXT,book
+Parikh1966,Rohit J. Parikh,On Context-Free Languages,1966,10.1145/321356.321364,semilinear unary length obstruction,CITE,peer_reviewed
+Kufleitner2022,Manfred Kufleitner,Yet another proof of Parikh's Theorem,2022,arXiv:2210.02925v1,exact primary Corollary2 and proof checked,CITE,preprint
+Carlson1921,Fritz Carlson,Über Potenzreihen mit ganzzahligen Koeffizienten,1921,Mathematische Zeitschrift9:1-13,classical integer-series dichotomy,CITE,peer_reviewed
+BellMilesWard2014,Jason Bell; Richard Miles; Thomas Ward,Towards a Pólya–Carlson dichotomy for algebraic dynamics,2014,10.1016/j.indag.2014.04.005,page2 exact Pólya–Carlson statement,CITE,peer_reviewed
+Stanley1980,Richard P. Stanley,Differentiably Finite Power Series,1980,10.1016/S0195-6698(80)80051-5,D-finite definition and polynomial ODE,CITE,peer_reviewed

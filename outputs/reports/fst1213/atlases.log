@@ -1,0 +1,2 @@
+CONFIGURATION BEFORE COMPUTATION: received HTML scripts, Node VM with inert DOM; supplied selftests, literal words of lengths0..4, exact BigInt comparisons, declared empty-word display and unused-ceiling checks. No browser rendering or historical Python suites claimed. Node v24.22.1
+PASS: both received 11-test suites, 11111 inverse roundtrips, corrected 395/197913 examples; two scoped source limitations and their local fixes recorded.

@@ -55,3 +55,5 @@ A-R17-TRIADIC,Triadic exact code and data,research/rc33/recent/triadic,software_
 A-R17-REPLAY,Public five-module replay and source manifest,research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json,reproducible_checker,R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V
 A-FST11,"FST11 source, embedded atlas counts and exact replay",research/rc33/fst11,software_and_exact_data,F11K;F11H;F11C;F11R;F11V
 A-T007,Sister-branch exact certificates and source replay,research/rc33/t007,software_and_exact_certificates,T07K;T07X;T07H;T07C;T07E;T07F;T07B
+A-FST1213,FST12/13 inverse and language-complexity continuation,research/rc33/fst1213,software_and_exact_certificates,F12L;F12A;F12E;F12O;F13B;F13C;F13M;F13P;F13V
+A-FST14,Exact terminal inversion under explicit baseline adapter,outputs/reports/fst14/RUN_MANIFEST.json,exact_replay,F14T;F14I;F14R;F14V

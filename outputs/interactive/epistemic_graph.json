@@ -911,6 +911,136 @@
       "scope": "Explicit bipartite q-confusion graph with 173 vertices/91 edges; storage of the final output bit only, not instrument memory; no guarantee beyond length20."
     },
     {
+      "id": "F12L",
+      "label": "F12L",
+      "title": "Every admissible7-primitive fibre is non-context-free with efficient fixed-label membership",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f12l",
+      "scope": "All finite literal decimal words, including empty and leading zeros; each fixed admissible label. Not a theorem about RGphi state realizability."
+    },
+    {
+      "id": "F12A",
+      "label": "F12A",
+      "title": "Canonical and full fibre length series have the unit circle as a natural boundary",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f12a",
+      "scope": "Integer coefficients, radius one and irrational support density; Parikh and Pólya–Carlson are classical checked inputs."
+    },
+    {
+      "id": "F12E",
+      "label": "F12E",
+      "title": "Finite-family prime-erasure fusion and exact uniform key-recovery criterion",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f12e",
+      "scope": "Nonempty finite family of finite prime sets; recovery of K on8+9Z iff the common erased primes are contained in{3}; prefix ambiguity remains."
+    },
+    {
+      "id": "F12O",
+      "label": "F12O",
+      "title": "Exact finite-plus-periodic prefix ambiguity under a complete DFA",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f12o",
+      "scope": "Fixed key and canonical word; orbit preperiod/period and acceptance residues, not necessarily the minimum Boolean period."
+    },
+    {
+      "id": "F13B",
+      "label": "F13B",
+      "title": "Unknown bounded length and regular-language rank/unrank attain the exact auxiliary-code bound",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f13b",
+      "scope": "Exact h and length bound L; fixed-length minimax is reused fromR17M; new bounded count maximized byh=8, with no time-optimality claim."
+    },
+    {
+      "id": "F13C",
+      "label": "F13C",
+      "title": "Mean fixed per-fibre index cost is distinct from conditional entropy",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f13c",
+      "scope": "Uniform words at each exact length; prior fibre law and entropy retained; new mean fixed-index cost with rigorous interval and geometric-tail checks."
+    },
+    {
+      "id": "F13M",
+      "label": "F13M",
+      "title": "Arbitrary unnormalized key modulus has effective resolution M/gcd(M,9)",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f13m",
+      "scope": "Known exact length; consistency test included; complete-DFA count is pseudopolynomial in the numerical effective modulus."
+    },
+    {
+      "id": "F13P",
+      "label": "F13P",
+      "title": "Erased-prime dichotomy: every prime except3 has non-CFL fibres and natural boundaries",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f13p",
+      "scope": "Every nonempty fibre for a fixed prime; p=3 leavesK unchanged and gives regular prefix fibres. Formal transfer of the checked proofs, not a priority claim."
+    },
+    {
+      "id": "F13V",
+      "label": "F13V",
+      "title": "Received atlas scripts and independent inverse computations replayed in explicit finite domains",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/fst1213/RESULTS.md#f13v",
+      "scope": "Distributions lengths0..6; 11111 exact ranks plus11111 atlas ranks; two eleven-test HTML suites; source hashes unchanged. Historical Python suites and15-family sine census not supplied."
+    },
+    {
+      "id": "F14T",
+      "label": "F14T",
+      "title": "Terminal suffix period and profinite index80",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst14/RESULTS.md#f14t",
+      "scope": "Literal suffixes with1<=d<=ell; effective order includes nonunit K0; topological closure in10-adic units."
+    },
+    {
+      "id": "F14I",
+      "label": "F14I",
+      "title": "Terminal inversion by bounded prime-power lifting and generalized CRT",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst14/RESULTS.md#f14i",
+      "scope": "One rank class or none; exact count, selection and auxiliary fixed-code bound; no candidate or period scan."
+    },
+    {
+      "id": "F14R",
+      "label": "F14R",
+      "title": "Exact separation criterion and logarithmic terminal precision",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst14/RESULTS.md#f14r",
+      "scope": "Nonempty fibre, known fixed h and length; suffix resolution log10(ell)+O_h(1), not total compression."
+    },
+    {
+      "id": "F14V",
+      "label": "F14V",
+      "title": "Received terminal engine checked under an explicit baseline adapter",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/fst14/RESULTS.md#f14v",
+      "scope": "8880 complete suffix classes,4849 reconstructions,11025 CRT cases,9 deep lifts; missing historical suites not claimed."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1471,6 +1601,26 @@
       "scope": "evidence"
     },
     {
+      "id": "A-FST1213",
+      "label": "A-FST1213",
+      "title": "FST12/13 inverse and language-complexity continuation",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/fst1213",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-FST14",
+      "label": "A-FST14",
+      "title": "Exact terminal inversion under explicit baseline adapter",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "outputs/reports/fst14/RUN_MANIFEST.json",
+      "scope": "evidence"
+    },
+    {
       "id": "L_Renyi1957",
       "label": "Rényi 1957",
       "title": "Representations for real numbers and their ergodic properties",
@@ -1729,6 +1879,56 @@
       "status": "CONTEXT",
       "artifact": "10.1017/CBO9780511546563",
       "scope": "regular languages and finite-state arithmetic"
+    },
+    {
+      "id": "L_Parikh1966",
+      "label": "Rohit J. Parikh 1966",
+      "title": "On Context-Free Languages",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CITE",
+      "artifact": "10.1145/321356.321364",
+      "scope": "semilinear unary length obstruction"
+    },
+    {
+      "id": "L_Kufleitner2022",
+      "label": "Manfred Kufleitner 2022",
+      "title": "Yet another proof of Parikh's Theorem",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CITE",
+      "artifact": "arXiv:2210.02925v1",
+      "scope": "exact primary Corollary2 and proof checked"
+    },
+    {
+      "id": "L_Carlson1921",
+      "label": "Fritz Carlson 1921",
+      "title": "Über Potenzreihen mit ganzzahligen Koeffizienten",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CITE",
+      "artifact": "Mathematische Zeitschrift9:1-13",
+      "scope": "classical integer-series dichotomy"
+    },
+    {
+      "id": "L_BellMilesWard2014",
+      "label": "Jason Bell 2014",
+      "title": "Towards a Pólya–Carlson dichotomy for algebraic dynamics",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CITE",
+      "artifact": "10.1016/j.indag.2014.04.005",
+      "scope": "page2 exact Pólya–Carlson statement"
+    },
+    {
+      "id": "L_Stanley1980",
+      "label": "Richard P. Stanley 1980",
+      "title": "Differentiably Finite Power Series",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CITE",
+      "artifact": "10.1016/S0195-6698(80)80051-5",
+      "scope": "D-finite definition and polynomial ODE"
     }
   ],
   "edges": [
@@ -2245,6 +2445,151 @@
     {
       "source": "T07B",
       "target": "T07K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F12L",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F12A",
+      "target": "F12L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F12E",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F12E",
+      "target": "F11H",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F12O",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13B",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13B",
+      "target": "F12O",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13B",
+      "target": "T07K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13B",
+      "target": "R17M",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13C",
+      "target": "R17E",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13M",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13P",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13P",
+      "target": "F12L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13P",
+      "target": "F12A",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F12E",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F12O",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F13C",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F13M",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F13V",
+      "target": "F13P",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14T",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14T",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14I",
+      "target": "F14T",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14I",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14R",
+      "target": "F14T",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14R",
+      "target": "F14I",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14V",
+      "target": "F14T",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14V",
+      "target": "F14I",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F14V",
+      "target": "F14R",
       "relation": "depends_on"
     },
     {
@@ -2893,6 +3238,71 @@
       "relation": "supports"
     },
     {
+      "source": "A-FST1213",
+      "target": "F12L",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F12A",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F12E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F12O",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F13B",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F13C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F13M",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F13P",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST1213",
+      "target": "F13V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST14",
+      "target": "F14T",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST14",
+      "target": "F14I",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST14",
+      "target": "F14R",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST14",
+      "target": "F14V",
+      "relation": "supports"
+    },
+    {
       "source": "L_Renyi1957",
       "target": "C001",
       "relation": "contextualizes"
@@ -3019,6 +3429,31 @@
     },
     {
       "source": "L_AlloucheShallit2003",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_Parikh1966",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_Kufleitner2022",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_Carlson1921",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_BellMilesWard2014",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_Stanley1980",
       "target": "C001",
       "relation": "contextualizes"
     }

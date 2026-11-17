@@ -1,0 +1,116 @@
+{
+  "schema_version": 2,
+  "claim_id": "F14V",
+  "command": [
+    "/workspace/.venvs/rgphi-sync/bin/python",
+    "replay.py",
+    "--output",
+    "/workspace/rgphi-github-sync-2026-11-17/outputs/reports/fst14"
+  ],
+  "cwd": "disposable copy of frozen source",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "mathematics": {
+    "coefficient_domain": "exact integers",
+    "assertion_tested": "Finite suffix-orbit and inverse comparisons under declared adapters",
+    "bounds": {
+      "suffix_digits": [
+        1,
+        3
+      ],
+      "CRT_moduli": [
+        1,
+        14
+      ],
+      "count_lengths": [
+        0,
+        100
+      ],
+      "deep_digits": [
+        10,
+        31,
+        110
+      ],
+      "deep_index": "10000000000123456789"
+    },
+    "non_claims": [
+      "Missing original baselines and50-test suite not replayed",
+      "No browser atlas received",
+      "No global RGphi existence or uniqueness closure"
+    ]
+  },
+  "run": {
+    "started_at": "2026-11-17T17:35:23.356222+00:00",
+    "runtime_seconds": 0.25312090800434817,
+    "status": "completed",
+    "exit_status": 0,
+    "CPU_seconds_limit": 60,
+    "wall_seconds_limit": 90,
+    "address_space_bytes": 2147483648
+  },
+  "input_artifacts": [
+    {
+      "path": "ADAPTER_NOTICE.md",
+      "sha256": "890e60fd84fec9d5e525d899d1bb9618a792a087228a33cb9d7a621f480836f1",
+      "sha256_after": "890e60fd84fec9d5e525d899d1bb9618a792a087228a33cb9d7a621f480836f1"
+    },
+    {
+      "path": "CLAIMS.json",
+      "sha256": "8a4858026548820f19f3c86df6d4e4c75b705e009e5af25dc2c1299888570662",
+      "sha256_after": "8a4858026548820f19f3c86df6d4e4c75b705e009e5af25dc2c1299888570662"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dbba88c2bf399a44509f5841c0adccbde180f786ba0afb2cc3386ca990ae6eb8",
+      "sha256_after": "dbba88c2bf399a44509f5841c0adccbde180f786ba0afb2cc3386ca990ae6eb8"
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "038f8ecf3dd1c8fb4311e149cbe4810df47f00dc22b773953500b14de6576fae",
+      "sha256_after": "038f8ecf3dd1c8fb4311e149cbe4810df47f00dc22b773953500b14de6576fae"
+    },
+    {
+      "path": "audit_terminal.py",
+      "sha256": "9a99a6504b60a27da5c940e68d6cba8fde538092ce899541080634c3b22d3190",
+      "sha256_after": "9a99a6504b60a27da5c940e68d6cba8fde538092ce899541080634c3b22d3190"
+    },
+    {
+      "path": "exact_inverse.py",
+      "sha256": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39",
+      "sha256_after": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39"
+    },
+    {
+      "path": "fst12_baseline.py",
+      "sha256": "548337822261f9b85c9b9733cfb46c890ec92f0f1fbe8c5dcdccbe0b2cb59c61",
+      "sha256_after": "548337822261f9b85c9b9733cfb46c890ec92f0f1fbe8c5dcdccbe0b2cb59c61"
+    },
+    {
+      "path": "fst13_baseline.py",
+      "sha256": "eb56b4dafa1d9d1154442e878f41359e5cebee3d5a64da2da03b4094f8b1a3f9",
+      "sha256_after": "eb56b4dafa1d9d1154442e878f41359e5cebee3d5a64da2da03b4094f8b1a3f9"
+    },
+    {
+      "path": "fst14.py",
+      "sha256": "28abe4e95499932ebf44f5747363bf3e06a80d4fc5466bd50dbd168abcbf41f7",
+      "sha256_after": "28abe4e95499932ebf44f5747363bf3e06a80d4fc5466bd50dbd168abcbf41f7"
+    },
+    {
+      "path": "replay.py",
+      "sha256": "44301a0cf069ef10bfe8af7a02b63683ae7f76d43af60c3e4243d744f28110b7",
+      "sha256_after": "44301a0cf069ef10bfe8af7a02b63683ae7f76d43af60c3e4243d744f28110b7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "FST14_RESULTS.json",
+      "sha256": "35dbb774203190ff8f1af3ba2054767705a859939297a6a3625f64dafc00abc7"
+    },
+    {
+      "path": "terminal.log",
+      "sha256": "8d039a0b0f066786bed311da3ea3e582d6f3a4e12c467339c003c2685fcba004"
+    }
+  ],
+  "status": "PASS"
+}

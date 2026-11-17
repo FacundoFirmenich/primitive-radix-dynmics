@@ -48,3 +48,9 @@ The registered version DOI is [10.5281/zenodo.24270311](https://doi.org/10.5281/
 Current `main` adds the 17 November integration. This continuation has not been archived under a new DOI; the existing tags and archive remain unchanged. Scientific edition RC3.3 is retained; the installable package version is 0.3.3. See [CITATION.cff](CITATION.cff).
 
 The [pre-arXiv publication boundary](docs/PUBLICATION_BOUNDARY.md) remains active: this repository contains code, certificates, metadata and standalone figures. Complete main, supplementary and companion manuscripts remain in the private A1 delivery. Code is MIT and research records are CC BY 4.0 under the [licensing terms](LICENSE.md).
+
+The **FST12/13 continuation** adds [nine scoped records](research/rc33/fst1213/RESULTS.md) on language complexity, natural boundaries, erasure families, bounded inverse ranks and effective modular resolution. Run `make fst1213-verify`; the two received atlas scripts are replayed in Node with an inert DOM, separately from the new exact Python checks.
+
+### FST14 terminal-inverse continuation
+
+Four scoped records and a reproducible declared-adapter audit extend FST12/13: exact terminal periods, bounded lifting/CRT inversion and logarithmic suffix resolution. Run `make fst14-verify`. The missing historical baselines and browser suites are not represented as replayed. Current combined continuation:49 cards;103 public claim records. Full manuscripts remain private; original DOI/tag unchanged.

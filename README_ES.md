@@ -20,3 +20,9 @@ El replay comprueba los programas, el prefijo del censo y sus 157 candidatos ter
 Para visualizar los HTML, descargar el repositorio y abrirlos localmente. Los manuscritos completos permanecen en la entrega privada A1 conforme al embargo pre-arXiv. El DOI [10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311) identifica el archivo inmutable del 16 de noviembre; esta continuación de `main` conserva RC3.3 y no cambia aquel archivo. [Documentación principal en inglés](README.md).
 
 La continuación T007 incorpora el hexágono de seis estados hasta Q≤5000, la separación uniforme de la torre de Fronteras y el tamiz elíptico de 43 primos con mejora exacta de norma por un factor 172. Los destinos y alcances están separados en `research/rc33/t007/RESULTS.md`.
+
+La continuación **FST12/13** añade [nueve tarjetas](research/rc33/fst1213/RESULTS.md): complejidad de lenguajes y frontera natural, familias de borrados, inversión con longitud acotada y resolución modular efectiva. Se preserva la atribución previa de multiplicidades y entropía. `make fst1213-verify` ejecuta los scripts de ambos atlas y los controles enteros separados. Las cifras de las quince familias seno–π no se certifican sin sus definiciones originales.
+
+### Continuación FST14: inversión terminal
+
+Cuatro registros con alcance explícito: períodos exactos, inversión por elevación/CRT y resolución terminal logarítmica. `make fst14-verify` reproduce la auditoría bajo un adaptador declarado; no se atribuye ejecución a las suites históricas ausentes. Total actual:49 tarjetas de continuación y103 registros públicos. Los manuscritos completos permanecen privados; DOI y tag originales inalterados.

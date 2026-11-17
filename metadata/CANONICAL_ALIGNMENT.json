@@ -14,17 +14,17 @@
     "rc33_realization_ES.svg": "a0ca180526539cf889cd9aea53c71c7ce842e1c82b8f5069ad81593e371f8377"
   },
   "private_document_hashes": {
-    "RGPHI_RC3_3_MAIN_EN.pdf": "574d0c77e7f3e7b9f3c2e83af558b8254b86d668f6f4228e997307a2fda4a348",
-    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "a066277e4382292c73174235891e4026e01b129017f785c10bdadd94744444a4",
-    "RGPHI_RC3_3_COMPANION_EN.pdf": "c01d0e6a931bfcb98146287f69297682b5326923eee209062ec6b9f745bd40a4",
+    "RGPHI_RC3_3_MAIN_EN.pdf": "4683d96e3eda73748d145564d740a7e8560a23644c193d1434da0912489459dd",
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "bd86d081f5e3e0bc926d79199a700ed9645561cf3f4e5749ada630b12b16bd08",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "d5cb10b6b4fc7f8d76aed5a148087578ad43fde9c527dcada13cffd52b12f766",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "c52de8856dc0e594827e0180e388f668484614b34ce77409f6731004eeafc108",
-    "RGPHI_RC3_3_MAIN_ES.pdf": "092c97701f4273a47ad6e7c625b13723b98b7663cb10090ed1639b2455962ef2",
-    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "f7e694cb93617e7694ee5ac5191d65ec485f73a93fa1b10f0e11f02b2099c48c",
-    "RGPHI_RC3_3_COMPANION_ES.pdf": "50976df857605c93d3a4f5632aac02d47b7b0dc1a0f6391b495af1526f9ef286",
+    "RGPHI_RC3_3_MAIN_ES.pdf": "538a324d2ead9c914b93083506b8d92c2c19be40fe13654eee15d6b15550d89e",
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "b3ad5a10e7f77ada80955f4924aefc7074bba1593fbcf2de9f4903c0d55bc5e9",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "dcd104937ae3c10863dad258e98a0d0b23b524390734e3daf65358a8e906b58a",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "bb528226dc174bac5c84913dc0a31f82318ca2342450426a8346fb912ef14258"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "R17, FST11 and T007 integrated; current private PDF hashes, public certificates only"
+  "continuation": "R17/FST11/T007/FST12-14 integrated; current privatePDF hashes, public code and certificate records only"
 }

@@ -65,8 +65,20 @@ for c in t007:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is
 r007=read('outputs/reports/t007/RUN_MANIFEST.json')
 check(r007['status']=='PASS' and r007['good_primes']==43 and r007['coefficient_norm_improvement_factor']==172,'T007 exact replay')
 for path,h in r007['input_hashes_before'].items():check(sha(R/path)==h,path+' T007 source hash')
+fst13=read('research/rc33/fst1213/CLAIMS.json')['claims']
+check(len(fst13)==9,'nine FST12/13 scoped cards')
+for c in fst13:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_file(),c['id']+' FST12/13 evidence')
+r13=read('outputs/reports/fst1213/RUN_MANIFEST.json')
+check(r13['status']=='PASS' and r13['run']['status']=='completed','FST12/13 completed exact replay')
+for a in r13['input_artifacts']:check(sha(R/'research/rc33/fst1213'/a['path'])==a['sha256']==a['sha256_after'],a['path']+' FST12/13 source hash')
+fst14=read('research/rc33/fst14/CLAIMS.json')['claims']
+check(len(fst14)==4,'four FST14 scoped cards')
+for c in fst14:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_file(),c['id']+' FST14 evidence')
+r14=read('outputs/reports/fst14/RUN_MANIFEST.json')
+check(r14['status']=='PASS' and r14['run']['status']=='completed','FST14 exact replay')
+for a in r14['input_artifacts']:check(sha(R/'research/rc33/fst14'/a['path'])==a['sha256']==a['sha256_after'],a['path']+' FST14 source hash')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007)+len(fst13)+len(fst14),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
          'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,

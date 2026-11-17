@@ -1,0 +1,20 @@
+--- ATLAS_FST13_INVERSO_OPTIMO.html
++++ ATLAS_FST13_INVERSO_OPTIMO.html
+@@ -19,7 +19,7 @@
+ const abs=n=>n<0n?-n:n;
+ function mod(a,m){let r=a%m;return r<0n?r+m:r}
+ function gcd(a,b){a=abs(a);b=abs(b);while(b){let t=a%b;a=b;b=t;}return a}
+-function divceil(a,b){if(b<=0n)throw Error('Divisor');return -((-a)/b);}
++function divceil(a,b){if(b<=0n)throw Error('Divisor');return a/b + (a%b>0n ? 1n : 0n);}
+ // JS BigInt division truncates toward zero; for every needed divceil numerator is nonnegative.
+ function ceilPos(a,b){return (a+b-1n)/b}
+ function checkWord(w){if(typeof w!=='string'||!/^[0-9]*$/.test(w))throw Error('Se exige una palabra decimal literal (puede ser vacía).');return w}
+@@ -67,7 +67,7 @@
+ output('dist-result',r)})}
+ function showMod(){guarded('mod-result',()=>{let w=checkWord($('mod-word').value),raw=$('M-in').value.trim();if(!/^\d+$/.test(raw))throw Error('M debe ser entero positivo');let M=BigInt(raw);if(M<=0n)throw Error('M debe ser positivo');let ell=w.length,m=10n**BigInt(ell),K=key(w),r=mod(K,M),g=gcd(9n,M),Q=M/g;let v=BigInt(w||'0'),effective=v%Q,num=effective>=m?0n:1n+(m-1n-effective)/Q;
+ let rhtml=`<div class="metrics">${metric(String(r),'K mod M')}${metric(fmt(Q),'Módulo efectivo Q')}${metric(fmt(num),'Palabras compatibles')}${metric(Q>=m?'Sí':'No','Inyectividad uniforme en Σ^ℓ')}</div>`;
+-let ws=[];for(let i=0n;i<2n&&i<num;i++){let vv=effective+i*Q;ws.push(vv.toString().padStart(ell,'0'))}
++let ws=[];for(let i=0n;i<2n&&i<num;i++){let vv=effective+i*Q;ws.push(ell===0?'ε':vv.toString().padStart(ell,'0'))}
+ rhtml+=`<div class="result"><strong>Estado:</strong> ${num===0n?'INCONSISTENT':num===1n?'UNIQUE':'NOT_IDENTIFIABLE'}.<div class="math">gcd(9,M) = ${g}
+ Q = M / gcd(9,M) = ${Q}
+ val(w) ≡ ${effective} (mod ${Q})

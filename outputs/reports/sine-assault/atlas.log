@@ -1,0 +1,6 @@
+CONFIG: BigInt; source atoms4777,6444,7444; externalB10000; complete words n0..6; inertDOM, no browser visual claim.
+{
+  status: 'PASS',
+  words: 1093,
+  smoke: 'Autocontroles JavaScript: 7/7 correctos.'
+}

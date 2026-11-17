@@ -77,8 +77,18 @@ for c in fst14:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).i
 r14=read('outputs/reports/fst14/RUN_MANIFEST.json')
 check(r14['status']=='PASS' and r14['run']['status']=='completed','FST14 exact replay')
 for a in r14['input_artifacts']:check(sha(R/'research/rc33/fst14'/a['path'])==a['sha256']==a['sha256_after'],a['path']+' FST14 source hash')
+sine=read('research/rc33/sine-assault/CLAIMS.json')['claims']
+check(len(sine)==7,'seven current phase/atom/index records')
+for c in sine:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_file(),c['id']+' public evidence')
+rs=read('outputs/reports/sine-assault/RUN_MANIFEST.json')
+check(rs['status']=='PASS' and len(rs['runs'])==10,'ten current exact phase/atom/index stages')
+for a in rs['input_artifacts']:check(sha(R/'research/rc33/sine-assault'/a['path'])==a['sha256']==a['sha256_after'],a['path']+' current source hash')
+for L,count in [(3,90888),(4,248076),(5,649044)]:
+ r=read(f'outputs/reports/sine-assault/LAMBDA_{L}_STRATA.json')
+ check(r['status']=='PASS' and sum(x['level_pairs'] for x in r['results'])==count,'all-height index '+str(L))
+ check(not any(x['necessary_candidates'] for x in r['results']),'no surviving index candidate')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007)+len(fst13)+len(fst14),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
          'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,

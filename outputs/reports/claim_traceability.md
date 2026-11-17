@@ -105,6 +105,13 @@
 | F14I | `PROVED_SYMBOLIC` | Terminal inversion by bounded prime-power lifting and generalized CRT | `research/rc33/fst14/RESULTS.md#f14i` | depends_on:F14T<br>depends_on:F13B |
 | F14R | `PROVED_SYMBOLIC` | Exact separation criterion and logarithmic terminal precision | `research/rc33/fst14/RESULTS.md#f14r` | depends_on:F14T<br>depends_on:F14I |
 | F14V | `EXACT_CERTIFICATE` | Received terminal engine checked under an explicit baseline adapter | `research/rc33/fst14/RESULTS.md#f14v` | depends_on:F14T<br>depends_on:F14I<br>depends_on:F14R |
+| SPW | `EXACT_CERTIFICATE` | Fifteen sine critical words have uniform prefixes and globally singleton length-seven normalized fibres | `research/rc33/sine-assault/RESULTS.md#spw` | depends_on:F13B |
+| SPP | `EXACT_CERTIFICATE` | Exact common-phase partitions and optimal joint-vector resolution distinguish cuts from changing coordinates | `research/rc33/sine-assault/RESULTS.md#spp` | depends_on:R17D<br>depends_on:SPW |
+| SPF | `PROVED_SYMBOLIC` | Full phase family prefixes recover the shared prefix through finitely many coupled carry states | `research/rc33/sine-assault/RESULTS.md#spf` | — |
+| ATM | `PROVED_SYMBOLIC` | Complementary affine anchor observations recover complete token words and their unknown lengths | `research/rc33/sine-assault/RESULTS.md#atm` | depends_on:F11H<br>depends_on:T07K |
+| LCF | `PROVED_SYMBOLIC` | Every fixed completion index is an effective finite stratum with H<(200lambda)^10 | `research/rc33/sine-assault/RESULTS.md#lcf` | depends_on:RC33-CAP<br>depends_on:RC33-H14<br>depends_on:RC33-E |
+| LCG | `PROVED_SYMBOLIC` | A uniform composite-fifth-module height envelope has exponent41/20 in the base | `research/rc33/sine-assault/RESULTS.md#lcg` | depends_on:LCF |
+| LCE | `EXACT_CERTIFICATE` | All-height completion-index strata lambda<=5 are excluded | `research/rc33/sine-assault/RESULTS.md#lce` | depends_on:LCF |
 
 ## Artifact registry
 
@@ -168,3 +175,4 @@
 | A-T007 | `software_and_exact_certificates` | `research/rc33/t007` | T07K;T07X;T07H;T07C;T07E;T07F;T07B |
 | A-FST1213 | `software_and_exact_certificates` | `research/rc33/fst1213` | F12L;F12A;F12E;F12O;F13B;F13C;F13M;F13P;F13V |
 | A-FST14 | `exact_replay` | `outputs/reports/fst14/RUN_MANIFEST.json` | F14T;F14I;F14R;F14V |
+| A-SINE-ASSAULT | `exact_replay` | `outputs/reports/sine-assault/RUN_MANIFEST.json` | SPW;SPP;SPF;ATM;LCF;LCG;LCE |

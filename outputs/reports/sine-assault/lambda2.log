@@ -1,0 +1,81 @@
+{"equations": ["lambda=E/gcd(E,lcm(A,C,D,Q))", "D=a*A+b*Q+c*C", "A|D^2-9Q^2,C|D^2-Q^2,D|C^2-9A^2,Q|C^2-A^2"], "variables": {"q": "Q/A", "s": "C/A", "K,J": "integral quadratic levels"}, "units": "dimensionless exact rational/integer", "python": "3.12.14", "planes": [{"branch": "reflected606897/3", "a": 5, "b": 6, "c": -6, "q_bounds": ["11/12", "1"], "s_bounds": ["3/2", "19/12"]}, {"branch": "119772/3,j2", "a": 22, "b": 12, "c": -24, "q_bounds": ["3/2", "2"], "s_bounds": ["3/2", "43/24"]}]}
+[
+  {
+    "branch": "reflected606897/3",
+    "plane": [
+      5,
+      6,
+      -6
+    ],
+    "level_coefficients": [
+      4,
+      -8,
+      3,
+      25,
+      60,
+      35
+    ],
+    "K_interval": [
+      "-247/44",
+      "-71/36"
+    ],
+    "J_interval": [
+      "3365/114",
+      "510/11"
+    ],
+    "K_integer_range": [
+      -5,
+      -2
+    ],
+    "J_integer_range": [
+      30,
+      46
+    ],
+    "level_pairs": 68,
+    "rational_roots": 36,
+    "chamber_roots": 0,
+    "primitive_roots": 0,
+    "four_square_roots": 0,
+    "candidates": [],
+    "positive_dimensional_components": []
+  },
+  {
+    "branch": "119772/3,j2",
+    "plane": [
+      22,
+      12,
+      -24
+    ],
+    "level_coefficients": [
+      64,
+      -64,
+      15,
+      484,
+      528,
+      143
+    ],
+    "K_interval": [
+      "-1387/18",
+      "1034/27"
+    ],
+    "J_interval": [
+      "6347/516",
+      "1364/3"
+    ],
+    "K_integer_range": [
+      -77,
+      38
+    ],
+    "J_integer_range": [
+      13,
+      454
+    ],
+    "level_pairs": 51272,
+    "rational_roots": 3154,
+    "chamber_roots": 0,
+    "primitive_roots": 0,
+    "four_square_roots": 0,
+    "candidates": [],
+    "positive_dimensional_components": []
+  }
+]

@@ -1,0 +1,357 @@
+{
+  "schema_version": 2,
+  "status": "PASS",
+  "claims": [
+    "SPW",
+    "SPP",
+    "SPF",
+    "ATM",
+    "LCF",
+    "LCG",
+    "LCE"
+  ],
+  "command": [
+    "/workspace/.venvs/rgphi-sync/bin/python",
+    "replay.py",
+    "--output",
+    "/workspace/rgphi-github-sync-2026-11-17/outputs/reports/sine-assault"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "mathematics": {
+    "domain": "exact integer/rational and symbolic identities; six separately identified illustrative floating assertions not used in proofs",
+    "coverage": "All potential phase cells, fifteen literal words,9841 whole-token words, carry states, all-height index strata2..5; no empirical pi trajectories or unbounded index census",
+    "non_claims": [
+      "No global existence/uniqueness/minimum-base closure",
+      "No replay of missing historical pi ormantissa campaigns",
+      "No browser visual audit of supplied interactive atlas"
+    ]
+  },
+  "run": {
+    "started_at": "2026-11-17T19:01:49.599782+00:00",
+    "seconds": 30.30642960399564,
+    "status": "completed"
+  },
+  "runs": [
+    {
+      "name": "phase",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "verify_patch.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 2.313879196997732
+    },
+    {
+      "name": "partitions",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "extended_partitions.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 4.485816963991965
+    },
+    {
+      "name": "atoms",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "audit_atomic.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 0.6832496389979497
+    },
+    {
+      "name": "atlas",
+      "argv": [
+        "node",
+        "audit_atomic_atlas.js"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 0.05464916898927186
+    },
+    {
+      "name": "structure",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/audit_structure.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 0.4934716170100728
+    },
+    {
+      "name": "lambda2",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/lambda2_planes.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 0.19621961399388965
+    },
+    {
+      "name": "legacy_nonabsorption",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/legacy_fifth_coordinate.py"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 0.6508532980078598
+    },
+    {
+      "name": "lambda3",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/index_strata.py",
+        "--lambda",
+        "3"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 2.1741318970016437
+    },
+    {
+      "name": "lambda4",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/index_strata.py",
+        "--lambda",
+        "4"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 5.459600353002315
+    },
+    {
+      "name": "lambda5",
+      "argv": [
+        "/workspace/.venvs/rgphi-sync/bin/python",
+        "closure/index_strata.py",
+        "--lambda",
+        "5"
+      ],
+      "CPU_seconds": 90,
+      "wall_seconds": 120,
+      "status": "completed",
+      "returncode": 0,
+      "seconds": 13.765400392003357
+    }
+  ],
+  "input_artifacts": [
+    {
+      "path": "ATOMIC_ORIGINAL_RESULTS.json",
+      "sha256": "ef99bc9da500066ceb5ece9aef21ba195ac6de4c6d5de3f9d286b6302074497d",
+      "sha256_after": "ef99bc9da500066ceb5ece9aef21ba195ac6de4c6d5de3f9d286b6302074497d"
+    },
+    {
+      "path": "ATOMIC_PALETTE.patch",
+      "sha256": "3517c019bbf703b8aaef1dd8ac62e4188f3e6a59c3bb90c0b25bf1df6499defe",
+      "sha256_after": "3517c019bbf703b8aaef1dd8ac62e4188f3e6a59c3bb90c0b25bf1df6499defe"
+    },
+    {
+      "path": "README.md",
+      "sha256": "47d9e8d88baa6e8c64a0f5f18d7919ed933d7a4d092061a85b7681443a3568ea",
+      "sha256_after": "47d9e8d88baa6e8c64a0f5f18d7919ed933d7a4d092061a85b7681443a3568ea"
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "7b2adfb74bdf4075d677f4c344219939240ba00fae93c9b073c041d1797e26ee",
+      "sha256_after": "7b2adfb74bdf4075d677f4c344219939240ba00fae93c9b073c041d1797e26ee"
+    },
+    {
+      "path": "atomic_atlas_original.js",
+      "sha256": "d27a795736ce8217fe64502407966f05a3607c212d9c93e9fd619dab331114a6",
+      "sha256_after": "d27a795736ce8217fe64502407966f05a3607c212d9c93e9fd619dab331114a6"
+    },
+    {
+      "path": "atomic_audit_original.py",
+      "sha256": "7275ee3633bc15cfdf44949b827f6936bf524a750ee68ee037f5c2249412ce41",
+      "sha256_after": "7275ee3633bc15cfdf44949b827f6936bf524a750ee68ee037f5c2249412ce41"
+    },
+    {
+      "path": "audit_atomic.py",
+      "sha256": "dff60306856ab53dfe5ab1f2c6a662cbc31c8fc997bb8ce9452164f1f8f7ee4b",
+      "sha256_after": "dff60306856ab53dfe5ab1f2c6a662cbc31c8fc997bb8ce9452164f1f8f7ee4b"
+    },
+    {
+      "path": "audit_atomic_atlas.js",
+      "sha256": "fd2b5ad8cb7b24b3db1c85d4506ce783ca45f7fce219a4bab612ed69fd7c5616",
+      "sha256_after": "fd2b5ad8cb7b24b3db1c85d4506ce783ca45f7fce219a4bab612ed69fd7c5616"
+    },
+    {
+      "path": "closure/audit_structure.py",
+      "sha256": "5f55fa265b18602fc1f2e6012fb6e67e0c81094eb916694090ec1fffa35bb75d",
+      "sha256_after": "5f55fa265b18602fc1f2e6012fb6e67e0c81094eb916694090ec1fffa35bb75d"
+    },
+    {
+      "path": "closure/index_strata.py",
+      "sha256": "38516a8c8d618998ce2b7d67af1503bcd867d756b28234d41320ef21c9cf27ea",
+      "sha256_after": "38516a8c8d618998ce2b7d67af1503bcd867d756b28234d41320ef21c9cf27ea"
+    },
+    {
+      "path": "closure/lambda2_planes.py",
+      "sha256": "10eb04347ca741e0780aa83aa2f184546fc57bd96ec0ffc7a02e2d43e5e09547",
+      "sha256_after": "10eb04347ca741e0780aa83aa2f184546fc57bd96ec0ffc7a02e2d43e5e09547"
+    },
+    {
+      "path": "closure/legacy_fifth_coordinate.py",
+      "sha256": "59d36f14a381d15fef89c5b6822ab229d442b08c173fcb726cfcb10fe08de2de",
+      "sha256_after": "59d36f14a381d15fef89c5b6822ab229d442b08c173fcb726cfcb10fe08de2de"
+    },
+    {
+      "path": "exact_inverse.py",
+      "sha256": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39",
+      "sha256_after": "a5492328dfd0187c218cb8620e4f632eca4fe4e4118bf570425c4a56d7f11f39"
+    },
+    {
+      "path": "extended_partitions.py",
+      "sha256": "db5152be6053d4fd6f1b82f0274b86d18e34448cc2e89590acc7a564485e9abf",
+      "sha256_after": "db5152be6053d4fd6f1b82f0274b86d18e34448cc2e89590acc7a564485e9abf"
+    },
+    {
+      "path": "fst11.py",
+      "sha256": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32",
+      "sha256_after": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32"
+    },
+    {
+      "path": "inputs/15_PALABRAS_CRITICAS_VERIFICADAS.csv",
+      "sha256": "5f1941415fe7df1238ed6062be3148c6844c2f93aba0ba0f478772ccad13b906",
+      "sha256_after": "5f1941415fe7df1238ed6062be3148c6844c2f93aba0ba0f478772ccad13b906"
+    },
+    {
+      "path": "replay.py",
+      "sha256": "cd3f0210dec276e35aca8164795b8bcc2e9940ee5a9fd656f5472840223d78db",
+      "sha256_after": "cd3f0210dec276e35aca8164795b8bcc2e9940ee5a9fd656f5472840223d78db"
+    },
+    {
+      "path": "validate_sine_patch.py",
+      "sha256": "7e75d145a40db1ca1b3625ff57a505c9aaae4ecebcf6e16ef1744b9ac999d797",
+      "sha256_after": "7e75d145a40db1ca1b3625ff57a505c9aaae4ecebcf6e16ef1744b9ac999d797"
+    },
+    {
+      "path": "verify_patch.py",
+      "sha256": "ee17048d3f81d3e66bf70448c6b67165330861802f2165742ae70834435f43a3",
+      "sha256_after": "ee17048d3f81d3e66bf70448c6b67165330861802f2165742ae70834435f43a3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ATOMIC_ATLAS_AUDIT.json",
+      "sha256": "c22312315a68d3f6a625938d87a4a91ed0dda3e32e38a7a2d58fac2d495ab06f"
+    },
+    {
+      "path": "ATOMIC_AUDIT.json",
+      "sha256": "c0e6b1d1b724d562c4ac8b61783f234d5cd228abb8c71a3500faa107dccfbbe1"
+    },
+    {
+      "path": "AUDITORIA_CUATRO_LINEAS.json",
+      "sha256": "ef99bc9da500066ceb5ece9aef21ba195ac6de4c6d5de3f9d286b6302074497d"
+    },
+    {
+      "path": "CELL_PATTERNS.csv",
+      "sha256": "62c02427811c819b1982594d8ca073ad47b54a2f860ad4b6221448ed423319f9"
+    },
+    {
+      "path": "EXACT_CERTIFICATE.json",
+      "sha256": "090eeb32cc242e4e2fea3cdd2a65fed52873e02842468da45d89e449fcfebc5a"
+    },
+    {
+      "path": "EXTENDED_PARTITIONS.json",
+      "sha256": "5983f26662250d1a0ab10b54a2a57d37b527340d2fb6718b5052631fc380eb11"
+    },
+    {
+      "path": "LAMBDA2_RESULTS.json",
+      "sha256": "b4082c1eedb87f84af75e4e0fdb3aa55d009fb3289c0142a92c1fa5991b05608"
+    },
+    {
+      "path": "LAMBDA_3_STRATA.json",
+      "sha256": "8c5b1a191299f941bc667480db323b1174a59465a67955537417c55775dcbb9a"
+    },
+    {
+      "path": "LAMBDA_4_STRATA.json",
+      "sha256": "ccbfd30ebcb9db52e7f57afc22f170da349bfd2acc39c52287ee09d4e8bddade"
+    },
+    {
+      "path": "LAMBDA_5_STRATA.json",
+      "sha256": "9029b4709a11a510a72937453c761a0b3ea1485378452e534b343254608ca464"
+    },
+    {
+      "path": "PHASE_DATASET.json",
+      "sha256": "fa2f1e499d83735c1cc20fd60be7cc2e60d70124f3a29cbd625d8c14ee50c176"
+    },
+    {
+      "path": "STRUCTURE_AUDIT.json",
+      "sha256": "bcb5ffb1039b760ac752b3420ae21c1c405c5996a65faf213f48fd3b4e8ccc32"
+    },
+    {
+      "path": "atlas.log",
+      "sha256": "a2181bddd329058c872a9fec35e405fac6d7c6648cc3423c137825d7d904e251"
+    },
+    {
+      "path": "atoms.log",
+      "sha256": "f0affb4f2d20ca32cd4131b7a394dc84b73b54666dd70a9ecc3b4454d129c78e"
+    },
+    {
+      "path": "fifth_coordinate_checks.json",
+      "sha256": "5e8342f34f1b880588a3f57602a20690c2936b11c59aa0efdb0141ee7671b221"
+    },
+    {
+      "path": "lambda2.log",
+      "sha256": "5280e788a907911a7d8c16729eb5084a2ff2721de585bebe8516009cd7016a8c"
+    },
+    {
+      "path": "lambda3.log",
+      "sha256": "920d4736d8c2010fa0e0757828d4410eb9b1e9f8e2d0b670717b442f89972774"
+    },
+    {
+      "path": "lambda4.log",
+      "sha256": "e0a24d8e49d7d95c73ddc76d85b287c0c40ebee0c1c22adfabc504c6f79213db"
+    },
+    {
+      "path": "lambda5.log",
+      "sha256": "16cad6998bbfa29ee681619e14974ee8a5ae57a99cc157a054e4e7410c51606d"
+    },
+    {
+      "path": "legacy_nonabsorption.log",
+      "sha256": "da3342e766ff64dde1caa57915e77d4dd01dd967cc3f6a6d0a0d7862a9ec6707"
+    },
+    {
+      "path": "partitions.log",
+      "sha256": "eccd934175b7056a7656dace385943a6e1523f558c3ba8c1bcea244fe3d2bec9"
+    },
+    {
+      "path": "phase.log",
+      "sha256": "c8e3a25d0b9bdc1fe5520ec8edf9143b4b4da654a3f76735cbbadef609f10624"
+    },
+    {
+      "path": "structure.log",
+      "sha256": "530501ee8aa303984feb426bccc7efd50fc8e6e864e85df1f13704719e47f251"
+    }
+  ]
+}

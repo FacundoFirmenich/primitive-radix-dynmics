@@ -1,0 +1,124 @@
+CONFIG BEFORE CALCULATION: exact SymPy/Q polynomials; r in{2,3}, j in{-1,1,2} restricted to the five completion chambers; lambda positive integer; known tuple406,712,1265,731,557; conservative M=24lambda, T=200M^4, root-bound N=8000000M^10; no uniform lambda bound assumed.
+{
+  "status": "PASS",
+  "symbolic_U_factorization": "-j**2*(b - k)*(-2*b**3 + b*k**2*r**2 - k**3*r**2)",
+  "positive_rational_line_cases": [
+    {
+      "r": 2,
+      "t": -1,
+      "eps": -1,
+      "eta": 1,
+      "ratio": "1",
+      "F_over_E": "2"
+    },
+    {
+      "r": 2,
+      "t": -1,
+      "eps": 1,
+      "eta": 1,
+      "ratio": "1",
+      "F_over_E": "2"
+    },
+    {
+      "r": 2,
+      "t": 1,
+      "eps": -1,
+      "eta": -1,
+      "ratio": "1",
+      "F_over_E": "2"
+    },
+    {
+      "r": 2,
+      "t": 1,
+      "eps": 1,
+      "eta": -1,
+      "ratio": "1",
+      "F_over_E": "2"
+    },
+    {
+      "r": 2,
+      "t": 1,
+      "eps": 1,
+      "eta": 1,
+      "ratio": "2",
+      "F_over_E": "4"
+    },
+    {
+      "r": 3,
+      "t": -1,
+      "eps": -1,
+      "eta": 1,
+      "ratio": "1",
+      "F_over_E": "3"
+    },
+    {
+      "r": 3,
+      "t": -1,
+      "eps": 1,
+      "eta": 1,
+      "ratio": "2/3",
+      "F_over_E": "2"
+    },
+    {
+      "r": 3,
+      "t": -1,
+      "eps": 1,
+      "eta": 1,
+      "ratio": "1",
+      "F_over_E": "3"
+    },
+    {
+      "r": 3,
+      "t": 1,
+      "eps": -1,
+      "eta": -1,
+      "ratio": "1",
+      "F_over_E": "3"
+    },
+    {
+      "r": 3,
+      "t": 1,
+      "eps": -1,
+      "eta": 1,
+      "ratio": "1/3",
+      "F_over_E": "1"
+    },
+    {
+      "r": 3,
+      "t": 1,
+      "eps": 1,
+      "eta": -1,
+      "ratio": "1",
+      "F_over_E": "3"
+    },
+    {
+      "r": 3,
+      "t": 1,
+      "eps": 1,
+      "eta": 1,
+      "ratio": "5/3",
+      "F_over_E": "5"
+    }
+  ],
+  "geometric_exclusion": "All candidate line families force F/E in{r,4}(r2) or{1,2,3,5}(r3); chamber bounds eliminate all except F=E in119772/r3/j1, which forces2Q-C=2A,Q|3,contrary to3-units.",
+  "all_lambda_height_bound": "H<(200*lambda)^10, primitive completion-order coordinates in the five chambers; not a uniform upper bound onlambda.",
+  "conservative_constant_check": {
+    "left": 2028908190892032000000,
+    "right": 102400000000000000000000
+  },
+  "known_control": {
+    "lambda": 557,
+    "kappa": 425,
+    "K": -4474350,
+    "J": 4035325,
+    "vieta_other_Q_over_A": "28964962141631419/113239966579126652",
+    "vieta_other_C_over_A": "29679768114407124/28309991644781663",
+    "vieta_other_D_over_A": "-355284799217572291/1925079431845153084",
+    "chamber_preserved": false
+  },
+  "route_status": {
+    "completion_index": "proved effective finite strata and height bound; uniform index bound open",
+    "unconditional_Vieta_descent": "universal chamber-preservation refuted by known-carrier test; exception-aware descent remains open",
+    "squareclass_route": "explicit coupled quadratic discriminants identified; no uniform squareclass obstruction established"
+  }
+}

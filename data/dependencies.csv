@@ -131,3 +131,13 @@ F14R,F14I,depends_on
 F14V,F14T,depends_on
 F14V,F14I,depends_on
 F14V,F14R,depends_on
+SPW,F13B,depends_on
+SPP,R17D,depends_on
+SPP,SPW,depends_on
+ATM,F11H,depends_on
+ATM,T07K,depends_on
+LCF,RC33-CAP,depends_on
+LCF,RC33-H14,depends_on
+LCF,RC33-E,depends_on
+LCG,LCF,depends_on
+LCE,LCF,depends_on

@@ -1,0 +1,638 @@
+{
+  "contract": {
+    "atoms": {
+      "X": 4777,
+      "Y": 6444,
+      "Z": 7444
+    },
+    "radix": 10000,
+    "internal_atom_access": false,
+    "scope": "All operations act on complete source atoms and on external token sequences; the FST11 literal words are a separate explicitly declared textual observer."
+  },
+  "literal_fst11": {
+    "three_complete_literals": {
+      "X": {
+        "literal": "4777",
+        "K": 37007,
+        "Pi7": 37007,
+        "Pi2": 37007,
+        "normal_form_h_j_t": [
+          37007,
+          0,
+          0
+        ]
+      },
+      "Y": {
+        "literal": "6444",
+        "K": 22004,
+        "Pi7": 22004,
+        "Pi2": 5501,
+        "normal_form_h_j_t": [
+          22004,
+          0,
+          0
+        ]
+      },
+      "Z": {
+        "literal": "7444",
+        "K": 13004,
+        "Pi7": 13004,
+        "Pi2": 3251,
+        "normal_form_h_j_t": [
+          13004,
+          0,
+          0
+        ]
+      }
+    },
+    "length_free_digit_dual_anchor_tested": true,
+    "six_digit_all_language_counts": {
+      "ell": 6,
+      "accepted": 1000000,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 2915,
+        "2": 8
+      },
+      "unordered_pairs": 2923
+    },
+    "archive_tests_not_attached": "47/47 and 29/29 are documentation claims; underlying test suite and legacy archive were not supplied in this turn"
+  },
+  "anchor_matrices": [
+    {
+      "atom": "X",
+      "value": 4777,
+      "A_matrix": [
+        [
+          10000,
+          -4777
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "fixed_vector": [
+        4777,
+        9999
+      ]
+    },
+    {
+      "atom": "Y",
+      "value": 6444,
+      "A_matrix": [
+        [
+          10000,
+          -6444
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "fixed_vector": [
+        6444,
+        9999
+      ]
+    },
+    {
+      "atom": "Z",
+      "value": 7444,
+      "A_matrix": [
+        [
+          10000,
+          -7444
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "fixed_vector": [
+        7444,
+        9999
+      ]
+    }
+  ],
+  "token_language_exhaustive": {
+    "enumerated_words": 9841,
+    "max_length": 8,
+    "class_count_by_max_length": {
+      "0": {
+        "up_to_length": 0,
+        "words_total": 1,
+        "distinct_K_X": 1,
+        "distinct_dual_key": 1
+      },
+      "1": {
+        "up_to_length": 1,
+        "words_total": 4,
+        "distinct_K_X": 3,
+        "distinct_dual_key": 4
+      },
+      "2": {
+        "up_to_length": 2,
+        "words_total": 13,
+        "distinct_K_X": 9,
+        "distinct_dual_key": 13
+      },
+      "3": {
+        "up_to_length": 3,
+        "words_total": 40,
+        "distinct_K_X": 27,
+        "distinct_dual_key": 40
+      },
+      "4": {
+        "up_to_length": 4,
+        "words_total": 121,
+        "distinct_K_X": 81,
+        "distinct_dual_key": 121
+      },
+      "5": {
+        "up_to_length": 5,
+        "words_total": 364,
+        "distinct_K_X": 243,
+        "distinct_dual_key": 364
+      },
+      "6": {
+        "up_to_length": 6,
+        "words_total": 1093,
+        "distinct_K_X": 729,
+        "distinct_dual_key": 1093
+      },
+      "7": {
+        "up_to_length": 7,
+        "words_total": 3280,
+        "distinct_K_X": 2187,
+        "distinct_dual_key": 3280
+      },
+      "8": {
+        "up_to_length": 8,
+        "words_total": 9841,
+        "distinct_K_X": 6561,
+        "distinct_dual_key": 9841
+      }
+    },
+    "example_keys_n_le_3": [
+      {
+        "word": "",
+        "n": 0,
+        "external_value": 0,
+        "K_X": 4777,
+        "K_Y": 6444,
+        "K_Z": 7444
+      },
+      {
+        "word": "X",
+        "n": 1,
+        "external_value": 4777,
+        "K_X": 4777,
+        "K_Y": 16674777,
+        "K_Z": 26674777
+      },
+      {
+        "word": "Y",
+        "n": 1,
+        "external_value": 6444,
+        "K_X": -16663556,
+        "K_Y": 6444,
+        "K_Z": 10006444
+      },
+      {
+        "word": "Z",
+        "n": 1,
+        "external_value": 7444,
+        "K_X": -26662556,
+        "K_Y": -9992556,
+        "K_Z": 7444
+      },
+      {
+        "word": "XX",
+        "n": 2,
+        "external_value": 47774777,
+        "K_X": 4777,
+        "K_Y": 166700004777,
+        "K_Z": 266700004777
+      },
+      {
+        "word": "XY",
+        "n": 2,
+        "external_value": 47776444,
+        "K_X": -16663556,
+        "K_Y": 166683336444,
+        "K_Z": 266683336444
+      },
+      {
+        "word": "XZ",
+        "n": 2,
+        "external_value": 47777444,
+        "K_X": -26662556,
+        "K_Y": 166673337444,
+        "K_Z": 266673337444
+      },
+      {
+        "word": "YX",
+        "n": 2,
+        "external_value": 64444777,
+        "K_X": -166683325223,
+        "K_Y": 16674777,
+        "K_Z": 100016674777
+      },
+      {
+        "word": "YY",
+        "n": 2,
+        "external_value": 64446444,
+        "K_X": -166699993556,
+        "K_Y": 6444,
+        "K_Z": 100000006444
+      },
+      {
+        "word": "YZ",
+        "n": 2,
+        "external_value": 64447444,
+        "K_X": -166709992556,
+        "K_Y": -9992556,
+        "K_Z": 99990007444
+      },
+      {
+        "word": "ZX",
+        "n": 2,
+        "external_value": 74444777,
+        "K_X": -266673325223,
+        "K_Y": -99973325223,
+        "K_Z": 26674777
+      },
+      {
+        "word": "ZY",
+        "n": 2,
+        "external_value": 74446444,
+        "K_X": -266689993556,
+        "K_Y": -99989993556,
+        "K_Z": 10006444
+      },
+      {
+        "word": "ZZ",
+        "n": 2,
+        "external_value": 74447444,
+        "K_X": -266699992556,
+        "K_Y": -99999992556,
+        "K_Z": 7444
+      },
+      {
+        "word": "XXX",
+        "n": 3,
+        "external_value": 477747774777,
+        "K_X": 4777,
+        "K_Y": 1667000000004777,
+        "K_Z": 2667000000004777
+      },
+      {
+        "word": "XXY",
+        "n": 3,
+        "external_value": 477747776444,
+        "K_X": -16663556,
+        "K_Y": 1666999983336444,
+        "K_Z": 2666999983336444
+      },
+      {
+        "word": "XXZ",
+        "n": 3,
+        "external_value": 477747777444,
+        "K_X": -26662556,
+        "K_Y": 1666999973337444,
+        "K_Z": 2666999973337444
+      },
+      {
+        "word": "XYX",
+        "n": 3,
+        "external_value": 477764444777,
+        "K_X": -166683325223,
+        "K_Y": 1666833316674777,
+        "K_Z": 2666833316674777
+      },
+      {
+        "word": "XYY",
+        "n": 3,
+        "external_value": 477764446444,
+        "K_X": -166699993556,
+        "K_Y": 1666833300006444,
+        "K_Z": 2666833300006444
+      },
+      {
+        "word": "XYZ",
+        "n": 3,
+        "external_value": 477764447444,
+        "K_X": -166709992556,
+        "K_Y": 1666833290007444,
+        "K_Z": 2666833290007444
+      },
+      {
+        "word": "XZX",
+        "n": 3,
+        "external_value": 477774444777,
+        "K_X": -266673325223,
+        "K_Y": 1666733326674777,
+        "K_Z": 2666733326674777
+      },
+      {
+        "word": "XZY",
+        "n": 3,
+        "external_value": 477774446444,
+        "K_X": -266689993556,
+        "K_Y": 1666733310006444,
+        "K_Z": 2666733310006444
+      },
+      {
+        "word": "XZZ",
+        "n": 3,
+        "external_value": 477774447444,
+        "K_X": -266699992556,
+        "K_Y": 1666733300007444,
+        "K_Z": 2666733300007444
+      },
+      {
+        "word": "YXX",
+        "n": 3,
+        "external_value": 644447774777,
+        "K_X": -1666833299995223,
+        "K_Y": 166700004777,
+        "K_Z": 1000166700004777
+      },
+      {
+        "word": "YXY",
+        "n": 3,
+        "external_value": 644447776444,
+        "K_X": -1666833316663556,
+        "K_Y": 166683336444,
+        "K_Z": 1000166683336444
+      },
+      {
+        "word": "YXZ",
+        "n": 3,
+        "external_value": 644447777444,
+        "K_X": -1666833326662556,
+        "K_Y": 166673337444,
+        "K_Z": 1000166673337444
+      },
+      {
+        "word": "YYX",
+        "n": 3,
+        "external_value": 644464444777,
+        "K_X": -1666999983325223,
+        "K_Y": 16674777,
+        "K_Z": 1000000016674777
+      },
+      {
+        "word": "YYY",
+        "n": 3,
+        "external_value": 644464446444,
+        "K_X": -1666999999993556,
+        "K_Y": 6444,
+        "K_Z": 1000000000006444
+      },
+      {
+        "word": "YYZ",
+        "n": 3,
+        "external_value": 644464447444,
+        "K_X": -1667000009992556,
+        "K_Y": -9992556,
+        "K_Z": 999999990007444
+      },
+      {
+        "word": "YZX",
+        "n": 3,
+        "external_value": 644474444777,
+        "K_X": -1667099973325223,
+        "K_Y": -99973325223,
+        "K_Z": 999900026674777
+      },
+      {
+        "word": "YZY",
+        "n": 3,
+        "external_value": 644474446444,
+        "K_X": -1667099989993556,
+        "K_Y": -99989993556,
+        "K_Z": 999900010006444
+      },
+      {
+        "word": "YZZ",
+        "n": 3,
+        "external_value": 644474447444,
+        "K_X": -1667099999992556,
+        "K_Y": -99999992556,
+        "K_Z": 999900000007444
+      },
+      {
+        "word": "ZXX",
+        "n": 3,
+        "external_value": 744447774777,
+        "K_X": -2666733299995223,
+        "K_Y": -999733299995223,
+        "K_Z": 266700004777
+      },
+      {
+        "word": "ZXY",
+        "n": 3,
+        "external_value": 744447776444,
+        "K_X": -2666733316663556,
+        "K_Y": -999733316663556,
+        "K_Z": 266683336444
+      },
+      {
+        "word": "ZXZ",
+        "n": 3,
+        "external_value": 744447777444,
+        "K_X": -2666733326662556,
+        "K_Y": -999733326662556,
+        "K_Z": 266673337444
+      },
+      {
+        "word": "ZYX",
+        "n": 3,
+        "external_value": 744464444777,
+        "K_X": -2666899983325223,
+        "K_Y": -999899983325223,
+        "K_Z": 100016674777
+      },
+      {
+        "word": "ZYY",
+        "n": 3,
+        "external_value": 744464446444,
+        "K_X": -2666899999993556,
+        "K_Y": -999899999993556,
+        "K_Z": 100000006444
+      },
+      {
+        "word": "ZYZ",
+        "n": 3,
+        "external_value": 744464447444,
+        "K_X": -2666900009992556,
+        "K_Y": -999900009992556,
+        "K_Z": 99990007444
+      },
+      {
+        "word": "ZZX",
+        "n": 3,
+        "external_value": 744474444777,
+        "K_X": -2666999973325223,
+        "K_Y": -999999973325223,
+        "K_Z": 26674777
+      },
+      {
+        "word": "ZZY",
+        "n": 3,
+        "external_value": 744474446444,
+        "K_X": -2666999989993556,
+        "K_Y": -999999989993556,
+        "K_Z": 10006444
+      },
+      {
+        "word": "ZZZ",
+        "n": 3,
+        "external_value": 744474447444,
+        "K_X": -2666999999992556,
+        "K_Y": -999999999992556,
+        "K_Z": 7444
+      }
+    ],
+    "single_anchor_classes": {
+      "X": 6561,
+      "Y": 6561,
+      "Z": 6561
+    },
+    "dual_anchor_distinct": 9841
+  },
+  "affine_certificate": {
+    "unique_minimum_L1": 16,
+    "coefficients": [
+      -3,
+      8,
+      -5
+    ],
+    "general_family": [
+      "-3+1000*t",
+      "8-2667*t",
+      "-5+1667*t"
+    ],
+    "proof": "a congruent to -3 mod 1000; if a != -3 then |a|>=997 > 16; for a=-3, b=8,c=-5"
+  },
+  "radix_Mobius_bridge": {
+    "finite_words_shift": [
+      {
+        "word": "X",
+        "h_in_H": "10000/14777",
+        "tail": "",
+        "S_B_h": "1"
+      },
+      {
+        "word": "Y",
+        "h_in_H": "2500/4111",
+        "tail": "",
+        "S_B_h": "1"
+      },
+      {
+        "word": "Z",
+        "h_in_H": "2500/4361",
+        "tail": "",
+        "S_B_h": "1"
+      },
+      {
+        "word": "XY",
+        "h_in_H": "25000000/36944111",
+        "tail": "Y",
+        "S_B_h": "2500/4111"
+      },
+      {
+        "word": "XYZ",
+        "h_in_H": "250000000000/369441111861",
+        "tail": "YZ",
+        "S_B_h": "25000000/41111861"
+      },
+      {
+        "word": "ZYX",
+        "h_in_H": "1000000000000/1744464444777",
+        "tail": "YX",
+        "S_B_h": "100000000/164444777"
+      },
+      {
+        "word": "XXXYZ",
+        "h_in_H": "25000000000000000000/36943694369441111861",
+        "tail": "XXYZ",
+        "S_B_h": "2500000000000000/3694369441111861"
+      }
+    ],
+    "periodic_words": [
+      {
+        "word": "X",
+        "period_divides": 1,
+        "images": [
+          "9999/14776"
+        ],
+        "returns": true
+      },
+      {
+        "word": "Y",
+        "period_divides": 1,
+        "images": [
+          "1111/1827"
+        ],
+        "returns": true
+      },
+      {
+        "word": "Z",
+        "period_divides": 1,
+        "images": [
+          "9999/17443"
+        ],
+        "returns": true
+      },
+      {
+        "word": "XY",
+        "period_divides": 2,
+        "images": [
+          "99999999/147776443",
+          "99999999/164444776"
+        ],
+        "returns": true
+      },
+      {
+        "word": "XYZ",
+        "period_divides": 3,
+        "images": [
+          "999999999999/1477764447443",
+          "999999999999/1644474444776",
+          "999999999999/1744447776443"
+        ],
+        "returns": true
+      },
+      {
+        "word": "ZYX",
+        "period_divides": 3,
+        "images": [
+          "999999999999/1744464444776",
+          "999999999999/1644447777443",
+          "999999999999/1477774446443"
+        ],
+        "returns": true
+      }
+    ],
+    "interpretation": "These are S_B-only cycles; no closure under T_B has been shown."
+  },
+  "angular_comparison_scope": "The angular analogy is illustrative and numeric, not a proof of geometric identity for token observations.",
+  "verification": {
+    "status": "PASS",
+    "check_count": 128076,
+    "check_sample": [
+      "dual-key exact recovery ",
+      "length from two raw anchor keys ",
+      "ternary affine length certificate ",
+      "three-key internal consistency ",
+      "all token keys nonzero ",
+      "prime-normalization feasible ",
+      "two primitive channels restore signed key X ",
+      "two primitive channels restore signed key Y ",
+      "four-channel staged hyperaccess restores entire token word ",
+      "prefix invariance X"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{"equations": ["K_a(W)=a*10000^n-9999*V(W)", "K_Y-K_X=1667*10000^n", "-3K_X+8K_Y-5K_Z=10000^n"], "parameters": {"atoms": {"X": 4777, "Y": 6444, "Z": 7444}, "external_radix": 10000, "complete_token_lengths": [0, 8], "original_engine_FST11": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32", "illustrative_float_rational_inputs": ["4777/6444", "4777/7444", "6444/7444"], "float_tolerance": "1e-14", "float_formulas": ["theta=asin(float(rational))", "other=pi-theta", "sin(theta),sin(other),cos(theta),cos(other)"], "float_units": "radians", "float_checks_used_in_proofs": false}, "python": "3.12.14", "adapter": "file-location redirect only; both original Python files unchanged"}
+PASS: 128076 exact + 3 indicative numerical angular comparisons.
+Token sequences enumerated: 9841
+FST11 source native count: 2923
+Dual anchor length and primitive fusion audited; S_B finite/periodic shift audited.
+{
+  "status": "PASS",
+  "original_JSON_reproduced": true,
+  "token_words": 9841,
+  "assertions_including_floating": 128076,
+  "exact_assertions": 128070,
+  "illustrative_floating_assertions": 6,
+  "illustrative_angle_pairs": 3,
+  "original_module_bytes_unchanged": true,
+  "source_path_redirect": "/mnt/data/fst11(2).py -> preserved fst11.py",
+  "legacy_original_test_suites_replayed": false
+}

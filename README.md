@@ -1,5 +1,9 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Current phase, atom and arithmetic-index integration
+
+[Seven new scoped records](research/rc33/sine-assault/RESULTS.md) bring the continuation to56 cards. The fifteen words and1922-endpoint sine partition are now reconstructed exactly. Whole-token affine observers have an explicit dual-anchor inverse. In the five residual arithmetic chambers, each fixed completion index has finitely many primitive carriers with H<(200lambda)^10; the global envelope is H^41<6400^10(B^2-1)^10 without requiring prime E. All indices<=5 are excluded at every coordinate height (factor two requires index>=7). A uniform index bound is still open; all-cardinality minimum-base control is a separate gate. Run `make sine-assault-verify`. Earlier missing-data statements remain dated historical checkpoints. No full manuscripts are published, and the original DOI/tag is unchanged.
+
 **Scientific edition RC3.3 · integrated continuation: 17 November 2026**
 
 Public software, exact certificates and research records for *Finite Rational Components in Primitive Radix–Möbius Dynamics: Content and a Sharp Threshold*, by Facundo Firmenich.

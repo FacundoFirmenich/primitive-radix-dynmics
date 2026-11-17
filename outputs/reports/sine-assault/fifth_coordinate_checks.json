@@ -1,0 +1,179 @@
+{
+  "status": "PASS_EXACT_FINITE_LEAVES_OF_NONABSORPTION",
+  "native_reflected_coefficients": "PASS: (1,3,1,3) -> (3,1,3,1)",
+  "known_carrier_lambda": 557,
+  "small_cases": [
+    {
+      "r": 2,
+      "t": 4,
+      "examined_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "retained": []
+    },
+    {
+      "r": 3,
+      "t": 3,
+      "examined_pairs": [
+        [
+          4,
+          5
+        ]
+      ],
+      "retained": []
+    },
+    {
+      "r": 3,
+      "t": 4,
+      "examined_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "retained": []
+    },
+    {
+      "r": 3,
+      "t": 5,
+      "examined_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          20,
+          21
+        ]
+      ],
+      "retained": []
+    }
+  ],
+  "level_pairs": 13761,
+  "distinct_rational_points_before_chamber": 989,
+  "chamber_survivors": [],
+  "coordinate_caps": [
+    {
+      "branch": "119772/r2/j-1",
+      "coefficient": "81/4",
+      "last_possible_coordinate": 4422456,
+      "base_assumption": "2<=B<88011536665779",
+      "coverage_of_search_interval": "NOT_CLAIMED"
+    },
+    {
+      "branch": "119772/r2/j1",
+      "coefficient": "6",
+      "last_possible_coordinate": 5994210,
+      "base_assumption": "2<=B<88011536665779",
+      "coverage_of_search_interval": "NOT_CLAIMED"
+    },
+    {
+      "branch": "119772/r3/j1_or_j2",
+      "coefficient": "27/4",
+      "last_possible_coordinate": 5820279,
+      "base_assumption": "2<=B<88011536665779",
+      "coverage_of_search_interval": "NOT_CLAIMED"
+    },
+    {
+      "branch": "606897/r3/native_Q",
+      "coefficient": "27/16",
+      "last_possible_coordinate": 8231118,
+      "base_assumption": "2<=B<88011536665779",
+      "coverage_of_search_interval": "NOT_CLAIMED"
+    }
+  ],
+  "source_sha256": "59d36f14a381d15fef89c5b6822ab229d442b08c173fcb726cfcb10fe08de2de",
+  "scope": "Five residual completion chambers, including reflected 606897. No uniform lambda bound or global minimum base.",
+  "review": "self-review; named source verifier was not supplied; the finite leaves were reconstructed here"
+}

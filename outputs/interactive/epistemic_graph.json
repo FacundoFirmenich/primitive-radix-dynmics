@@ -1041,6 +1041,76 @@
       "scope": "8880 complete suffix classes,4849 reconstructions,11025 CRT cases,9 deep lifts; missing historical suites not claimed."
     },
     {
+      "id": "SPW",
+      "label": "SPW",
+      "title": "Fifteen sine critical words have uniform prefixes and globally singleton length-seven normalized fibres",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#spw",
+      "scope": "All n>=0 under the declared Taylor/Machin model; every seven-digit word, not merely the fifteen-word dictionary."
+    },
+    {
+      "id": "SPP",
+      "label": "SPP",
+      "title": "Exact common-phase partitions and optimal joint-vector resolution distinguish cuts from changing coordinates",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#spp",
+      "scope": "All potential phases and all n>=0;1922 endpoints,55 vectors,7/8/9-digit cut profiles2/1/1; exact one bit remains for every finite depth>=8; seven coordinates can vary."
+    },
+    {
+      "id": "SPF",
+      "label": "SPF",
+      "title": "Full phase family prefixes recover the shared prefix through finitely many coupled carry states",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#spf",
+      "scope": "Whole phase projections, not borrow flags;5/12 decoder has16 carry states for d>=2;5/12/15 closes d1 by240 exact cases; no empirical pi claim."
+    },
+    {
+      "id": "ATM",
+      "label": "ATM",
+      "title": "Complementary affine anchor observations recover complete token words and their unknown lengths",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#atm",
+      "scope": "Distinct complete token values in an external radix; raw exact integer keys; transpose radix identity and explicit terminal escape; no automatic common-component realization."
+    },
+    {
+      "id": "LCF",
+      "label": "LCF",
+      "title": "Every fixed completion index is an effective finite stratum with H<(200lambda)^10",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#lcf",
+      "scope": "Five residual completion chambers; primitive exact CRT system; all degenerate conic/line cases excluded. Polynomial in numerical index, not its bit length; no uniform index cap."
+    },
+    {
+      "id": "LCG",
+      "label": "LCG",
+      "title": "A uniform composite-fifth-module height envelope has exponent41/20 in the base",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#lcg",
+      "scope": "H^41<6400^10(B^2-1)^10 in the five stated chambers, using L>H^4/32; no absolute height or least-base conclusion."
+    },
+    {
+      "id": "LCE",
+      "label": "LCE",
+      "title": "All-height completion-index strata lambda<=5 are excluded",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/sine-assault/RESULTS.md#lce",
+      "scope": "Index2 includes a pure606897 contradiction and a51272-level finite leaf; indices3/4/5 cover988008 pairs at every height, with no necessary primitive candidates."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1618,6 +1688,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "outputs/reports/fst14/RUN_MANIFEST.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-SINE-ASSAULT",
+      "label": "A-SINE-ASSAULT",
+      "title": "Exact phase reconstruction, atomic observer and all-height completion-index strata",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "outputs/reports/sine-assault/RUN_MANIFEST.json",
       "scope": "evidence"
     },
     {
@@ -2593,6 +2673,56 @@
       "relation": "depends_on"
     },
     {
+      "source": "SPW",
+      "target": "F13B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "SPP",
+      "target": "R17D",
+      "relation": "depends_on"
+    },
+    {
+      "source": "SPP",
+      "target": "SPW",
+      "relation": "depends_on"
+    },
+    {
+      "source": "ATM",
+      "target": "F11H",
+      "relation": "depends_on"
+    },
+    {
+      "source": "ATM",
+      "target": "T07K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LCF",
+      "target": "RC33-CAP",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LCF",
+      "target": "RC33-H14",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LCF",
+      "target": "RC33-E",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LCG",
+      "target": "LCF",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LCE",
+      "target": "LCF",
+      "relation": "depends_on"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -3300,6 +3430,41 @@
     {
       "source": "A-FST14",
       "target": "F14V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "SPW",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "SPP",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "SPF",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "ATM",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "LCF",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "LCG",
+      "relation": "supports"
+    },
+    {
+      "source": "A-SINE-ASSAULT",
+      "target": "LCE",
       "relation": "supports"
     },
     {

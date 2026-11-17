@@ -1,0 +1,45 @@
+{
+  "received_source_hashes": [
+    {
+      "path": "inputs/15_PALABRAS_CRITICAS_VERIFICADAS.csv",
+      "bytes": 615,
+      "sha256": "5f1941415fe7df1238ed6062be3148c6844c2f93aba0ba0f478772ccad13b906"
+    },
+    {
+      "path": "inputs/FRONTERA_VII.md",
+      "bytes": 8709,
+      "sha256": "98e24c79eddc403ed983ef316eeb1b598df9cac6de50c05f0a6d2d1a6b678254"
+    },
+    {
+      "path": "inputs/FST11_INTEGRACION_ATOMICA_RADIX_MOBIUS_4777_6444_7444.zip",
+      "bytes": 304577,
+      "sha256": "8f5f24b80df2976f2aba2dca1133cf5fbbdb58f5a25787ff5373a90cbf361360"
+    },
+    {
+      "path": "inputs/G0_CANON_LOCAL_ES.pdf",
+      "bytes": 123450,
+      "sha256": "e78a4e917a0a850ed18d2df078dc443faf5f008da1eb755b5e1b512c920d3459"
+    },
+    {
+      "path": "inputs/G1_LOCAL_PAPER_EN.pdf",
+      "bytes": 109438,
+      "sha256": "5920f45b8dabace31b78c9999162226c6d6dbba20a15ee3892433de2e669ad34"
+    },
+    {
+      "path": "inputs/G2_LOCAL_SUPPLEMENT_EN.pdf",
+      "bytes": 116592,
+      "sha256": "3ea32705b57bd04161042fcbffdb227cfad72133952a0acec1ce82234db592f5"
+    },
+    {
+      "path": "inputs/NOTA_02_ORIGIN_RESONANCE.txt",
+      "bytes": 9976,
+      "sha256": "d65cc970102d5de830557a2e85e2361b25b37fdd6315f8bb9f7c32e4191abc3c"
+    },
+    {
+      "path": "inputs/PARCHE_SENO_PI_FST12_13_CANONICO_ES.md",
+      "bytes": 6178,
+      "sha256": "7f94f22d20e8afafa04edaf57ca5b82bd9f5e9e3d8da2c2a89ac357587989519"
+    }
+  ],
+  "boundary": "Only the critical-word CSV and execution engines are published. Received PDFs, ZIP, prose and complete manuscripts remain private. The original atomic engine is unchanged; its only historical import path is redirected by audit_atomic.py."
+}

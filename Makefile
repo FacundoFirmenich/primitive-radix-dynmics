@@ -24,7 +24,7 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify trace graph figures rc33-seal sync-check seal integrity
+reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
 
 recent-verify:
@@ -66,3 +66,7 @@ fst1213-verify:
 .PHONY: fst14-verify
 fst14-verify:
 	$(PYTHON) research/rc33/fst14/replay.py --output outputs/reports/fst14
+
+.PHONY: sine-assault-verify
+sine-assault-verify:
+	$(PYTHON) research/rc33/sine-assault/replay.py --output outputs/reports/sine-assault

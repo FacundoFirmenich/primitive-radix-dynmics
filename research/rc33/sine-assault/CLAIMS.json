@@ -1,0 +1,123 @@
+{
+  "claims": [
+    {
+      "id": "SPW",
+      "claim": "Fifteen sine critical words have uniform prefixes and globally singleton length-seven normalized fibres",
+      "status": "finite certificate",
+      "dependencies": [
+        "F13B"
+      ],
+      "scope": "All n>=0 under the declared Taylor/Machin model; every seven-digit word, not merely the fifteen-word dictionary.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "F13B"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#spw",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "SPP",
+      "claim": "Exact common-phase partitions and optimal joint-vector resolution distinguish cuts from changing coordinates",
+      "status": "finite certificate",
+      "dependencies": [
+        "R17D",
+        "SPW"
+      ],
+      "scope": "All potential phases and all n>=0;1922 endpoints,55 vectors,7/8/9-digit cut profiles2/1/1; exact one bit remains for every finite depth>=8; seven coordinates can vary.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "R17D",
+        "SPW"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#spp",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "SPF",
+      "claim": "Full phase family prefixes recover the shared prefix through finitely many coupled carry states",
+      "status": "proved",
+      "dependencies": [],
+      "scope": "Whole phase projections, not borrow flags;5/12 decoder has16 carry states for d>=2;5/12/15 closes d1 by240 exact cases; no empirical pi claim.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#spf",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "ATM",
+      "claim": "Complementary affine anchor observations recover complete token words and their unknown lengths",
+      "status": "proved",
+      "dependencies": [
+        "F11H",
+        "T07K"
+      ],
+      "scope": "Distinct complete token values in an external radix; raw exact integer keys; transpose radix identity and explicit terminal escape; no automatic common-component realization.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "F11H",
+        "T07K"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#atm",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "LCF",
+      "claim": "Every fixed completion index is an effective finite stratum with H<(200lambda)^10",
+      "status": "proved",
+      "dependencies": [
+        "RC33-CAP",
+        "RC33-H14",
+        "RC33-E"
+      ],
+      "scope": "Five residual completion chambers; primitive exact CRT system; all degenerate conic/line cases excluded. Polynomial in numerical index, not its bit length; no uniform index cap.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "P14",
+        "P15"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#lcf",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "LCG",
+      "claim": "A uniform composite-fifth-module height envelope has exponent41/20 in the base",
+      "status": "proved",
+      "dependencies": [
+        "LCF"
+      ],
+      "scope": "H^41<6400^10(B^2-1)^10 in the five stated chambers, using L>H^4/32; no absolute height or least-base conclusion.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "LCF"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#lcg",
+      "verification": "make sine-assault-verify"
+    },
+    {
+      "id": "LCE",
+      "claim": "All-height completion-index strata lambda<=5 are excluded",
+      "status": "finite certificate",
+      "dependencies": [
+        "LCF"
+      ],
+      "scope": "Index2 includes a pure606897 contradiction and a51272-level finite leaf; indices3/4/5 cover988008 pairs at every height, with no necessary primitive candidates.",
+      "review": "assisted same-session adversarial self-review, exact independent constructions and symbolic checks; not external peer review",
+      "publication_scope": "RC3.3 sine/atomic integration and completion-index research checkpoint,17 November2026",
+      "private_dependency_ids": [
+        "LCF"
+      ],
+      "public_evidence": "research/rc33/sine-assault/RESULTS.md#lce",
+      "verification": "make sine-assault-verify"
+    }
+  ],
+  "dependency_crosswalk": {
+    "P14": "RC33-CAP",
+    "P15": "RC33-H14"
+  }
+}

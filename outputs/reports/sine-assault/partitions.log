@@ -1,0 +1,90 @@
+CONFIG BEFORE CALCULATION: exact rational enclosures from Machin40 and uniform Taylor bounds; reduced families5,9,10,12,15; original angles m/500 degrees; phase z={10^(2n+7)*pi/90}; forward100; dual phase9z with normalized threshold9*tau/m; d1,2,3 carry tests; no pi trajectory data supplied.
+{
+  "status": "PASS",
+  "natural": {
+    "endpoints": 86,
+    "cells": 85,
+    "patterns": 13,
+    "max_cells_per_pattern": 34,
+    "pattern_bits": 4,
+    "cell_bits": 7,
+    "conditional_cell_bits": 6
+  },
+  "dual": {
+    "endpoints": 114,
+    "cells": 113,
+    "patterns": 21,
+    "max_cells_per_pattern": 33,
+    "pattern_bits": 5,
+    "cell_bits": 7,
+    "conditional_cell_bits": 6
+  },
+  "two_step": {
+    "endpoints": 8552,
+    "cells": 8551,
+    "patterns": 150,
+    "max_cells_per_pattern": 2074,
+    "pattern_bits": 8,
+    "cell_bits": 14,
+    "conditional_cell_bits": 12
+  },
+  "fifteen_max_cell_fibre": 730,
+  "full_phase_prefix_checks": [
+    {
+      "digits": 1,
+      "multipliers": [
+        5,
+        12
+      ],
+      "carry_cells": 16,
+      "complete_cases": 160,
+      "cross_prefix_aliases": 60,
+      "alias_example": [
+        [
+          [
+            0,
+            0
+          ],
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "digits": 1,
+      "multipliers": [
+        5,
+        12,
+        15
+      ],
+      "carry_cells": 24,
+      "complete_cases": 240,
+      "cross_prefix_aliases": 0,
+      "alias_example": []
+    },
+    {
+      "digits": 2,
+      "multipliers": [
+        5,
+        12
+      ],
+      "carry_cells": 16,
+      "complete_cases": 1600,
+      "cross_prefix_aliases": 0,
+      "alias_example": []
+    },
+    {
+      "digits": 3,
+      "multipliers": [
+        5,
+        12
+      ],
+      "carry_cells": 16,
+      "complete_cases": 16000,
+      "cross_prefix_aliases": 0,
+      "alias_example": []
+    }
+  ],
+  "older_pi_samples_replayed": false,
+  "scope": "Complete potential-phase partitions, uniform all n>=0; no normality or visit-frequency assertion."
+}

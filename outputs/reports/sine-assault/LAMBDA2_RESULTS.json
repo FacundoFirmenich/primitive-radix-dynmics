@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "branch": "reflected606897/3",
+      "plane": [
+        5,
+        6,
+        -6
+      ],
+      "level_coefficients": [
+        4,
+        -8,
+        3,
+        25,
+        60,
+        35
+      ],
+      "K_interval": [
+        "-247/44",
+        "-71/36"
+      ],
+      "J_interval": [
+        "3365/114",
+        "510/11"
+      ],
+      "K_integer_range": [
+        -5,
+        -2
+      ],
+      "J_integer_range": [
+        30,
+        46
+      ],
+      "level_pairs": 68,
+      "rational_roots": 36,
+      "chamber_roots": 0,
+      "primitive_roots": 0,
+      "four_square_roots": 0,
+      "candidates": [],
+      "positive_dimensional_components": []
+    },
+    {
+      "branch": "119772/3,j2",
+      "plane": [
+        22,
+        12,
+        -24
+      ],
+      "level_coefficients": [
+        64,
+        -64,
+        15,
+        484,
+        528,
+        143
+      ],
+      "K_interval": [
+        "-1387/18",
+        "1034/27"
+      ],
+      "J_interval": [
+        "6347/516",
+        "1364/3"
+      ],
+      "K_integer_range": [
+        -77,
+        38
+      ],
+      "J_integer_range": [
+        13,
+        454
+      ],
+      "level_pairs": 51272,
+      "rational_roots": 3154,
+      "chamber_roots": 0,
+      "primitive_roots": 0,
+      "four_square_roots": 0,
+      "candidates": [],
+      "positive_dimensional_components": []
+    }
+  ],
+  "scope": "Exact finite rational-plane classification, all heights; no global classification beyond the specified lambda2 planes."
+}

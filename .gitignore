@@ -66,3 +66,5 @@ research/rc33/**/*.bin
 !research/rc33/t007/saved/*.log
 
 !outputs/reports/fst14/*.log
+
+!outputs/reports/sine-assault/*.log

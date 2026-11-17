@@ -1,0 +1,7 @@
+{"equations": ["F=Q-j(C-A)", "lambda=E/gcd(E,lcm(A,C,D,Q))", "kappa*E=lambda*abs(j)*F", "kappa*D=a*A+b*Q+c*C", "two integral quadratic levels K,J"], "lambda": 5, "units": "dimensionless exact rational/integer", "chambers": [[2, -1], [2, 1], [3, 1], [3, 2], ["reflected606897", 1]], "coverage": "all heights in the five declared completion chambers at the specified exactlambda; not a bound onlambda"}
+119772/2/j-1 pairs 9489 necessary candidates 0
+119772/2/j1 pairs 106226 necessary candidates 0
+119772/3/j1 pairs 32536 necessary candidates 0
+119772/3/j2 pairs 478292 necessary candidates 0
+606897/3/reflected pairs 22501 necessary candidates 0
+PASS exact level strata in 13.723822781001218 seconds

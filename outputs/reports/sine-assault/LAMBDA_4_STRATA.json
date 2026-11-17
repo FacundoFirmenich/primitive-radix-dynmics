@@ -1,0 +1,404 @@
+{
+  "status": "PASS",
+  "lambda_value": 4,
+  "seconds": 5.413799561996711,
+  "results": [
+    {
+      "branch": "119772/2/j-1",
+      "lambda_value": 4,
+      "level_pairs": 2748,
+      "planes": [
+        {
+          "kappa": 4,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        },
+        {
+          "kappa": 9,
+          "plane": [
+            1,
+            8,
+            8,
+            9
+          ],
+          "q_box": [
+            "13/8",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "2"
+          ],
+          "K_range": [
+            -99,
+            2
+          ],
+          "J_range": [
+            -18,
+            -4
+          ],
+          "level_pairs": 1530,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 10,
+          "plane": [
+            1,
+            4,
+            4,
+            5
+          ],
+          "q_box": [
+            "7/4",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "2"
+          ],
+          "K_range": [
+            -33,
+            -11
+          ],
+          "J_range": [
+            -9,
+            -4
+          ],
+          "level_pairs": 138,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 11,
+          "plane": [
+            3,
+            8,
+            8,
+            11
+          ],
+          "q_box": [
+            "15/8",
+            "2"
+          ],
+          "s_box": [
+            "7/4",
+            "2"
+          ],
+          "K_range": [
+            -150,
+            -97
+          ],
+          "J_range": [
+            -50,
+            -31
+          ],
+          "level_pairs": 1080,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/2/j1",
+      "lambda_value": 4,
+      "level_pairs": 40114,
+      "planes": [
+        {
+          "kappa": 3,
+          "plane": [
+            5,
+            8,
+            -8,
+            3
+          ],
+          "q_box": [
+            "9/8",
+            "2"
+          ],
+          "s_box": [
+            "1",
+            "15/8"
+          ],
+          "K_range": [
+            -98,
+            28
+          ],
+          "J_range": [
+            26,
+            337
+          ],
+          "level_pairs": 39624,
+          "distinct_chamber_points": 14,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        },
+        {
+          "kappa": 5,
+          "plane": [
+            3,
+            8,
+            -8,
+            5
+          ],
+          "q_box": [
+            "15/8",
+            "2"
+          ],
+          "s_box": [
+            "1",
+            "9/8"
+          ],
+          "K_range": [
+            -57,
+            -44
+          ],
+          "J_range": [
+            100,
+            134
+          ],
+          "level_pairs": 490,
+          "distinct_chamber_points": 1,
+          "necessary_candidates": []
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/3/j1",
+      "lambda_value": 4,
+      "level_pairs": 2112,
+      "planes": [
+        {
+          "kappa": 3,
+          "plane": [
+            3,
+            4,
+            -4,
+            1
+          ],
+          "q_box": [
+            "3/2",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "2"
+          ],
+          "K_range": [
+            -61,
+            2
+          ],
+          "J_range": [
+            11,
+            43
+          ],
+          "level_pairs": 2112,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/3/j2",
+      "lambda_value": 4,
+      "level_pairs": 195384,
+      "planes": [
+        {
+          "kappa": 1,
+          "plane": [
+            46,
+            24,
+            -48,
+            1
+          ],
+          "q_box": [
+            "23/13",
+            "2"
+          ],
+          "s_box": [
+            "23/13",
+            "91/48"
+          ],
+          "K_range": [
+            -128,
+            64
+          ],
+          "J_range": [
+            58,
+            705
+          ],
+          "level_pairs": 125064,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 2,
+          "plane": [
+            22,
+            12,
+            -24,
+            1
+          ],
+          "q_box": [
+            "11/7",
+            "2"
+          ],
+          "s_box": [
+            "11/7",
+            "43/24"
+          ],
+          "K_range": [
+            -62,
+            27
+          ],
+          "J_range": [
+            32,
+            371
+          ],
+          "level_pairs": 30600,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 3,
+          "plane": [
+            14,
+            8,
+            -16,
+            1
+          ],
+          "q_box": [
+            "13/8",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "27/16"
+          ],
+          "K_range": [
+            -245,
+            42
+          ],
+          "J_range": [
+            50,
+            186
+          ],
+          "level_pairs": 39456,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "plane": [
+            10,
+            6,
+            -12,
+            1
+          ],
+          "q_box": [
+            "11/6",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "19/12"
+          ],
+          "K_range": [
+            -11,
+            -4
+          ],
+          "J_range": [
+            60,
+            92
+          ],
+          "level_pairs": 264,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 8,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "606897/3/reflected",
+      "lambda_value": 4,
+      "level_pairs": 7718,
+      "planes": [
+        {
+          "kappa": 1,
+          "plane": [
+            11,
+            12,
+            -12,
+            1
+          ],
+          "q_box": [
+            "11/14",
+            "1"
+          ],
+          "s_box": [
+            "11/7",
+            "43/24"
+          ],
+          "K_range": [
+            -31,
+            13
+          ],
+          "J_range": [
+            16,
+            185
+          ],
+          "level_pairs": 7650,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 2,
+          "plane": [
+            5,
+            6,
+            -6,
+            1
+          ],
+          "q_box": [
+            "11/12",
+            "1"
+          ],
+          "s_box": [
+            "3/2",
+            "19/12"
+          ],
+          "K_range": [
+            -5,
+            -2
+          ],
+          "J_range": [
+            30,
+            46
+          ],
+          "level_pairs": 68,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    }
+  ],
+  "scope": "All-height necessary-system enumeration at exact completion index; remaining candidates would require full edge CRT. No uniform index bound."
+}

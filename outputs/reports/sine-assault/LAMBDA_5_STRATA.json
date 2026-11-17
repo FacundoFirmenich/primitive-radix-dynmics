@@ -1,0 +1,488 @@
+{
+  "status": "PASS",
+  "lambda_value": 5,
+  "seconds": 13.723822781001218,
+  "results": [
+    {
+      "branch": "119772/2/j-1",
+      "lambda_value": 5,
+      "level_pairs": 9489,
+      "planes": [
+        {
+          "kappa": 5,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        },
+        {
+          "kappa": 11,
+          "plane": [
+            1,
+            10,
+            10,
+            11
+          ],
+          "q_box": [
+            "8/5",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "2"
+          ],
+          "K_range": [
+            -145,
+            18
+          ],
+          "J_range": [
+            -22,
+            -4
+          ],
+          "level_pairs": 3116,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 12,
+          "plane": [
+            1,
+            5,
+            5,
+            6
+          ],
+          "q_box": [
+            "17/10",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "2"
+          ],
+          "K_range": [
+            -186,
+            -35
+          ],
+          "J_range": [
+            -11,
+            -4
+          ],
+          "level_pairs": 1216,
+          "distinct_chamber_points": 1,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 13,
+          "plane": [
+            3,
+            10,
+            10,
+            13
+          ],
+          "q_box": [
+            "9/5",
+            "2"
+          ],
+          "s_box": [
+            "8/5",
+            "2"
+          ],
+          "K_range": [
+            -218,
+            -96
+          ],
+          "J_range": [
+            -67,
+            -30
+          ],
+          "level_pairs": 4674,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 14,
+          "plane": [
+            2,
+            5,
+            5,
+            7
+          ],
+          "q_box": [
+            "19/10",
+            "2"
+          ],
+          "s_box": [
+            "9/5",
+            "2"
+          ],
+          "K_range": [
+            -240,
+            -172
+          ],
+          "J_range": [
+            -20,
+            -14
+          ],
+          "level_pairs": 483,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/2/j1",
+      "lambda_value": 5,
+      "level_pairs": 106226,
+      "planes": [
+        {
+          "kappa": 3,
+          "plane": [
+            7,
+            10,
+            -10,
+            3
+          ],
+          "q_box": [
+            "7/6",
+            "2"
+          ],
+          "s_box": [
+            "7/6",
+            "2"
+          ],
+          "K_range": [
+            -145,
+            60
+          ],
+          "J_range": [
+            36,
+            460
+          ],
+          "level_pairs": 87550,
+          "distinct_chamber_points": 44,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "plane": [
+            3,
+            5,
+            -5,
+            2
+          ],
+          "q_box": [
+            "6/5",
+            "2"
+          ],
+          "s_box": [
+            "1",
+            "9/5"
+          ],
+          "K_range": [
+            -139,
+            26
+          ],
+          "J_range": [
+            13,
+            120
+          ],
+          "level_pairs": 17928,
+          "distinct_chamber_points": 5,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 5,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        },
+        {
+          "kappa": 6,
+          "plane": [
+            2,
+            5,
+            -5,
+            3
+          ],
+          "q_box": [
+            "9/5",
+            "2"
+          ],
+          "s_box": [
+            "1",
+            "6/5"
+          ],
+          "K_range": [
+            -91,
+            -58
+          ],
+          "J_range": [
+            36,
+            57
+          ],
+          "level_pairs": 748,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/3/j1",
+      "lambda_value": 5,
+      "level_pairs": 32536,
+      "planes": [
+        {
+          "kappa": 4,
+          "plane": [
+            11,
+            15,
+            -15,
+            4
+          ],
+          "q_box": [
+            "47/30",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "29/15"
+          ],
+          "K_range": [
+            -89,
+            -7
+          ],
+          "J_range": [
+            181,
+            572
+          ],
+          "level_pairs": 32536,
+          "distinct_chamber_points": 1,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 5,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "119772/3/j2",
+      "lambda_value": 5,
+      "level_pairs": 478292,
+      "planes": [
+        {
+          "kappa": 1,
+          "plane": [
+            58,
+            30,
+            -60,
+            1
+          ],
+          "q_box": [
+            "29/16",
+            "2"
+          ],
+          "s_box": [
+            "29/16",
+            "23/12"
+          ],
+          "K_range": [
+            -162,
+            83
+          ],
+          "J_range": [
+            70,
+            873
+          ],
+          "level_pairs": 197784,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 2,
+          "plane": [
+            28,
+            15,
+            -30,
+            1
+          ],
+          "q_box": [
+            "28/17",
+            "2"
+          ],
+          "s_box": [
+            "28/17",
+            "11/6"
+          ],
+          "K_range": [
+            -79,
+            36
+          ],
+          "J_range": [
+            39,
+            454
+          ],
+          "level_pairs": 48256,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 3,
+          "plane": [
+            18,
+            10,
+            -20,
+            1
+          ],
+          "q_box": [
+            "3/2",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "7/4"
+          ],
+          "K_range": [
+            -463,
+            192
+          ],
+          "J_range": [
+            27,
+            316
+          ],
+          "level_pairs": 190240,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 4,
+          "plane": [
+            26,
+            15,
+            -30,
+            2
+          ],
+          "q_box": [
+            "5/3",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "5/3"
+          ],
+          "K_range": [
+            -90,
+            7
+          ],
+          "J_range": [
+            214,
+            639
+          ],
+          "level_pairs": 41748,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 5,
+          "plane": [
+            10,
+            6,
+            -12,
+            1
+          ],
+          "q_box": [
+            "11/6",
+            "2"
+          ],
+          "s_box": [
+            "3/2",
+            "19/12"
+          ],
+          "K_range": [
+            -11,
+            -4
+          ],
+          "J_range": [
+            60,
+            92
+          ],
+          "level_pairs": 264,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 10,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    },
+    {
+      "branch": "606897/3/reflected",
+      "lambda_value": 5,
+      "level_pairs": 22501,
+      "planes": [
+        {
+          "kappa": 1,
+          "plane": [
+            14,
+            15,
+            -15,
+            1
+          ],
+          "q_box": [
+            "14/17",
+            "1"
+          ],
+          "s_box": [
+            "28/17",
+            "11/6"
+          ],
+          "K_range": [
+            -39,
+            18
+          ],
+          "J_range": [
+            20,
+            227
+          ],
+          "level_pairs": 12064,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 2,
+          "plane": [
+            13,
+            15,
+            -15,
+            2
+          ],
+          "q_box": [
+            "5/6",
+            "1"
+          ],
+          "s_box": [
+            "3/2",
+            "5/3"
+          ],
+          "K_range": [
+            -45,
+            3
+          ],
+          "J_range": [
+            107,
+            319
+          ],
+          "level_pairs": 10437,
+          "distinct_chamber_points": 0,
+          "necessary_candidates": []
+        },
+        {
+          "kappa": 5,
+          "excluded": "F=E; incompatible with the high primitive/unit chamber"
+        }
+      ],
+      "necessary_candidates": []
+    }
+  ],
+  "scope": "All-height necessary-system enumeration at exact completion index; remaining candidates would require full edge CRT. No uniform index bound."
+}

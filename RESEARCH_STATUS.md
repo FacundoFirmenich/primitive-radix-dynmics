@@ -1,5 +1,9 @@
 # Research status · RC3.3
 
+## Current phase, atom and arithmetic-index integration
+
+[Seven new scoped records](research/rc33/sine-assault/RESULTS.md) bring the continuation to56 cards. The fifteen words and1922-endpoint sine partition are now reconstructed exactly. Whole-token affine observers have an explicit dual-anchor inverse. In the five residual arithmetic chambers, each fixed completion index has finitely many primitive carriers with H<(200lambda)^10; the global envelope is H^41<6400^10(B^2-1)^10 without requiring prime E. All indices<=5 are excluded at every coordinate height (factor two requires index>=7). A uniform index bound is still open; all-cardinality minimum-base control is a separate gate. Run `make sine-assault-verify`. Earlier missing-data statements remain dated historical checkpoints. No full manuscripts are published, and the original DOI/tag is unchanged.
+
 **Current integration: 17 November 2026.** This is the live dashboard. Dated proof records and historical censuses retain their original scopes.
 
 ## Established results
@@ -42,8 +46,8 @@ The immutable archive DOI [10.5281/zenodo.24270311](https://doi.org/10.5281/zeno
 
 ## FST12/13 continuation
 
-[Nine scoped records](research/rc33/fst1213/RESULTS.md) extend the observation appendix: every admissible prime-erased fibre except the identity-erasure prime3 is non-context-free with a natural-boundary length series; bounded regular-language rank/unrank and arbitrary effective moduli have exact contracts. Fixed-length fibre maxima and entropy retain their prior attribution. The15-family sine critical-word and1922-endpoint counts lack their original definitions in this delivery and are not marked certified. The five global arithmetic questions above are unchanged.
+[Nine scoped records](research/rc33/fst1213/RESULTS.md) extend the observation appendix: every admissible prime-erased fibre except the identity-erasure prime3 is non-context-free with a natural-boundary length series; bounded regular-language rank/unrank and arbitrary effective moduli have exact contracts. Fixed-length fibre maxima and entropy retain their prior attribution. The earlier missing-data gate is superseded: all fifteen words and1922 endpoints are now reconstructed from the received definitions in `research/rc33/sine-assault`. The five global arithmetic questions above are unchanged.
 
 ### FST14 terminal-inverse continuation
 
-Four scoped records and a reproducible declared-adapter audit extend FST12/13: exact terminal periods, bounded lifting/CRT inversion and logarithmic suffix resolution. Run `make fst14-verify`. The missing historical baselines and browser suites are not represented as replayed. Current combined continuation:49 cards;103 public claim records. Full manuscripts remain private; original DOI/tag unchanged.
+Four scoped records and a reproducible declared-adapter audit extend FST12/13: exact terminal periods, bounded lifting/CRT inversion and logarithmic suffix resolution. Run `make fst14-verify`. The missing historical baselines and browser suites are not represented as replayed. That dated FST14 checkpoint had49 continuation cards and103 public records; the current integration has56 and110 respectively. Full manuscripts remain private; original DOI/tag unchanged.

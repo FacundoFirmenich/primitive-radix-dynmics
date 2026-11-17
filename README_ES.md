@@ -1,5 +1,9 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Integración actual: seno, observadores e índice aritmético
+
+[Siete resultados nuevos](research/rc33/sine-assault/RESULTS.md) elevan la continuación a56 tarjetas. Ya se reconstruyen exactamente las quince palabras y los1922 extremos seno–pi. Los observadores afines de paquetes completos tienen inverso explícito mediante dos anclas. En las cinco cámaras residuales, cada índice fijo admite sólo finitos portadores primitivos, con H<(200lambda)^10 y envolvente H^41<6400^10(B^2-1)^10 sin exigir E primo. Los índices<=5 quedan excluidos a cualquier altura (en factor dos el índice debe ser>=7). Sigue abierta una cota uniforme del índice; la base mínima a cardinalidad arbitraria exige un gate separado. `make sine-assault-verify` reproduce los certificados. El DOI/tag original no cambia.
+
 **Edición científica RC3.3 · integración del 17 de noviembre de 2026**
 
 Software, certificados exactos y registros de investigación de Facundo Firmenich.

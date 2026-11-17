@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_JSON_reproduced": true,
+  "token_words": 9841,
+  "assertions_including_floating": 128076,
+  "exact_assertions": 128070,
+  "illustrative_floating_assertions": 6,
+  "illustrative_angle_pairs": 3,
+  "original_module_bytes_unchanged": true,
+  "source_path_redirect": "/mnt/data/fst11(2).py -> preserved fst11.py",
+  "legacy_original_test_suites_replayed": false
+}

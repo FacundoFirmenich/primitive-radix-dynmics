@@ -1,0 +1,127 @@
+{
+  "local_geometric_fiber": {
+    "relaxation": "C4 cofactor plane; rational points in the open chamber",
+    "known_levels": [
+      -178,
+      -56
+    ],
+    "Jacobian": "Matrix([[43720360/148393, -34809680/148393], [31219776/924715, 47140096/924715]])",
+    "Jacobian_determinant": "861212689408/37543429",
+    "rank": 2,
+    "individual_projective_conic_hessian_determinants": [
+      "-477000",
+      "-1358640"
+    ],
+    "interpretation": "Each individual known level is a smooth rational conic; joint levels are transverse locally. Global finite exhaustion uses the earlier integer-level bounds, not the Jacobian alone."
+  },
+  "postfilter_counts_119772_r3": {
+    "all": 1254,
+    "strict_prime_unit": 172,
+    "square_A": 53,
+    "joint": 1,
+    "joint_core": [
+      406,
+      712,
+      1265,
+      731
+    ]
+  },
+  "minimum_joint_postfilters": [
+    {
+      "code": 119772,
+      "r": 2,
+      "minimum_postfilter_predicates": 3,
+      "minimum_sets": [
+        [
+          "strict_prime_unit",
+          "overlap_AC",
+          "overlap_DQ"
+        ],
+        [
+          "strict_prime_unit",
+          "overlap_AC",
+          "square_D"
+        ],
+        [
+          "strict_prime_unit",
+          "overlap_AC",
+          "square_Q"
+        ],
+        [
+          "strict_prime_unit",
+          "overlap_DQ",
+          "square_A"
+        ],
+        [
+          "strict_prime_unit",
+          "overlap_DQ",
+          "square_C"
+        ],
+        [
+          "strict_prime_unit",
+          "square_A",
+          "square_D"
+        ],
+        [
+          "strict_prime_unit",
+          "square_A",
+          "square_Q"
+        ],
+        [
+          "strict_prime_unit",
+          "square_C",
+          "square_D"
+        ],
+        [
+          "strict_prime_unit",
+          "square_C",
+          "square_Q"
+        ],
+        [
+          "square_A",
+          "square_C",
+          "square_Q"
+        ]
+      ]
+    },
+    {
+      "code": 119772,
+      "r": 3,
+      "minimum_postfilter_predicates": 2,
+      "minimum_sets": [
+        [
+          "strict_prime_unit",
+          "square_A"
+        ]
+      ]
+    },
+    {
+      "code": 606897,
+      "r": 3,
+      "minimum_postfilter_predicates": 4,
+      "minimum_sets": [
+        [
+          "strict_prime_unit",
+          "overlap_DQ",
+          "square_A",
+          "square_Q"
+        ],
+        [
+          "strict_prime_unit",
+          "square_A",
+          "square_D",
+          "square_Q"
+        ],
+        [
+          "square_A",
+          "square_C",
+          "square_D",
+          "square_Q"
+        ]
+      ]
+    }
+  ],
+  "cofactor_one_replay_planes": 9,
+  "cofactor_one_replay_realizations": 0,
+  "scope": "Postfilters on generated cofactor<=14 candidate fibers. Conditions used in generating the fibers are not removed. No probability or physical transition is inferred."
+}

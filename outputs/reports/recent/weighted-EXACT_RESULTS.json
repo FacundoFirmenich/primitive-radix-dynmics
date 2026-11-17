@@ -1,0 +1,701 @@
+{
+  "config": {
+    "python": "3.12.14",
+    "arithmetic": "exact integer/rational",
+    "units": "dimensionless modular counters and rational states",
+    "witness_weights": [
+      4777,
+      6444
+    ],
+    "witness_base": 88011536665779,
+    "small_weights_inclusive": [
+      -4,
+      4
+    ],
+    "small_moduli_inclusive": [
+      1,
+      24
+    ],
+    "base_automata": [
+      {
+        "name": "witness",
+        "T": [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        "S": [
+          4,
+          2,
+          1,
+          0,
+          0
+        ],
+        "c": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "loop_vertex": 4
+      },
+      {
+        "name": "binary",
+        "T": [
+          0,
+          1
+        ],
+        "S": [
+          1,
+          0
+        ],
+        "c": [
+          0,
+          1
+        ],
+        "loop_vertex": 0
+      },
+      {
+        "name": "three_state",
+        "T": [
+          0,
+          2,
+          1
+        ],
+        "S": [
+          1,
+          0,
+          0
+        ],
+        "c": [
+          0,
+          1,
+          1
+        ],
+        "loop_vertex": 0
+      },
+      {
+        "name": "six_state",
+        "T": [
+          1,
+          2,
+          0,
+          4,
+          3,
+          5
+        ],
+        "S": [
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "c": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "loop_vertex": 5
+      }
+    ],
+    "packet_moduli": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17,
+      29,
+      100,
+      1667,
+      3334
+    ],
+    "strict_edge_moduli": [
+      2,
+      3,
+      4,
+      7,
+      12,
+      1667
+    ],
+    "probability_for_stationary_controls": "2/5",
+    "recorder_max_word_length": 10,
+    "local_bases": [
+      4,
+      102
+    ],
+    "local_matrices": {
+      "U0": [
+        [
+          4777,
+          917
+        ],
+        [
+          6444,
+          1237
+        ]
+      ],
+      "UT": [
+        [
+          1555,
+          -361
+        ],
+        [
+          1611,
+          -374
+        ]
+      ],
+      "US": [
+        [
+          4777,
+          -965
+        ],
+        [
+          6668,
+          -1347
+        ]
+      ],
+      "MT": [
+        [
+          4,
+          -2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "MS": [
+        [
+          1,
+          0
+        ],
+        [
+          -4,
+          4
+        ]
+      ]
+    },
+    "witness_states": [
+      [
+        406,
+        731
+      ],
+      [
+        712,
+        731
+      ],
+      [
+        712,
+        1265
+      ],
+      [
+        1218,
+        1265
+      ],
+      [
+        406,
+        557
+      ]
+    ],
+    "cycle_word": "TSTS",
+    "source_sha256": "4d17d7a559858db2b8458daa5254f6ffea5318c2b405d24b29cdcac0c0cf8251"
+  },
+  "generalization_finite_checks": {
+    "cases": 7776,
+    "vertices_visited": 388800,
+    "all_SCC_period_phase_predictions_pass": true
+  },
+  "packet_covers": [
+    {
+      "m": 2,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 10
+    },
+    {
+      "m": 3,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 15
+    },
+    {
+      "m": 4,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 20
+    },
+    {
+      "m": 5,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 25
+    },
+    {
+      "m": 6,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 30
+    },
+    {
+      "m": 7,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 35
+    },
+    {
+      "m": 8,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 40
+    },
+    {
+      "m": 9,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 45
+    },
+    {
+      "m": 10,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 50
+    },
+    {
+      "m": 11,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 55
+    },
+    {
+      "m": 12,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 60
+    },
+    {
+      "m": 17,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 85
+    },
+    {
+      "m": 29,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1,
+      "vertices": 145
+    },
+    {
+      "m": 100,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 2,
+      "vertices": 500
+    },
+    {
+      "m": 1667,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 1667,
+      "vertices": 8335
+    },
+    {
+      "m": 3334,
+      "u": 4777,
+      "v": 6444,
+      "components": 1,
+      "period_each": 3334,
+      "vertices": 16670
+    }
+  ],
+  "large_packet_modulus_without_enumeration": {
+    "m": 30782988,
+    "h": 1,
+    "period": 2
+  },
+  "strict_edge_controls": [
+    {
+      "m": 2,
+      "components": 1,
+      "period": 1
+    },
+    {
+      "m": 3,
+      "components": 1,
+      "period": 1
+    },
+    {
+      "m": 4,
+      "components": 1,
+      "period": 1
+    },
+    {
+      "m": 7,
+      "components": 1,
+      "period": 1
+    },
+    {
+      "m": 12,
+      "components": 1,
+      "period": 1
+    },
+    {
+      "m": 1667,
+      "components": 1,
+      "period": 1
+    }
+  ],
+  "stationary_and_fourier": {
+    "a": "2/5",
+    "pi": [
+      "5/17",
+      "7/34",
+      "5/34",
+      "1/17",
+      "5/17"
+    ],
+    "class_stationary_tests": [
+      {
+        "m": 6,
+        "u": 2,
+        "v": 2,
+        "stationary_classes": 2
+      },
+      {
+        "m": 8,
+        "u": 2,
+        "v": 1,
+        "stationary_classes": 2
+      },
+      {
+        "m": 9,
+        "u": 3,
+        "v": 6,
+        "stationary_classes": 3
+      },
+      {
+        "m": 6,
+        "u": 0,
+        "v": 0,
+        "stationary_classes": 6
+      },
+      {
+        "m": 12,
+        "u": -2,
+        "v": 3,
+        "stationary_classes": 2
+      },
+      {
+        "m": 7,
+        "u": 4777,
+        "v": 6444,
+        "stationary_classes": 1
+      }
+    ],
+    "symbolic_minus_one_mode_for_packet_weights": true,
+    "counter_modulo_two_symbolic_eigenpairs_verified": true,
+    "joint_return_lattice_minors": [
+      "-2*u + 2*v",
+      "m",
+      "2*m"
+    ],
+    "strict_mark_noncohomology": {
+      "edge_order": "T0..T4,S0..S4",
+      "left_null_vector": [
+        1,
+        0,
+        1,
+        0,
+        -2,
+        -1,
+        1,
+        0,
+        1,
+        -1
+      ],
+      "equation_matrix": [
+        [
+          1,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "marked_sum": 1,
+      "scope": "all moduli m>=2; group-valued human proof uses three cycles"
+    }
+  },
+  "arithmetic_and_recorder": {
+    "X": 4777,
+    "Y": 6444,
+    "product": 30782988,
+    "singleton_first_base": 30782989,
+    "T4_escape": "715/1611",
+    "T102_escape": "56/179",
+    "local_triangular_matrices_verified": true,
+    "witness_edges": 10,
+    "cycle_trace": "20000329947819215341101689375132458177034988588377246430",
+    "semigroup_size": 36,
+    "ranks": {
+      "2": 8,
+      "3": 18,
+      "4": 8,
+      "5": 2
+    },
+    "recorder_cases": 10235,
+    "strict_counter_anchor_signatures": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "strict_return_word": "STSTSS"
+  },
+  "swapped_physical_letters": [
+    {
+      "m": 2,
+      "components": 2,
+      "period_each": 1
+    },
+    {
+      "m": 3,
+      "components": 1,
+      "period_each": 1
+    },
+    {
+      "m": 100,
+      "components": 2,
+      "period_each": 1
+    },
+    {
+      "m": 1667,
+      "components": 1,
+      "period_each": 1667
+    },
+    {
+      "m": 3334,
+      "components": 2,
+      "period_each": 1667
+    }
+  ],
+  "counter_marginals": {
+    "small_cases": 1944,
+    "packet_moduli": [
+      {
+        "m": 2,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 3,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 4,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 5,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 6,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 7,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 8,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 9,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 10,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 11,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 12,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 17,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 29,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 100,
+        "components": 1,
+        "period": 1
+      },
+      {
+        "m": 1667,
+        "components": 1,
+        "period": 1667
+      },
+      {
+        "m": 3334,
+        "components": 1,
+        "period": 1667
+      }
+    ],
+    "modulo_two_exact_eigenvalues": [
+      "1",
+      "1-2*a"
+    ]
+  },
+  "seconds": 1.2708451850048732
+}

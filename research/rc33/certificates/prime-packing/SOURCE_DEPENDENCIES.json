@@ -1,0 +1,10 @@
+{
+  "edition": "RC3.3",
+  "current_proof": "../../source/companion.tex",
+  "small_cofactor_certificate": "../nested/NESTED_STRATA_RESULTS.json",
+  "small_cofactor_h1": "../nested/PURE_SIGN_NESTED_REPLAY.json",
+  "actual_replay": "../../results/NESTED_INTEGRATION_RUN.json",
+  "coverage": "../../results/NESTED_COVERAGE_CHECKS.json",
+  "review": "self-review",
+  "scope": "Small-cofactor result rerun in current edition; capacity is necessary, known carrier remains a separate alternative"
+}

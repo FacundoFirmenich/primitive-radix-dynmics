@@ -1,10 +1,13 @@
 {
-  "repository": "https://github.com/FacundoFirmenich/primitive-radix-dynmics",
-  "repository_role": "public research and reproducibility companion",
-  "version": "0.3.0-rc7",
+  "repository": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics",
+  "repository_role": "public code, certificates and standalone figures",
+  "version": "RC3.3",
+  "package_version": "0.3.3",
+  "updated": "2026-11-17",
   "manuscript_embargo": "ACTIVE",
   "manuscript_in_repository": false,
   "manuscript_arxiv_id": null,
-  "doi": null,
-  "scientific_status": "complete five-state arithmetic classification open"
+  "doi": "10.5281/zenodo.24270311",
+  "current_continuation_archived_under_that_doi": false,
+  "scientific_status": "37 excluded / 1 realized-containing / 2 open oriented rows; global uniqueness and least-base questions open"
 }

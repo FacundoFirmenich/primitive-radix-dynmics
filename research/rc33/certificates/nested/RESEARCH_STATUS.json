@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-15T20:16:00.846929+00:00",
+  "checkpoint": "NEST-ATTACK-001",
+  "scope": "three canonical five-state residual arithmetic systems",
+  "canonical_publication": "RC3.3 unchanged",
+  "main_scoped_replay": "PASS_SCOPED_ALL_HEIGHT_STRATA_NOT_GLOBAL_CLASSIFICATION",
+  "cofactor_range": [
+    1,
+    14
+  ],
+  "h2_to14_planes": 693,
+  "h1_additional_planes": 9,
+  "integer_level_pairs_h2_to14": 156195248,
+  "only_surviving_carrier": [
+    406,
+    712,
+    1265,
+    731,
+    557
+  ],
+  "global_questions_closed": false,
+  "closed_unbounded_base_stratum": "odd bases with3+3 distinct odd neighbour primes",
+  "review": "self-review; separate explicit C4 implementation",
+  "new_heuristic_state": "ratios plus content valuations plus conjugate-factor allocations and coupled neighbour weights",
+  "next_unresolved_gate": "force a new carrier into a certified small-cofactor stratum, or find a truth-preserving descending lift; test counterexamples",
+  "no_remote_mutations": true,
+  "joint_fiber_counts": {
+    "generated": 1254,
+    "core_units": 172,
+    "square_A": 53,
+    "joint": 1
+  },
+  "truth_preservation": "M|Lminus*Lplus iff h|Lplus, with the split and coupled neighbour weights retained",
+  "followup_replays": "PASS_SCOPED_JOINT_FIBER_AND_H1_REPLAY"
+}

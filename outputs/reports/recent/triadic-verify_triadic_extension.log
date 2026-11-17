@@ -1,0 +1,145 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "python": "3.12.14",
+  "arithmetic": "integers, exact rational arithmetic; separately labelled Decimal entropy approximation",
+  "units": "dimensionless residues, integer evaluations and combinatorial bits; no physical parameters",
+  "equations": {
+    "cover": "T(i,r)=(Ti,r+a), S(i,r)=(Si,r+b)",
+    "K": "<a,2b>",
+    "N": "<2(b-a)>",
+    "components": "|G|/|K|",
+    "period": "|K|/|N|",
+    "FST_K": "8*10**ell-9*s",
+    "FST_H": "K/7**v7(K)",
+    "FST_recorder": "floor(v7(K)/3)"
+  },
+  "values": {
+    "X": 4777,
+    "Y": 6444,
+    "Z": 7444,
+    "FST_prime": 7,
+    "FST_A": 343,
+    "FST_P02": 13841287201
+  },
+  "bases": [
+    {
+      "T": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "S": [
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      "c": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "o": 4
+    },
+    {
+      "T": [
+        0,
+        1
+      ],
+      "S": [
+        1,
+        0
+      ],
+      "c": [
+        0,
+        1
+      ],
+      "o": 0
+    }
+  ],
+  "abelian_moduli": [
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      3,
+      4
+    ]
+  ],
+  "general_group_weights": "every ordered pair a,b of group elements for both bases",
+  "concrete_joint_moduli": "all m=1..80, plus 125 and 128; both full covers and counter-only walks",
+  "FST_full_enumeration_ell": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "FST_modular_precision_ell": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "FST_n": [
+    0,
+    1,
+    5
+  ],
+  "FST_02_brute_ell": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "FST_02_formula_ell": "2..20",
+  "entropy_Decimal_precision": 60,
+  "entropy_terms": "f=2..39",
+  "probability_convention": "iid T with a in (0,1); exact stationary control a=2/5",
+  "matrix_order": "right multiplication in chronological written order; [A,B]=ABA^-1B^-1"
+}
+General finite-abelian covers passed: 2118
+Concrete all-moduli boundary controls passed: 82
+FST full enumerations and optimal recorder passed.
+PASS. General graphs 2118 visited vertices 136787 concrete joint graphs 82
+FST optimal recorder: [{'ell': 1, 'suffixes': 10, 'classes': 10, 'maximum_fibre': 1, 'optimal_recorder_values': 1, 'multiplicities': {1: 10}}, {'ell': 2, 'suffixes': 100, 'classes': 100, 'maximum_fibre': 1, 'optimal_recorder_values': 1, 'multiplicities': {1: 100}}, {'ell': 3, 'suffixes': 1000, 'classes': 997, 'maximum_fibre': 2, 'optimal_recorder_values': 2, 'multiplicities': {1: 994, 2: 3}}, {'ell': 4, 'suffixes': 10000, 'classes': 9970, 'maximum_fibre': 2, 'optimal_recorder_values': 2, 'multiplicities': {1: 9940, 2: 30}}, {'ell': 5, 'suffixes': 100000, 'classes': 99708, 'maximum_fibre': 2, 'optimal_recorder_values': 2, 'multiplicities': {1: 99416, 2: 292}}, {'ell': 6, 'suffixes': 1000000, 'classes': 997085, 'maximum_fibre': 3, 'optimal_recorder_values': 3, 'multiplicities': {1: 994178, 2: 2899, 3: 8}}]
+Entropy approximation: 0.00583733240261463326217059819536603570211294518444590144807088

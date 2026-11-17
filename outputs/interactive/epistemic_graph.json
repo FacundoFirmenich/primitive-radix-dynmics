@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Primitive Radix Dynamics — Epistemic Graph",
-    "version": "0.3.0-rc7",
+    "title": "Primitive Radix–Möbius Dynamics — Epistemic Graph",
+    "version": "RC3.3",
     "generated_from": [
       "data/claims.csv",
       "data/dependencies.csv",
@@ -95,7 +95,7 @@
       "label": "C009",
       "title": "All-high permutation rigidity holds for cardinality 4.",
       "kind": "claim",
-      "layer": "Rigidity",
+      "layer": "Theorems",
       "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
       "artifact": "proofs/FOUR_STATE_RIGIDITY.md",
       "scope": "paper_scope"
@@ -265,10 +265,530 @@
       "label": "R001",
       "title": "The strict-T factor-three form DF015-0015-B1 has no realization in its high chamber.",
       "kind": "claim",
-      "layer": "Rigidity",
+      "layer": "Theorems",
       "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
       "artifact": "research/df015-0015/CERTIFICATE.md",
       "scope": "research_frontier"
+    },
+    {
+      "id": "R002",
+      "label": "R002",
+      "title": "The eight oriented S-strict rows in the two shared systems have no realization.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SHARED_SYSTEMS_EXCLUSION.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R003",
+      "label": "R003",
+      "title": "An all-high finite closed component cannot have exactly one strict T edge of factor two.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R004",
+      "label": "R004",
+      "title": "The strict-S orientations of DF015-0004, DF015-0008, DF015-0012 and DF015-0018 have no primitive realization.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/PREDECESSOR_AND_SPARSE_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R005",
+      "label": "R005",
+      "title": "The strict-S orientations of DF015-0011 and DF015-0017, and the strict-T orientation of DF015-0005, have no primitive realization.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/ADDITIONAL_RESULTANT_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R006",
+      "label": "R006",
+      "title": "The strict-T orientations of DF015-0006, DF015-0008, DF015-0016, DF015-0017 and DF015-0018 have no primitive realization.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/REMAINING_RESULTANT_EXCLUSIONS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R007",
+      "label": "R007",
+      "title": "The square-cycle systems of 119772 (factors two and three) and 606897 (factor three) admit no varying integer-polynomial primitive-state family.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PARAMETER_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R008",
+      "label": "R008",
+      "title": "For 606897 every root of unity on the four ordinary cycle moduli differs from both uniform signs.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R009",
+      "label": "R009",
+      "title": "Each signed square-cycle cofactor system has at most one primitive core per choice of quotients; bounded cofactors give an explicit coordinate bound.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R010",
+      "label": "R010",
+      "title": "The least base with a five-state nonpermutation high component is at least 9185770249.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R011",
+      "label": "R011",
+      "title": "Each remaining square-cycle shift has open-chamber representatives satisfying direct localized edge and defect conditions at every prescribed finite prime list.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R012",
+      "label": "R012",
+      "title": "Every fixed algebraic curve contains finitely many primitive high cores of each residual square-cycle system. Each rational parametrization has a computable parameter-height bound.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R013",
+      "label": "R013",
+      "title": "Each plane and each surface avoiding the eight cycle lines contains finitely many primitive high cores. A single fixed signed cofactor denominator gives an effective finite search.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R014",
+      "label": "R014",
+      "title": "The degree-four-t intersection of the four t-th powers of the cycle ideals is spanned by the t-th power of the coordinate product in all three residual systems.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R015",
+      "label": "R015",
+      "title": "For any fixed prime set and positive eta, each residual system has finitely many realizations with weighted prime part [ACDQ]^2[E] at least H^(4+eta).",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R016",
+      "label": "R016",
+      "title": "All four complementary cofactor constants are nonzero for every signed choice on any residual square-cycle realization.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R017",
+      "label": "R017",
+      "title": "The factor-three square systems are reflections of each other. For the shift D=3E-A their full arithmetic CRT fibres agree in shared coordinates before chamber selection.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R018",
+      "label": "R018",
+      "title": "The known factor-three tuple is the sole oriented five-state nonpermutation realization at base 88011536665779.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R019",
+      "label": "R019",
+      "title": "Ordinary opposite-pair divisor complements never preserve the primitive square-cycle constraints on residual high cores. Fixed rational relative weights force bounded source height.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R020",
+      "label": "R020",
+      "title": "For every fixed denominator pair in any residual square-cycle system each simultaneous CRT root supports at most one primitive numerator slope in the high chamber.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R021",
+      "label": "R021",
+      "title": "The historical coordinate-census campaigns report the stated base bounds under their declared coordinate coverage; those records are premises of the later height-envelope comparison, not a newly exhaustive base census.",
+      "kind": "claim",
+      "layer": "Boundary",
+      "status": "CONDITIONAL_HISTORICAL_CENSUS_BOUND",
+      "artifact": "research/five-state/continuation/FIVE_STATE_BASE_LOWER_BOUND_PARALLEL.md",
+      "scope": "historical_coordinate_cutoffs; conditional_premises; not_recertified_global_exclusion"
+    },
+    {
+      "id": "R022",
+      "label": "R022",
+      "title": "For each of the five strict shifts and each prime p>3 the state projection has p^4-4p^3+14p^2-22p+11 locally admissible classes. The residue counts lift with an explicit common p-adic Haar density.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R023",
+      "label": "R023",
+      "title": "Fix A and C in a residual square cycle. Each simultaneous root class refined by the strict shift and Q modulo three when needed supports at most one primitive D/Q slope in the high chamber.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R024",
+      "label": "R024",
+      "title": "The known factor-three realization is the unique realization on the cofactor plane 7D=21Q-16A, with no height bound.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/five-state/continuation/WITNESS_COFACTOR_PLANE.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "R025",
+      "label": "R025",
+      "title": "Polynomial quotients built from independent powers of the four core ideals and the principal fifth-modulus ideal are constant in matching homogeneous degree.",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "research_frontier"
+    },
+    {
+      "id": "RC33-E",
+      "label": "RC33-E",
+      "title": "The five declared completion chambers have no E-absorption solution under the exact finite reductions; lambda>=2, and lambda>=3 at factor two.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_FINITE_REDUCTION",
+      "artifact": "research/rc33/results/fifth_coordinate_checks.json",
+      "scope": "all_five_chambers; finite_reduction_scope"
+    },
+    {
+      "id": "RC33-H14",
+      "label": "RC33-H14",
+      "title": "All three residual systems with any signed cofactor denominator h<=14 retain only the known primitive carrier; the finite reduction has no coordinate-height cutoff.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_ALL_HEIGHT_STRATA",
+      "artifact": "research/rc33/results/NESTED_COVERAGE_CHECKS.json",
+      "scope": "bounded_cofactor; not_uniform_cofactor_bound"
+    },
+    {
+      "id": "RC33-CAP",
+      "label": "RC33-CAP",
+      "title": "Different carriers must satisfy the proved prime-power capacity and qualified odd-base conditions; survivors of the necessary sieve are not realizations.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_NECESSARY_FILTER",
+      "artifact": "research/rc33/certificates/prime-packing/RESULTS.json",
+      "scope": "necessary_conditions_only"
+    },
+    {
+      "id": "RC33-DESC",
+      "label": "RC33-DESC",
+      "title": "The full parallel quadratic-complement template leaves the unit domain at the strict prime; this excludes that template, not all descents.",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "CERTIFIED_TEMPLATE_OBSTRUCTION",
+      "artifact": "research/rc33/certificates/nested/HELICAL_LIFT_RESULTS.json",
+      "scope": "specific_descent_template_only"
+    },
+    {
+      "id": "R17T",
+      "label": "R17T",
+      "title": "Transitive-generator rigidity and both CRT families at every cardinality",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17t",
+      "scope": "All-high sector; transitivity is an explicit hypothesis."
+    },
+    {
+      "id": "R17I",
+      "label": "R17I",
+      "title": "Connected cycle-incidence description in the permutation sector",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17i",
+      "scope": "Both generators are permutations; arithmetic consistency is retained."
+    },
+    {
+      "id": "R17O",
+      "label": "R17O",
+      "title": "Bounded opposite cofactor pairs give effective finite height",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17o",
+      "scope": "Either signed pair bounded; no uniform pair bound is asserted."
+    },
+    {
+      "id": "R17R",
+      "label": "R17R",
+      "title": "Factor-three reflection preserves height and permutes cofactors",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17r",
+      "scope": "Completion D=3E-A; native/common coordinates explicitly transported."
+    },
+    {
+      "id": "R17Q",
+      "label": "R17Q",
+      "title": "Degree-four ideal intersection is Q ACDQ for every integer r>=2",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17q",
+      "scope": "Only the stated homogeneous degree-four ansatz; higher ideal powers are finite checks."
+    },
+    {
+      "id": "R17B",
+      "label": "R17B",
+      "title": "Positive boundary coordinates and level height bound for 606897/3",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17b",
+      "scope": "Common coordinates; native gap equals Q-E."
+    },
+    {
+      "id": "R17C",
+      "label": "R17C",
+      "title": "No 606897/3 realization with boundary gap at most 5000",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17c",
+      "scope": "All bases in 1<=t<=5000; prior completed exhaustive run pinned, current terminal/direct controls separate."
+    },
+    {
+      "id": "R17A",
+      "label": "R17A",
+      "title": "Finite-abelian record components and periods classified by K and N",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17a",
+      "scope": "Strongly connected finite automaton, binary quotient, common T/SS anchor."
+    },
+    {
+      "id": "R17S",
+      "label": "R17S",
+      "title": "Scalar all-integer weights and counter-marginal classification",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17s",
+      "scope": "Negative, equal and zero weights included; variables observed are specified."
+    },
+    {
+      "id": "R17F",
+      "label": "R17F",
+      "title": "Exact character criterion and peripheral spectrum for abelian records",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17f",
+      "scope": "Independent letters with 0<a<1; fixed finite group."
+    },
+    {
+      "id": "R17J",
+      "label": "R17J",
+      "title": "Coupled covers and the least modulus eleven for the stated mixing contrast",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17j",
+      "scope": "Channels share random input letters; phase already visible in joint counters."
+    },
+    {
+      "id": "R17N",
+      "label": "R17N",
+      "title": "Strict witness content cannot be made constant by letter through vertex gauge",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17n",
+      "scope": "Positive representative scalings in main; arbitrary group labels in companion."
+    },
+    {
+      "id": "R17G",
+      "label": "R17G",
+      "title": "Nonabelian strict-marker gauge obstruction",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17g",
+      "scope": "Three explicit cycles; does not rule out arbitrary postprocessing observers."
+    },
+    {
+      "id": "R17P",
+      "label": "R17P",
+      "title": "Exact sine-pi conjugacy and borrow threshold",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17p",
+      "scope": "All k>=0; exact irrational phase, no normality assumption."
+    },
+    {
+      "id": "R17D",
+      "label": "R17D",
+      "title": "Nested sine thresholds, cylinder refinement and coboundary transport",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17d",
+      "scope": "Declared angle domain m>2; fifth family has a different scale."
+    },
+    {
+      "id": "R17H",
+      "label": "R17H",
+      "title": "Base 100 has no nonpermutation high component of size at most five",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17h",
+      "scope": "Uses certified residual classification and prime support; not arbitrary cardinality."
+    },
+    {
+      "id": "R17L",
+      "label": "R17L",
+      "title": "FST normalization chains, exact multiplicities and maximal fibre",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17l",
+      "scope": "Defined signed integers K=8m-9s; earlier FST07 motivation is not a proof premise."
+    },
+    {
+      "id": "R17M",
+      "label": "R17M",
+      "title": "Optimal fixed additional record j=floor(v7(K)/3) given exact H",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17m",
+      "scope": "Endpoint exact-H recovery; does not replace online automaton recorder contract."
+    },
+    {
+      "id": "R17K",
+      "label": "R17K",
+      "title": "FST finite precision threshold with full valuation",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17k",
+      "scope": "k>=1; units modulo 7^k and all fixed-ell suffixes."
+    },
+    {
+      "id": "R17E",
+      "label": "R17E",
+      "title": "FST geometric fibre law, uniform-prior entropy and ending-02 threshold",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17e",
+      "scope": "Prior explicitly uniform; 02 collisions begin at ell=13; no physical information law."
+    },
+    {
+      "id": "R17W",
+      "label": "R17W",
+      "title": "Weighted Parikh representation and order-two/order-three observation collision",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17w",
+      "scope": "Standard word-combinatorics framework; observer hierarchy is cumulative."
+    },
+    {
+      "id": "R17U",
+      "label": "R17U",
+      "title": "Affine Bezout optimality, unimodular recoding, CRT and rank-three moments",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17u",
+      "scope": "Evaluated labelled inputs; no universal compression or new arithmetic realization."
+    },
+    {
+      "id": "R17Z",
+      "label": "R17Z",
+      "title": "The three primitive input ratios never form a three-state high component",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/recent/RESULTS.md#r17z",
+      "scope": "Distinct denominator fibres and the isolated unique numerator."
+    },
+    {
+      "id": "R17V",
+      "label": "R17V",
+      "title": "Integrated continuation certificate contracts",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/recent/RESULTS.md#r17v",
+      "scope": "Frozen source checkpoints, source and fresh replay domains separated."
     },
     {
       "id": "A001",
@@ -468,6 +988,346 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "src/rmr/verify_rgphi_farkas_728.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A021",
+      "label": "A021",
+      "title": "Oriented catalogue crosswalk",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/ORIENTED_TO_ROUND015.csv",
+      "scope": "evidence"
+    },
+    {
+      "id": "A022",
+      "label": "A022",
+      "title": "Shared chamber exhaustive verification",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_shared_chambers.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A023",
+      "label": "A023",
+      "title": "Exact predecessor and resultant certificate",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A024",
+      "label": "A024",
+      "title": "Round 015 oriented status ledger",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/ORIENTED_STATUS.csv",
+      "scope": "evidence"
+    },
+    {
+      "id": "A025",
+      "label": "A025",
+      "title": "Strict-T rectangle resultant certificate",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A026",
+      "label": "A026",
+      "title": "Five further factor-three exclusion certificates",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A027",
+      "label": "A027",
+      "title": "Square-cycle pure sign exclusion",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A028",
+      "label": "A028",
+      "title": "Square-cycle cofactor normalization control",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A029",
+      "label": "A029",
+      "title": "Bounded square cycle witness census",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A030",
+      "label": "A030",
+      "title": "Localized witnesses in all five shift chambers",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A031",
+      "label": "A031",
+      "title": "Curve finiteness via heights and reciprocity",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A032",
+      "label": "A032",
+      "title": "Surface and plane finiteness via bounded discrete quotients",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A033",
+      "label": "A033",
+      "title": "Global obstruction to the powered cycle ideal quotient",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A034",
+      "label": "A034",
+      "title": "Fixed-prime support theorem with the fifth-state direction",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A035",
+      "label": "A035",
+      "title": "Rank and 2-adic tests for the fifth-state direction",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_square_prime_support.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A036",
+      "label": "A036",
+      "title": "Exhaustive integer certificate for vanishing complementary constants",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A037",
+      "label": "A037",
+      "title": "Deterministic checker for vanishing complementary constants",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_opposite_zero_constants.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A038",
+      "label": "A038",
+      "title": "Common arithmetic and separated chambers at factor three",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A039",
+      "label": "A039",
+      "title": "Base-first complete checker and witness-base result",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A040",
+      "label": "A040",
+      "title": "Opposite-pair descent obstruction and exact replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A041",
+      "label": "A041",
+      "title": "CRT lattice slope uniqueness and exact witness fibre comparison",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A042",
+      "label": "A042",
+      "title": "Parallel local search block records and range enumeration",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs",
+      "scope": "evidence"
+    },
+    {
+      "id": "A043",
+      "label": "A043",
+      "title": "Prime pattern proof and exact rank checker",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md;research/five-state/continuation/verify_square_prime_patterns.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A044",
+      "label": "A044",
+      "title": "Reverse CRT slope theorem",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A045",
+      "label": "A045",
+      "title": "Uniqueness on the witness cofactor plane and quadratic replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A046",
+      "label": "A046",
+      "title": "Weighted cycle ideal quotient obstruction",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-RC33-E",
+      "label": "A-RC33-E",
+      "title": "Fifth-coordinate exact leaves",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/code/check_fifth_coordinate.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-RC33-H",
+      "label": "A-RC33-H",
+      "title": "Signed cofactor all-height coverage",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/code/check_integrated_certificates.py",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-SINE",
+      "label": "A-R17-SINE",
+      "title": "Sine exact code and data",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/sine",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-SYNERGIES",
+      "label": "A-R17-SYNERGIES",
+      "title": "Synergies exact code and data",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/synergies",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-CHAMBER",
+      "label": "A-R17-CHAMBER",
+      "title": "Chamber exact code and data",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/chamber",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-WEIGHTED",
+      "label": "A-R17-WEIGHTED",
+      "title": "Weighted exact code and data",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/weighted",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-TRIADIC",
+      "label": "A-R17-TRIADIC",
+      "title": "Triadic exact code and data",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/triadic",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-R17-REPLAY",
+      "label": "A-R17-REPLAY",
+      "title": "Public five-module replay and source manifest",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json",
       "scope": "evidence"
     },
     {
@@ -689,6 +1549,36 @@
       "status": "CITE",
       "artifact": "10.1016/j.jnt.2025.11.013",
       "scope": "rational semigroup transitivity and periodic expansions"
+    },
+    {
+      "id": "L_BoyleSchmieding2016",
+      "label": "Boyle 2016",
+      "title": "Finite group extensions of shifts of finite type: K-theory, Parry and Livšic",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CONTEXT",
+      "artifact": "10.1017/etds.2015.87",
+      "scope": "finite-group extensions and gauges"
+    },
+    {
+      "id": "L_LejeuneRigoRosenfeld2020",
+      "label": "Lejeune 2020",
+      "title": "The binomial equivalence classes of finite words",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CONTEXT",
+      "artifact": "10.1142/S0218196720500459",
+      "scope": "ordered-subsequence equivalence"
+    },
+    {
+      "id": "L_Teh2016",
+      "label": "Teh 2016",
+      "title": "Parikh Matrices and Strong M-Equivalence",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CONTEXT",
+      "artifact": "10.1142/S0129054116500155",
+      "scope": "Parikh matrix mappings and observation fibres"
     }
   ],
   "edges": [
@@ -821,6 +1711,326 @@
       "source": "R001",
       "target": "C020",
       "relation": "uses_necessary_cubic_reduction"
+    },
+    {
+      "source": "R002",
+      "target": "C019",
+      "relation": "uses_necessary_cycle_divisibilities"
+    },
+    {
+      "source": "R003",
+      "target": "C002",
+      "relation": "uses_exact_reduction"
+    },
+    {
+      "source": "R004",
+      "target": "R003",
+      "relation": "uses_predecessor_lemma"
+    },
+    {
+      "source": "R005",
+      "target": "R003",
+      "relation": "uses_predecessor_lemma"
+    },
+    {
+      "source": "R006",
+      "target": "R005",
+      "relation": "uses_rectangle_quotient"
+    },
+    {
+      "source": "R007",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
+      "source": "R008",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
+      "source": "R009",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
+      "source": "R010",
+      "target": "R006",
+      "relation": "uses_global_oriented_exclusions"
+    },
+    {
+      "source": "R010",
+      "target": "C011",
+      "relation": "uses_known_tuple_and_base_class"
+    },
+    {
+      "source": "R011",
+      "target": "C002",
+      "relation": "uses_exact_reduction"
+    },
+    {
+      "source": "R012",
+      "target": "C014",
+      "relation": "uses_exact_state_and_base_conditions"
+    },
+    {
+      "source": "R012",
+      "target": "R007",
+      "relation": "generalizes_polynomial_obstruction"
+    },
+    {
+      "source": "R013",
+      "target": "R012",
+      "relation": "uses_curve_finiteness_and_rational_parameter_bound"
+    },
+    {
+      "source": "R013",
+      "target": "R009",
+      "relation": "uses_signed_cofactor_planes"
+    },
+    {
+      "source": "R014",
+      "target": "R013",
+      "relation": "uses_four_cycle_ideals"
+    },
+    {
+      "source": "R015",
+      "target": "R013",
+      "relation": "uses_plane_finiteness"
+    },
+    {
+      "source": "R015",
+      "target": "C014",
+      "relation": "uses_exact_fifth_state_and_overlap_conditions"
+    },
+    {
+      "source": "R016",
+      "target": "R009",
+      "relation": "adjudicates_complementary_cofactor_degeneracies"
+    },
+    {
+      "source": "R017",
+      "target": "C014",
+      "relation": "identifies_exact_arithmetic_conditions"
+    },
+    {
+      "source": "R018",
+      "target": "R006",
+      "relation": "uses_oriented_exclusions"
+    },
+    {
+      "source": "R018",
+      "target": "R010",
+      "relation": "uses_exhaustive_oriented_status"
+    },
+    {
+      "source": "R018",
+      "target": "C011",
+      "relation": "uses_known_realization"
+    },
+    {
+      "source": "R019",
+      "target": "R009",
+      "relation": "uses_opposite_square_cycles"
+    },
+    {
+      "source": "R019",
+      "target": "C014",
+      "relation": "uses_primitive_states_and_overlap_conditions"
+    },
+    {
+      "source": "R020",
+      "target": "C014",
+      "relation": "uses_exact_adjacent_coprimality"
+    },
+    {
+      "source": "R020",
+      "target": "R017",
+      "relation": "uses_reflected_witness_for_replay"
+    },
+    {
+      "source": "R021",
+      "target": "R010",
+      "relation": "extends_verified_coordinate_ranges"
+    },
+    {
+      "source": "R022",
+      "target": "C014",
+      "relation": "uses_ten_edge_conditions_and_overlaps"
+    },
+    {
+      "source": "R023",
+      "target": "R020",
+      "relation": "extends_chamber_lattice_rigidity"
+    },
+    {
+      "source": "R023",
+      "target": "C014",
+      "relation": "uses_high_chamber_and_overlaps"
+    },
+    {
+      "source": "R024",
+      "target": "R013",
+      "relation": "specializes_plane_quotient_method"
+    },
+    {
+      "source": "R024",
+      "target": "C011",
+      "relation": "certifies_uniqueness_in_known_witness_plane"
+    },
+    {
+      "source": "R025",
+      "target": "R009",
+      "relation": "uses_square_cycles_and_coefficient_mismatch"
+    },
+    {
+      "source": "RC33-E",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-H14",
+      "target": "R020",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-CAP",
+      "target": "RC33-H14",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RC33-DESC",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17T",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17I",
+      "target": "R17T",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17O",
+      "target": "R009",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17R",
+      "target": "C014",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17B",
+      "target": "C014",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17C",
+      "target": "R17B",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17S",
+      "target": "R17A",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17F",
+      "target": "R17A",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17J",
+      "target": "R17A",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17J",
+      "target": "R17F",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17N",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17N",
+      "target": "C016",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17G",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17D",
+      "target": "R17P",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "C009",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "C018",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R001",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R002",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R004",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R005",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17H",
+      "target": "R006",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17M",
+      "target": "R17L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17K",
+      "target": "R17L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17E",
+      "target": "R17L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "R17Z",
+      "target": "C009",
+      "relation": "depends_on"
     },
     {
       "source": "A001",
@@ -978,6 +2188,436 @@
       "relation": "supports"
     },
     {
+      "source": "A021",
+      "target": "R001",
+      "relation": "supports"
+    },
+    {
+      "source": "A021",
+      "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A022",
+      "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A023",
+      "target": "R004",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R001",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R002",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R003",
+      "relation": "supports"
+    },
+    {
+      "source": "A024",
+      "target": "R004",
+      "relation": "supports"
+    },
+    {
+      "source": "A025",
+      "target": "R005",
+      "relation": "supports"
+    },
+    {
+      "source": "A026",
+      "target": "R006",
+      "relation": "supports"
+    },
+    {
+      "source": "A027",
+      "target": "R008",
+      "relation": "supports"
+    },
+    {
+      "source": "A028",
+      "target": "R009",
+      "relation": "supports"
+    },
+    {
+      "source": "A029",
+      "target": "R010",
+      "relation": "supports"
+    },
+    {
+      "source": "A030",
+      "target": "R011",
+      "relation": "supports"
+    },
+    {
+      "source": "A031",
+      "target": "R012",
+      "relation": "supports"
+    },
+    {
+      "source": "A032",
+      "target": "R013",
+      "relation": "supports"
+    },
+    {
+      "source": "A033",
+      "target": "R014",
+      "relation": "supports"
+    },
+    {
+      "source": "A034",
+      "target": "R015",
+      "relation": "supports"
+    },
+    {
+      "source": "A035",
+      "target": "R015",
+      "relation": "supports"
+    },
+    {
+      "source": "A036",
+      "target": "R016",
+      "relation": "supports"
+    },
+    {
+      "source": "A037",
+      "target": "R016",
+      "relation": "supports"
+    },
+    {
+      "source": "A038",
+      "target": "R017",
+      "relation": "supports"
+    },
+    {
+      "source": "A038",
+      "target": "R018",
+      "relation": "supports"
+    },
+    {
+      "source": "A039",
+      "target": "R018",
+      "relation": "supports"
+    },
+    {
+      "source": "A040",
+      "target": "R019",
+      "relation": "supports"
+    },
+    {
+      "source": "A041",
+      "target": "R020",
+      "relation": "supports"
+    },
+    {
+      "source": "A042",
+      "target": "R021",
+      "relation": "supports"
+    },
+    {
+      "source": "A043",
+      "target": "R022",
+      "relation": "supports"
+    },
+    {
+      "source": "A044",
+      "target": "R023",
+      "relation": "supports"
+    },
+    {
+      "source": "A045",
+      "target": "R024",
+      "relation": "supports"
+    },
+    {
+      "source": "A046",
+      "target": "R025",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-E",
+      "target": "RC33-E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-H",
+      "target": "RC33-H14",
+      "relation": "supports"
+    },
+    {
+      "source": "A-RC33-H",
+      "target": "RC33-CAP",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SINE",
+      "target": "R17O",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SINE",
+      "target": "R17R",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SINE",
+      "target": "R17P",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SINE",
+      "target": "R17H",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SINE",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SYNERGIES",
+      "target": "R17T",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SYNERGIES",
+      "target": "R17I",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SYNERGIES",
+      "target": "R17D",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-SYNERGIES",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-CHAMBER",
+      "target": "R17Q",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-CHAMBER",
+      "target": "R17B",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-CHAMBER",
+      "target": "R17C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-CHAMBER",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-WEIGHTED",
+      "target": "R17S",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-WEIGHTED",
+      "target": "R17N",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-WEIGHTED",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17A",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17F",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17J",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17G",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17L",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17M",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17K",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17W",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17U",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17Z",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-TRIADIC",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17T",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17I",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17O",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17R",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17Q",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17B",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17A",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17S",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17F",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17J",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17N",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17G",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17P",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17D",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17H",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17L",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17M",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17K",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17E",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17W",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17U",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17Z",
+      "relation": "supports"
+    },
+    {
+      "source": "A-R17-REPLAY",
+      "target": "R17V",
+      "relation": "supports"
+    },
+    {
       "source": "L_Renyi1957",
       "target": "C001",
       "relation": "contextualizes"
@@ -1084,6 +2724,21 @@
     },
     {
       "source": "L_Javaheri2026",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_BoyleSchmieding2016",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_LejeuneRigoRosenfeld2020",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_Teh2016",
       "target": "C001",
       "relation": "contextualizes"
     }

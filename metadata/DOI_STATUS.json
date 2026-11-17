@@ -1,4 +1,8 @@
 {
-  "doi": null,
-  "status": "NOT_ASSIGNED"
+  "doi": "10.5281/zenodo.24270311",
+  "concept_doi": "10.5281/zenodo.24270310",
+  "status": "REGISTERED_ARCHIVE",
+  "archival_tag": "rc3.3-zenodo",
+  "archival_commit": "7d94e81d06944f36640ab289b87473fc0292c6df",
+  "scope": "Original 16 November 2026 code snapshot; current main includes additional unarchived continuation."
 }

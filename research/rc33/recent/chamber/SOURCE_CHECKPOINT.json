@@ -1,0 +1,39 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "sympy": "1.14.0",
+  "sources": [
+    {
+      "path": "/workspace/rgphi-canonical-final/source/companion.tex",
+      "sha256": "25e5097af36578e67caa917a71cc5274c6c1a2e518fc2d309bf001f47fefe3bd"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md",
+      "sha256": "8b30624c8c639158335dc8d277ba9e2567f5ca37eaca597ff13bf97ec7bccd1d"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md",
+      "sha256": "b2cce58e5f958767e28e40b02b5224d6dd20648933bb9836a87dbed78de99443"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md",
+      "sha256": "6fddcc8c699f4e6769ade474dc9ed527aa34ccfe9a1526e3733658c025acffd7"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+      "sha256": "decd96bcce702e9917b3c73aee0940001bcdbd11d49861d9a3cb1a2d7e573598"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/verify_exceptional_crt.py",
+      "sha256": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md",
+      "sha256": "b7dd930385f12cc651ffbfc36b8a5b048e14ad59eff991439e8f0d1805d82846"
+    },
+    {
+      "path": "/workspace/rgphi-canonical-final/archive/github_certificates/snapshots/primitive-radix-dynmics/2b94a857d220465443a735f7d5fa67ea8007a4a7/research/five-state/continuation/EXCEPTIONAL_CRT_REDUCTION.md",
+      "sha256": "90b315f9e3b2ae96d74f9c872f7c4ead47e3eb6b3b3d07a14fa110ea41373dc9"
+    }
+  ]
+}

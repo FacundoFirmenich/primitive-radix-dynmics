@@ -1,0 +1,38 @@
+{
+  "base": 88011536665779,
+  "cycle_divisors": 24576,
+  "rows": [
+    {
+      "code": 119772,
+      "factor": 2,
+      "pre_crt_candidates": 0,
+      "realizations": []
+    },
+    {
+      "code": 119772,
+      "factor": 3,
+      "pre_crt_candidates": 247,
+      "realizations": [
+        {
+          "coordinates": [
+            406,
+            712,
+            1265,
+            731,
+            557
+          ],
+          "residue_and_period": [
+            88011536665779,
+            223336848698040
+          ]
+        }
+      ]
+    },
+    {
+      "code": 606897,
+      "factor": 3,
+      "pre_crt_candidates": 943,
+      "realizations": []
+    }
+  ]
+}

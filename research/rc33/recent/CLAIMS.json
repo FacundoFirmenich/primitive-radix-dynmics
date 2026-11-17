@@ -1,0 +1,407 @@
+{
+  "claims": [
+    {
+      "id": "R17T",
+      "claim": "Transitive-generator rigidity and both CRT families at every cardinality",
+      "status": "proved",
+      "locator": "companion label prop:transitive",
+      "dependencies": [
+        "P1"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "All-high sector; transitivity is an explicit hypothesis.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17I",
+      "claim": "Connected cycle-incidence description in the permutation sector",
+      "status": "proved",
+      "locator": "companion label subsec:transitive",
+      "dependencies": [
+        "R17T"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Both generators are permutations; arithmetic consistency is retained.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17O",
+      "claim": "Bounded opposite cofactor pairs give effective finite height",
+      "status": "proved",
+      "locator": "companion label prop:opposite-cofactors",
+      "dependencies": [
+        "P15"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Either signed pair bounded; no uniform pair bound is asserted.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17R",
+      "claim": "Factor-three reflection preserves height and permutes cofactors",
+      "status": "proved",
+      "locator": "companion label subsec:reflection-obstructions",
+      "dependencies": [
+        "P24"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Completion D=3E-A; native/common coordinates explicitly transported.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17Q",
+      "claim": "Degree-four ideal intersection is Q ACDQ for every integer r>=2",
+      "status": "proved",
+      "locator": "companion label prop:quartic-obstruction",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Only the stated homogeneous degree-four ansatz; higher ideal powers are finite checks.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17B",
+      "claim": "Positive boundary coordinates and level height bound for 606897/3",
+      "status": "proved",
+      "locator": "companion label prop:boundary-level",
+      "dependencies": [
+        "P24"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Common coordinates; native gap equals Q-E.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17C",
+      "claim": "No 606897/3 realization with boundary gap at most 5000",
+      "status": "computer-assisted theorem",
+      "locator": "main label prop:boundary-gap",
+      "dependencies": [
+        "R17B"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "All bases in 1<=t<=5000; prior completed exhaustive run pinned, current terminal/direct controls separate.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17A",
+      "claim": "Finite-abelian record components and periods classified by K and N",
+      "status": "proved",
+      "locator": "companion label thm:abelian-records",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Strongly connected finite automaton, binary quotient, common T/SS anchor.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17S",
+      "claim": "Scalar all-integer weights and counter-marginal classification",
+      "status": "proved",
+      "locator": "companion label cor:scalar-records",
+      "dependencies": [
+        "R17A"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Negative, equal and zero weights included; variables observed are specified.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17F",
+      "claim": "Exact character criterion and peripheral spectrum for abelian records",
+      "status": "proved",
+      "locator": "companion label prop:record-fourier",
+      "dependencies": [
+        "R17A"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Independent letters with 0<a<1; fixed finite group.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17J",
+      "claim": "Coupled covers and the least modulus eleven for the stated mixing contrast",
+      "status": "proved",
+      "locator": "companion label cor:joint-clock",
+      "dependencies": [
+        "R17A",
+        "R17F"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Channels share random input letters; phase already visible in joint counters.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17N",
+      "claim": "Strict witness content cannot be made constant by letter through vertex gauge",
+      "status": "proved",
+      "locator": "main label cor:essential-state",
+      "dependencies": [
+        "P4",
+        "P8"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Positive representative scalings in main; arbitrary group labels in companion.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17G",
+      "claim": "Nonabelian strict-marker gauge obstruction",
+      "status": "proved",
+      "locator": "companion label prop:nonabelian-mark",
+      "dependencies": [
+        "P4"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Three explicit cycles; does not rule out arbitrary postprocessing observers.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17P",
+      "claim": "Exact sine-pi conjugacy and borrow threshold",
+      "status": "proved",
+      "locator": "companion label prop:sine-bridge",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "All k>=0; exact irrational phase, no normality assumption.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17D",
+      "claim": "Nested sine thresholds, cylinder refinement and coboundary transport",
+      "status": "proved",
+      "locator": "companion label app:sine-observations",
+      "dependencies": [
+        "R17P"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Declared angle domain m>2; fifth family has a different scale.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17H",
+      "claim": "Base 100 has no nonpermutation high component of size at most five",
+      "status": "proved with catalogue dependency",
+      "locator": "companion label cor:base100",
+      "dependencies": [
+        "P3",
+        "S3"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Uses certified residual classification and prime support; not arbitrary cardinality.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17L",
+      "claim": "FST normalization chains, exact multiplicities and maximal fibre",
+      "status": "proved",
+      "locator": "companion label prop:normalization-chains",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Defined signed integers K=8m-9s; earlier FST07 motivation is not a proof premise.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17M",
+      "claim": "Optimal fixed additional record j=floor(v7(K)/3) given exact H",
+      "status": "proved",
+      "locator": "companion label thm:FST-recorder",
+      "dependencies": [
+        "R17L"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Endpoint exact-H recovery; does not replace online automaton recorder contract.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17K",
+      "claim": "FST finite precision threshold with full valuation",
+      "status": "proved",
+      "locator": "companion label prop:FST-precision",
+      "dependencies": [
+        "R17L"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "k>=1; units modulo 7^k and all fixed-ell suffixes.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17E",
+      "claim": "FST geometric fibre law, uniform-prior entropy and ending-02 threshold",
+      "status": "proved",
+      "locator": "companion label app:normalization-fibres",
+      "dependencies": [
+        "R17L"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Prior explicitly uniform; 02 collisions begin at ell=13; no physical information law.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17W",
+      "claim": "Weighted Parikh representation and order-two/order-three observation collision",
+      "status": "proved",
+      "locator": "companion label app:whole-inputs",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Standard word-combinatorics framework; observer hierarchy is cumulative.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17U",
+      "claim": "Affine Bezout optimality, unimodular recoding, CRT and rank-three moments",
+      "status": "proved",
+      "locator": "companion label app:whole-inputs",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Evaluated labelled inputs; no universal compression or new arithmetic realization.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17Z",
+      "claim": "The three primitive input ratios never form a three-state high component",
+      "status": "proved with threshold dependency",
+      "locator": "companion label app:whole-inputs",
+      "dependencies": [
+        "P3"
+      ],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Distinct denominator fibres and the isolated unique numerator.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    },
+    {
+      "id": "R17V",
+      "claim": "Integrated continuation certificate contracts",
+      "status": "executed finite checks",
+      "locator": "supplement label sec:recent-certificates",
+      "dependencies": [],
+      "evidence": [
+        "results/recent/EXECUTION.json",
+        "review/RECENT_SOURCE_MANIFEST.json"
+      ],
+      "scope": "Frozen source checkpoints, source and fresh replay domains separated.",
+      "review": "assisted self-review; written proofs and finite tests separated",
+      "publication_scope": "current RC3.3 integration 17 November 2026"
+    }
+  ],
+  "dependency_mapping": {
+    "P1": [
+      "C003"
+    ],
+    "P3": [
+      "C009"
+    ],
+    "P4": [
+      "C011"
+    ],
+    "P8": [
+      "C016"
+    ],
+    "P15": [
+      "R009"
+    ],
+    "P24": [
+      "C014"
+    ],
+    "S3": [
+      "C018",
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ]
+  },
+  "source_claims_sha256": "f38a32fd0a236436c0f7788302ab8af9050a8cf672743f9e52413a21e3aaac83"
+}

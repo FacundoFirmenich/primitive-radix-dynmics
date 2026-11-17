@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "chamber_vertices": "three halfspace enumerations match the encoded tetrahedra",
+  "symbolic_level_cancellation": "PASS",
+  "complete_signed_planes": 702,
+  "reported_raw_candidates_rechecked": 3407,
+  "nonzero_J_level_pairs": 156195248,
+  "h1_nonzero_J_level_pairs": 2008,
+  "zero_level_cases": "handled separately by the enumerator; not included in these pair counters",
+  "scope": "Coverage of h<=14, not a uniform cofactor bound"
+}

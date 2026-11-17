@@ -1,0 +1,78 @@
+{
+  "quotients": {
+    "44": {
+      "resultant": 605934,
+      "high_primitive_root_candidates": 0
+    },
+    "45": {
+      "resultant": 611632,
+      "high_primitive_root_candidates": 0
+    },
+    "46": {
+      "resultant": 617600,
+      "high_primitive_root_candidates": 0
+    },
+    "47": {
+      "resultant": 623844,
+      "high_primitive_root_candidates": 0
+    },
+    "48": {
+      "resultant": 630370,
+      "high_primitive_root_candidates": 0
+    },
+    "49": {
+      "resultant": 637184,
+      "high_primitive_root_candidates": 0
+    },
+    "50": {
+      "resultant": 644292,
+      "high_primitive_root_candidates": 0
+    },
+    "51": {
+      "resultant": 651700,
+      "high_primitive_root_candidates": 0
+    },
+    "52": {
+      "resultant": 659414,
+      "high_primitive_root_candidates": 0
+    },
+    "53": {
+      "resultant": 667440,
+      "high_primitive_root_candidates": 0
+    },
+    "54": {
+      "resultant": 675784,
+      "high_primitive_root_candidates": 0
+    },
+    "55": {
+      "resultant": 684452,
+      "high_primitive_root_candidates": 1
+    },
+    "56": {
+      "resultant": 693450,
+      "high_primitive_root_candidates": 0
+    },
+    "57": {
+      "resultant": 702784,
+      "high_primitive_root_candidates": 0
+    },
+    "58": {
+      "resultant": 712460,
+      "high_primitive_root_candidates": 0
+    },
+    "59": {
+      "resultant": 722484,
+      "high_primitive_root_candidates": 0
+    },
+    "60": {
+      "resultant": 732862,
+      "high_primitive_root_candidates": 0
+    },
+    "61": {
+      "resultant": 743600,
+      "high_primitive_root_candidates": 0
+    }
+  },
+  "core_coordinates": [],
+  "realizations": []
+}

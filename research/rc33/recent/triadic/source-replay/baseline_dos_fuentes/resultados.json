@@ -1,0 +1,1349 @@
+{
+  "protocol": {
+    "inputs": [
+      "{4777}",
+      "{6444}"
+    ],
+    "atomic_sources": true,
+    "internal_access_allowed": false,
+    "factorization_of_sources_used": false,
+    "allowed_core": [
+      "unit",
+      "neg",
+      "inv",
+      "add",
+      "sub",
+      "mul",
+      "div"
+    ],
+    "additional_declared": [
+      "gcd",
+      "lcm",
+      "integer_power",
+      "output_decimal_encoding",
+      "whole_token_concatenation"
+    ],
+    "braces": "inicio y fin de escritura, no conjuntos",
+    "interpretation": "evaluación decimal completa; la traza no se identifica con el valor",
+    "irreducibility": "operacional; no se decide entre limitación del observador e intrínseca"
+  },
+  "operations": {
+    "sum": {
+      "expression": "({4777}+{6444})",
+      "value": "11221",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "difference": {
+      "expression": "({6444}-{4777})",
+      "value": "1667",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "product": {
+      "expression": "({4777}*{6444})",
+      "value": "30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "ratio_6444_over_4777": {
+      "expression": "({6444}/{4777})",
+      "value": "6444/4777",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "ratio_4777_over_6444": {
+      "expression": "({4777}/{6444})",
+      "value": "4777/6444",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "inverse_4777": {
+      "expression": "((+01)/{4777})",
+      "value": "1/4777",
+      "sources": [
+        "{4777}"
+      ]
+    },
+    "inverse_6444": {
+      "expression": "((+01)/{6444})",
+      "value": "1/6444",
+      "sources": [
+        "{6444}"
+      ]
+    },
+    "sum_inverses": {
+      "expression": "(((+01)/{4777})+((+01)/{6444}))",
+      "value": "11221/30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "difference_inverses": {
+      "expression": "(((+01)/{4777})-((+01)/{6444}))",
+      "value": "1667/30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "product_inverses": {
+      "expression": "(((+01)/{4777})*((+01)/{6444}))",
+      "value": "1/30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "square_4777": {
+      "expression": "({4777}*{4777})",
+      "value": "22819729",
+      "sources": [
+        "{4777}"
+      ]
+    },
+    "square_6444": {
+      "expression": "({6444}*{6444})",
+      "value": "41525136",
+      "sources": [
+        "{6444}"
+      ]
+    },
+    "sum_squares": {
+      "expression": "(({4777}*{4777})+({6444}*{6444}))",
+      "value": "64344865",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "difference_squares": {
+      "expression": "(({6444}*{6444})-({4777}*{4777}))",
+      "value": "18705407",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "arithmetic_mean": {
+      "expression": "(({4777}+{6444})/((+01)+(+01)))",
+      "value": "11221/2",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "harmonic_mean": {
+      "expression": "((((+01)+(+01))*({4777}*{6444}))/({4777}+{6444}))",
+      "value": "61565976/11221",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "geometric_mean_squared": {
+      "expression": "({4777}*{6444})",
+      "value": "30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "quadratic_mean_squared": {
+      "expression": "((({4777}*{4777})+({6444}*{6444}))/((+01)+(+01)))",
+      "value": "64344865/2",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "contrast": {
+      "expression": "(({6444}-{4777})/({4777}+{6444}))",
+      "value": "1667/11221",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "circle_cos": {
+      "expression": "((({6444}*{6444})-({4777}*{4777}))/(({4777}*{4777})+({6444}*{6444})))",
+      "value": "18705407/64344865",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "circle_sin": {
+      "expression": "((((+01)+(+01))*({4777}*{6444}))/(({4777}*{4777})+({6444}*{6444})))",
+      "value": "61565976/64344865",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "hyperbolic_cos": {
+      "expression": "((({6444}/{4777})+({4777}/{6444}))/((+01)+(+01)))",
+      "value": "64344865/61565976",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "hyperbolic_sin": {
+      "expression": "((({6444}/{4777})-({4777}/{6444}))/((+01)+(+01)))",
+      "value": "18705407/61565976",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "recover_4777": {
+      "expression": "((({4777}+{6444})-({6444}-{4777}))/((+01)+(+01)))",
+      "value": "4777",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "recover_6444": {
+      "expression": "((({4777}+{6444})+({6444}-{4777}))/((+01)+(+01)))",
+      "value": "6444",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "gcd": {
+      "expression": "gcd({4777},{6444})",
+      "value": "1",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "lcm": {
+      "expression": "lcm({4777},{6444})",
+      "value": "30782988",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    },
+    "cancelled_joint_provenance": {
+      "expression": "(({4777}*{6444})/({6444}*{4777}))",
+      "value": "1",
+      "sources": [
+        "{4777}",
+        "{6444}"
+      ]
+    }
+  },
+  "orbit_32": [
+    {
+      "first": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "{4777}",
+        "value": "4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-{4777})",
+        "value": "-4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{4777})",
+        "value": "1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "{6444}",
+        "value": "6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-{6444})",
+        "value": "-6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "((+01)/{6444})",
+        "value": "1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      }
+    },
+    {
+      "first": {
+        "expression": "(-((+01)/{6444}))",
+        "value": "-1/6444",
+        "sources": [
+          "{6444}"
+        ]
+      },
+      "second": {
+        "expression": "(-((+01)/{4777}))",
+        "value": "-1/4777",
+        "sources": [
+          "{4777}"
+        ]
+      }
+    }
+  ],
+  "mobius_iteration": [
+    {
+      "n": 0,
+      "state": "11221",
+      "coordinate": "4777/6444"
+    },
+    {
+      "n": 1,
+      "state": "95127853/11221",
+      "coordinate": "22819729/41525136"
+    },
+    {
+      "n": 2,
+      "state": "722013730165/95127853",
+      "coordinate": "109009845433/267587976384"
+    },
+    {
+      "n": 3,
+      "state": "5173396508816701/722013730165",
+      "coordinate": "520740031633441/1724336919818496"
+    },
+    {
+      "n": 4,
+      "state": "35824942233927768901/5173396508816701",
+      "coordinate": "2487575131112947657/11111627111310388224"
+    },
+    {
+      "n": 5,
+      "state": "242739074156757093755533/35824942233927768901",
+      "coordinate": "11883146401326550957489/71603325105284141715456"
+    },
+    {
+      "n": 6,
+      "state": "1620976384225279646084579605/242739074156757093755533",
+      "coordinate": "56765790359136933923924953/461411826978451009214398464"
+    },
+    {
+      "n": 7,
+      "state": "10716742000493299172723620475101/1620976384225279646084579605",
+      "coordinate": "271170180545597133354589500481/2973337813049138303377583702016"
+    },
+    {
+      "n": 8,
+      "state": "70354065403645137375065884385348581/10716742000493299172723620475101",
+      "coordinate": "1295379952466317506034874043797737/19160188867288647226965149375791104"
+    },
+    {
+      "n": 9,
+      "state": "459549627494020863971253152286408045613/70354065403645137375065884385348581",
+      "coordinate": "6188030032931598726328593307221789649/123468257060808042730563422577597874176"
+    },
+    {
+      "n": 10,
+      "state": "2990898019038784694546427003562211935083445/459549627494020863971253152286408045613",
+      "coordinate": "29560219467314247115671690228598489153273/795629448499847027355750695090040701190144"
+    },
+    {
+      "n": 11,
+      "state": "19414556003081288730128739275176908692362904701/2990898019038784694546427003562211935083445",
+      "coordinate": "141209168395360158471563664222014982685185121/5127036166133014244280457479160222278469287936"
+    },
+    {
+      "n": 12,
+      "state": "125781955081280460053968255513228565185873687216261/19414556003081288730128739275176908692362904701",
+      "coordinate": "674556197424635477018659623988565572287129323017/33038621054561143790143267995708472362456091459584"
+    }
+  ],
+  "symmetric_power_sums": [
+    "2",
+    "11221",
+    "64344865",
+    "376597821817",
+    "2245076951451937",
+    "13599202242423335881",
+    "83486471506610692672945",
+    "518177617337587943138323417",
+    "3244507993594735436732173202497",
+    "20455568819754964733000023419588841",
+    "129656287093739641456892015884819663825",
+    "825189667967161274471422385318639190343417",
+    "5268245334528374402752021143382237261154473057"
+  ],
+  "bezout": {
+    "gcd": 1,
+    "coefficient_x": 1237,
+    "coefficient_y": -917,
+    "certificate": "1237*4777-917*6444=1",
+    "euclidean_steps": [
+      {
+        "dividend": 4777,
+        "divisor": 6444,
+        "quotient": 0,
+        "remainder": 4777
+      },
+      {
+        "dividend": 6444,
+        "divisor": 4777,
+        "quotient": 1,
+        "remainder": 1667
+      },
+      {
+        "dividend": 4777,
+        "divisor": 1667,
+        "quotient": 2,
+        "remainder": 1443
+      },
+      {
+        "dividend": 1667,
+        "divisor": 1443,
+        "quotient": 1,
+        "remainder": 224
+      },
+      {
+        "dividend": 1443,
+        "divisor": 224,
+        "quotient": 6,
+        "remainder": 99
+      },
+      {
+        "dividend": 224,
+        "divisor": 99,
+        "quotient": 2,
+        "remainder": 26
+      },
+      {
+        "dividend": 99,
+        "divisor": 26,
+        "quotient": 3,
+        "remainder": 21
+      },
+      {
+        "dividend": 26,
+        "divisor": 21,
+        "quotient": 1,
+        "remainder": 5
+      },
+      {
+        "dividend": 21,
+        "divisor": 5,
+        "quotient": 4,
+        "remainder": 1
+      },
+      {
+        "dividend": 5,
+        "divisor": 1,
+        "quotient": 5,
+        "remainder": 0
+      }
+    ],
+    "ratio_cf_y_over_x": [
+      1,
+      2,
+      1,
+      6,
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "convergents": [
+      "1",
+      "3/2",
+      "4/3",
+      "27/20",
+      "58/43",
+      "201/149",
+      "259/192",
+      "1237/917",
+      "6444/4777"
+    ],
+    "inverse_x_mod_y": "1237",
+    "inverse_y_mod_x": "3860"
+  },
+  "inverse_modulo_decimal_tails_x": [
+    {
+      "k": 1,
+      "modulus": "10",
+      "residue": "3",
+      "padded_output": "3"
+    },
+    {
+      "k": 2,
+      "modulus": "100",
+      "residue": "13",
+      "padded_output": "13"
+    },
+    {
+      "k": 3,
+      "modulus": "1000",
+      "residue": "713",
+      "padded_output": "713"
+    },
+    {
+      "k": 4,
+      "modulus": "10000",
+      "residue": "2713",
+      "padded_output": "2713"
+    },
+    {
+      "k": 5,
+      "modulus": "100000",
+      "residue": "22713",
+      "padded_output": "22713"
+    },
+    {
+      "k": 6,
+      "modulus": "1000000",
+      "residue": "522713",
+      "padded_output": "522713"
+    },
+    {
+      "k": 7,
+      "modulus": "10000000",
+      "residue": "9522713",
+      "padded_output": "9522713"
+    },
+    {
+      "k": 8,
+      "modulus": "100000000",
+      "residue": "39522713",
+      "padded_output": "39522713"
+    },
+    {
+      "k": 9,
+      "modulus": "1000000000",
+      "residue": "639522713",
+      "padded_output": "639522713"
+    },
+    {
+      "k": 10,
+      "modulus": "10000000000",
+      "residue": "5639522713",
+      "padded_output": "5639522713"
+    },
+    {
+      "k": 11,
+      "modulus": "100000000000",
+      "residue": "85639522713",
+      "padded_output": "85639522713"
+    },
+    {
+      "k": 12,
+      "modulus": "1000000000000",
+      "residue": "785639522713",
+      "padded_output": "785639522713"
+    }
+  ],
+  "external_concat_serialization": {
+    "base_of_external_serialization": 10000,
+    "tokens": [
+      "4777",
+      "6444"
+    ],
+    "XY": "47776444",
+    "YX": "64444777",
+    "difference_YX_minus_XY": "16668333",
+    "sum": "112221221",
+    "formal_token_words_length_1_to_8": [
+      {
+        "k": 1,
+        "distinct_words": 2
+      },
+      {
+        "k": 2,
+        "distinct_words": 4
+      },
+      {
+        "k": 3,
+        "distinct_words": 8
+      },
+      {
+        "k": 4,
+        "distinct_words": 16
+      },
+      {
+        "k": 5,
+        "distinct_words": 32
+      },
+      {
+        "k": 6,
+        "distinct_words": 64
+      },
+      {
+        "k": 7,
+        "distinct_words": 128
+      },
+      {
+        "k": 8,
+        "distinct_words": 256
+      }
+    ]
+  },
+  "matrices": {
+    "U": [
+      [
+        "1",
+        "4777"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "V": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "6444",
+        "1"
+      ]
+    ],
+    "UV": [
+      [
+        "30782989",
+        "4777"
+      ],
+      [
+        "6444",
+        "1"
+      ]
+    ],
+    "VU": [
+      [
+        "1",
+        "4777"
+      ],
+      [
+        "6444",
+        "30782989"
+      ]
+    ]
+  },
+  "output_decimal_observations": {
+    "inverse_4777": {
+      "integer_part": "0",
+      "preperiod": "",
+      "period": "0002093364036005861419300816411974042285953527318400669876491521875654176261251831693531505128741888214360477287",
+      "preperiod_length": 0,
+      "period_length": 112
+    },
+    "inverse_6444": {
+      "integer_part": "0",
+      "preperiod": "00",
+      "period": "0155183116076970825574177529484792054624456859093730602110490378646803227808814400993171942892613283674736188702669149596523898199875853507138423339540657976412166356300434512725",
+      "preperiod_length": 2,
+      "period_length": 178
+    },
+    "ratio_6444_over_4777": {
+      "integer_part": "1",
+      "preperiod": "",
+      "period": "3489637848021770985974460958760728490684530039773916684111366966715511827506803433117019049612727653338915637429",
+      "preperiod_length": 0,
+      "period_length": 112
+    }
+  },
+  "exhaustive_search_summary": [
+    {
+      "leaf_occurrences": 1,
+      "all_syntactic_trees": 2,
+      "valid_trees": 2,
+      "undefined_trees": 0,
+      "distinct_values": 2,
+      "valid_joint_trees": 0,
+      "distinct_joint_values": 0
+    },
+    {
+      "leaf_occurrences": 2,
+      "all_syntactic_trees": 16,
+      "valid_trees": 16,
+      "undefined_trees": 0,
+      "distinct_values": 12,
+      "valid_joint_trees": 8,
+      "distinct_joint_values": 6
+    },
+    {
+      "leaf_occurrences": 3,
+      "all_syntactic_trees": 256,
+      "valid_trees": 252,
+      "undefined_trees": 4,
+      "distinct_values": 86,
+      "valid_joint_trees": 190,
+      "distinct_joint_values": 72
+    },
+    {
+      "leaf_occurrences": 4,
+      "all_syntactic_trees": 5120,
+      "valid_trees": 5000,
+      "undefined_trees": 120,
+      "distinct_values": 684,
+      "valid_joint_trees": 4390,
+      "distinct_joint_values": 646
+    },
+    {
+      "leaf_occurrences": 5,
+      "all_syntactic_trees": 114688,
+      "valid_trees": 110940,
+      "undefined_trees": 3748,
+      "distinct_values": 5379,
+      "valid_joint_trees": 104250,
+      "distinct_joint_values": 5278
+    }
+  ],
+  "exhaustive_search_totals": {
+    "source_mask_definition": {
+      "1": "{4777}",
+      "2": "{6444}",
+      "3": "ambos"
+    },
+    "max_leaves": 5,
+    "total_valid_trees": 116210,
+    "total_valid_joint_trees": 108838,
+    "distinct_values_up_to_bound": 5479,
+    "distinct_joint_values_up_to_bound": 5375
+  },
+  "verification": {
+    "status": "PASS",
+    "checks_count": 159,
+    "checks": [
+      "fuente opaca: {4777}: indexación bloqueada",
+      "fuente opaca: {4777}: iteración bloqueada",
+      "fuente opaca: {4777}: longitud bloqueada",
+      "fuente opaca: {6444}: indexación bloqueada",
+      "fuente opaca: {6444}: iteración bloqueada",
+      "fuente opaca: {6444}: longitud bloqueada",
+      "división por cero rechazada",
+      "valor exacto: sum",
+      "valor exacto: difference",
+      "valor exacto: product",
+      "valor exacto: square_4777",
+      "valor exacto: square_6444",
+      "valor exacto: sum_squares",
+      "valor exacto: difference_squares",
+      "valor exacto: gcd",
+      "valor exacto: lcm",
+      "inversa de suma/diferencia: 4777",
+      "inversa de suma/diferencia: 6444",
+      "identidad circular global",
+      "identidad hiperbólica global",
+      "identidad cuadrática",
+      "Parseval de dos paquetes",
+      "discriminante y reconstrucción",
+      "cancelar evaluación no borra procedencia",
+      "cancelación numérica a unidad",
+      "órbita individual cuatro estados: {4777}",
+      "órbita individual cuatro estados: {6444}",
+      "órbita conjunta: 32 estados distintos",
+      "clausura exhaustiva de la órbita bajo cinco generadores",
+      "involución aditiva sobre 4777",
+      "involución multiplicativa sobre 4777",
+      "involución aditiva sobre 6444",
+      "involución multiplicativa sobre 6444",
+      "involución aditiva sobre suma",
+      "involución multiplicativa sobre suma",
+      "reflexión intercambia originales completos",
+      "inversión escalada intercambia originales completos",
+      "composición fija los dos originales",
+      "fórmula cerrada de iteración n=0",
+      "inversa del operador compuesto n=0",
+      "conjugación exacta n=0",
+      "fórmula cerrada de iteración n=1",
+      "inversa del operador compuesto n=1",
+      "conjugación exacta n=1",
+      "fórmula cerrada de iteración n=2",
+      "inversa del operador compuesto n=2",
+      "conjugación exacta n=2",
+      "fórmula cerrada de iteración n=3",
+      "inversa del operador compuesto n=3",
+      "conjugación exacta n=3",
+      "fórmula cerrada de iteración n=4",
+      "inversa del operador compuesto n=4",
+      "conjugación exacta n=4",
+      "fórmula cerrada de iteración n=5",
+      "inversa del operador compuesto n=5",
+      "conjugación exacta n=5",
+      "fórmula cerrada de iteración n=6",
+      "inversa del operador compuesto n=6",
+      "conjugación exacta n=6",
+      "fórmula cerrada de iteración n=7",
+      "inversa del operador compuesto n=7",
+      "conjugación exacta n=7",
+      "fórmula cerrada de iteración n=8",
+      "inversa del operador compuesto n=8",
+      "conjugación exacta n=8",
+      "fórmula cerrada de iteración n=9",
+      "inversa del operador compuesto n=9",
+      "conjugación exacta n=9",
+      "fórmula cerrada de iteración n=10",
+      "inversa del operador compuesto n=10",
+      "conjugación exacta n=10",
+      "fórmula cerrada de iteración n=11",
+      "inversa del operador compuesto n=11",
+      "conjugación exacta n=11",
+      "fórmula cerrada de iteración n=12",
+      "inversa del operador compuesto n=12",
+      "conjugación exacta n=12",
+      "atractor y repulsor: multiplicadores positivos",
+      "recurrencia simétrica n=0",
+      "recurrencia simétrica n=1",
+      "recurrencia simétrica n=2",
+      "recurrencia simétrica n=3",
+      "recurrencia simétrica n=4",
+      "recurrencia simétrica n=5",
+      "recurrencia simétrica n=6",
+      "recurrencia simétrica n=7",
+      "recurrencia simétrica n=8",
+      "recurrencia simétrica n=9",
+      "recurrencia simétrica n=10",
+      "recurrencia simétrica n=11",
+      "recurrencia simétrica n=12",
+      "composición externa no conmutativa",
+      "determinante de producto SL2",
+      "conmutador aditivo exacto de productos matriciales",
+      "evaluaciones enteras",
+      "paridad global distinta",
+      "identidad de intersección aditiva",
+      "primer múltiplo común de ambos",
+      "comparación exacta de potencias cruzadas",
+      "Bézout exacto 1237*4777-917*6444=1",
+      "certificado Bézout evaluado",
+      "cocientes euclídeos y fracción continua",
+      "convergentes exactos, penúltimo 1237/917",
+      "determinante unimodular convergentes 1",
+      "determinante unimodular convergentes 2",
+      "determinante unimodular convergentes 3",
+      "determinante unimodular convergentes 4",
+      "determinante unimodular convergentes 5",
+      "determinante unimodular convergentes 6",
+      "determinante unimodular convergentes 7",
+      "determinante unimodular convergentes 8",
+      "inversa modular de 4777 módulo 6444",
+      "inversa modular de 6444 módulo 4777",
+      "suma y diferencia coprimas",
+      "suma y producto coprimos",
+      "inversa por terminación k=1",
+      "inversa por terminación k=2",
+      "compatibilidad inversa k=2",
+      "inversa por terminación k=3",
+      "compatibilidad inversa k=3",
+      "inversa por terminación k=4",
+      "compatibilidad inversa k=4",
+      "inversa por terminación k=5",
+      "compatibilidad inversa k=5",
+      "inversa por terminación k=6",
+      "compatibilidad inversa k=6",
+      "inversa por terminación k=7",
+      "compatibilidad inversa k=7",
+      "inversa por terminación k=8",
+      "compatibilidad inversa k=8",
+      "inversa por terminación k=9",
+      "compatibilidad inversa k=9",
+      "inversa por terminación k=10",
+      "compatibilidad inversa k=10",
+      "inversa por terminación k=11",
+      "compatibilidad inversa k=11",
+      "inversa por terminación k=12",
+      "compatibilidad inversa k=12",
+      "6444 no invertible modulo 100",
+      "serialización externa de los dos tokens enteros",
+      "diferencia de órdenes de concatenación",
+      "suma de concatenaciones reversibles",
+      "reconstrucción exacta producto por suma y diferencia",
+      "independencia multiplicativa por paridad",
+      "reconstrucción de salida decimal 1/4777",
+      "reconstrucción de salida decimal 1/6444",
+      "reconstrucción de salida decimal 6444/4777",
+      "período recíproco 4777",
+      "preperíodo y período recíproco 6444",
+      "enumeración: límites nivel 1",
+      "enumeración: límites nivel 2",
+      "enumeración: límites nivel 3",
+      "enumeración: límites nivel 4",
+      "enumeración: límites nivel 5",
+      "conteo independiente sin compresión nivel 1",
+      "conteo independiente sin compresión nivel 2",
+      "conteo independiente sin compresión nivel 3",
+      "conteo independiente sin compresión nivel 4",
+      "total exacto de árboles válidos hasta cinco hojas"
+    ],
+    "scope": "Exact arithmetic and finite complete enumerations; universal proofs in ATLAS.md. Not a proof-assistant certification."
+  }
+}

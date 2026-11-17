@@ -1,0 +1,15 @@
+{
+  "generated_rational_candidates": 1254,
+  "strict_prime_unit_pass": 172,
+  "square_A_pass": 53,
+  "joint_pass": 1,
+  "joint_candidates": [
+    [
+      406,
+      712,
+      1265,
+      731
+    ]
+  ],
+  "scope": "generated cofactor<=14 rational candidates in 119772/r3; generating assumptions not removed"
+}

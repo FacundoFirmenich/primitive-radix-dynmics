@@ -1,0 +1,4 @@
+PASS -- pairwise ratios, triple CRT, GL3 normalization, rank-3 Hankel, UT4 third-order memory,
+72 exact SCC+period graph tests; deterministic phase on all eligible joint states.
+Triple product: 229148562672 GL3: [4777, 1, 333]
+Solo vs joint m=11: [{'m': 11, 'weights': 'XY', 'components': 1, 'size_each': 55, 'period': 1}, {'m': 11, 'weights': 'XZ', 'components': 1, 'size_each': 55, 'period': 1}, {'m': 11, 'weights': 'YZ', 'components': 1, 'size_each': 55, 'period': 1}, {'m': 11, 'weights': 'JOINT_XY_XZ', 'components': 1, 'size_each': 605, 'period': 11}]

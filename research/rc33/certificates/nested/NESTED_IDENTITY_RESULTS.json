@@ -1,0 +1,15 @@
+{
+  "positive_119_identity": "u*v*w*z - (r - 1)**2 + (w + z)*(r*v + u)",
+  "positive_606_identity": "u*v*w*z + (u + v)*(3*w + z) - 4",
+  "determinant_identities_verified": true,
+  "branch_trace_identity": "2*B**2 + B*(at + ct)*(2*B + bt + dt - 2) + at*ct*(B + bt - 1)*(B + dt - 1)",
+  "witness_branch_T_digits": [
+    48881920501102,
+    49536928147062
+  ],
+  "witness_branch_S_shifted_digits": [
+    90360159132982,
+    91407712546969
+  ],
+  "new_independent_height_bound": false
+}

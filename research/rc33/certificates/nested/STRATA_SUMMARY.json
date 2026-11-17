@@ -1,0 +1,51 @@
+[
+  {
+    "code": 119772,
+    "r": 2,
+    "planes": 240,
+    "integer_level_pairs": 37597476,
+    "unique_high_candidates": 572,
+    "rejection_histogram": {
+      "strict_prime_nonunit": 521,
+      "adjacent_gcd": 50,
+      "opposite_gcd": 1
+    },
+    "surviving_cores": []
+  },
+  {
+    "code": 119772,
+    "r": 3,
+    "planes": 250,
+    "integer_level_pairs": 54675381,
+    "unique_high_candidates": 1254,
+    "rejection_histogram": {
+      "strict_prime_nonunit": 1082,
+      "adjacent_gcd": 168,
+      "opposite_gcd": 2,
+      "survives_core": 1,
+      "square_divisibility": 1
+    },
+    "surviving_cores": [
+      [
+        406,
+        712,
+        1265,
+        731
+      ]
+    ]
+  },
+  {
+    "code": 606897,
+    "r": 3,
+    "planes": 203,
+    "integer_level_pairs": 63922391,
+    "unique_high_candidates": 1543,
+    "rejection_histogram": {
+      "strict_prime_nonunit": 1333,
+      "adjacent_gcd": 204,
+      "square_divisibility": 4,
+      "opposite_gcd": 2
+    },
+    "surviving_cores": []
+  }
+]

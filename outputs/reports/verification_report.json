@@ -14,8 +14,8 @@
     "status": "PASS"
   },
   "claim_graph": {
-    "claims": 26,
-    "dependency_edges": 26,
+    "claims": 78,
+    "dependency_edges": 90,
     "status": "PASS"
   },
   "embargo": {
@@ -23,8 +23,14 @@
     "status": "PASS"
   },
   "cpp_replay": {
-    "status": "SKIP",
-    "reason": "no C++17 compiler"
+    "status": "PASS",
+    "compiler": "g++",
+    "stdout": [
+      "PASS",
+      "counterfamily_bases_checked=1001",
+      "cross_language_exact_edges=PASS",
+      "unique_strict_edge=S3:x3->x0"
+    ]
   },
   "overall": "PASS"
 }

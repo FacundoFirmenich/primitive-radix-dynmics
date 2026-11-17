@@ -1,0 +1,18 @@
+{
+  "plane": "4(D-Q)=3C",
+  "level_pairs": 8091,
+  "high_rational_candidates": [
+    [
+      406,
+      712,
+      1265,
+      731
+    ]
+  ],
+  "known_levels": [
+    -178,
+    -56
+  ],
+  "coordinate_cutoff": null,
+  "implementation": "separate explicit integer quadratic elimination"
+}

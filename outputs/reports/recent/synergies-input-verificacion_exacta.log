@@ -1,0 +1,11 @@
+PASS family n=2: B=211; q=8; p=[7, 5]
+PASS family n=3: B=234601; q=26; p=[25, 23, 17]
+PASS family n=4: B=412025923; q=80; p=[79, 77, 71, 53]
+PASS family n=5: B=111492702409201; q=242; p=[241, 239, 233, 215, 161]
+PASS family n=6: B=4501519179524615251; q=728; p=[727, 725, 719, 701, 647, 485]
+PASS decimal borrow bound 0.01: lambda < 13310/83349 < 1
+PASS decimal borrow bound 0.018: lambda < 2662/5145 < 1
+PASS decimal borrow bound 0.02: lambda < 53240/83349 < 1
+PASS decimal borrow bound 0.024: lambda < 42592/46305 < 1
+PASS 0.03 scale 10^(2n+6): lambda < 1
+ALL_EXACT_CHECKS_PASS

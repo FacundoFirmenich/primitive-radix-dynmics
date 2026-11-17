@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "edition": "RC3.3",
+  "package_version": "0.3.3",
+  "repository": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics",
+  "claims": 78,
+  "continuation_claims": 24,
+  "dependency_edges": 90,
+  "immutable_source_files": 31,
+  "aligned_figure_assets": 10,
+  "current_rc33_checksum_entries": 60,
+  "recent_scripts_passed": 10,
+  "original_archive_commit": "7d94e81d06944f36640ab289b87473fc0292c6df",
+  "full_manuscripts_public": false,
+  "new_global_existence_rows_closed": 0
+}

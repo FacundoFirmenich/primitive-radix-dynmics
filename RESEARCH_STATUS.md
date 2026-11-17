@@ -1,52 +1,37 @@
-# Research status — live dashboard
+# Research status · RC3.3
 
-## Registered reproducibility archive — 16 November 2026
+**Current integration: 17 November 2026.** This is the live dashboard. Dated proof records and historical censuses retain their original scopes.
 
-The RC3.3 code-and-certificates archive is registered as [https://doi.org/10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311), tag `rc3.3-zenodo`, source commit `7d94e81d06944f36640ab289b87473fc0292c6df`. This citation points to the pinned release. Its complete receipt is in `docs/ZENODO_RC33_RECEIPT.json`.
+## Established results
 
-**State:** public reproducibility companion and active five-state arithmetic research  
-**Public baseline:** `main`  
-**Manuscript presence:** intentionally absent from the repository  
-**Publication boundary:** pre-arXiv embargo remains active
+The exact content laws and two-chart cycle balance imply permutation rigidity through four states. An explicit five-state CRT family attains the sharp threshold. Strict-edge uniqueness, the twenty generator-unoriented forms and the complete forty-case oriented ledger are certified.
 
-## Closed internally
+The current oriented classification is **37 excluded / 1 realized-containing / 2 open**. The historical 7/1/12 and eleven-branch checkpoints are superseded by the [forty-row ledger](research/five-state/continuation/ORIENTED_STATUS.csv). A realized orientation need not have a unique primitive carrier.
 
-- exact local reduction laws;
-- primitive projective lift and content cocycle;
-- two-chart projective balance / Hilbert-width cycle bound;
-- cycle spectral identity and square-discriminant obstruction;
-- all-high rigidity through cardinality four;
-- exact five-state counterfamily on an infinite arithmetic progression;
-- sharp minimal nonpermutation cardinality equal to five;
-- exact uniqueness of the strict edge at cardinality five;
-- finite five-state combinatorial reduction to twenty generator-unoriented factor-specific forms;
-- fixed-cardinality finite-type decomposition;
-- fixed primitive tuple: empty-or-one-CRT-progression base fibre;
-- eight active S-strict oriented branches collapsed state-side to two shared T-cycle templates (four factor-specific mechanisms);
-- `DF015-0015-B1`: no coprime point in its strict chamber, by an exact 772-fibre certificate.
+## Integrated continuation
 
-## Live arithmetic frontier
+| Module | Added value | Limit |
+| --- | --- | --- |
+| Sine–π transfer | Exact decimal-phase conjugacy, borrow decisions and nested observation fibres | No normality theorem or global orbit closure |
+| Structural synergies | Transitive-generator rigidity, permutation incidence, opposite-cofactor height reduction and reflection | No uniform opposite-cofactor bound |
+| 606897/3 chamber | t = A − E, explicit finite levels, saved complete t ≤ 5000 exclusion | All larger t remain unadjudicated |
+| Weighted covers | Exact finite-abelian component and period formulas; Fourier phases | External counters do not constrain arithmetic realization by themselves |
+| Ternary extension and finite records | Joint periodicity with aperiodic marginal covers; exact record recovery contracts and ordered-history distinctions | Shared random inputs are not independent observations |
 
-The later oriented continuation has eleven branches over six ordered skeletons. After the common-template reduction, it is governed by seven factor-specific arithmetic mechanisms. One is the realized `119772`, factor-three branch; six mechanisms remain unresolved.
+[24 claim cards and public evidence](research/rc33/recent/RESULTS.md) complement the [RC3.3 all-height cofactor and fifth-coordinate certificates](research/rc33/README.md). Ten current replay programs operate on temporary copies; the 31 imported source/data checkpoints remain byte-identical to the integrated private delivery.
 
-The normalized twenty-row generator-unoriented status remains:
+## Global questions still open
 
-- 7 impossible;
-- 1 realized-containing;
-- 12 open.
+1. Existence of the 119772 factor-two orientation (0003/S).
+2. Existence of the 606897 factor-three orientation (0007/T).
+3. Unrestricted uniqueness of the known 119772 factor-three primitive carrier.
+4. The least base among all five-state nonpermutation components.
+5. The least base when arbitrary cardinalities are allowed.
 
-No `19/20` closure is claimed.
+The t ≤ 5000 exclusion is uniform over bases in its chamber stratum, not over all heights. Fixed-base, bounded-cardinality decidability supplies no uniform global height bound. Historical base bounds derived from earlier coordinate cutoffs are recorded as conditional on those cutoffs, not as a new globally complete census.
 
-## Current high-return gates
+## Reproducibility and archival scope
 
-1. divisor-allocation / S-unit reduction of the shared dense templates;
-2. reconcile the oriented and normalized catalogues before updating aggregate counts;
-3. exact adjudication of `119772` factor 2 and `606897` factor 3;
-4. global uniqueness or a parametric family for the known realized action graph.
+Run `make reproduce` after installing `.[dev]`. The [verification guide](VERIFICATION.md) and [recent replay receipt](outputs/reports/recent/RUN_MANIFEST.json) separate symbolic identities, saved exhaustive computations and current replays.
 
-## External gates
-
-- independent clean-room mathematical audit;
-- final literature/priority refresh;
-- owner-controlled Zenodo/DOI sequence;
-- arXiv release coordination.
+The immutable archive DOI [10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311) covers the 16 November `rc3.3-zenodo` tag. Current `main` includes the additional integration; no old tag is moved. The [pre-arXiv embargo](docs/PUBLICATION_BOUNDARY.md) excludes complete manuscripts from this public repository.

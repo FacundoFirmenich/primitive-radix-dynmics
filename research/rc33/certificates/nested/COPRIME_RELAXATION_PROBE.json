@@ -1,0 +1,77 @@
+{
+  "tested_n": [
+    10,
+    500
+  ],
+  "count": 338,
+  "examples": [
+    {
+      "n": 10,
+      "denominators": [
+        16603,
+        41,
+        15,
+        49
+      ],
+      "core": [
+        16603,
+        24026,
+        34425,
+        27979
+      ],
+      "all_strict_units": false,
+      "square_remainders": [
+        3124,
+        12892,
+        4590,
+        3426
+      ]
+    },
+    {
+      "n": 11,
+      "denominators": [
+        21353,
+        15,
+        49,
+        53
+      ],
+      "core": [
+        21353,
+        30915,
+        44443,
+        36199
+      ],
+      "all_strict_units": true,
+      "square_remainders": [
+        14196,
+        16488,
+        39908,
+        23222
+      ]
+    },
+    {
+      "n": 13,
+      "denominators": [
+        33397,
+        53,
+        19,
+        61
+      ],
+      "core": [
+        33397,
+        48389,
+        69939,
+        57157
+      ],
+      "all_strict_units": true,
+      "square_remainders": [
+        26665,
+        25564,
+        47853,
+        3748
+      ]
+    }
+  ],
+  "all_pass_four_square_conditions": false,
+  "scope": "specific rational nested family; not a counterexample to the actual core conditions"
+}

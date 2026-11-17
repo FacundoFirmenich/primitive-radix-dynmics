@@ -1,0 +1,8 @@
+{"arithmetic": "exact rational", "source_sha256": "3e1222467827393165c14494411e88f160e21f3cecd6cd75a613606b0eb3e978", "input": "BOUNDARY_CENSUS_T5000.json", "coordinate_map": "(A_native,C_native,D_native,Q_native,E)=(Q,D,C,A,E)"}
+{
+  "archived_checker_positive_control": true,
+  "terminal_three_square_cores_checked": 157,
+  "native_reflection_checked": true,
+  "survivors": 0,
+  "scope": "independent checker, same underlying mathematical criterion; not an independent full census"
+}

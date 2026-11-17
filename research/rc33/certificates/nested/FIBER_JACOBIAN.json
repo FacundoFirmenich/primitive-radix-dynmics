@@ -1,0 +1,10 @@
+{
+  "levels": [
+    "-178",
+    "-56"
+  ],
+  "matrix": "Matrix([[43720360/148393, -34809680/148393], [31219776/924715, 47140096/924715]])",
+  "determinant": "861212689408/37543429",
+  "rank": 2,
+  "scope": "geometric rational relaxation on fixed C4 cofactor plane"
+}

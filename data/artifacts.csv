@@ -19,3 +19,37 @@ A017,Two-chart projective-width proof,proofs/TWO_CHART_PROJECTIVE_WIDTH.md,proof
 A018,Two-chart and elliptic regression checkers,src/rmr/check_two_chart_projective_width.py;src/rmr/check_elliptic_frontier.py,software,C020;C021
 A019,DF015-0015-B1 exact chamber exclusion,research/df015-0015/,exact_certificate,R001
 A020,Round 018 rational Farkas replay,src/rmr/verify_rgphi_farkas_728.py,software,C018
+A021,Oriented catalogue crosswalk,research/five-state/continuation/ORIENTED_TO_ROUND015.csv,catalogue,R001;R002
+A022,Shared chamber exhaustive verification,research/five-state/continuation/verify_shared_chambers.py,software,R002
+A023,Exact predecessor and resultant certificate,research/five-state/continuation/SPARSE_S_STRICT_CERTIFICATES.json,exact_certificate,R004
+A024,Round 015 oriented status ledger,research/five-state/continuation/ORIENTED_STATUS.csv,catalogue,R001;R002;R003;R004
+A025,Strict-T rectangle resultant certificate,research/five-state/continuation/STRICT_T_RECTANGLE_CERTIFICATES.json,exact_certificate,R005
+A026,Five further factor-three exclusion certificates,research/five-state/continuation/REMAINING_RESULTANT_CERTIFICATES.json,exact_certificate,R006
+A027,Square-cycle pure sign exclusion,research/five-state/continuation/SQUARE_CYCLE_PURE_SIGN_CERTIFICATE.json,exact_certificate,R008
+A028,Square-cycle cofactor normalization control,research/five-state/continuation/SQUARE_CYCLE_COFACTOR_REPLAY.json,regression_certificate,R009
+A029,Bounded square cycle witness census,research/five-state/continuation/SQUARE_CYCLE_SEARCH_100000.md,computation_record,R010
+A030,Localized witnesses in all five shift chambers,research/five-state/continuation/SQUARE_CYCLE_LOCAL_SIEVES_43.json,regression_certificate,R011
+A031,Curve finiteness via heights and reciprocity,research/five-state/continuation/SQUARE_CYCLE_CURVE_FINITE.md,proof_record,R012
+A032,Surface and plane finiteness via bounded discrete quotients,research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md,proof_record,R013
+A033,Global obstruction to the powered cycle ideal quotient,research/five-state/continuation/SQUARE_CYCLE_POWERED_QUOTIENT_OBSTRUCTION.md,proof_record,R014
+A034,Fixed-prime support theorem with the fifth-state direction,research/five-state/continuation/SQUARE_CYCLE_PRIME_SUPPORT.md,proof_record,R015
+A035,Rank and 2-adic tests for the fifth-state direction,research/five-state/continuation/verify_square_prime_support.py,software,R015
+A036,Exhaustive integer certificate for vanishing complementary constants,research/five-state/continuation/SQUARE_CYCLE_ZERO_CONSTANTS_CERTIFICATE.json,exact_certificate,R016
+A037,Deterministic checker for vanishing complementary constants,research/five-state/continuation/verify_opposite_zero_constants.py,software,R016
+A038,Common arithmetic and separated chambers at factor three,research/five-state/continuation/FACTOR_THREE_COMMON_ARITHMETIC.md,proof_record,R017;R018
+A039,Base-first complete checker and witness-base result,research/five-state/continuation/verify_residual_by_base.py;research/five-state/continuation/FACTOR_THREE_WITNESS_BASE_CERTIFICATE.json,exact_certificate,R018
+A040,Opposite-pair descent obstruction and exact replay,research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT.md;research/five-state/continuation/verify_complement_descent.py;research/five-state/continuation/SQUARE_CYCLE_COMPLEMENT_DESCENT_CERTIFICATE.json,exact_certificate,R019
+A041,CRT lattice slope uniqueness and exact witness fibre comparison,research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES.md;research/five-state/continuation/verify_square_lattice_fibres.py;research/five-state/continuation/SQUARE_CYCLE_LATTICE_FIBRES_CERTIFICATE.json,proof_record,R020
+A042,Parallel local search block records and range enumeration,research/five-state/continuation/SQUARE_CYCLE_PARALLEL_CENSUS.json;research/five-state/continuation/square_cycle_search_range.cs,computation_record,R021
+A043,Prime pattern proof and exact rank checker,research/five-state/continuation/SQUARE_CYCLE_PRIME_PATTERNS.md;research/five-state/continuation/verify_square_prime_patterns.py,proof_record,R022
+A044,Reverse CRT slope theorem,research/five-state/continuation/SQUARE_CYCLE_REVERSE_LATTICES.md,proof_record,R023
+A045,Uniqueness on the witness cofactor plane and quadratic replay,research/five-state/continuation/WITNESS_COFACTOR_PLANE.md;research/five-state/continuation/verify_witness_cofactor_plane.py,exact_certificate,R024
+A046,Weighted cycle ideal quotient obstruction,research/five-state/continuation/SQUARE_CYCLE_WEIGHTED_QUOTIENT_OBSTRUCTION.md,proof_record,R025
+A-RC33-E,Fifth-coordinate exact leaves,research/rc33/code/check_fifth_coordinate.py,exact_checker,RC33-E
+A-RC33-H,Signed cofactor all-height coverage,research/rc33/code/check_integrated_certificates.py,exact_checker,RC33-H14;RC33-CAP
+A-R17-SINE,Sine exact code and data,research/rc33/recent/sine,software_and_exact_data,R17O;R17R;R17P;R17H;R17V
+A-R17-SYNERGIES,Synergies exact code and data,research/rc33/recent/synergies,software_and_exact_data,R17T;R17I;R17D;R17V
+A-R17-CHAMBER,Chamber exact code and data,research/rc33/recent/chamber,software_and_exact_data,R17Q;R17B;R17C;R17V
+A-R17-WEIGHTED,Weighted exact code and data,research/rc33/recent/weighted,software_and_exact_data,R17S;R17N;R17V
+A-R17-TRIADIC,Triadic exact code and data,research/rc33/recent/triadic,software_and_exact_data,R17A;R17F;R17J;R17G;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V
+A-R17-REPLAY,Public five-module replay and source manifest,research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json,reproducible_checker,R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V

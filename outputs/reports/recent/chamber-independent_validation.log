@@ -1,0 +1,47 @@
+{"root_moduli_inclusive": [2, 2500], "direct_census_max_t": 180, "units": "dimensionless", "arithmetic": "exact integer/rational", "source_sha256": "9d278ce500173bb4d74637fae32b8751acb201e0b65b25555660032959b6d0b8"}
+{
+  "all_roots_complete": true,
+  "direct_vs_roots_census_equal": true,
+  "three_square_cores_at_180": [
+    [
+      1955,
+      3617,
+      3448,
+      1939,
+      1801
+    ]
+  ],
+  "four_square_cores_at_180": [],
+  "quartic_certificate": {
+    "coefficient_matrix": [
+      [
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -9
+      ],
+      [
+        9,
+        0,
+        0,
+        1
+      ]
+    ],
+    "determinant": -80,
+    "consequence": "all k_i vanish; P is a multiple of A*C*D*Q"
+  },
+  "symbolic_boundary_identities": true,
+  "seconds": 1.029740882004262
+}

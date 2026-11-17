@@ -1,0 +1,8 @@
+{
+  "pure_power_nonuniform_cases": 20,
+  "all_have_cofactor_two": true,
+  "one_odd_sign_cases": 2940,
+  "both_cofactors_above14_cases": 936,
+  "all_missing_sign_neighbour_v2_at_least4": true,
+  "scope": "finite self-check of the local symbolic prime-support argument"
+}

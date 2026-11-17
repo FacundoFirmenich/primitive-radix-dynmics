@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checks": 159,
+  "enumeration_summary": [
+    {
+      "leaf_occurrences": 1,
+      "all_syntactic_trees": 2,
+      "valid_trees": 2,
+      "undefined_trees": 0,
+      "distinct_values": 2,
+      "valid_joint_trees": 0,
+      "distinct_joint_values": 0
+    },
+    {
+      "leaf_occurrences": 2,
+      "all_syntactic_trees": 16,
+      "valid_trees": 16,
+      "undefined_trees": 0,
+      "distinct_values": 12,
+      "valid_joint_trees": 8,
+      "distinct_joint_values": 6
+    },
+    {
+      "leaf_occurrences": 3,
+      "all_syntactic_trees": 256,
+      "valid_trees": 252,
+      "undefined_trees": 4,
+      "distinct_values": 86,
+      "valid_joint_trees": 190,
+      "distinct_joint_values": 72
+    },
+    {
+      "leaf_occurrences": 4,
+      "all_syntactic_trees": 5120,
+      "valid_trees": 5000,
+      "undefined_trees": 120,
+      "distinct_values": 684,
+      "valid_joint_trees": 4390,
+      "distinct_joint_values": 646
+    },
+    {
+      "leaf_occurrences": 5,
+      "all_syntactic_trees": 114688,
+      "valid_trees": 110940,
+      "undefined_trees": 3748,
+      "distinct_values": 5379,
+      "valid_joint_trees": 104250,
+      "distinct_joint_values": 5278
+    }
+  ],
+  "total_valid": 116210,
+  "distinct_joint_values": 5375
+}

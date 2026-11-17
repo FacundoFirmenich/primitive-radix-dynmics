@@ -2,7 +2,7 @@
 
 ## Exact verification — no package installation required
 
-Python 3.10+ is enough for the authoritative exact Python checks:
+Python 3.11+ is enough for the authoritative exact Python checks:
 
 ```bash
 make verify
@@ -40,3 +40,11 @@ Expected generated outputs:
 - `outputs/checksums/SHA256SUMS.txt`
 
 No manuscript is generated: the manuscript is deliberately outside this repository during the pre-arXiv embargo.
+
+## Integrated RC3.3 modules
+
+`make rc33-verify` checks the all-height cofactor strata and fifth coordinate.
+`make recent-verify` runs the ten recent scripts in temporary directories.
+`make sync-check` audits versions, evidence paths, immutable input hashes and graph consistency.
+`make recent-full-census` separately repeats the complete t ≤ 5000 chamber census.
+The full figure export uses CairoSVG and its system Cairo library (for example, `libcairo2` on Ubuntu).

@@ -1,0 +1,117 @@
+{
+  "checkpoint": "NEST-ATTACK-001",
+  "review_provenance": "self-review only",
+  "claims": [
+    {
+      "id": "N1",
+      "claim": "Any realization in the three residual systems with at least one signed reduced cofactor <=14 is the known carrier.",
+      "verdict": "proved as written on the stated cofactor jurisdiction by finite reduction and exact certificates",
+      "review": "self-review",
+      "dependencies": [
+        "necessary chamber/unit/gcd conditions of the canonical systems",
+        "written R1/R2 integrality proof",
+        "integer bounds from exact plane vertices",
+        "quadratic exhaustion and nondegeneracy",
+        "9 additional h=1 planes",
+        "ten-edge CRT checker"
+      ],
+      "outputs": [
+        "NESTED_STRATA_RESULTS.json",
+        "PURE_SIGN_NESTED_REPLAY.json",
+        "RUN_MANIFEST.json",
+        "JOINT_FIBER_RUN_MANIFEST.json"
+      ],
+      "global_classification": false
+    },
+    {
+      "id": "N1-C4",
+      "claim": "4(D-Q)=3C contains only the known 119772/r3 realization, at all heights.",
+      "verdict": "proved as written by explicit integer-level reduction and separate exact enumeration",
+      "review": "same-agent separate implementation; not independent peer review",
+      "outputs": [
+        "C4_PLANE_SEPARATE_CHECK.json",
+        "verify_c4_plane.py"
+      ]
+    },
+    {
+      "id": "P7",
+      "claim": "Odd-base residual realizations cannot have exactly three distinct odd prime factors on each of B-1 and B+1.",
+      "verdict": "proved as written under the residual root and overlap hypotheses",
+      "review": "self-review",
+      "dependencies": [
+        "four nonuniform roots",
+        "no shared odd prime between core moduli",
+        "at most one core divisible by4",
+        "cofactor2 exclusion"
+      ],
+      "extension_to_all_five_state_components": "inherits canonical catalogue and exclusions"
+    },
+    {
+      "id": "P48",
+      "claim": "For a new carrier, three odd primes in B-1 force B=33 mod48, and three in B+1 force B=15 mod48.",
+      "verdict": "correct only with the stated new-carrier and odd-base restrictions",
+      "review": "self-review",
+      "do_not_overstrengthen": "The local argument gives divisibility by16, not32; B=111,M=352 has cofactors16,22 and v2(B+1)=4."
+    },
+    {
+      "id": "H1",
+      "claim": "Full parallel quadratic-complement mutation exits the strict-prime all-unit core domain; the second step has strict-prime denominators.",
+      "verdict": "proved as written for this specified mutation template",
+      "review": "self-review",
+      "outputs": [
+        "HELICAL_LIFT_RESULTS.json"
+      ],
+      "does_not_imply": "Nonexistence of finite projective components or all other descents"
+    },
+    {
+      "id": "F1",
+      "claim": "Joint core-unit and square_A postfilters select the known point from the1254 generated119772/r3 candidate points.",
+      "verdict": "computationally verified exactly on the stated generated finite set",
+      "review": "self-review",
+      "outputs": [
+        "JOINT_FIBER_ATTACK_RESULTS.json"
+      ],
+      "missing_for_global_use": "A proof that all carriers enter a generated cofactor<=14 stratum."
+    },
+    {
+      "id": "R1",
+      "claim": "Reducing M=g*h with Lminus=g*k and gcd(k,h)=1 preserves M|Lminus*Lplus iff h|Lplus.",
+      "verdict": "proved as written",
+      "review": "self-review",
+      "derived_risk": "Dropping conjugate-factor data gives false carriers, including the explicit all-unit pairwise-coprime example."
+    },
+    {
+      "id": "GLOBAL",
+      "claim": "The two residual existence questions, global carrier uniqueness and least-base questions are closed.",
+      "verdict": "incomplete, with uniform cofactor bound or valid domain-preserving descent missing",
+      "review": "self-review",
+      "status": "not claimed"
+    },
+    {
+      "id": "F2",
+      "claim": "Positive nesting plus pairwise-coprime all-unit core coordinates and pairwise-coprime cofactors implies the full square conditions.",
+      "verdict": "refuted, with explicit relaxed counterexample",
+      "review": "self-review",
+      "counterexample": [
+        532009,
+        782693,
+        1114047,
+        904253
+      ],
+      "residues": [
+        262508,
+        21,
+        64,
+        86
+      ],
+      "does_not_refute": "actual RGPHI target, which requires the square divisibilities"
+    },
+    {
+      "id": "F3",
+      "claim": "Each individual known C4 level is a smooth rational conic; their joint levels are locally transverse at the witness.",
+      "verdict": "proved as written for the stated geometric rational relaxation",
+      "review": "self-review",
+      "scope_limit": "Local Jacobian does not prove global uniqueness; integer-level exhaustion is separate."
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "name": "Primitive Radix Dynamics: research and reproducibility companion",
-  "version": "0.3.0-rc7",
+  "name": "Primitive radix–Möbius dynamics: research and reproducibility companion",
+  "version": "RC3.3",
   "codeRepository": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics",
   "license": "https://spdx.org/licenses/MIT.html",
   "programmingLanguage": [
@@ -30,5 +30,7 @@
     "version": "RC3.3",
     "identifier": "https://doi.org/10.5281/zenodo.24270311",
     "url": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo"
-  }
+  },
+  "softwareVersion": "0.3.3",
+  "dateModified": "2026-11-17"
 }

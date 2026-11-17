@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-17",
+  "edition": "RC3.3",
+  "figure_assets": {
+    "rc33_epistemic_EN.svg": "7685a46c6a4cc40c819e580ab4507e16ba926c1157f90f544ba23cd016975616",
+    "rc33_visual_EN.svg": "da80fb7a9be138625ade5de88108e71b9f15954a0f1aa1609de159d7e23b9568",
+    "rc33_coupled_EN.svg": "9b1bbfff4c7bec5f620ad143f4953ef7949499b3bbeb253dcf86353d83b0e044",
+    "rc33_fibres_EN.svg": "156d0745f93133bc4b68c667f9472dc899c3d0074735f86341b2adfd07159ef8",
+    "rc33_realization_EN.svg": "b081f3f04eef0a325b2f264333409a02d8f5682d9d5d7099c6954a3618a1923d",
+    "rc33_epistemic_ES.svg": "95d6f66b31727ebd5ffe2239e734b486c3a72365f7942bee7080f2b30e826b50",
+    "rc33_visual_ES.svg": "958943e4e287d0b393cffb6fea2ec0d6e4be94435c7218c3f085eac8212b0e65",
+    "rc33_coupled_ES.svg": "6917e344fc8b689d3cba638e066a7514eaa7722a7863577d39c5c353218b790b",
+    "rc33_fibres_ES.svg": "57de5c34fe53520efba37fb965c8cafc4496fab6ca244c3a5b3dc7a55259eabf",
+    "rc33_realization_ES.svg": "a0ca180526539cf889cd9aea53c71c7ce842e1c82b8f5069ad81593e371f8377"
+  },
+  "private_document_hashes": {
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "e052b54ace40ed9d5cbf12c037844f5c0cd1898c3d3c3453d53d9f321240e55f",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "379c1211c018359fe4feb555f0a891dd609e1e64b4691b6da25f295630cbaefc",
+    "RGPHI_RC3_3_MAIN_EN.pdf": "a141590658637bbd2dfe8c4dbc371b1e7790255d794a286625eb8846a07fde91",
+    "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
+    "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "bb528226dc174bac5c84913dc0a31f82318ca2342450426a8346fb912ef14258",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "dec310fcb237da7514c0730ed5645684feb1f44f42d264e3e1d996abaa23f6c5",
+    "RGPHI_RC3_3_MAIN_ES.pdf": "d287576e7adadc52927bcf787e3e92c08ede5337860a75dd4cf3d354fad0ca1b",
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "c52de8856dc0e594827e0180e388f668484614b34ce77409f6731004eeafc108",
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "75f532ab9c1224ddf35dbd6d8f5c184bf39eef87bce345935235b8be704d2c44"
+  },
+  "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private."
+}

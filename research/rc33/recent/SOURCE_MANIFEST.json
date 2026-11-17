@@ -1,0 +1,193 @@
+{
+  "edition": "RC3.3",
+  "date": "2026-11-17",
+  "files": [
+    {
+      "source": "certificates/recent-2026-11-17/sine/independent_checks.py",
+      "public_path": "research/rc33/recent/sine/independent_checks.py",
+      "sha256": "0a5c1e9b7f36717611445c9a1114914560f15c997f42c2b1261f7a05c993b754",
+      "bytes": 5453
+    },
+    {
+      "source": "certificates/recent-2026-11-17/sine/INDEPENDENT_RESULTS.json",
+      "public_path": "research/rc33/recent/sine/INDEPENDENT_RESULTS.json",
+      "sha256": "0bc04489a9ff0dbc0b7694315816935f4a7ac2febae2c4c9c5392afbc5a5c0e8",
+      "bytes": 325686
+    },
+    {
+      "source": "certificates/recent-2026-11-17/sine/input/verificar_puente.py",
+      "public_path": "research/rc33/recent/sine/input/verificar_puente.py",
+      "sha256": "205b1b1f3ea8e471ee2715d970c6e3ec47342f096e30f98cffed75efc0ab6b48",
+      "bytes": 5754
+    },
+    {
+      "source": "certificates/recent-2026-11-17/sine/input/RESULTADOS_EXACTOS.json",
+      "public_path": "research/rc33/recent/sine/input/RESULTADOS_EXACTOS.json",
+      "sha256": "6396808dfc9de270c229a87ed7a8cfabc9d245ee83230dc1b7aaf4976327342b",
+      "bytes": 3770
+    },
+    {
+      "source": "certificates/recent-2026-11-17/synergies/independent_checks.py",
+      "public_path": "research/rc33/recent/synergies/independent_checks.py",
+      "sha256": "419ebd510571cc8587650e4fc61ae7b60ca6b366d4819fe248b7ade27cb8edf9",
+      "bytes": 7193
+    },
+    {
+      "source": "certificates/recent-2026-11-17/synergies/INDEPENDENT_RESULTS.json",
+      "public_path": "research/rc33/recent/synergies/INDEPENDENT_RESULTS.json",
+      "sha256": "ad86c19ad83aba51e324ad12c1ecd4f7e9eb55defb00b2a797f160c191cbe30d",
+      "bytes": 11932
+    },
+    {
+      "source": "certificates/recent-2026-11-17/synergies/input/verificacion_exacta.py",
+      "public_path": "research/rc33/recent/synergies/input/verificacion_exacta.py",
+      "sha256": "e30d31a2bff46edde39897cd2a6e8f1c923a941f7f3ec451926141ddcb9f37b3",
+      "bytes": 1912
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/boundary_census.py",
+      "public_path": "research/rc33/recent/chamber/boundary_census.py",
+      "sha256": "1a2c1d39ce45f01be9cbcb108f33a928a97fe4515102506983fdbd6d4e43a18e",
+      "bytes": 8182
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/independent_validation.py",
+      "public_path": "research/rc33/recent/chamber/independent_validation.py",
+      "sha256": "9d278ce500173bb4d74637fae32b8751acb201e0b65b25555660032959b6d0b8",
+      "bytes": 3595
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/terminal_replay.py",
+      "public_path": "research/rc33/recent/chamber/terminal_replay.py",
+      "sha256": "3e1222467827393165c14494411e88f160e21f3cecd6cd75a613606b0eb3e978",
+      "bytes": 1365
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/algebra_routes.py",
+      "public_path": "research/rc33/recent/chamber/algebra_routes.py",
+      "sha256": "2c1a3a308787b3661462f70fbf59a5a9a9f1de01f9325ce0aed38082a8a56bbc",
+      "bytes": 3623
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/BOUNDARY_CENSUS_T5000.json",
+      "public_path": "research/rc33/recent/chamber/BOUNDARY_CENSUS_T5000.json",
+      "sha256": "5b78f443c46e88f0a0aa1943e5f09525f6dfe8f771a3c9d73047f81de0ebeb03",
+      "bytes": 41696
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/BOUNDARY_CENSUS_T600.json",
+      "public_path": "research/rc33/recent/chamber/BOUNDARY_CENSUS_T600.json",
+      "sha256": "1c0ba34566d2ff9695dbd1c9f9b4b919ef7f7a9aef92e06a1ca80f7e7232afdb",
+      "bytes": 1779
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/INDEPENDENT_VALIDATION.json",
+      "public_path": "research/rc33/recent/chamber/INDEPENDENT_VALIDATION.json",
+      "sha256": "de0be149c742e5aba208b636277c2c00c1616373b1afa325d420f9011efc9b14",
+      "bytes": 956
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/TERMINAL_CHECK.json",
+      "public_path": "research/rc33/recent/chamber/TERMINAL_CHECK.json",
+      "sha256": "2b407cb3e57b2abac18ef77b9e5b5ad8be374530e869af7e943ad45119355e26",
+      "bytes": 255
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/ALGEBRA_RESULTS.json",
+      "public_path": "research/rc33/recent/chamber/ALGEBRA_RESULTS.json",
+      "sha256": "cabc1d19f17201a6ebcd28704f1a6e0a258c29cc8347277b9b10208c263d1da5",
+      "bytes": 1552
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/ALGEBRA.log",
+      "public_path": "research/rc33/recent/chamber/ALGEBRA.log",
+      "sha256": "8e5d9b429854ad9686cf8c8eeacb2c19b43ae9af7152f60dc80ffe6bcc820cb5",
+      "bytes": 1756
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/SOURCE_CHECKPOINT.json",
+      "public_path": "research/rc33/recent/chamber/SOURCE_CHECKPOINT.json",
+      "sha256": "a71e54d15baa3bf0e3f8ec8b9d2c852c0096b46951d1c19e528bb40256468c2a",
+      "bytes": 2519
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/sources/src/rmr/__init__.py",
+      "public_path": "research/rc33/recent/chamber/sources/src/rmr/__init__.py",
+      "sha256": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+      "bytes": 23
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/sources/src/rmr/core.py",
+      "public_path": "research/rc33/recent/chamber/sources/src/rmr/core.py",
+      "sha256": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+      "bytes": 1038
+    },
+    {
+      "source": "certificates/recent-2026-11-17/chamber/sources/verify_exceptional_crt.py",
+      "public_path": "research/rc33/recent/chamber/sources/verify_exceptional_crt.py",
+      "sha256": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+      "bytes": 6116
+    },
+    {
+      "source": "certificates/recent-2026-11-17/weighted/verify_covers.py",
+      "public_path": "research/rc33/recent/weighted/verify_covers.py",
+      "sha256": "4d17d7a559858db2b8458daa5254f6ffea5318c2b405d24b29cdcac0c0cf8251",
+      "bytes": 12076
+    },
+    {
+      "source": "certificates/recent-2026-11-17/weighted/EXACT_RESULTS.json",
+      "public_path": "research/rc33/recent/weighted/EXACT_RESULTS.json",
+      "sha256": "cca61a455fe2cd097cb72635d4519afe5e8a6cf064894a7792bbd3915d3208f3",
+      "bytes": 10755
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/verify_triadic_extension.py",
+      "public_path": "research/rc33/recent/triadic/verify_triadic_extension.py",
+      "sha256": "79d46f3b741938bd9f76c2eff7a439300f6b1f5c61715d5984acc5d62639d246",
+      "bytes": 11944
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/EXACT_RESULTS.json",
+      "public_path": "research/rc33/recent/triadic/EXACT_RESULTS.json",
+      "sha256": "9099693aabe1aa6ab3f7e956d5e7b69d8f1fea8452faef5fa0c6a20e45b9c958",
+      "bytes": 22308
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/RESULTADOS_TRINARIOS.json",
+      "public_path": "research/rc33/recent/triadic/source-replay/RESULTADOS_TRINARIOS.json",
+      "sha256": "823e8af6c412114a2548a8f4af330d4b6da8b61e7384129bab015297877315fc",
+      "bytes": 19768
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/auditar_irreducibles_ORIGINAL.py",
+      "public_path": "research/rc33/recent/triadic/source-replay/auditar_irreducibles_ORIGINAL.py",
+      "sha256": "1d1f097a6ee6a362b2f7d4f3803d9fe20984db78a0c502c9520c44d67f62160a",
+      "bytes": 23820
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/auditar_triada.py",
+      "public_path": "research/rc33/recent/triadic/source-replay/auditar_triada.py",
+      "sha256": "d7c833db19c4d25217b964faf6108aee6e9e8a0b3151629dda2a716978a0fd61",
+      "bytes": 16558
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/baseline_dos_fuentes/expresiones_hasta_5_hojas.json",
+      "public_path": "research/rc33/recent/triadic/source-replay/baseline_dos_fuentes/expresiones_hasta_5_hojas.json",
+      "sha256": "2e118dd98f11be072fcab4f9d95d2fc26119a56cce0eb8b905eac557ed2037b8",
+      "bytes": 1012158
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/baseline_dos_fuentes/procedencia_dag.json",
+      "public_path": "research/rc33/recent/triadic/source-replay/baseline_dos_fuentes/procedencia_dag.json",
+      "sha256": "844727c80b6fc7e2456a52e669a2e144824fd50bd6eed6586b95bd31db23177d",
+      "bytes": 7284
+    },
+    {
+      "source": "certificates/recent-2026-11-17/triadic/source-replay/baseline_dos_fuentes/resultados.json",
+      "public_path": "research/rc33/recent/triadic/source-replay/baseline_dos_fuentes/resultados.json",
+      "sha256": "889ab2c3b70403c09be5cd36541e5903652b9252f14377dcbb1316a9ee04ccd0",
+      "bytes": 31350
+    }
+  ],
+  "selection": "Exact code/data subset of the canonical private delivery; no manuscripts, manuscript HTML, note PDFs, fonts or source TEX. Historical source hashes can refer to private files; those files are not required by this public replay."
+}

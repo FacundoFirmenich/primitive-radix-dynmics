@@ -11,7 +11,7 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "name": "Primitive Radix Dynamics reproducibility companion",
+      "name": "Primitive radix–Möbius dynamics reproducibility companion",
       "license": {
         "@id": "https://spdx.org/licenses/MIT.html"
       },

@@ -1,0 +1,618 @@
+{
+  "config": {
+    "python": "3.12.14",
+    "arithmetic": "exact integer/rational",
+    "angles_degrees": [
+      [
+        1,
+        100
+      ],
+      [
+        9,
+        500
+      ],
+      [
+        1,
+        50
+      ],
+      [
+        3,
+        125
+      ],
+      [
+        3,
+        100
+      ]
+    ],
+    "normalization": "P=m*sin(pi/m), m=(180/a)*10**n",
+    "scale_shifts": [
+      7,
+      7,
+      7,
+      7,
+      6
+    ],
+    "phase_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pi_certificate": "Machin: 16 atan(1/5)-4 atan(1/239), even 80-term lower sums",
+    "error_certificate": "8-term lower at pi_lower; 9-term upper at pi_upper",
+    "family_n_cases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_sha256": "419ebd510571cc8587650e4fc61ae7b60ca6b366d4819fe248b7ade27cb8edf9"
+  },
+  "permutation_families": [
+    {
+      "cyclic_generator": "T",
+      "n": 2,
+      "base": 211,
+      "core_modulus": 8,
+      "other_coordinates": [
+        7,
+        5
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 2,
+      "base": 1171,
+      "core_modulus": 8,
+      "other_coordinates": [
+        15,
+        13
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 3,
+      "base": 234601,
+      "core_modulus": 26,
+      "other_coordinates": [
+        25,
+        23,
+        17
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 3,
+      "base": 2578969,
+      "core_modulus": 26,
+      "other_coordinates": [
+        51,
+        49,
+        43
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 4,
+      "base": 412025923,
+      "core_modulus": 80,
+      "other_coordinates": [
+        79,
+        77,
+        71,
+        53
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 4,
+      "base": 9023974723,
+      "core_modulus": 80,
+      "other_coordinates": [
+        159,
+        157,
+        151,
+        133
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 5,
+      "base": 111492702409201,
+      "core_modulus": 242,
+      "other_coordinates": [
+        241,
+        239,
+        233,
+        215,
+        161
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 5,
+      "base": 337689425946601,
+      "core_modulus": 242,
+      "other_coordinates": [
+        483,
+        481,
+        475,
+        457,
+        403
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 6,
+      "base": 4501519179524615251,
+      "core_modulus": 728,
+      "other_coordinates": [
+        727,
+        725,
+        719,
+        701,
+        647,
+        485
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 6,
+      "base": 393719229369602111251,
+      "core_modulus": 728,
+      "other_coordinates": [
+        1455,
+        1453,
+        1447,
+        1429,
+        1375,
+        1213
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 7,
+      "base": 58141949238502361682477441,
+      "core_modulus": 2186,
+      "other_coordinates": [
+        2185,
+        2183,
+        2177,
+        2159,
+        2105,
+        1943,
+        1457
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 7,
+      "base": 51033228947515873442400536521,
+      "core_modulus": 2186,
+      "other_coordinates": [
+        4371,
+        4369,
+        4363,
+        4345,
+        4291,
+        4129,
+        3643
+      ]
+    },
+    {
+      "cyclic_generator": "T",
+      "n": 8,
+      "base": 311185578772372632764093076762883,
+      "core_modulus": 6560,
+      "other_coordinates": [
+        6559,
+        6557,
+        6551,
+        6533,
+        6479,
+        6317,
+        5831,
+        4373
+      ]
+    },
+    {
+      "cyclic_generator": "S",
+      "n": 8,
+      "base": 4524498821468388934292141696379523,
+      "core_modulus": 6560,
+      "other_coordinates": [
+        13119,
+        13117,
+        13111,
+        13093,
+        13039,
+        12877,
+        12391,
+        10933
+      ]
+    }
+  ],
+  "sine_certificates": {
+    "pi_interval_width": "191022267195391278490734635402154818790509625697724049731560282425255228016502213915129706424022857228141867051185061367824317196241942978774617309536083075184255708354911893054013720416857681750793927213075593637450031424328986447148504332475210881332849014571025182223824106811259728056157327046773525472089882285406467864798777774183769498197551242867908133603786917899761789997532/65759815608691734982434744359324186288950394224551897427360393011820407480047167247757465393640839412791718970202043460239737838992562664537807116516415442770335328018015335312888056760332078489059574773975051162640321096888241875458772307240055401203909333506037019354985184097851946132060893418735623377007376630092015117956695204035872807642889309019884514737156965264918014505743185250288887979855376803312238885636381751642633814671526851934975336122675415584382108136196620762348175048828125",
+    "phase_rows": [
+      {
+        "n": 0,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          8,
+          8,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "n": 1,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          10,
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "n": 2,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "first_difference_positions": [
+          12,
+          12,
+          12,
+          12,
+          11
+        ]
+      },
+      {
+        "n": 3,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "first_difference_positions": [
+          14,
+          14,
+          14,
+          14,
+          13
+        ]
+      },
+      {
+        "n": 4,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          16,
+          15,
+          15,
+          15,
+          15
+        ]
+      },
+      {
+        "n": 5,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          18,
+          18,
+          18,
+          17,
+          17
+        ]
+      },
+      {
+        "n": 6,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          20,
+          20,
+          19,
+          19,
+          19
+        ]
+      },
+      {
+        "n": 7,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          22,
+          22,
+          22,
+          21,
+          21
+        ]
+      },
+      {
+        "n": 8,
+        "borrow_bits_common_pi_normalization": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "first_difference_positions": [
+          24,
+          23,
+          23,
+          23,
+          23
+        ]
+      }
+    ],
+    "independently_certified_floor_comparisons": 45,
+    "cross_family_coboundary_checks": 360,
+    "empirical_equidistribution_assumed": false
+  },
+  "strip_transfer": {
+    "uniform_sign_branches": [
+      {
+        "modulus": "A",
+        "sign": "+",
+        "linear_form": "E-Q",
+        "consequence": "forced zero then repeated state"
+      },
+      {
+        "modulus": "A",
+        "sign": "-",
+        "linear_form": "E+Q",
+        "strip": "A<L<2A"
+      },
+      {
+        "modulus": "Q",
+        "sign": "+",
+        "linear_form": "C-A",
+        "strip": "0<L<Q"
+      },
+      {
+        "modulus": "Q",
+        "sign": "-",
+        "linear_form": "C+A",
+        "consequence": "L=3Q, equivalently v=u; requires archived nontrivial pure-sign exclusion"
+      },
+      {
+        "modulus": "C",
+        "sign": "+",
+        "linear_form": "D-Q",
+        "strip": "0<L<C"
+      },
+      {
+        "modulus": "C",
+        "sign": "-",
+        "linear_form": "D+Q",
+        "strip": "C<L<2C"
+      },
+      {
+        "modulus": "D",
+        "sign": "+",
+        "linear_form": "3A-C",
+        "strip": "0<L<D"
+      },
+      {
+        "modulus": "D",
+        "sign": "-",
+        "linear_form": "3A+C",
+        "consequence": "L=3D, forcing 3|C"
+      }
+    ],
+    "branches_disposed_by_simple_strips_and_primitivity": 7,
+    "positive_walls": [
+      "-3*A + 2*D",
+      "C - D",
+      "-C + 2*Q",
+      "A - Q"
+    ],
+    "wall_basis_determinant": 1,
+    "exact_nonnegative_combination_certificates": [
+      {
+        "positive_form": "2*A/3 - D/3 + Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "7/3",
+          "7/3",
+          "11/3"
+        ]
+      },
+      {
+        "positive_form": "4*A/3 + D/3 - Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "5/3",
+          "5/3",
+          "13/3"
+        ]
+      },
+      {
+        "positive_form": "-2*A/3 + D/3 + Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "5/3",
+          "5/3",
+          "7/3"
+        ]
+      },
+      {
+        "positive_form": "5*A/3 - D/3 - Q",
+        "nonnegative_wall_coefficients": [
+          "0",
+          "1/3",
+          "1/3",
+          "5/3"
+        ]
+      },
+      {
+        "positive_form": "-A + C",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "2",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "positive_form": "A - C + Q",
+        "nonnegative_wall_coefficients": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "positive_form": "A + C - 2*Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "2",
+          "1",
+          "4"
+        ]
+      },
+      {
+        "positive_form": "-A - C + 4*Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "2",
+          "3",
+          "2"
+        ]
+      },
+      {
+        "positive_form": "D - Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "1",
+          "1",
+          "3"
+        ]
+      },
+      {
+        "positive_form": "C - D + Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "3",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "positive_form": "-C + D + Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "positive_form": "2*C - D - Q",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "3",
+          "1",
+          "3"
+        ]
+      },
+      {
+        "positive_form": "3*A - C",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "positive_form": "-3*A + C + D",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "positive_form": "3*A + C - 2*D",
+        "nonnegative_wall_coefficients": [
+          "1",
+          "4",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "positive_form": "-3*A - C + 4*D",
+        "nonnegative_wall_coefficients": [
+          "3",
+          "2",
+          "3",
+          "6"
+        ]
+      }
+    ],
+    "new_global_rows_excluded": 0,
+    "scope": "uniform roots only; does not discard mixed CRT roots"
+  },
+  "unrestricted_angle_counterexample": {
+    "a_degrees": 180,
+    "n": 0,
+    "m": 1,
+    "P": "sin(pi)=0"
+  }
+}

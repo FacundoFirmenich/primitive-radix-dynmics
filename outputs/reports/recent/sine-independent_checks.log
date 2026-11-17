@@ -1,0 +1,47 @@
+{
+  "domain": "dimensionless exact arithmetic",
+  "pi_identity": "pi=16 atan(1/5)-4 atan(1/239)",
+  "atan_terms": 180,
+  "global_pi_bracket": [
+    "157/50",
+    "22/7"
+  ],
+  "atan_remainder": "alternating series, next term bounds the remainder",
+  "phase_k": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "borrow_k": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "tau_bounds": "pi^3/60-pi^5/120*10^(-2k-7) < tau_k < previous +pi^7/5040*10^(-4k-13)",
+  "tau_series_applicability": "0 < pi*10^(-k-3) < 1",
+  "witness": {
+    "A": 406,
+    "C": 712,
+    "D": 1265,
+    "Q": 731,
+    "E": 557,
+    "R": 88011536665779,
+    "M": 223336848698040
+  }
+}
+PASS: 30 exact edges; 6 shared CRT residues; 9 independent phase transitions; 9 rational borrow certificates; natural-depth telescope checked.
+Borrow marks: [1, 0, 0, 0, 0, 1, 0, 0, 0]
+First differing decimals: [5, 8, 10, 12, 14, 15, 18, 20, 22]

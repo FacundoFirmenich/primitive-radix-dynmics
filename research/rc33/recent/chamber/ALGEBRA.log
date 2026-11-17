@@ -1,0 +1,69 @@
+{"arithmetic": "exact Q", "variables": ["A", "Q", "C", "D"], "units": "dimensionless integers", "ideal_powers": [1, 2, 3, 4], "source": "2c1a3a308787b3661462f70fbf59a5a9a9f1de01f9325ce0aed38082a8a56bbc"}
+{
+  "invariant_spaces": [
+    {
+      "t": 1,
+      "degree": 4,
+      "monomials": 35,
+      "constraint_rows": 36,
+      "rank": 34,
+      "nullity": 1,
+      "basis": [
+        "A*C*D*Q"
+      ],
+      "seconds": 0.048160824000660796
+    },
+    {
+      "t": 2,
+      "degree": 8,
+      "monomials": 165,
+      "constraint_rows": 180,
+      "rank": 164,
+      "nullity": 1,
+      "basis": [
+        "A**2*C**2*D**2*Q**2"
+      ],
+      "seconds": 0.2951099420024548
+    },
+    {
+      "t": 3,
+      "degree": 12,
+      "monomials": 455,
+      "constraint_rows": 504,
+      "rank": 454,
+      "nullity": 1,
+      "basis": [
+        "A**3*C**3*D**3*Q**3"
+      ],
+      "seconds": 1.2069558759976644
+    },
+    {
+      "t": 4,
+      "degree": 16,
+      "monomials": 969,
+      "constraint_rows": 1080,
+      "rank": 968,
+      "nullity": 1,
+      "basis": [
+        "A**4*C**4*D**4*Q**4"
+      ],
+      "seconds": 3.900152010995953
+    }
+  ],
+  "mutation_obstructions": {
+    "coordinate_convention": "native 606897 only",
+    "mutation": [
+      "s*(d**2 - q**2)/a",
+      "t*(-d**2 + 9*q**2)/c"
+    ],
+    "D_obstruction": "D | 81*t^2-s^2",
+    "Q_obstruction": "Q | t^2-81*s^2",
+    "unweighted": "D | 80 and Q | 80",
+    "cancellation_hypothesis": "gcd(D,Q)=1; even retained pair cannot preserve adjacent primitiveness for these integer weights",
+    "provenance": "reproduces SQUARE_CYCLE_COMPLEMENT_DESCENT.md; not claimed new",
+    "cleared_residues": [
+      "-a**2*q**4*(s - 9*t)*(s + 9*t)",
+      "-a**2*d**4*(9*s - t)*(9*s + t)"
+    ]
+  }
+}

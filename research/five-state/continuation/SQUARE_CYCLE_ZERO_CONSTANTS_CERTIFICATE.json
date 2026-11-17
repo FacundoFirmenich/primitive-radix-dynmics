@@ -1,0 +1,26 @@
+[
+  {
+    "code": 119772,
+    "factor": 2,
+    "line_parameterizations": 960,
+    "parameter_bound_max": 2760,
+    "primitive_square_cores": [],
+    "realizations": []
+  },
+  {
+    "code": 119772,
+    "factor": 3,
+    "line_parameterizations": 1216,
+    "parameter_bound_max": 59520,
+    "primitive_square_cores": [],
+    "realizations": []
+  },
+  {
+    "code": 606897,
+    "factor": 3,
+    "line_parameterizations": 1216,
+    "parameter_bound_max": 59520,
+    "primitive_square_cores": [],
+    "realizations": []
+  }
+]

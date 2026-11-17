@@ -1,0 +1,1045 @@
+{
+  "sources": {
+    "X": "{4777}",
+    "Y": "{6444}",
+    "Z": "{7444}",
+    "internal_access": "denied by mathematical contract"
+  },
+  "pairs": {
+    "XY": {
+      "values": [
+        4777,
+        6444
+      ],
+      "gcd": 1,
+      "lcm": 30782988,
+      "difference": 1667,
+      "sum": 11221,
+      "product": 30782988,
+      "bezout": [
+        1237,
+        -917,
+        1
+      ],
+      "primitive_ratio": "4777/6444",
+      "maps": {
+        "2": {
+          "T": {
+            "result": "1555/3222",
+            "defect": 2,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/8111",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "3": {
+          "T": {
+            "result": "481/2148",
+            "defect": 3,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/5001",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "4": {
+          "T": {
+            "result": "1555/1611",
+            "defect": 4,
+            "in_H": true
+          },
+          "S": {
+            "result": "4777/6668",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "10": {
+          "T": {
+            "result": "1331/3222",
+            "defect": 2,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/7116",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "11": {
+          "T": {
+            "result": "995/6444",
+            "defect": 1,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/8783",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "17": {
+          "T": {
+            "result": "3881/6444",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "281/543",
+            "defect": 17,
+            "in_H": true
+          }
+        },
+        "102": {
+          "T": {
+            "result": "659/1074",
+            "defect": 6,
+            "in_H": true
+          },
+          "S": {
+            "result": "281/448",
+            "defect": 17,
+            "in_H": true
+          }
+        }
+      }
+    },
+    "XZ": {
+      "values": [
+        4777,
+        7444
+      ],
+      "gcd": 1,
+      "lcm": 35559988,
+      "difference": 2667,
+      "sum": 12221,
+      "product": 35559988,
+      "bezout": [
+        1577,
+        -1012,
+        1
+      ],
+      "primitive_ratio": "4777/7444",
+      "maps": {
+        "2": {
+          "T": {
+            "result": "1055/3722",
+            "defect": 2,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/5334",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "3": {
+          "T": {
+            "result": "6887/7444",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "4777/8001",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "4": {
+          "T": {
+            "result": "1055/1861",
+            "defect": 4,
+            "in_H": true
+          },
+          "S": {
+            "result": "4777/5891",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "10": {
+          "T": {
+            "result": "1553/3722",
+            "defect": 2,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/7562",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "11": {
+          "T": {
+            "result": "439/7444",
+            "defect": 1,
+            "in_H": false
+          },
+          "S": {
+            "result": "4777/5452",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "17": {
+          "T": {
+            "result": "6769/7444",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "281/419",
+            "defect": 17,
+            "in_H": true
+          }
+        },
+        "102": {
+          "T": {
+            "result": "1697/3722",
+            "defect": 2,
+            "in_H": false
+          },
+          "S": {
+            "result": "281/547",
+            "defect": 17,
+            "in_H": true
+          }
+        }
+      }
+    },
+    "YZ": {
+      "values": [
+        6444,
+        7444
+      ],
+      "gcd": 4,
+      "lcm": 11992284,
+      "difference": 1000,
+      "sum": 13888,
+      "product": 47969136,
+      "bezout": [
+        -67,
+        58,
+        4
+      ],
+      "primitive_ratio": "1611/1861",
+      "maps": {
+        "2": {
+          "T": {
+            "result": "1361/1861",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "1611/2111",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "3": {
+          "T": {
+            "result": "1111/1861",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "537/787",
+            "defect": 3,
+            "in_H": true
+          }
+        },
+        "4": {
+          "T": {
+            "result": "861/1861",
+            "defect": 1,
+            "in_H": false
+          },
+          "S": {
+            "result": "1611/2611",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "10": {
+          "T": {
+            "result": "1222/1861",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "1611/2500",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "11": {
+          "T": {
+            "result": "972/1861",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "1611/2750",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "17": {
+          "T": {
+            "result": "1333/1861",
+            "defect": 1,
+            "in_H": true
+          },
+          "S": {
+            "result": "1611/2639",
+            "defect": 1,
+            "in_H": true
+          }
+        },
+        "102": {
+          "T": {
+            "result": "554/1861",
+            "defect": 1,
+            "in_H": false
+          },
+          "S": {
+            "result": "537/982",
+            "defect": 3,
+            "in_H": true
+          }
+        }
+      }
+    }
+  },
+  "triplet": {
+    "triangle_defects_of_independent_radix_maps": {
+      "4": {
+        "T": "89257/113307",
+        "S": "9490401/17410148"
+      },
+      "17": {
+        "T": "5173373/10904859",
+        "S": "225003/477659"
+      }
+    },
+    "unique_minimal_affine_Bezout": [
+      -3,
+      8,
+      -5
+    ],
+    "sum": 18665,
+    "pairwise_product_sum": 114312112,
+    "triple_product": 229148562672,
+    "gcd": 1,
+    "lcm": 57287140668,
+    "CRT_image_index": 4,
+    "CRT_condition": "rY ≡ rZ (mod 4)",
+    "affine_unit_relation": "-3*X+8*Y-5*Z=1",
+    "unit_coeff_norm_l1": 16,
+    "unimodular_matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        -3,
+        8,
+        -5
+      ],
+      [
+        1,
+        -3,
+        2
+      ]
+    ],
+    "unimodular_inverse": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        3,
+        8
+      ]
+    ],
+    "unimodular_coordinates": [
+      4777,
+      1,
+      333
+    ],
+    "cubic_polynomial_coefficients": [
+      1,
+      -18665,
+      114312112,
+      -229148562672
+    ],
+    "power_sums_first_8": [
+      3,
+      18665,
+      119758001,
+      789093206201,
+      5315692592806433,
+      36456865076666204105,
+      253638913644714603732401,
+      1784792396613633457064913881
+    ],
+    "hankel_3x3": [
+      [
+        3,
+        18665,
+        119758001
+      ],
+      [
+        18665,
+        119758001,
+        789093206201
+      ],
+      [
+        119758001,
+        789093206201,
+        5315692592806433
+      ]
+    ],
+    "hankel_determinant": 19765929000321000000,
+    "common_singleton_base_min": 57287140669,
+    "high_fraction_triangle": [
+      "4777/6444",
+      "4777/7444",
+      "1611/1861"
+    ]
+  },
+  "fourier": {},
+  "covers": {
+    "base_map_T": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "base_map_S": [
+      4,
+      2,
+      1,
+      0,
+      0
+    ],
+    "tested_moduli": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      19,
+      25,
+      29,
+      31
+    ],
+    "full_independent_graph_tests": [
+      {
+        "m": 2,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 10,
+        "period": 2
+      },
+      {
+        "m": 2,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 10,
+        "period": 2
+      },
+      {
+        "m": 2,
+        "weights": "YZ",
+        "components": 2,
+        "size_each": 5,
+        "period": 1
+      },
+      {
+        "m": 2,
+        "weights": "JOINT_XY_XZ",
+        "components": 2,
+        "size_each": 10,
+        "period": 2
+      },
+      {
+        "m": 3,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 15,
+        "period": 1
+      },
+      {
+        "m": 3,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 15,
+        "period": 3
+      },
+      {
+        "m": 3,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 15,
+        "period": 1
+      },
+      {
+        "m": 3,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 45,
+        "period": 3
+      },
+      {
+        "m": 4,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 20,
+        "period": 2
+      },
+      {
+        "m": 4,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 20,
+        "period": 2
+      },
+      {
+        "m": 4,
+        "weights": "YZ",
+        "components": 4,
+        "size_each": 5,
+        "period": 1
+      },
+      {
+        "m": 4,
+        "weights": "JOINT_XY_XZ",
+        "components": 4,
+        "size_each": 20,
+        "period": 2
+      },
+      {
+        "m": 5,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 25,
+        "period": 1
+      },
+      {
+        "m": 5,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 25,
+        "period": 1
+      },
+      {
+        "m": 5,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 25,
+        "period": 5
+      },
+      {
+        "m": 5,
+        "weights": "JOINT_XY_XZ",
+        "components": 5,
+        "size_each": 25,
+        "period": 1
+      },
+      {
+        "m": 6,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 30,
+        "period": 2
+      },
+      {
+        "m": 6,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 30,
+        "period": 6
+      },
+      {
+        "m": 6,
+        "weights": "YZ",
+        "components": 2,
+        "size_each": 15,
+        "period": 1
+      },
+      {
+        "m": 6,
+        "weights": "JOINT_XY_XZ",
+        "components": 2,
+        "size_each": 90,
+        "period": 6
+      },
+      {
+        "m": 7,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 35,
+        "period": 1
+      },
+      {
+        "m": 7,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 35,
+        "period": 7
+      },
+      {
+        "m": 7,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 35,
+        "period": 1
+      },
+      {
+        "m": 7,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 245,
+        "period": 7
+      },
+      {
+        "m": 8,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 40,
+        "period": 2
+      },
+      {
+        "m": 8,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 40,
+        "period": 2
+      },
+      {
+        "m": 8,
+        "weights": "YZ",
+        "components": 4,
+        "size_each": 10,
+        "period": 2
+      },
+      {
+        "m": 8,
+        "weights": "JOINT_XY_XZ",
+        "components": 8,
+        "size_each": 40,
+        "period": 2
+      },
+      {
+        "m": 9,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 45,
+        "period": 1
+      },
+      {
+        "m": 9,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 45,
+        "period": 3
+      },
+      {
+        "m": 9,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 45,
+        "period": 1
+      },
+      {
+        "m": 9,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 405,
+        "period": 9
+      },
+      {
+        "m": 10,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 50,
+        "period": 2
+      },
+      {
+        "m": 10,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 50,
+        "period": 2
+      },
+      {
+        "m": 10,
+        "weights": "YZ",
+        "components": 2,
+        "size_each": 25,
+        "period": 5
+      },
+      {
+        "m": 10,
+        "weights": "JOINT_XY_XZ",
+        "components": 10,
+        "size_each": 50,
+        "period": 2
+      },
+      {
+        "m": 11,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 55,
+        "period": 1
+      },
+      {
+        "m": 11,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 55,
+        "period": 1
+      },
+      {
+        "m": 11,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 55,
+        "period": 1
+      },
+      {
+        "m": 11,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 605,
+        "period": 11
+      },
+      {
+        "m": 12,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 60,
+        "period": 2
+      },
+      {
+        "m": 12,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 60,
+        "period": 6
+      },
+      {
+        "m": 12,
+        "weights": "YZ",
+        "components": 4,
+        "size_each": 15,
+        "period": 1
+      },
+      {
+        "m": 12,
+        "weights": "JOINT_XY_XZ",
+        "components": 4,
+        "size_each": 180,
+        "period": 6
+      },
+      {
+        "m": 13,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 65,
+        "period": 1
+      },
+      {
+        "m": 13,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 65,
+        "period": 1
+      },
+      {
+        "m": 13,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 65,
+        "period": 1
+      },
+      {
+        "m": 13,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 845,
+        "period": 13
+      },
+      {
+        "m": 16,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 80,
+        "period": 2
+      },
+      {
+        "m": 16,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 80,
+        "period": 2
+      },
+      {
+        "m": 16,
+        "weights": "YZ",
+        "components": 4,
+        "size_each": 20,
+        "period": 4
+      },
+      {
+        "m": 16,
+        "weights": "JOINT_XY_XZ",
+        "components": 16,
+        "size_each": 80,
+        "period": 2
+      },
+      {
+        "m": 17,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 85,
+        "period": 1
+      },
+      {
+        "m": 17,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 85,
+        "period": 1
+      },
+      {
+        "m": 17,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 85,
+        "period": 1
+      },
+      {
+        "m": 17,
+        "weights": "JOINT_XY_XZ",
+        "components": 17,
+        "size_each": 85,
+        "period": 1
+      },
+      {
+        "m": 19,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 95,
+        "period": 1
+      },
+      {
+        "m": 19,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 95,
+        "period": 1
+      },
+      {
+        "m": 19,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 95,
+        "period": 1
+      },
+      {
+        "m": 19,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 1805,
+        "period": 19
+      },
+      {
+        "m": 25,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 125,
+        "period": 1
+      },
+      {
+        "m": 25,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 125,
+        "period": 1
+      },
+      {
+        "m": 25,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 125,
+        "period": 25
+      },
+      {
+        "m": 25,
+        "weights": "JOINT_XY_XZ",
+        "components": 25,
+        "size_each": 125,
+        "period": 1
+      },
+      {
+        "m": 29,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 145,
+        "period": 1
+      },
+      {
+        "m": 29,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 145,
+        "period": 1
+      },
+      {
+        "m": 29,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 145,
+        "period": 1
+      },
+      {
+        "m": 29,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 4205,
+        "period": 29
+      },
+      {
+        "m": 31,
+        "weights": "XY",
+        "components": 1,
+        "size_each": 155,
+        "period": 1
+      },
+      {
+        "m": 31,
+        "weights": "XZ",
+        "components": 1,
+        "size_each": 155,
+        "period": 1
+      },
+      {
+        "m": 31,
+        "weights": "YZ",
+        "components": 1,
+        "size_each": 155,
+        "period": 1
+      },
+      {
+        "m": 31,
+        "weights": "JOINT_XY_XZ",
+        "components": 1,
+        "size_each": 4805,
+        "period": 31
+      }
+    ],
+    "single_formula": "d=gcd(m,u,2v) SCCs; period=gcd(m,2(v-u))/gcd(m,2(v-u),u)",
+    "joint_SCC_index_formula": "gcd(m*m,m*X,2*m*Y,2*m*Z,2*X*(Z-Y))",
+    "joint_period_formula": "h=gcd(m,2*(Z-Y)), g=gcd(m,2*(m/h)*(Y-X)), period=g/gcd(g,X)",
+    "joint_period_full_m_if": "gcd(m,2*X*(Z-Y))=1",
+    "individual_aperiodic_joint_periodic": [
+      11,
+      13,
+      19
+    ],
+    "deterministic_phase_example_mod_11": {
+      "phase": "X^{-1}(rXY-(Y-X)*(Z-Y)^{-1}(rXZ-rXY)) mod 11",
+      "T_increment": 1,
+      "S_increment": 1
+    }
+  },
+  "tests": {
+    "status": "PASS",
+    "pairwise_cases": 54,
+    "joint_graph_cases": 18,
+    "individual_graph_cases": 54,
+    "total_graph_cases": 72,
+    "exhaustive_joint_phase_moduli": [
+      3,
+      7,
+      9,
+      11,
+      13,
+      19,
+      29,
+      31
+    ],
+    "limits": "Universal proofs separate from brute finite graph tests."
+  },
+  "third_order_memory": {
+    "UT4_nested_commutator_E14": 229148562672,
+    "histories": [
+      "XYZYX",
+      "YXZXY"
+    ],
+    "histories_signatures": [
+      {
+        "counts": {
+          "X": 2,
+          "Y": 2,
+          "Z": 1
+        },
+        "pairs": {
+          "XY": 2,
+          "XZ": 1,
+          "YX": 2,
+          "YZ": 1,
+          "ZX": 1,
+          "ZY": 1
+        },
+        "XYZ": 1
+      },
+      {
+        "counts": {
+          "X": 2,
+          "Y": 2,
+          "Z": 1
+        },
+        "pairs": {
+          "XY": 2,
+          "XZ": 1,
+          "YX": 2,
+          "YZ": 1,
+          "ZX": 1,
+          "ZY": 1
+        },
+        "XYZ": 0
+      }
+    ],
+    "E14_outputs": [
+      229148562672,
+      0
+    ],
+    "same_first_second_order": true
+  }
+}

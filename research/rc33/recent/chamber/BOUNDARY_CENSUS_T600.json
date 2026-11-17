@@ -1,0 +1,80 @@
+{
+  "config": {
+    "max_t": 600,
+    "arithmetic": "exact integer/rational",
+    "units": "dimensionless",
+    "equations": [
+      "A | t\u00b2-u\u00b2",
+      "A>6t",
+      "2u+v+z=3t",
+      "Q | v\u00b2-u\u00b2"
+    ],
+    "python": "3.12.14",
+    "known_core": [
+      406,
+      712,
+      1265,
+      731,
+      557
+    ],
+    "known_crt": [
+      88011536665779,
+      223336848698040
+    ],
+    "source_sha256": "1a2c1d39ce45f01be9cbcb108f33a928a97fe4515102506983fdbd6d4e43a18e"
+  },
+  "positive_control": "passed",
+  "census": {
+    "maximum_t": 600,
+    "coverage": "all integer tuples in the open reflected chamber with 1<=A-E<=T",
+    "does_not_assume_h14_certificate": true,
+    "counts": {
+      "tu_pairs": 269700,
+      "duplicate_Q_E": 599,
+      "A_divisor_candidates": 1996806,
+      "primitive_A_Q_E_candidates": 250731,
+      "Q_square_candidates": 206173,
+      "primitive_core_candidates": 177137,
+      "three_square_candidates": 2
+    },
+    "four_square_candidates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "samples": [],
+    "three_square_samples": [
+      {
+        "core": [
+          1955,
+          3617,
+          3448,
+          1939,
+          1801
+        ],
+        "t_u_v_z": [
+          154,
+          16,
+          261,
+          169
+        ],
+        "fourth_remainder": 1584
+      },
+      {
+        "core": [
+          11605,
+          22291,
+          21917,
+          11596,
+          11174
+        ],
+        "t_u_v_z": [
+          431,
+          9,
+          901,
+          374
+        ],
+        "fourth_remainder": 20517
+      }
+    ],
+    "realizations": [],
+    "roots_cache": "CacheInfo(hits=190234, misses=60497, maxsize=100000, currsize=60497)",
+    "seconds": 3.07344933499553
+  }
+}

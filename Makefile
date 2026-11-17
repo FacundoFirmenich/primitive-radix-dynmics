@@ -1,6 +1,7 @@
 PYTHON ?= python
 PYTHONPATH ?= src
-.PHONY: verify test trace graph figures reproduce seal integrity clean
+.NOTPARALLEL: reproduce
+.PHONY: verify test trace graph figures reproduce seal integrity clean recent-verify recent-full-census sync-check rc33-seal
 verify:
 	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m rmr.verify --report outputs/reports/verification_report.json
 
@@ -15,6 +16,7 @@ graph:
 
 figures:
 	$(PYTHON) src/figures/generate_figures.py
+	$(PYTHON) src/figures/generate_recent.py
 
 seal:
 	$(PYTHON) src/integrity/seal_outputs.py
@@ -22,8 +24,27 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test trace graph figures seal integrity
+reproduce: verify test rc33-verify recent-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
+
+recent-verify:
+	$(PYTHON) research/rc33/recent/replay.py
+
+recent-full-census:
+	mkdir -p build/recent-full-census outputs/reports/recent-full-census
+	cp research/rc33/recent/chamber/boundary_census.py build/recent-full-census/
+	$(PYTHON) build/recent-full-census/boundary_census.py --max-t 5000
+	cp build/recent-full-census/BOUNDARY_CENSUS_T5000.json outputs/reports/recent-full-census/
 
 clean:
 	rm -rf outputs/figures/* outputs/interactive/* outputs/reports/* outputs/checksums/*
+
+.PHONY: rc33-verify
+rc33-verify:
+	$(MAKE) -C research/rc33 verify
+
+rc33-seal:
+	$(PYTHON) src/integrity/seal_rc33.py
+
+sync-check:
+	$(PYTHON) src/integrity/check_sync.py

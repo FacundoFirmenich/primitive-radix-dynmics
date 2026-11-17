@@ -1,0 +1,36 @@
+{
+  "archived_positive_control": "passed",
+  "searches": [
+    {
+      "code": 119772,
+      "factor": 2,
+      "bound": "A",
+      "maximum": 2500,
+      "crt_candidates_checked": 32896,
+      "realizations": []
+    },
+    {
+      "code": 606897,
+      "factor": 3,
+      "bound": "Q",
+      "maximum": 2500,
+      "crt_candidates_checked": 5003,
+      "realizations": []
+    }
+  ],
+  "replay": {
+    "python": "3.14.0",
+    "sympy": "1.14.0",
+    "argv": [
+      "-B",
+      "research\\five-state\\continuation\\verify_exceptional_crt.py",
+      "--max-coordinate",
+      "2500"
+    ],
+    "inputs_sha256": {
+      "research/five-state/continuation/verify_exceptional_crt.py": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+      "src/rmr/core.py": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+      "certificates/ARITHMETIC_PROGRESSION.json": "43b48a63c39a45f61d2cdf6f02123f9ac94f097ed963219ef31b851107edb403"
+    }
+  }
+}

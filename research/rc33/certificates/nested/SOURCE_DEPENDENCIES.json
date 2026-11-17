@@ -1,0 +1,42 @@
+[
+  {
+    "relative_path": "src/rmr/core.py",
+    "sha256": "68006d21b1cb69fbefcd88e0ce2f62f7f45828303b64c84625060294eeba0b39",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "src/rmr/__init__.py",
+    "sha256": "019f67fb9a56b2762afe6ea92e3f2516039aa4ab75ecec5e7ab335e665e4aea9",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/verify_exceptional_crt.py",
+    "sha256": "33a57126ed283d6ae549db5980aa3e83b48eb5b9d6b45fabacbd8077f34fc805",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/SQUARE_CYCLE_PURE_SIGNS.md",
+    "sha256": "b2cce58e5f958767e28e40b02b5224d6dd20648933bb9836a87dbed78de99443",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/SQUARE_CYCLE_COFACTOR_BOUND.md",
+    "sha256": "6fddcc8c699f4e6769ade474dc9ed527aa34ccfe9a1526e3733658c025acffd7",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/SQUARE_CYCLE_BOUNDED_COFACTOR_REPLAY.md",
+    "sha256": "6cdc381f00640fcda249a20de59126607823348b8e055e50637753786b4e3f61",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/SQUARE_CYCLE_SURFACE_FINITE.md",
+    "sha256": "decd96bcce702e9917b3c73aee0940001bcdbd11d49861d9a3cb1a2d7e573598",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  },
+  {
+    "relative_path": "research/five-state/continuation/WITNESS_COFACTOR_PLANE.md",
+    "sha256": "9776e0481258812d7da269b4c2b93b661d08365126f8313d1cf70a8c9f0dd6f5",
+    "source_commit": "2b94a857d220465443a735f7d5fa67ea8007a4a7"
+  }
+]

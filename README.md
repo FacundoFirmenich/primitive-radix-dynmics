@@ -1,30 +1,46 @@
-# Primitive Radix Dynamics · RGΦ
+# Primitive Radix–Möbius Dynamics · RGΦ
 
-## Archived reproducibility release — RC3.3
+**Scientific edition RC3.3 · integrated continuation: 17 November 2026**
 
-**[DOI: 10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311)** · [GitHub release](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo) · [Zenodo record](https://zenodo.org/records/24270311).
+Public software, exact certificates and research records for *Finite Rational Components in Primitive Radix–Möbius Dynamics: Content and a Sharp Threshold*, by Facundo Firmenich.
 
-The DOI identifies the RC3.3 verification software and exact certificates. The archived source is pinned to [commit `7d94e81`](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/commit/7d94e81d06944f36640ab289b87473fc0292c6df). Cite this version when reproducing the RC3.3 results. The all-versions DOI is [10.5281/zenodo.24270310](https://doi.org/10.5281/zenodo.24270310).
+![The fifth state changes the arithmetic completion](outputs/figures/rc33_visual_EN.png)
 
-
-A research and reproducibility companion for finite rational components of the radix map and its Möbius conjugate. The project tracks the common integer factor removed at each primitive projective step and uses that content to study which finite labelled graphs can be realized in a common radix.
-
-## Results and evidence
+## Results and current scope
 
 | Result | Evidence |
 | --- | --- |
-| Permutation rigidity through four states and an explicit five-state nonpermutation family | [Threshold](proofs/SHARP_THRESHOLD.md) · [CRT witness](certificates/ARITHMETIC_PROGRESSION.json) |
-| Bounds from projective width for two unimodular charts | [Two-chart theorem](proofs/TWO_CHART_PROJECTIVE_WIDTH.md) |
-| Exact decision procedure at fixed radix and bounded cardinality | [Divisor universe](proofs/FIXED_BASE_DECIDABILITY.md) |
-| Exclusion of the oriented form DF015-0015-B1 | [Proof and exact replay](research/df015-0015/CERTIFICATE.md) |
+| Both maps permute every finite high component with at most four states; five states attain the first failure | [Threshold proof](proofs/SHARP_THRESHOLD.md) · [CRT witness](certificates/ARITHMETIC_PROGRESSION.json) |
+| Complete forty-case oriented ledger: **37 exclusions / 1 realized-containing row / 2 open rows** | [Oriented ledger](research/five-state/continuation/ORIENTED_STATUS.csv) |
+| All-height certificates on specified cofactor strata, including h ≤ 14, and fifth-coordinate restrictions | [RC3.3 checkers](research/rc33/README.md) |
+| Exact chamber reduction for 606897/3; saved exhaustive t ≤ 5000 exclusion with current prefix and terminal replay | [Recent result register](research/rc33/recent/RESULTS.md#r17b) |
+| Weighted and coupled finite-group covers, deterministic phases and finite recovery records | [Recent modules](research/rc33/recent/RESULTS.md) · [24 claim cards](research/rc33/recent/CLAIMS.json) |
 
-The full five-state arithmetic classification remains open. The oriented and generator-unoriented enumerations use different conventions. See the [research status](RESEARCH_STATUS.md), [catalogue reconciliation](research/five-state/DF015_0015_RECONCILIATION.md), and [claim ledger](data/claims.csv).
+The two existence orientations, unrestricted uniqueness of the known carrier and least-base questions remain open. The [live research dashboard](RESEARCH_STATUS.md) distinguishes these questions from proven finite and conditional statements.
 
-## Reproduce locally
+## Reproduce
 
-    python -m pip install -e ".[dev]"
-    make reproduce
+```bash
+python -m pip install -e '.[dev]'
+make reproduce
+```
 
-GitHub-hosted execution is disabled for this repository. Use the [quick start](QUICKSTART_REPRODUCE.md) for Windows and individual checks. The [verification guide](VERIFICATION.md) explains the scope of each calculation. Scientific claims and their dependencies are recorded in the [traceability report](outputs/reports/claim_traceability.md).
+This runs the core verifier, tests, RC3.3 certificate checks and ten recent replay scripts; rebuilds traceability, figures and graphs; audits synchronization; and seals the generated outputs. The expensive complete t ≤ 5000 census is separately available as `make recent-full-census`; the default replay verifies its saved code hash, finite prefix and all 157 terminal candidates.
 
-Citation metadata is in [CITATION.cff](CITATION.cff). Code is MIT and research records are CC BY 4.0, subject to the [licensing terms](LICENSE.md). The article and supplementary manuscript remain under [publication embargo](docs/PUBLICATION_BOUNDARY.md).
+See the [quick start](QUICKSTART_REPRODUCE.md), [verification guide](VERIFICATION.md), [current replay receipt](outputs/reports/recent/RUN_MANIFEST.json) and [synchronization record](docs/SYNC_2026-11-17.md). GitHub Actions runs only by manual dispatch.
+
+## Figures and HTML
+
+- Standalone maps and visual abstracts: [English viewer](outputs/interactive/rc33_epistemic_EN.html) · [Spanish viewer](outputs/interactive/rc33_epistemic_ES.html).
+- Searchable [interactive dependency graph](outputs/interactive/epistemic_graph.html) and its [JSON data](outputs/interactive/epistemic_graph.json).
+- [Claim traceability](outputs/reports/claim_traceability.md) and [canonical alignment hashes](metadata/CANONICAL_ALIGNMENT.json).
+
+GitHub's file viewer shows HTML source; download the repository and open the HTML files locally for the rendered interactive editions. [Resumen en castellano](README_ES.md).
+
+## Citation and archive
+
+The registered version DOI is [10.5281/zenodo.24270311](https://doi.org/10.5281/zenodo.24270311); the all-versions DOI is [10.5281/zenodo.24270310](https://doi.org/10.5281/zenodo.24270310). It identifies the immutable 16 November code snapshot tagged [`rc3.3-zenodo`](https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3-zenodo), commit `7d94e81d06944f36640ab289b87473fc0292c6df`.
+
+Current `main` adds the 17 November integration. This continuation has not been archived under a new DOI; the existing tags and archive remain unchanged. Scientific edition RC3.3 is retained; the installable package version is 0.3.3. See [CITATION.cff](CITATION.cff).
+
+The [pre-arXiv publication boundary](docs/PUBLICATION_BOUNDARY.md) remains active: this repository contains code, certificates, metadata and standalone figures. Complete main, supplementary and companion manuscripts remain in the private A1 delivery. Code is MIT and research records are CC BY 4.0 under the [licensing terms](LICENSE.md).

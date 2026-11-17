@@ -1,0 +1,101 @@
+[
+  {
+    "factor": 2,
+    "form": "DF015-0004",
+    "quotients": [
+      {
+        "quotient": -2,
+        "resultant": 2945,
+        "pairs_tested": 3832
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  },
+  {
+    "factor": 2,
+    "form": "DF015-0012",
+    "quotients": [
+      {
+        "quotient": -2,
+        "resultant": 2945,
+        "pairs_tested": 3832
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  },
+  {
+    "factor": 3,
+    "form": "DF015-0008",
+    "quotients": [
+      {
+        "quotient": -7,
+        "resultant": 3655600,
+        "pairs_tested": 10632
+      },
+      {
+        "quotient": -6,
+        "resultant": 3740480,
+        "pairs_tested": 911800
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  },
+  {
+    "factor": 3,
+    "form": "DF015-0018",
+    "quotients": [
+      {
+        "quotient": -7,
+        "resultant": 3655600,
+        "pairs_tested": 10632
+      },
+      {
+        "quotient": -6,
+        "resultant": 3740480,
+        "pairs_tested": 911800
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  },
+  {
+    "factor": 2,
+    "form": "DF015-0011",
+    "quotients": [
+      {
+        "quotient": -2,
+        "resultant": 145,
+        "pairs_tested": 176
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  },
+  {
+    "factor": 3,
+    "form": "DF015-0017",
+    "quotients": [
+      {
+        "quotient": -7,
+        "resultant": 19152,
+        "pairs_tested": 2068
+      },
+      {
+        "quotient": -6,
+        "resultant": 19840,
+        "pairs_tested": 2476
+      }
+    ],
+    "core_coordinates": [],
+    "crt_candidates": 0,
+    "realizations": []
+  }
+]

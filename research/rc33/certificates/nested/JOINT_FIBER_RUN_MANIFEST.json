@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-11-17T13:20:23.297418+00:00",
+  "argv": [
+    "joint_fiber_attack.py"
+  ],
+  "input_hashes_before": {
+    "joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "NESTED_STRATA_RESULTS.json": "ccd4966c45541eb4dbf1ba8614b04dd7d516afb1d83471ad1f09365666b8c2d9"
+  },
+  "input_hashes_after": {
+    "joint_fiber_attack.py": "ea212c3fe84c9f27b506d488d387ddca3ab457317be6555df19ea8555764f688",
+    "nested_strata.py": "526938f4caa9e9d952b7e44bedd23a1269e42bea1c3399749a817d40dd3643e0",
+    "nested_planes.py": "270f6cfa1b5fb4a90e4e0152bfa0eaa162401012544267b7038ffd59437a70fa",
+    "NESTED_STRATA_RESULTS.json": "ccd4966c45541eb4dbf1ba8614b04dd7d516afb1d83471ad1f09365666b8c2d9"
+  },
+  "status": "PASS_SCOPED_JOINT_FIBER_AND_H1_REPLAY"
+}

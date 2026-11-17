@@ -1,0 +1,8 @@
+{
+  "source_engine_sha256": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32",
+  "received_atlas_sha256": "f678fc0d2d4de6416da47db02acaa59b2bc5c1c671a1a1e369bf616bd55f7de5",
+  "received_corpus_payloads": 6,
+  "public_scope": "Unchanged source engine and exact embedded count data; adapted self-contained checker; full source PDF and manuscript prose remain private.",
+  "historical_47_and_29_test_suites": "not supplied or reexecuted",
+  "publication_edition": "RC3.3"
+}

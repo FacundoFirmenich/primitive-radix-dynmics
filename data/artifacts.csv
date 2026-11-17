@@ -53,3 +53,4 @@ A-R17-CHAMBER,Chamber exact code and data,research/rc33/recent/chamber,software_
 A-R17-WEIGHTED,Weighted exact code and data,research/rc33/recent/weighted,software_and_exact_data,R17S;R17N;R17V
 A-R17-TRIADIC,Triadic exact code and data,research/rc33/recent/triadic,software_and_exact_data,R17A;R17F;R17J;R17G;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V
 A-R17-REPLAY,Public five-module replay and source manifest,research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json,reproducible_checker,R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V
+A-FST11,"FST11 source, embedded atlas counts and exact replay",research/rc33/fst11,software_and_exact_data,F11K;F11H;F11C;F11R;F11V

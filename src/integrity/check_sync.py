@@ -53,8 +53,14 @@ for line in (R/'research/rc33/SHA256SUMS.txt').read_text().splitlines():
 recent=read('outputs/reports/recent/RUN_MANIFEST.json')
 check(recent['status']=='PASS' and len(recent['runs'])==10,'ten recent replays')
 check(recent['new_full_T5000_run'] is False,'full census scope')
+fst=read('research/rc33/fst11/CLAIMS.json')['claims']
+check(len(fst)==5,'five FST11 claims')
+for c in fst:check(c['id'] in ids and (R/c['public_evidence'].split('#')[0]).is_file(),c['id']+' FST11 evidence')
+fst_run=read('outputs/reports/fst11/RUN_MANIFEST.json')
+check(fst_run['status']=='PASS' and fst_run['source_engine_byte_identical'],'FST11 exact replay')
+for path,h in fst_run['input_hashes_before'].items():check(sha(R/path)==h,path+' FST11 source hash')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':len(new),'dependency_edges':len(rows('data/dependencies.csv')),
+         'claims':len(ids),'continuation_claims':len(new)+len(fst),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
          'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,

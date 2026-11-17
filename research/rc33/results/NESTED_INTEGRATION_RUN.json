@@ -1,9 +1,9 @@
 {
   "schema": "rgphi-integrated-arithmetic-run-v2",
   "run": {
-    "started_utc": "2026-11-17T13:18:40.794663+00:00",
+    "started_utc": "2026-11-17T13:49:36.231215+00:00",
     "status": "completed",
-    "finished_utc": "2026-11-17T13:20:30.235419+00:00"
+    "finished_utc": "2026-11-17T13:51:23.198772+00:00"
   },
   "software": {
     "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
@@ -33,7 +33,7 @@
       ],
       "cwd": "certificates/nested",
       "returncode": 0,
-      "seconds": 102.21196215899545,
+      "seconds": 99.94187165499898,
       "log": "results/integrated_nested.log",
       "log_sha256": "51e6270755a89a9eacab7ccfb5566904cc3f47c382f7accdaa9f4c4e1d35e118"
     },
@@ -45,7 +45,7 @@
       ],
       "cwd": "certificates/nested",
       "returncode": 0,
-      "seconds": 0.35052857900154777,
+      "seconds": 0.4245533329958562,
       "log": "results/integrated_joint.log",
       "log_sha256": "5040215a3ed1a1db356e2481f7c7a090e9553d911d2be1a494dbc1b0b7164391"
     },
@@ -57,7 +57,7 @@
       ],
       "cwd": "certificates/nested",
       "returncode": 0,
-      "seconds": 0.07244319999881554,
+      "seconds": 0.038332244992488995,
       "log": "results/integrated_truth_preservation.log",
       "log_sha256": "71172ebf10965737ea4362d004a2d0e6565ef4188ca109425df0561edda9785a"
     },
@@ -69,9 +69,9 @@
       ],
       "cwd": "certificates/prime-packing",
       "returncode": 0,
-      "seconds": 6.631524142998387,
+      "seconds": 6.395750074007083,
       "log": "results/integrated_prime_packing.log",
-      "log_sha256": "ea2efb32824bf030852ab7193e3238fc9693a726c90f29a5018d47d4b4ce1546"
+      "log_sha256": "f31cce29f3aae2bdeec83eac1b64bd017c5c0d3858e22a9e03604e60a635ed42"
     }
   ],
   "assertion_tested": "Replay and cross-check the arithmetic integrated into canonical RC3.3.\n\nAssertion tested: every numerator, sign and position for any signed cofactor\ndenominator h<=14 in the three declared residual systems is covered by the\nbounded integer-level reduction; only the known carrier survives.  This is\nan all-height bounded-cofactor assertion, never an unbounded-h conclusion.\nThe packing replay tests necessary filters, not realization of survivors.\n",
@@ -109,26 +109,26 @@
     "certificates/nested/FIBER_JACOBIAN.json": "30a1a6f72e1e08f7c473c41e5b115c589103120e48095594ead116a4f6df99ec",
     "certificates/nested/HELICAL_LIFT_RESULTS.json": "5aa31b5d285dafa087a31e54fde187467083853531ac3741ea9e86f35a4ffdad",
     "certificates/nested/JOINT_FIBER_ATTACK_RESULTS.json": "f4e20ad9c882e8af279ea566e4c1bea68f46a5429fa6cabec260d0a78a03b2c0",
-    "certificates/nested/JOINT_FIBER_RUN_MANIFEST.json": "d94d0a846c8bd732cac818308ba01abd3934a249625dc02e6677ca5c5e0cc451",
+    "certificates/nested/JOINT_FIBER_RUN_MANIFEST.json": "1bd157fcede763e87403ab870da3f91a9dde63b63f52bc35ec0aceaccc293f37",
     "certificates/nested/JOINT_FILTER_COUNTS.json": "f1ec2594a29e57fed80e087921c2841d70709dd2fcc9056445891e3c87b45423",
     "certificates/nested/LOCAL_PRIME_MEMORY_CHECK.json": "9099287602edcdfe2f17b77ed7490a1e5867e5b99a7c22621fc6a1ca0adef067",
     "certificates/nested/NESTED_IDENTITY_RESULTS.json": "509a73432a99f514543e26b191f2782713d4198b7ddeb129fe010440c66b1755",
-    "certificates/nested/NESTED_PLANES_RESULTS.json": "7c641c35e5868ddcbf2b86269a89ab17fb5122820d22d3862e02edf1d63a5c88",
+    "certificates/nested/NESTED_PLANES_RESULTS.json": "d9b901c813cae6ca6952a5b53c0d48aa42ada105125eaa0e80b1364f2515f0c5",
     "certificates/nested/NESTED_STRATA_H8.json": "24bf8e44ab0a0784cb7044914772fad01754a26099720b1e274ca9ab70140ba7",
-    "certificates/nested/NESTED_STRATA_RESULTS.json": "ccd4966c45541eb4dbf1ba8614b04dd7d516afb1d83471ad1f09365666b8c2d9",
+    "certificates/nested/NESTED_STRATA_RESULTS.json": "f770764dae3804a38b0a6c01333c27c5e2cf5e1e5e39f310e20c2283f3e83fa4",
     "certificates/nested/NESTING_ROUTE_DISCRIMINATORS.json": "edce954aafc0fd3c20210780570d062b929da2d46da4fd7230a4b7a7e5ef84ca",
     "certificates/nested/PROOF_AUDIT.json": "3337678d3482680c522cb296dc275d0c7e847a557ce5afa4ca45e4c56ed8dd7a",
     "certificates/nested/PUBLICATION_REFERENCE_HASHES.json": "eb0be1fa5383108cff4482e0cafca5bd8e85c052a6466c5e0ff4783354f1ed3d",
     "certificates/nested/PURE_SIGN_NESTED_REPLAY.json": "978761d5005430197451a946437c92eed3a5c3bbca62ddf6757558fa8956088c",
     "certificates/nested/RESEARCH_STATUS.json": "9be30108e4accc07507eee24dea299fb14debdba1e5b5cd304ff3e83192b2555",
-    "certificates/nested/RUN_MANIFEST.json": "9d92dcdb77d206b00e0d00b91e26332306c872af24183c9a415551e1af65e138",
+    "certificates/nested/RUN_MANIFEST.json": "9b800c71adadd6eb7478f56b89decb012d7e71b66a2be5365bf618f443971839",
     "certificates/nested/SOURCE_DEPENDENCIES.json": "0a4a09ded6b1a40a8a281e6f207c868b0c5cd3644b4ecef80347a55333d2f815",
     "certificates/nested/STRATA_SUMMARY.json": "a7831d510cbd43c801ec133a33ecbd4068e0fa33c5f2d959a5d7872f34a3d44a",
     "certificates/nested/STRONG_RELAXATION_PROBE.json": "89429066bcdf7a6ba8f84bdfb18f60935794eaf55e0c71ea268c821eb256f7e8",
     "certificates/nested/TARGET_CONTRACT.json": "b79431c4772c9bd9d8f3c8d2b1d0f4d01f18071ce3509e696b87c1957953c66c",
     "certificates/nested/TRUTH_PRESERVING_NESTING_RESULTS.json": "d6aa36531c4a99e106936f61a24efe62576ccc9e761f62207f3facaf527ecf90",
     "certificates/nested/VISUAL_QA.json": "5a4b937103c41db20e560f8b6850759820aecd1c94a8b34b378203104c08b94c",
-    "certificates/prime-packing/RESULTS.json": "ea2efb32824bf030852ab7193e3238fc9693a726c90f29a5018d47d4b4ce1546",
+    "certificates/prime-packing/RESULTS.json": "f31cce29f3aae2bdeec83eac1b64bd017c5c0d3858e22a9e03604e60a635ed42",
     "certificates/prime-packing/SOURCE_DEPENDENCIES.json": "dd44c2ee451d4ab57925c8b516b64b8c94b9ae568bd17c2a9e51cac7f1ab9c0c",
     "certificates/prime-packing/SURVIVING_BASES.json": "ba28fbc3dd510f8181e5e7675ffa0a58c0d2a37b9db7607f63edcd8f9b32b79c",
     "certificates/prime-packing/VISUAL_QA.json": "1a1284125398a195b52dabcf5024f05ca85f1a9bc4860e18eee2fdb8a7437cae"

@@ -6,7 +6,7 @@ Software, certificados exactos y registros de investigación de Facundo Firmenic
 
 ![El quinto estado cambia la completación aritmética](outputs/figures/rc33_visual_ES.png)
 
-El registro orientado comprende **37 exclusiones, una fila que contiene una realización y dos filas abiertas**. Se incorporan los cinco módulos recientes: transferencia seno–π, sinergias estructurales, cámara de 606897/3, recubrimientos ponderados y extensión ternaria. Las 24 afirmaciones añadidas tienen dependencias y evidencias explícitas.
+El registro orientado comprende **37 exclusiones, una fila que contiene una realización y dos filas abiertas**. Se incorporan los cinco módulos recientes: transferencia seno–π, sinergias estructurales, cámara de 606897/3, recubrimientos ponderados y extensión ternaria. Las 24 afirmaciones añadidas tienen dependencias y evidencias explícitas. La continuación FST-11 añade cinco afirmaciones sobre palabras de longitud variable, canales complementarios, recuperación condicionada por lenguajes y una fibra global no regular; véase `research/rc33/fst11/RESULTS.md`.
 
 ```bash
 python -m pip install -e '.[dev]'

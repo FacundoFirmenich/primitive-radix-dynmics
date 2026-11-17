@@ -1,0 +1,175 @@
+CONFIGURATION BEFORE COMPUTATION
+{
+  "equations": {
+    "K": "8*10**len(w)-9*val(w)",
+    "primitive": "K/p**v_p(abs(K)); sign retained",
+    "normal_form": "8**t C(7**(a0(h)+3*j)*h)",
+    "carry": "P*x=y+c*10**ell",
+    "CRT": "M=p**(a+k)*q**(b+t)"
+  },
+  "units": "dimensionless exact integers and literal decimal words",
+  "constants": {
+    "base": 10,
+    "coefficient": 8,
+    "slope": 9,
+    "normalizing_primes": [
+      7,
+      2
+    ],
+    "scale": 343
+  },
+  "domains": {
+    "all_words_max_length": 4,
+    "all_keys_abs_bound": 10000,
+    "normal_h_abs_bound": 120,
+    "normal_j": [
+      0,
+      4
+    ],
+    "normal_t": [
+      0,
+      3
+    ],
+    "regular_language_lengths": [
+      0,
+      4
+    ],
+    "atlas_languages": 5,
+    "atlas_lengths": [
+      2,
+      6
+    ],
+    "modulus_counts": [
+      1,
+      2,
+      7,
+      14,
+      49,
+      64,
+      98,
+      343
+    ],
+    "modulus_count_max_length": 3,
+    "finite_signature_lengths": [
+      0,
+      2
+    ],
+    "signature_precision_pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "signature_primes": [
+      7,
+      2
+    ]
+  },
+  "python": "3.12.14",
+  "finite_decode_max_length": 3,
+  "prime_set_test_integer_bounds": [
+    -100,
+    100
+  ],
+  "randomness": false,
+  "non_claims": [
+    "No FST10 archive or original 47-test suite supplied",
+    "No global RGphi existence, uniqueness or least-base closure",
+    "No novelty certification"
+  ]
+}
+{
+  "original_cli": "PASS",
+  "exhaustive_words_length_0_to_4": 11111,
+  "key_inverse_lattice_points": 2223,
+  "two_axis_normal_form": "PASS",
+  "atlas_all_25_embedded_records_recomputed": 25,
+  "direct_fibre_DFA_reversal_and_modular_counts": "PASS (five languages, literal lengths 0..4; modular counts 0..3)",
+  "canonical_language_and_bounded_witness": "PASS (six finite-language fixtures)",
+  "all_observed_signature_classes_checked": 376,
+  "language_assisted_identification": {
+    "word": "002",
+    "K": 7982,
+    "a7": 0,
+    "unit7_mod7": 2,
+    "a2": 1,
+    "unit2_mod4": 3,
+    "unrestricted": {
+      "ell": 3,
+      "modulus": 56,
+      "word_residue": 2,
+      "compatible_count": 18,
+      "status": "NOT_IDENTIFIABLE"
+    },
+    "ends02": {
+      "ell": 3,
+      "modulus": 56,
+      "word_residue": 2,
+      "compatible_count": 1,
+      "status": "UNIQUE"
+    }
+  },
+  "missing_middle": {
+    "words": [
+      "888889",
+      "901961"
+    ],
+    "K": [
+      -1,
+      -117649
+    ],
+    "j1_pairs": 0,
+    "j2_pairs": 1
+  },
+  "canonical_h8_first_41_lengths": [
+    0,
+    3,
+    6,
+    8,
+    11,
+    13,
+    16,
+    18,
+    21,
+    23,
+    26,
+    28,
+    31,
+    33,
+    36,
+    39,
+    41,
+    44,
+    46,
+    49,
+    51,
+    54,
+    56,
+    59,
+    61,
+    64,
+    66,
+    69,
+    71,
+    74,
+    77,
+    79,
+    82,
+    84,
+    87,
+    89,
+    92,
+    94,
+    97,
+    99,
+    102
+  ],
+  "guaranteed_finite_decoder_words": 1111,
+  "prime_set_lattice_pairs_checked": 7200,
+  "status": "PASS",
+  "runtime_seconds": 4.609075747997849
+}

@@ -1,0 +1,264 @@
+{
+  "case_counts": [
+    {
+      "language": "Todos",
+      "ell": 2,
+      "accepted": 100,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Todos",
+      "ell": 3,
+      "accepted": 1000,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 3
+      },
+      "unordered_pairs": 3
+    },
+    {
+      "language": "Todos",
+      "ell": 4,
+      "accepted": 10000,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 30
+      },
+      "unordered_pairs": 30
+    },
+    {
+      "language": "Todos",
+      "ell": 5,
+      "accepted": 100000,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 292,
+        "2": 0
+      },
+      "unordered_pairs": 292
+    },
+    {
+      "language": "Todos",
+      "ell": 6,
+      "accepted": 1000000,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 2915,
+        "2": 8
+      },
+      "unordered_pairs": 2923
+    },
+    {
+      "language": "Termina 02",
+      "ell": 2,
+      "accepted": 1,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Termina 02",
+      "ell": 3,
+      "accepted": 10,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Termina 02",
+      "ell": 4,
+      "accepted": 100,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Termina 02",
+      "ell": 5,
+      "accepted": 1000,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Termina 02",
+      "ell": 6,
+      "accepted": 10000,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Sin cifra 7",
+      "ell": 2,
+      "accepted": 81,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Sin cifra 7",
+      "ell": 3,
+      "accepted": 729,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 1
+      },
+      "unordered_pairs": 1
+    },
+    {
+      "language": "Sin cifra 7",
+      "ell": 4,
+      "accepted": 6561,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 11
+      },
+      "unordered_pairs": 11
+    },
+    {
+      "language": "Sin cifra 7",
+      "ell": 5,
+      "accepted": 59049,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 81,
+        "2": 0
+      },
+      "unordered_pairs": 81
+    },
+    {
+      "language": "Sin cifra 7",
+      "ell": 6,
+      "accepted": 531441,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 668,
+        "2": 3
+      },
+      "unordered_pairs": 671
+    },
+    {
+      "language": "Suma de cifras 0 mod 3",
+      "ell": 2,
+      "accepted": 34,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Suma de cifras 0 mod 3",
+      "ell": 3,
+      "accepted": 334,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Suma de cifras 0 mod 3",
+      "ell": 4,
+      "accepted": 3334,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Suma de cifras 0 mod 3",
+      "ell": 5,
+      "accepted": 33334,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Suma de cifras 0 mod 3",
+      "ell": 6,
+      "accepted": 333334,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Extremos sin intermedio",
+      "ell": 2,
+      "accepted": 0,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Extremos sin intermedio",
+      "ell": 3,
+      "accepted": 0,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Extremos sin intermedio",
+      "ell": 4,
+      "accepted": 0,
+      "exponent_bound": 1,
+      "by_j": {
+        "1": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Extremos sin intermedio",
+      "ell": 5,
+      "accepted": 0,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 0
+      },
+      "unordered_pairs": 0
+    },
+    {
+      "language": "Extremos sin intermedio",
+      "ell": 6,
+      "accepted": 2,
+      "exponent_bound": 2,
+      "by_j": {
+        "1": 0,
+        "2": 1
+      },
+      "unordered_pairs": 1
+    }
+  ]
+}

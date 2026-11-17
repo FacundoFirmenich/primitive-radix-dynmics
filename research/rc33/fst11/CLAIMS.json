@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "id": "F11K",
+      "claim": "Exact prefix-eight kernel and complete two-axis word normal form",
+      "scope": "All finite decimal words, including empty and leading zeros; a set bijection, not a monoid isomorphism.",
+      "dependencies": [
+        "R17L"
+      ],
+      "public_evidence": "research/rc33/fst11/RESULTS.md#f11k"
+    },
+    {
+      "id": "F11H",
+      "claim": "Prime-erasure lattice fusion and bounded regular-language ambiguity witness",
+      "scope": "Sign preserved; exact complementary units recover K; literal recovery requires length or prefix-separating language.",
+      "dependencies": [
+        "F11K"
+      ],
+      "public_evidence": "research/rc33/fst11/RESULTS.md#f11h"
+    },
+    {
+      "id": "F11C",
+      "claim": "Language-conditioned finite-precision CRT identification",
+      "scope": "Distinct primes other than three; valuations known, unit precisions positive; uniqueness requires exact candidate count.",
+      "dependencies": [
+        "F11H"
+      ],
+      "public_evidence": "research/rc33/fst11/RESULTS.md#f11c"
+    },
+    {
+      "id": "F11R",
+      "claim": "Fixed-scaling regular relation and nonregular unrestricted h=8 fibre",
+      "scope": "Fixed j synchronous regularity; no global arbitrary-language normalized-injectivity decision claimed.",
+      "dependencies": [
+        "F11K"
+      ],
+      "public_evidence": "research/rc33/fst11/RESULTS.md#f11r"
+    },
+    {
+      "id": "F11V",
+      "claim": "Replayed supplied FST11 source, atlas tables and finite direct checks",
+      "scope": "Current exact checks only; unattached historical 47/29 suites and FST10 archive not reproduced.",
+      "dependencies": [
+        "F11K",
+        "F11H",
+        "F11C",
+        "F11R"
+      ],
+      "public_evidence": "research/rc33/fst11/RESULTS.md#f11v"
+    }
+  ]
+}

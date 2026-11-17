@@ -152,7 +152,7 @@
       ]
     }
   },
-  "seconds": 6.590669393539429,
+  "seconds": 6.35363245010376,
   "script_sha256": "dc5b00e011fbe0356ce65eff6a094d1797557b3fd4054c8340c3b8b354562c06",
   "review": "self-review; trial-division control is a separate implementation, not independent review",
   "scope": "No state realization is asserted. Window below known CRT residue and below latest conditional base bound."

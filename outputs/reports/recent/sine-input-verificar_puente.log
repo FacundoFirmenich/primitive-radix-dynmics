@@ -1,4 +1,4 @@
 PASS witness x3 bases CRT, monoid=36, factor-three strict edge, h_min=4
 PASS B=100: c15(99)=1, c15(101)=1 (required >=4 for r=2)
 PASS z_{k+1}=S_100(z_k), precision mpmath 150 digits, 9 first transitions
-results /tmp/rgphi-public-replay-jpjlpabg/sine/input/RESULTADOS_EXACTOS.json
+results /tmp/rgphi-public-replay-5fcfmq1z/sine/input/RESULTADOS_EXACTOS.json

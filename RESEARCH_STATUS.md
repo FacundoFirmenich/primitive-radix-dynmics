@@ -20,6 +20,8 @@ The current oriented classification is **37 excluded / 1 realized-containing / 2
 
 [24 claim cards and public evidence](research/rc33/recent/RESULTS.md) complement the [RC3.3 all-height cofactor and fifth-coordinate certificates](research/rc33/README.md). Ten current replay programs operate on temporary copies; the 31 imported source/data checkpoints remain byte-identical to the integrated private delivery.
 
+The [FST-11 extension](research/rc33/fst11/RESULTS.md) adds five audited claims: variable-length normal forms, exact prime-erasure fusion, regular-language ambiguity witnesses, conditioned finite precision and a nonregular h=8 fibre. Its finite implementation is separately replayed with `make fst11-verify`; the global arithmetic questions below remain unchanged.
+
 ## Global questions still open
 
 1. Existence of the 119772 factor-two orientation (0003/S).

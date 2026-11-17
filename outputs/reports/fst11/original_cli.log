@@ -1,0 +1,42 @@
+{
+  "canonical_123": "123",
+  "boundary_example": [
+    "123",
+    "8123"
+  ],
+  "collisions_unrestricted_ell6": {
+    "ell": 6,
+    "accepted": 1000000,
+    "exponent_bound": 2,
+    "by_j": {
+      "1": 2915,
+      "2": 8
+    },
+    "unordered_pairs": 2923
+  },
+  "collisions_suffix02_ell6": {
+    "ell": 6,
+    "accepted": 10000,
+    "exponent_bound": 2,
+    "by_j": {
+      "1": 0,
+      "2": 0
+    },
+    "unordered_pairs": 0
+  },
+  "finite_gap": {
+    "ell": 6,
+    "accepted": 2,
+    "classes": 1,
+    "fiber_histogram": {
+      "2": 1
+    },
+    "unordered_pairs": 1,
+    "examples": [
+      [
+        "888889",
+        "901961"
+      ]
+    ]
+  }
+}

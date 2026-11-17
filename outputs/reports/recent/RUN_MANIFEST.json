@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "edition": "RC3.3",
-  "recorded_utc": "2026-11-17T13:20:42.582365+00:00",
+  "recorded_utc": "2026-11-17T13:51:36.082295+00:00",
   "configuration": {
     "units": "dimensionless; exact integers and rationals; labelled Decimal entropy approximation",
     "whole_inputs": [
@@ -54,16 +54,16 @@
       "module": "sine/input",
       "script": "verificar_puente.py",
       "returncode": 0,
-      "seconds": 0.04183152600307949,
+      "seconds": 0.0457876779983053,
       "code_sha256": "205b1b1f3ea8e471ee2715d970c6e3ec47342f096e30f98cffed75efc0ab6b48",
       "log": "outputs/reports/recent/sine-input-verificar_puente.log",
-      "log_sha256": "5d5deb6340afd897529535f3b7f9d0e70112c6b78d8786ad81136bd012656941"
+      "log_sha256": "b9494be45b1c02d0b72ab027e63371d1760560098cc32bf8d8237c60719e2985"
     },
     {
       "module": "sine",
       "script": "independent_checks.py",
       "returncode": 0,
-      "seconds": 0.11547151599370409,
+      "seconds": 0.12082375699537806,
       "code_sha256": "0a5c1e9b7f36717611445c9a1114914560f15c997f42c2b1261f7a05c993b754",
       "log": "outputs/reports/recent/sine-independent_checks.log",
       "log_sha256": "942a0b39d3f7871c3c03303dfa7d9d78c2d50bcd733fe46ca4cf481b1fc99b43"
@@ -72,7 +72,7 @@
       "module": "synergies",
       "script": "independent_checks.py",
       "returncode": 0,
-      "seconds": 1.7281303810013924,
+      "seconds": 1.6981885290006176,
       "code_sha256": "419ebd510571cc8587650e4fc61ae7b60ca6b366d4819fe248b7ade27cb8edf9",
       "log": "outputs/reports/recent/synergies-independent_checks.log",
       "log_sha256": "0e9a7f7d87853ce594c5345b2443109bf77039b185f782360952cd3d5240ed02"
@@ -81,7 +81,7 @@
       "module": "synergies/input",
       "script": "verificacion_exacta.py",
       "returncode": 0,
-      "seconds": 0.02116802000091411,
+      "seconds": 0.01861644499877002,
       "code_sha256": "e30d31a2bff46edde39897cd2a6e8f1c923a941f7f3ec451926141ddcb9f37b3",
       "log": "outputs/reports/recent/synergies-input-verificacion_exacta.log",
       "log_sha256": "dc6ccd263e81890ca4eb6999f2107c8e4d8e94f20828e4dfa2f49aa4fb5c89dc"
@@ -90,16 +90,16 @@
       "module": "chamber",
       "script": "independent_validation.py",
       "returncode": 0,
-      "seconds": 1.1198694560007425,
+      "seconds": 1.109824295999715,
       "code_sha256": "9d278ce500173bb4d74637fae32b8751acb201e0b65b25555660032959b6d0b8",
       "log": "outputs/reports/recent/chamber-independent_validation.log",
-      "log_sha256": "76e4c00006455179eb7dad527d1e3b398e56d98e10d62ecf52d544b581c05962"
+      "log_sha256": "943b87de4b392bd12270bb072eb716dd4abe81dd10f74dd2d0df1d61780145b1"
     },
     {
       "module": "chamber",
       "script": "terminal_replay.py",
       "returncode": 0,
-      "seconds": 0.28755602199817076,
+      "seconds": 0.28558756499842275,
       "code_sha256": "3e1222467827393165c14494411e88f160e21f3cecd6cd75a613606b0eb3e978",
       "log": "outputs/reports/recent/chamber-terminal_replay.log",
       "log_sha256": "67c3bacf953e8e179ec16d2f2bedf6822770b67f248e3b340adcd14db09c36ca"
@@ -108,16 +108,16 @@
       "module": "weighted",
       "script": "verify_covers.py",
       "returncode": 0,
-      "seconds": 1.3561743150057737,
+      "seconds": 1.3012108739931136,
       "code_sha256": "4d17d7a559858db2b8458daa5254f6ffea5318c2b405d24b29cdcac0c0cf8251",
       "log": "outputs/reports/recent/weighted-verify_covers.log",
-      "log_sha256": "4be64314b13df572aabb13bed81b3b50253815df6f763cffe475528397d350a6"
+      "log_sha256": "71dd310fd351b4b8795be585a3a6f155878b5800c2bb0d896f28d843c3c0b36c"
     },
     {
       "module": "triadic",
       "script": "verify_triadic_extension.py",
       "returncode": 0,
-      "seconds": 6.885025752999354,
+      "seconds": 7.3464344770036405,
       "code_sha256": "79d46f3b741938bd9f76c2eff7a439300f6b1f5c61715d5984acc5d62639d246",
       "log": "outputs/reports/recent/triadic-verify_triadic_extension.log",
       "log_sha256": "0a928c2729adee4e508886ccaf6dc018fb3b00ea06825fae60c959abd4232bf7"
@@ -126,7 +126,7 @@
       "module": "triadic/source-replay",
       "script": "auditar_triada.py",
       "returncode": 0,
-      "seconds": 0.1461845839949092,
+      "seconds": 0.17525385299813934,
       "code_sha256": "d7c833db19c4d25217b964faf6108aee6e9e8a0b3151629dda2a716978a0fd61",
       "log": "outputs/reports/recent/triadic-source-replay-auditar_triada.log",
       "log_sha256": "33ddfc2bf4ed528dc7f1a01642ad88c0787935b55be7f9463063c3a50c1e5bbc"
@@ -135,7 +135,7 @@
       "module": "triadic/source-replay",
       "script": "auditar_irreducibles_ORIGINAL.py",
       "returncode": 0,
-      "seconds": 0.2092489439964993,
+      "seconds": 0.3197852159937611,
       "code_sha256": "1d1f097a6ee6a362b2f7d4f3803d9fe20984db78a0c502c9520c44d67f62160a",
       "log": "outputs/reports/recent/triadic-source-replay-auditar_irreducibles_ORIGINAL.log",
       "log_sha256": "b138adfc2046cb356c7cbf6f99b863dc93efc9fb7e46c49a23fa5e421bca92f4"

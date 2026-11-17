@@ -80,6 +80,11 @@
 | R17U | `PROVED_SYMBOLIC` | Affine Bezout optimality, unimodular recoding, CRT and rank-three moments | `research/rc33/recent/RESULTS.md#r17u` | — |
 | R17Z | `PROVED_SYMBOLIC` | The three primitive input ratios never form a three-state high component | `research/rc33/recent/RESULTS.md#r17z` | depends_on:C009 |
 | R17V | `EXACT_CERTIFICATE` | Integrated continuation certificate contracts | `research/rc33/recent/RESULTS.md#r17v` | — |
+| F11K | `PROVED_SYMBOLIC` | Exact prefix-eight kernel and complete two-axis word normal form | `research/rc33/fst11/RESULTS.md#f11k` | depends_on:R17L |
+| F11H | `PROVED_SYMBOLIC` | Prime-erasure lattice fusion and bounded regular-language ambiguity witness | `research/rc33/fst11/RESULTS.md#f11h` | depends_on:F11K |
+| F11C | `PROVED_SYMBOLIC` | Language-conditioned finite-precision CRT identification | `research/rc33/fst11/RESULTS.md#f11c` | depends_on:F11H |
+| F11R | `PROVED_SYMBOLIC` | Fixed-scaling regular relation and nonregular unrestricted h=8 fibre | `research/rc33/fst11/RESULTS.md#f11r` | depends_on:F11K |
+| F11V | `EXACT_CERTIFICATE` | Replayed supplied FST11 source, atlas tables and finite direct checks | `research/rc33/fst11/RESULTS.md#f11v` | depends_on:F11K<br>depends_on:F11H<br>depends_on:F11C<br>depends_on:F11R |
 
 ## Artifact registry
 
@@ -139,3 +144,4 @@
 | A-R17-WEIGHTED | `software_and_exact_data` | `research/rc33/recent/weighted` | R17S;R17N;R17V |
 | A-R17-TRIADIC | `software_and_exact_data` | `research/rc33/recent/triadic` | R17A;R17F;R17J;R17G;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V |
 | A-R17-REPLAY | `reproducible_checker` | `research/rc33/recent/replay.py;research/rc33/recent/SOURCE_MANIFEST.json` | R17T;R17I;R17O;R17R;R17Q;R17B;R17C;R17A;R17S;R17F;R17J;R17N;R17G;R17P;R17D;R17H;R17L;R17M;R17K;R17E;R17W;R17U;R17Z;R17V |
+| A-FST11 | `software_and_exact_data` | `research/rc33/fst11` | F11K;F11H;F11C;F11R;F11V |

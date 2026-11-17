@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "edition": "RC3.3",
+  "recorded_utc": "2026-11-17T13:53:55.712314+00:00",
+  "seconds": 4.664495917997556,
+  "software": {
+    "python": "3.12.14"
+  },
+  "argv": [
+    "/workspace/.venvs/rgphi-sync/bin/python",
+    "audit_fst11.py"
+  ],
+  "input_hashes_before": {
+    "research/rc33/fst11/README.md": "851d8cc44d31da1dfa5a6150f2704c1aed779169052c032014ef6a6c6b4d3eb5",
+    "research/rc33/fst11/CLAIMS.json": "2e29e619b0c5b8dc09a6730610559fd813954c1b7e231172063ee59ed26c628e",
+    "research/rc33/fst11/audit_fst11.py": "3bb94867db4fb87270081f6ed782a088502163fcd77406a0afe29b8315539791",
+    "research/rc33/fst11/RESULTS.md": "ad313be44d675fc8d699c9f9e3aecf5183de678df257795e7d1a3ed3e6cc6193",
+    "research/rc33/fst11/replay.py": "84a81e654adced39edada8848d620147e529b4ab1203a68975486f937eb2ee63",
+    "research/rc33/fst11/INPUTS.json": "088b71ae73873ba62c9439ebe9dea398467cf8f91d1326e5132c0893b5fa700c",
+    "research/rc33/fst11/UPSTREAM.json": "71882016e34baccba572e75fb2fcc57572553b71369fabc9dca54679f5d824c7",
+    "research/rc33/fst11/src/fst11.py": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32",
+    "research/rc33/fst11/inputs/ATLAS_COUNTS.json": "49089cf7bf93849b3b9479a43720186251b3b4d798d95d0ec8e2e3c26a638834"
+  },
+  "input_hashes_after": {
+    "research/rc33/fst11/README.md": "851d8cc44d31da1dfa5a6150f2704c1aed779169052c032014ef6a6c6b4d3eb5",
+    "research/rc33/fst11/CLAIMS.json": "2e29e619b0c5b8dc09a6730610559fd813954c1b7e231172063ee59ed26c628e",
+    "research/rc33/fst11/audit_fst11.py": "3bb94867db4fb87270081f6ed782a088502163fcd77406a0afe29b8315539791",
+    "research/rc33/fst11/RESULTS.md": "ad313be44d675fc8d699c9f9e3aecf5183de678df257795e7d1a3ed3e6cc6193",
+    "research/rc33/fst11/replay.py": "84a81e654adced39edada8848d620147e529b4ab1203a68975486f937eb2ee63",
+    "research/rc33/fst11/INPUTS.json": "088b71ae73873ba62c9439ebe9dea398467cf8f91d1326e5132c0893b5fa700c",
+    "research/rc33/fst11/UPSTREAM.json": "71882016e34baccba572e75fb2fcc57572553b71369fabc9dca54679f5d824c7",
+    "research/rc33/fst11/src/fst11.py": "76fa68139c164b30285ec29dc1e0d5dfd97b074b8a873e9bb5a1e13301cdea32",
+    "research/rc33/fst11/inputs/ATLAS_COUNTS.json": "49089cf7bf93849b3b9479a43720186251b3b4d798d95d0ec8e2e3c26a638834"
+  },
+  "outputs": {
+    "outputs/reports/fst11/original_cli.log": "7ca762b7c7f7cc86203a0f80fa693648f1f841fab8c54c4e60eaa868370bd821",
+    "outputs/reports/fst11/AUDIT_RESULTS.json": "1b8e33a64d815f038addd91955c5ef2d783c486c65945ed6e392140bf7130be3",
+    "outputs/reports/fst11/audit.log": "0cf54a71390dfd9c96d53a2ed9478f77cbae69c28ccde0546b549e90487d6912"
+  },
+  "source_engine_byte_identical": true,
+  "words_checked": 11111,
+  "atlas_records_checked": 25,
+  "signature_classes_checked": 376,
+  "guaranteed_finite_decoder_words": 1111,
+  "prime_set_lattice_pairs_checked": 7200,
+  "scope": "Finite exact replay, not external independent peer review; original historical 47/29 suites were not supplied."
+}

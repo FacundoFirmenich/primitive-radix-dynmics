@@ -791,6 +791,56 @@
       "scope": "Frozen source checkpoints, source and fresh replay domains separated."
     },
     {
+      "id": "F11K",
+      "label": "F11K",
+      "title": "Exact prefix-eight kernel and complete two-axis word normal form",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst11/RESULTS.md#f11k",
+      "scope": "All finite decimal words, including empty and leading zeros; a set bijection, not a monoid isomorphism."
+    },
+    {
+      "id": "F11H",
+      "label": "F11H",
+      "title": "Prime-erasure lattice fusion and bounded regular-language ambiguity witness",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst11/RESULTS.md#f11h",
+      "scope": "Sign preserved; exact complementary units recover K; literal recovery requires length or prefix-separating language."
+    },
+    {
+      "id": "F11C",
+      "label": "F11C",
+      "title": "Language-conditioned finite-precision CRT identification",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst11/RESULTS.md#f11c",
+      "scope": "Distinct primes other than three; valuations known, unit precisions positive; uniqueness requires exact candidate count."
+    },
+    {
+      "id": "F11R",
+      "label": "F11R",
+      "title": "Fixed-scaling regular relation and nonregular unrestricted h=8 fibre",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/fst11/RESULTS.md#f11r",
+      "scope": "Fixed j synchronous regularity; no global arbitrary-language normalized-injectivity decision claimed."
+    },
+    {
+      "id": "F11V",
+      "label": "F11V",
+      "title": "Replayed supplied FST11 source, atlas tables and finite direct checks",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/fst11/RESULTS.md#f11v",
+      "scope": "Current exact checks only; unattached historical 47/29 suites and FST10 archive not reproduced."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1331,6 +1381,16 @@
       "scope": "evidence"
     },
     {
+      "id": "A-FST11",
+      "label": "A-FST11",
+      "title": "FST11 source, embedded atlas counts and exact replay",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "research/rc33/fst11",
+      "scope": "evidence"
+    },
+    {
       "id": "L_Renyi1957",
       "label": "Rényi 1957",
       "title": "Representations for real numbers and their ergodic properties",
@@ -1579,6 +1639,16 @@
       "status": "CONTEXT",
       "artifact": "10.1142/S0129054116500155",
       "scope": "Parikh matrix mappings and observation fibres"
+    },
+    {
+      "id": "L_AlloucheShallit2003",
+      "label": "Allouche 2003",
+      "title": "Automatic Sequences: Theory, Applications, Generalizations",
+      "kind": "literature",
+      "layer": "Literature",
+      "status": "CONTEXT",
+      "artifact": "10.1017/CBO9780511546563",
+      "scope": "regular languages and finite-state arithmetic"
     }
   ],
   "edges": [
@@ -2030,6 +2100,46 @@
     {
       "source": "R17Z",
       "target": "C009",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11K",
+      "target": "R17L",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11H",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11C",
+      "target": "F11H",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11R",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11V",
+      "target": "F11K",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11V",
+      "target": "F11H",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11V",
+      "target": "F11C",
+      "relation": "depends_on"
+    },
+    {
+      "source": "F11V",
+      "target": "F11R",
       "relation": "depends_on"
     },
     {
@@ -2618,6 +2728,31 @@
       "relation": "supports"
     },
     {
+      "source": "A-FST11",
+      "target": "F11K",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST11",
+      "target": "F11H",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST11",
+      "target": "F11C",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST11",
+      "target": "F11R",
+      "relation": "supports"
+    },
+    {
+      "source": "A-FST11",
+      "target": "F11V",
+      "relation": "supports"
+    },
+    {
       "source": "L_Renyi1957",
       "target": "C001",
       "relation": "contextualizes"
@@ -2739,6 +2874,11 @@
     },
     {
       "source": "L_Teh2016",
+      "target": "C001",
+      "relation": "contextualizes"
+    },
+    {
+      "source": "L_AlloucheShallit2003",
       "target": "C001",
       "relation": "contextualizes"
     }

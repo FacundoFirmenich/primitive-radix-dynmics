@@ -18,6 +18,8 @@ Public software, exact certificates and research records for *Finite Rational Co
 
 The two existence orientations, unrestricted uniqueness of the known carrier and least-base questions remain open. The [live research dashboard](RESEARCH_STATUS.md) distinguishes these questions from proven finite and conditional statements.
 
+The **FST-11 continuation** adds [five word-observation claims](research/rc33/fst11/RESULTS.md): complete variable-length forms, complementary normalization channels, language-conditioned CRT and a nonregular global fibre. It includes the unchanged received engine and an exact cross-checker.
+
 ## Reproduce
 
 ```bash
@@ -25,7 +27,7 @@ python -m pip install -e '.[dev]'
 make reproduce
 ```
 
-This runs the core verifier, tests, RC3.3 certificate checks and ten recent replay scripts; rebuilds traceability, figures and graphs; audits synchronization; and seals the generated outputs. The expensive complete t ≤ 5000 census is separately available as `make recent-full-census`; the default replay verifies its saved code hash, finite prefix and all 157 terminal candidates.
+This runs the core verifier, tests, RC3.3 certificate checks, ten recent replay scripts and the FST-11 suite; rebuilds traceability, figures and graphs; audits synchronization; and seals the generated outputs. The expensive complete t ≤ 5000 census is separately available as `make recent-full-census`; the default replay verifies its saved code hash, finite prefix and all 157 terminal candidates.
 
 See the [quick start](QUICKSTART_REPRODUCE.md), [verification guide](VERIFICATION.md), [current replay receipt](outputs/reports/recent/RUN_MANIFEST.json) and [synchronization record](docs/SYNC_2026-11-17.md). GitHub Actions runs only by manual dispatch.
 

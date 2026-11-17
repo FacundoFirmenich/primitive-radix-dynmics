@@ -89,3 +89,11 @@ R17M,R17L,depends_on
 R17K,R17L,depends_on
 R17E,R17L,depends_on
 R17Z,C009,depends_on
+F11K,R17L,depends_on
+F11H,F11K,depends_on
+F11C,F11H,depends_on
+F11R,F11K,depends_on
+F11V,F11K,depends_on
+F11V,F11H,depends_on
+F11V,F11C,depends_on
+F11V,F11R,depends_on

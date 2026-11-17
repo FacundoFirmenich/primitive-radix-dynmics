@@ -1,24 +1,24 @@
-{"code": 119772, "r": 2, "h": 3, "planes": 12, "level_pairs": 52810, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.0335009239934152}
-{"code": 119772, "r": 2, "h": 5, "planes": 24, "level_pairs": 437118, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.28193644000566565}
-{"code": 119772, "r": 2, "h": 7, "planes": 36, "level_pairs": 1734666, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.0321560590091394}
-{"code": 119772, "r": 2, "h": 9, "planes": 36, "level_pairs": 3516471, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 2.004431323002791}
-{"code": 119772, "r": 2, "h": 11, "planes": 60, "level_pairs": 10788869, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 6.591085531996214}
-{"code": 119772, "r": 2, "h": 13, "planes": 72, "level_pairs": 21067542, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 13.018540997989476}
-{"code": 119772, "r": 3, "h": 2, "planes": 4, "level_pairs": 9941, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.011009400011971593}
-{"code": 119772, "r": 3, "h": 4, "planes": 8, "level_pairs": 78136, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 0.1002724819991272}
-{"code": 119772, "r": 3, "h": 5, "planes": 22, "level_pairs": 508648, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 0.3012564699893119}
-{"code": 119772, "r": 3, "h": 7, "planes": 32, "level_pairs": 1998430, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 1.1856835180078633}
-{"code": 119772, "r": 3, "h": 8, "planes": 21, "level_pairs": 1704802, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.1432949570007622}
-{"code": 119772, "r": 3, "h": 10, "planes": 19, "level_pairs": 2451826, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.5440356170001905}
-{"code": 119772, "r": 3, "h": 11, "planes": 53, "level_pairs": 12388464, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 8.398763630990288}
-{"code": 119772, "r": 3, "h": 13, "planes": 61, "level_pairs": 23923756, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 15.969470607000403}
-{"code": 119772, "r": 3, "h": 14, "planes": 30, "level_pairs": 11611378, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 7.520392862992594}
-{"code": 606897, "r": 3, "h": 2, "planes": 1, "level_pairs": 1560, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.002583321009296924}
-{"code": 606897, "r": 3, "h": 4, "planes": 8, "level_pairs": 117874, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.07160053100960795}
-{"code": 606897, "r": 3, "h": 5, "planes": 17, "level_pairs": 426780, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.2780670590000227}
-{"code": 606897, "r": 3, "h": 7, "planes": 25, "level_pairs": 1860694, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.1416294950031443}
-{"code": 606897, "r": 3, "h": 8, "planes": 17, "level_pairs": 2225812, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.3029737260076217}
-{"code": 606897, "r": 3, "h": 10, "planes": 17, "level_pairs": 4778599, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 2.9935607310035266}
-{"code": 606897, "r": 3, "h": 11, "planes": 41, "level_pairs": 12364377, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 8.05966582999099}
-{"code": 606897, "r": 3, "h": 13, "planes": 51, "level_pairs": 24327344, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 15.656414505996509}
-{"code": 606897, "r": 3, "h": 14, "planes": 26, "level_pairs": 17819351, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 11.642357928998535}
+{"code": 119772, "r": 2, "h": 3, "planes": 12, "level_pairs": 52810, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.04582040599780157}
+{"code": 119772, "r": 2, "h": 5, "planes": 24, "level_pairs": 437118, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.27428030599548947}
+{"code": 119772, "r": 2, "h": 7, "planes": 36, "level_pairs": 1734666, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.0635554409964243}
+{"code": 119772, "r": 2, "h": 9, "planes": 36, "level_pairs": 3516471, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 2.275894102989696}
+{"code": 119772, "r": 2, "h": 11, "planes": 60, "level_pairs": 10788869, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 7.195526081006392}
+{"code": 119772, "r": 2, "h": 13, "planes": 72, "level_pairs": 21067542, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 12.617114571999991}
+{"code": 119772, "r": 3, "h": 2, "planes": 4, "level_pairs": 9941, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.007797154001309536}
+{"code": 119772, "r": 3, "h": 4, "planes": 8, "level_pairs": 78136, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 0.05327626199868973}
+{"code": 119772, "r": 3, "h": 5, "planes": 22, "level_pairs": 508648, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 0.35292759000731166}
+{"code": 119772, "r": 3, "h": 7, "planes": 32, "level_pairs": 1998430, "primitive_square_cores": 1, "realizations": [{"coordinates": [406, 712, 1265, 731, 557], "base_and_period": [88011536665779, 223336848698040]}], "nondegenerate": true, "seconds": 1.285294083005283}
+{"code": 119772, "r": 3, "h": 8, "planes": 21, "level_pairs": 1704802, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.0332199320109794}
+{"code": 119772, "r": 3, "h": 10, "planes": 19, "level_pairs": 2451826, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.661286176997237}
+{"code": 119772, "r": 3, "h": 11, "planes": 53, "level_pairs": 12388464, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 8.245895323998411}
+{"code": 119772, "r": 3, "h": 13, "planes": 61, "level_pairs": 23923756, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 15.10411169299914}
+{"code": 119772, "r": 3, "h": 14, "planes": 30, "level_pairs": 11611378, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 7.2685894159949385}
+{"code": 606897, "r": 3, "h": 2, "planes": 1, "level_pairs": 1560, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.002758051996352151}
+{"code": 606897, "r": 3, "h": 4, "planes": 8, "level_pairs": 117874, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.07968144099868368}
+{"code": 606897, "r": 3, "h": 5, "planes": 17, "level_pairs": 426780, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 0.2739040480082622}
+{"code": 606897, "r": 3, "h": 7, "planes": 25, "level_pairs": 1860694, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.1890897620032774}
+{"code": 606897, "r": 3, "h": 8, "planes": 17, "level_pairs": 2225812, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 1.3737173910049023}
+{"code": 606897, "r": 3, "h": 10, "planes": 17, "level_pairs": 4778599, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 3.051008050009841}
+{"code": 606897, "r": 3, "h": 11, "planes": 41, "level_pairs": 12364377, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 7.5028324559971225}
+{"code": 606897, "r": 3, "h": 13, "planes": 51, "level_pairs": 24327344, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 14.663882694992935}
+{"code": 606897, "r": 3, "h": 14, "planes": 26, "level_pairs": 17819351, "primitive_square_cores": 0, "realizations": [], "nondegenerate": true, "seconds": 10.992197066007066}

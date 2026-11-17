@@ -56,3 +56,6 @@ research/rc33/**/*.bin
 !/research/rc33/results/integrated_nested.log
 !/research/rc33/results/integrated_prime_packing.log
 !/research/rc33/results/integrated_truth_preservation.log
+
+# Durable FST11 execution evidence
+!outputs/reports/fst11/*.log

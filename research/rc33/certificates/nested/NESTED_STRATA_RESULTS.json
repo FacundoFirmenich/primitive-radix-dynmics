@@ -611,7 +611,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.0335009239934152
+    "seconds": 0.04582040599780157
   },
   {
     "code": 119772,
@@ -1835,7 +1835,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.28193644000566565
+    "seconds": 0.27428030599548947
   },
   {
     "code": 119772,
@@ -3594,7 +3594,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 1.0321560590091394
+    "seconds": 1.0635554409964243
   },
   {
     "code": 119772,
@@ -5618,7 +5618,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 2.004431323002791
+    "seconds": 2.275894102989696
   },
   {
     "code": 119772,
@@ -8792,7 +8792,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 6.591085531996214
+    "seconds": 7.195526081006392
   },
   {
     "code": 119772,
@@ -12831,7 +12831,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 13.018540997989476
+    "seconds": 12.617114571999991
   },
   {
     "code": 119772,
@@ -12984,7 +12984,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.011009400011971593
+    "seconds": 0.007797154001309536
   },
   {
     "code": 119772,
@@ -13380,7 +13380,7 @@
         ]
       }
     ],
-    "seconds": 0.1002724819991272
+    "seconds": 0.05327626199868973
   },
   {
     "code": 119772,
@@ -14406,7 +14406,7 @@
         ]
       }
     ],
-    "seconds": 0.3012564699893119
+    "seconds": 0.35292759000731166
   },
   {
     "code": 119772,
@@ -15947,7 +15947,7 @@
         ]
       }
     ],
-    "seconds": 1.1856835180078633
+    "seconds": 1.285294083005283
   },
   {
     "code": 119772,
@@ -17013,7 +17013,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 1.1432949570007622
+    "seconds": 1.0332199320109794
   },
   {
     "code": 119772,
@@ -17861,7 +17861,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 1.5440356170001905
+    "seconds": 1.661286176997237
   },
   {
     "code": 119772,
@@ -24207,7 +24207,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 8.398763630990288
+    "seconds": 8.245895323998411
   },
   {
     "code": 119772,
@@ -27494,7 +27494,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 15.969470607000403
+    "seconds": 15.10411169299914
   },
   {
     "code": 119772,
@@ -29198,7 +29198,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 7.520392862992594
+    "seconds": 7.2685894159949385
   },
   {
     "code": 606897,
@@ -29248,7 +29248,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.002583321009296924
+    "seconds": 0.002758051996352151
   },
   {
     "code": 606897,
@@ -29592,7 +29592,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.07160053100960795
+    "seconds": 0.07968144099868368
   },
   {
     "code": 606897,
@@ -30465,7 +30465,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 0.2780670590000227
+    "seconds": 0.2739040480082622
   },
   {
     "code": 606897,
@@ -31726,7 +31726,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 1.1416294950031443
+    "seconds": 1.1890897620032774
   },
   {
     "code": 606897,
@@ -32839,7 +32839,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 1.3029737260076217
+    "seconds": 1.3737173910049023
   },
   {
     "code": 606897,
@@ -33644,7 +33644,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 2.9935607310035266
+    "seconds": 3.051008050009841
   },
   {
     "code": 606897,
@@ -40723,7 +40723,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 8.05966582999099
+    "seconds": 7.5028324559971225
   },
   {
     "code": 606897,
@@ -43515,7 +43515,7 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 15.656414505996509
+    "seconds": 14.663882694992935
   },
   {
     "code": 606897,
@@ -45599,6 +45599,6 @@
     ],
     "all_nondegenerate": true,
     "realizations": [],
-    "seconds": 11.642357928998535
+    "seconds": 10.992197066007066
   }
 ]

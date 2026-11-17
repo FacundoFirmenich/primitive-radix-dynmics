@@ -1,0 +1,63 @@
+{
+  "repository": "FacundoFirmenich/maths-4777",
+  "commit": "a859725a3ef7c9e5890e48e7929340072752ecee",
+  "files": [
+    {
+      "path": "research/11_observacion_causal/FRONTERA_XI.md",
+      "expected": "80e1d30e670af62a88a439d29d9e9f56ebce705bdff9aa852f42648c7394432d",
+      "actual": "80e1d30e670af62a88a439d29d9e9f56ebce705bdff9aa852f42648c7394432d",
+      "verified": true
+    },
+    {
+      "path": "research/11_observacion_causal/experimento11.py",
+      "expected": "6d88b48c32910fcf557dfa5d6eaa28a5d0aafcff566063acb582742cf6b361de",
+      "actual": "6d88b48c32910fcf557dfa5d6eaa28a5d0aafcff566063acb582742cf6b361de",
+      "verified": true
+    },
+    {
+      "path": "research/11_observacion_causal/RESULTADOS.json",
+      "expected": "fb98da5c7b1489cf19f18387f4c3ffd97f73990fc4d6e9b12f0f4844fccd3ee3",
+      "actual": "fb98da5c7b1489cf19f18387f4c3ffd97f73990fc4d6e9b12f0f4844fccd3ee3",
+      "verified": true
+    },
+    {
+      "path": "research/12_triada_irreducible/FRONTERA_XII.md",
+      "expected": "561911205c90ba13872a7ca515a4edf77201b4944c1f0f789db43034c12737a4",
+      "actual": "561911205c90ba13872a7ca515a4edf77201b4944c1f0f789db43034c12737a4",
+      "verified": true
+    },
+    {
+      "path": "research/12_triada_irreducible/experimento12.py",
+      "expected": "9a441e65c8cd1bd76e2c65399cd81217a57d29c45602ce015a690b9f20cd3ee3",
+      "actual": "9a441e65c8cd1bd76e2c65399cd81217a57d29c45602ce015a690b9f20cd3ee3",
+      "verified": true
+    },
+    {
+      "path": "research/12_triada_irreducible/RESULTADOS.json",
+      "expected": "d59cf81011f5658e68dea0e85ab7e18e98bab0425c3e0a061fd8bb5354155c9f",
+      "actual": "d59cf81011f5658e68dea0e85ab7e18e98bab0425c3e0a061fd8bb5354155c9f",
+      "verified": true
+    },
+    {
+      "path": "research/13_triada_accesibilidad_crt/FRONTERA_XIII.md",
+      "expected": "2e2db6403af4089ec8edb1ff25b5ad4c20ec2a243e4df44fba4755c23aa9de0b",
+      "actual": "2e2db6403af4089ec8edb1ff25b5ad4c20ec2a243e4df44fba4755c23aa9de0b",
+      "verified": true
+    },
+    {
+      "path": "research/13_triada_accesibilidad_crt/experimento13.py",
+      "expected": "42eb6156d3b1c0b4f61bb73ea79df44b3a18232a8d46779614dfceb0838116d4",
+      "actual": "42eb6156d3b1c0b4f61bb73ea79df44b3a18232a8d46779614dfceb0838116d4",
+      "verified": true
+    },
+    {
+      "path": "research/13_triada_accesibilidad_crt/RESULTADOS.json",
+      "expected": "2c9770ae82c26b2f307c3088d7b0a7e8c824b6afa999dd54b56c99239f0f9d26",
+      "actual": "2c9770ae82c26b2f307c3088d7b0a7e8c824b6afa999dd54b56c99239f0f9d26",
+      "verified": true
+    }
+  ],
+  "original_Python_and_browser_tests_not_rerun": true,
+  "independent_replay": "Exact ECMAScript BigInt; six stages",
+  "distinct_experiments": "8888 does not replace7444 in the older coupled covers"
+}

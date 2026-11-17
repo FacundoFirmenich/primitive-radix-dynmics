@@ -1,0 +1,40 @@
+{
+  "claims": [
+    {
+      "id": "RTB",
+      "claim": "Closed-loop traces have Hankel rank at most two and can hide distinct lifted actions",
+      "status": "PROVED_SYMBOLIC",
+      "dependencies": [
+        "C004",
+        "C011"
+      ],
+      "scope": "Based loops; exactly2 in the known family. TT and SS have distinct lifts but agree under every closed trace suffix; rational state alone does not contain the lift.",
+      "public_evidence": "research/rc33/causal-traces/RESULTS.md#rtb",
+      "verification": "make causal-trace-verify"
+    },
+    {
+      "id": "RTP",
+      "claim": "Four admissible suffix probes of length at most two recover the known family's2x2 lifted matrix",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "dependencies": [
+        "C011"
+      ],
+      "scope": "Whole known CRT family; terminal vertex known; algebraic trace oracle or causal matrix record. Minimality only for unrestricted linear2x2 recovery, not bits or constrained histories.",
+      "public_evidence": "research/rc33/causal-traces/RESULTS.md#rtp",
+      "verification": "make causal-trace-verify"
+    },
+    {
+      "id": "RTH",
+      "claim": "The36-action witness has fixed-point-trace Hankel rank11 and30 trace-future classes",
+      "status": "EXACT_CERTIFICATE",
+      "dependencies": [
+        "C011"
+      ],
+      "scope": "5x5 finite-state action matrices, distinct from2x2 branch lifts; complete36x36 table and11x11 minor determinant-576. No arithmetic closure.",
+      "public_evidence": "research/rc33/causal-traces/RESULTS.md#rth",
+      "verification": "make causal-trace-verify"
+    }
+  ],
+  "review": "Same-session assisted self-review, independent exact implementation; not external peer review",
+  "private_manuscript_integration": "pending: execution workspace unavailable"
+}

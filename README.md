@@ -1,5 +1,11 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Causal trace continuation · 17 November2026
+
+Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.
+
+Current public counts:113 claim records and59 continuation records. The previous private PDF/HTML project was unavailable; its56-card continuation and PDF hashes remain the last compiled delivery. [Private integration destinations are pending](research/rc33/causal-traces/INTEGRATION_STATUS.json). No rebuilt manuscripts, full Python aggregate rerun, source browser tests or remote CI certification are claimed. The two existence rows, uniqueness and least-base gates remain open; original DOI/tag unchanged.
+
 ## Current phase, atom and arithmetic-index integration
 
 [Seven new scoped records](research/rc33/sine-assault/RESULTS.md) bring the continuation to56 cards. The fifteen words and1922-endpoint sine partition are now reconstructed exactly. Whole-token affine observers have an explicit dual-anchor inverse. In the five residual arithmetic chambers, each fixed completion index has finitely many primitive carriers with H<(200lambda)^10; the global envelope is H^41<6400^10(B^2-1)^10 without requiring prime E. All indices<=5 are excluded at every coordinate height (factor two requires index>=7). A uniform index bound is still open; all-cardinality minimum-base control is a separate gate. Run `make sine-assault-verify`. Earlier missing-data statements remain dated historical checkpoints. No full manuscripts are published, and the original DOI/tag is unchanged.

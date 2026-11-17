@@ -141,3 +141,7 @@ LCF,RC33-H14,depends_on
 LCF,RC33-E,depends_on
 LCG,LCF,depends_on
 LCE,LCF,depends_on
+RTB,C004,depends_on
+RTB,C011,depends_on
+RTP,C011,depends_on
+RTH,C011,depends_on

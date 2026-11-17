@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "check_scope": "ExactV8 replay plus structural regeneration of113 claims,146 dependency edges,204 graph nodes and checksums for modified/new output files. Unchanged output hash entries inherited from pinned base tree.",
+  "claims": 113,
+  "dependencies": 146,
+  "graph_nodes": 204,
+  "output_hash_entries": 107,
+  "private_manuscripts": "pending; preserved last compiled hashes",
+  "not_claimed": "Python whole-repository reproduction and browser visual inspection",
+  "base_commit": "7842c2d7ae3eddf3537c074e0287539ebc55c9a4"
+}

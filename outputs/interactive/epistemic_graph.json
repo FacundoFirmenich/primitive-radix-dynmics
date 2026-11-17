@@ -1111,6 +1111,36 @@
       "scope": "Index2 includes a pure606897 contradiction and a51272-level finite leaf; indices3/4/5 cover988008 pairs at every height, with no necessary primitive candidates."
     },
     {
+      "id": "RTB",
+      "label": "RTB",
+      "title": "Closed-loop traces have Hankel rank at most two and can hide distinct lifted actions",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/causal-traces/RESULTS.md#rtb",
+      "scope": "Based loops; exactly2 in the known family. TT and SS have distinct lifts but agree under every closed trace suffix; rational state alone does not contain the lift."
+    },
+    {
+      "id": "RTP",
+      "label": "RTP",
+      "title": "Four admissible suffix probes of length at most two recover the known family's2x2 lifted matrix",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC_PLUS_CERTIFICATE",
+      "artifact": "research/rc33/causal-traces/RESULTS.md#rtp",
+      "scope": "Whole known CRT family; terminal vertex known; algebraic trace oracle or causal matrix record. Minimality only for unrestricted linear2x2 recovery, not bits or constrained histories."
+    },
+    {
+      "id": "RTH",
+      "label": "RTH",
+      "title": "The36-action witness has fixed-point-trace Hankel rank11 and30 trace-future classes",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/causal-traces/RESULTS.md#rth",
+      "scope": "5x5 finite-state action matrices, distinct from2x2 branch lifts; complete36x36 table and11x11 minor determinant-576. No arithmetic closure."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -1698,6 +1728,16 @@
       "layer": "Evidence",
       "status": "ARTIFACT",
       "artifact": "outputs/reports/sine-assault/RUN_MANIFEST.json",
+      "scope": "evidence"
+    },
+    {
+      "id": "A-CAUSAL-TRACE",
+      "label": "A-CAUSAL-TRACE",
+      "title": "Admissible lift probes, loop blindness and exact11-rank finite-action trace certificate",
+      "kind": "artifact",
+      "layer": "Evidence",
+      "status": "ARTIFACT",
+      "artifact": "outputs/reports/causal-traces/RESULTS.json",
       "scope": "evidence"
     },
     {
@@ -2723,6 +2763,26 @@
       "relation": "depends_on"
     },
     {
+      "source": "RTB",
+      "target": "C004",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RTB",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RTP",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RTH",
+      "target": "C011",
+      "relation": "depends_on"
+    },
+    {
       "source": "A001",
       "target": "C009",
       "relation": "supports"
@@ -3465,6 +3525,21 @@
     {
       "source": "A-SINE-ASSAULT",
       "target": "LCE",
+      "relation": "supports"
+    },
+    {
+      "source": "A-CAUSAL-TRACE",
+      "target": "RTB",
+      "relation": "supports"
+    },
+    {
+      "source": "A-CAUSAL-TRACE",
+      "target": "RTP",
+      "relation": "supports"
+    },
+    {
+      "source": "A-CAUSAL-TRACE",
+      "target": "RTH",
       "relation": "supports"
     },
     {

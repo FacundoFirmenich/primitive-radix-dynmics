@@ -112,6 +112,9 @@
 | LCF | `PROVED_SYMBOLIC` | Every fixed completion index is an effective finite stratum with H<(200lambda)^10 | `research/rc33/sine-assault/RESULTS.md#lcf` | depends_on:RC33-CAP<br>depends_on:RC33-H14<br>depends_on:RC33-E |
 | LCG | `PROVED_SYMBOLIC` | A uniform composite-fifth-module height envelope has exponent41/20 in the base | `research/rc33/sine-assault/RESULTS.md#lcg` | depends_on:LCF |
 | LCE | `EXACT_CERTIFICATE` | All-height completion-index strata lambda<=5 are excluded | `research/rc33/sine-assault/RESULTS.md#lce` | depends_on:LCF |
+| RTB | `PROVED_SYMBOLIC` | Closed-loop traces have Hankel rank at most two and can hide distinct lifted actions | `research/rc33/causal-traces/RESULTS.md#rtb` | depends_on:C004<br>depends_on:C011 |
+| RTP | `PROVED_SYMBOLIC_PLUS_CERTIFICATE` | Four admissible suffix probes of length at most two recover the known family's2x2 lifted matrix | `research/rc33/causal-traces/RESULTS.md#rtp` | depends_on:C011 |
+| RTH | `EXACT_CERTIFICATE` | The36-action witness has fixed-point-trace Hankel rank11 and30 trace-future classes | `research/rc33/causal-traces/RESULTS.md#rth` | depends_on:C011 |
 
 ## Artifact registry
 
@@ -176,3 +179,4 @@
 | A-FST1213 | `software_and_exact_certificates` | `research/rc33/fst1213` | F12L;F12A;F12E;F12O;F13B;F13C;F13M;F13P;F13V |
 | A-FST14 | `exact_replay` | `outputs/reports/fst14/RUN_MANIFEST.json` | F14T;F14I;F14R;F14V |
 | A-SINE-ASSAULT | `exact_replay` | `outputs/reports/sine-assault/RUN_MANIFEST.json` | SPW;SPP;SPF;ATM;LCF;LCG;LCE |
+| A-CAUSAL-TRACE | `exact_replay_and_symbolic_record` | `outputs/reports/causal-traces/RESULTS.json` | RTB;RTP;RTH |

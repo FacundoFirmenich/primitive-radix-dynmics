@@ -1,5 +1,11 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Continuación causal por trazas · 17 de noviembre de2026
+
+Tres resultados nuevos se refieren al testigo RGΦ: rango dos de las trazas de retornos y un par indistinguible; cuatro sondas admisibles de longitud máxima dos para toda la familia CRT; y rango11 del Hankel de puntos fijos, con30 clases observables entre36 acciones. [Pruebas y contratos](research/rc33/causal-traces/RESULTS.md) · [Anexo de retorno](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). El replay independiente exacto reproduce2.097.151 historias binarias,265.720 ternarias y Apéry–CRT. Comando: make causal-trace-verify.
+
+El registro público tiene113 afirmaciones y59 de continuación. Los PDF/HTML privados conservan su última edición compilada de56 tarjetas de continuación: el entorno está indisponible y sus inserciones están [pendientes](research/rc33/causal-traces/INTEGRATION_STATUS.json). No se atribuye nueva compilación, ejecución integral Python ni certificación CI remota. Los cierres globales y el DOI/tag originales no cambian.
+
 ## Integración actual: seno, observadores e índice aritmético
 
 [Siete resultados nuevos](research/rc33/sine-assault/RESULTS.md) elevan la continuación a56 tarjetas. Ya se reconstruyen exactamente las quince palabras y los1922 extremos seno–pi. Los observadores afines de paquetes completos tienen inverso explícito mediante dos anclas. En las cinco cámaras residuales, cada índice fijo admite sólo finitos portadores primitivos, con H<(200lambda)^10 y envolvente H^41<6400^10(B^2-1)^10 sin exigir E primo. Los índices<=5 quedan excluidos a cualquier altura (en factor dos el índice debe ser>=7). Sigue abierta una cota uniforme del índice; la base mínima a cardinalidad arbitraria exige un gate separado. `make sine-assault-verify` reproduce los certificados. El DOI/tag original no cambia.

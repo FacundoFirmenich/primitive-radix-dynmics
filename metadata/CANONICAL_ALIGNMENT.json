@@ -26,5 +26,11 @@
     "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "9ce41ed0d4c59d8909c5f5579b8ce4e56f244e1087625fe98cce62380e0396f4"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "56 scoped continuation cards; current sine/atomic integration and effective completion index; full manuscripts remain private"
+  "continuation": "56 scoped continuation cards; current sine/atomic integration and effective completion index; full manuscripts remain private",
+  "public_research_checkpoint": {
+    "added_cards": 3,
+    "total_public_cards": 113,
+    "continuation_cards": 59,
+    "private_document_integration": "pending: source workspace unavailable; private document hashes still identify last compiled56-card continuation"
+  }
 }

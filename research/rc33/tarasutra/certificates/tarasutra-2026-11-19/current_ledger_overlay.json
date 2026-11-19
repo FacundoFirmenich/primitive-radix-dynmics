@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "version": "RC3.3",
+  "oriented_cases": 40,
+  "excluded": 37,
+  "realized_containing": 2,
+  "existence_open": 1,
+  "forms": 20,
+  "forms_with_both_orientations_excluded": 18,
+  "forms_with_realization": 2,
+  "row_updates": {
+    "DF015-0003/S": {
+      "status": "realized-containing",
+      "system": "119772/r2",
+      "certificate": "realization.json"
+    },
+    "DF015-0007/S": {
+      "status": "realized-containing",
+      "system": "119772/r3",
+      "certificate": "historical RC3.3 witness"
+    },
+    "DF015-0007/T": {
+      "status": "existence-open",
+      "system": "606897/r3"
+    }
+  },
+  "historical_ledger": "Unchanged; this dated overlay supersedes its two-open-row status."
+}

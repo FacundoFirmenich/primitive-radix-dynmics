@@ -1,36 +1,36 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-19",
   "edition": "RC3.3",
   "figure_assets": {
     "rc33_fibres_ES.svg": "57de5c34fe53520efba37fb965c8cafc4496fab6ca244c3a5b3dc7a55259eabf",
     "rc33_visual_ES.svg": "958943e4e287d0b393cffb6fea2ec0d6e4be94435c7218c3f085eac8212b0e65",
-    "rc33_epistemic_EN.svg": "ef987e98e12cd07f5833ee4ab39ad0b1d4a3e846981762543686b86e4d869b2e",
+    "rc33_epistemic_EN.svg": "aacb245981b8361cdbd7506d40df8b805805034c0224532258e80b81ba49c6bd",
     "rc33_realization_EN.svg": "b081f3f04eef0a325b2f264333409a02d8f5682d9d5d7099c6954a3618a1923d",
     "rc33_visual_EN.svg": "da80fb7a9be138625ade5de88108e71b9f15954a0f1aa1609de159d7e23b9568",
-    "rc33_epistemic_ES.svg": "4821a022805af85e2594b98b74a9f487913f52dfe87b1d00069a15be5e7d7e96",
+    "rc33_epistemic_ES.svg": "6fee7c4795968d891ab58b4f2c364bb6daa96aecaad2a2f1babaaabc00914115",
     "rc33_coupled_EN.svg": "9b1bbfff4c7bec5f620ad143f4953ef7949499b3bbeb253dcf86353d83b0e044",
     "rc33_fibres_EN.svg": "156d0745f93133bc4b68c667f9472dc899c3d0074735f86341b2adfd07159ef8",
     "rc33_realization_ES.svg": "a0ca180526539cf889cd9aea53c71c7ce842e1c82b8f5069ad81593e371f8377",
     "rc33_coupled_ES.svg": "6917e344fc8b689d3cba638e066a7514eaa7722a7863577d39c5c353218b790b"
   },
   "private_document_hashes": {
-    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "8349ff029745d95e477b8d66ac7f7258dd827ccf8739f3f07ab03da766f831b2",
-    "RGPHI_RC3_3_COMPANION_ES.pdf": "7705b0f8b8146d23686af067263e09de1f61e0ba7c8c21e076613130707bf7bf",
-    "RGPHI_RC3_3_MAIN_EN.pdf": "f165c6a93f145a9dd9766cf36d5ae07eb198fc776ff58b2f7e98deff222c23ac",
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "ebb915e3c8b46380780f736f10918ff97f2a757acb54e0a9ea955457b6f44788",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "f39945dc8b6c97bfb86f32191b026222cecbb7b09c1fc6542475c6d6c502df4b",
+    "RGPHI_RC3_3_MAIN_EN.pdf": "5156565e6beb6b96201fad4189d4beb1ca07e698f5fdafdbfd71eac7f723d725",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
-    "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "40a31bef72b896ba15dabc68e4b673a83a2e9119a5dc9daab4e2044b04825a28",
-    "RGPHI_RC3_3_COMPANION_EN.pdf": "a12ba14152367961ba01732b983742073c9bf034ed231763323b25c04629392b",
-    "RGPHI_RC3_3_MAIN_ES.pdf": "ea0d59a89163ad430ebdbc466945543cbdf1ce6b093cda9d91d23bc3fc4b3e17",
-    "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "8d65b2a1df2ac9f3022dfd8b23817519633302e3596cf0dee05800ad65304728",
-    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "97b7fdbd2bb76036b6f655b276736b4cc3ea841701ddec0c5e4d6161e5f42d10"
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "8165065ec182758f78e7a70c0ab424b42a53ca2bb9ef48d99aa4524d566f1fd5",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "eab195a143948a3917e83a906c054bbd0d0a6dc09fa34acb7c7ab401d102e892",
+    "RGPHI_RC3_3_MAIN_ES.pdf": "fe8421f22f2fc7e53e639af0bd8bcd3ecf6bfe8adfc52cc99c9d31d1ff53d4d5",
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "bc86a2483b916bb97be3f07accbb5c161d8d78fe06f9494ec5c25d4459c68095",
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "5067e95eff1db4f6a0a2b401d73af419995ad26150f9677f1787bdb5ff0afb2d"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "62 compiled continuation cards;111 private claim cards;116 public records; FST16 and causal proofs integrated in all six private manuscript pairs",
+  "continuation": "65 continuation cards;114 private cards;119 public records; new explicit factor-two realization and current 37/2/1 ledger; manuscript HTML not rebuilt",
   "public_research_checkpoint": {
     "added_since_sine": 6,
-    "total_public_cards": 116,
-    "continuation_cards": 62,
-    "private_document_integration": "completed; six current PDF/HTML pairs"
+    "total_public_cards": 119,
+    "continuation_cards": 65,
+    "private_document_integration": "six current PDFs; manuscript HTML excluded from this update"
   }
 }

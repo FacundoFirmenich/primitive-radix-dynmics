@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "claim": "119772/r2 = DF015-0003/S is realized",
+  "core": {
+    "A": 1089859,
+    "C": 1627375,
+    "D": 3121631,
+    "Q": 2087631,
+    "E": 2105745,
+    "r": 2
+  },
+  "states": [
+    "1089859/2087631",
+    "1627375/2087631",
+    "1627375/3121631",
+    "2179718/3121631",
+    "1089859/2105745"
+  ],
+  "maps": {
+    "T": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "S": [
+      4,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  "edges": [
+    {
+      "generator": "T",
+      "source": 0,
+      "target": 1,
+      "defect": 1,
+      "residue": 2021356,
+      "modulus": 2087631
+    },
+    {
+      "generator": "T",
+      "source": 1,
+      "target": 0,
+      "defect": 1,
+      "residue": 2021356,
+      "modulus": 2087631
+    },
+    {
+      "generator": "T",
+      "source": 2,
+      "target": 3,
+      "defect": 1,
+      "residue": 342730,
+      "modulus": 3121631
+    },
+    {
+      "generator": "T",
+      "source": 3,
+      "target": 2,
+      "defect": 1,
+      "residue": 342730,
+      "modulus": 3121631
+    },
+    {
+      "generator": "T",
+      "source": 4,
+      "target": 4,
+      "defect": 1,
+      "residue": 1,
+      "modulus": 2105745
+    },
+    {
+      "generator": "S",
+      "source": 0,
+      "target": 4,
+      "defect": 1,
+      "residue": 748713,
+      "modulus": 1089859
+    },
+    {
+      "generator": "S",
+      "source": 1,
+      "target": 2,
+      "defect": 1,
+      "residue": 1122126,
+      "modulus": 1627375
+    },
+    {
+      "generator": "S",
+      "source": 2,
+      "target": 1,
+      "defect": 1,
+      "residue": 1122126,
+      "modulus": 1627375
+    },
+    {
+      "generator": "S",
+      "source": 3,
+      "target": 0,
+      "defect": 2,
+      "residue": 1838572,
+      "modulus": 2179718
+    },
+    {
+      "generator": "S",
+      "source": 4,
+      "target": 0,
+      "defect": 1,
+      "residue": 748713,
+      "modulus": 1089859
+    }
+  ],
+  "base_fibre": {
+    "residue": 2720751096305053288157586672376,
+    "modulus": 3245172386374697665101193455750,
+    "parameter": "n>=0"
+  },
+  "signed_cofactors": {
+    "A-": [
+      20213,
+      3019
+    ],
+    "A+": [
+      -349,
+      361
+    ],
+    "C-": [
+      18806,
+      5875
+    ],
+    "C+": [
+      176,
+      277
+    ],
+    "D-": [
+      411,
+      337
+    ],
+    "D+": [
+      -1639,
+      9263
+    ],
+    "Q-": [
+      82,
+      63
+    ],
+    "Q+": [
+      8532,
+      33137
+    ]
+  },
+  "minimum_signed_denominator": 63,
+  "completion_index": 140383,
+  "discovery": {
+    "policy": "T1",
+    "h": 63,
+    "k": 82,
+    "node": "Q",
+    "sign": -1,
+    "completed_at": "2026-11-18T19:17:15.606938+00:00",
+    "payload_sha256": "bb473c6a06565ef78af99c2ce573ac9a84084f2569139f8275c563d89cb8a73a"
+  },
+  "scope": "Explicit realization and complete base fibre; no exhaustive global classification."
+}

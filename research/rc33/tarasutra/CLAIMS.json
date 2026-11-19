@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "claims": [
+    {
+      "id": "TARA1",
+      "claim": "Explicit realization of 119772/r2 with complete CRT base fibre",
+      "status": "proved",
+      "scope": "Five primitive states, ten edges, exact gcds and strong connectivity; no global least base or uniqueness",
+      "public_evidence": "research/rc33/tarasutra/RESULTS.md#tara1"
+    },
+    {
+      "id": "TARA2",
+      "claim": "Certified refinement and sound modular rejection are distinct sufficient checks",
+      "status": "proved",
+      "scope": "Finite observation partitions; exact necessary square tests, independent of query ranking",
+      "public_evidence": "research/rc33/tarasutra/RESULTS.md#tara2"
+    },
+    {
+      "id": "TARA3",
+      "claim": "Dated production coverage and completed-range policy counters",
+      "status": "recorded production computation",
+      "scope": "Coverage reports h19..78 and comparison counters h19..40; not freshly replayed in full; no h15..18 assertion",
+      "public_evidence": "research/rc33/tarasutra/RESULTS.md#tara3"
+    }
+  ]
+}

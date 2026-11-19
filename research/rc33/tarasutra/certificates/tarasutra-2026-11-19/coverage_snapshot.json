@@ -1,0 +1,610 @@
+{
+  "h_min": 19,
+  "h_max": 78,
+  "planes": 19190,
+  "chunks": 479685,
+  "level_pairs": 631969933005,
+  "strata": [
+    {
+      "chunks": 2510,
+      "h": 19,
+      "level_pairs": 318476003,
+      "planes": 276,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h19.json",
+      "sha256": "d54147a2402450193d6e5330113a04a782a76130c1674ec3b4786cf632bc40fd"
+    },
+    {
+      "chunks": 913,
+      "h": 20,
+      "level_pairs": 122952400,
+      "planes": 74,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h20.json",
+      "sha256": "c11314f4d3e9ad4d7c1d706aa938bc1a0635641a4d0781d1a7abd26b9696c8f4"
+    },
+    {
+      "chunks": 488,
+      "h": 21,
+      "level_pairs": 84322397,
+      "planes": 72,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h21.json",
+      "sha256": "22584693991b619bada2078f0dd94298c283984dbe863ee018951379fb07d4ee"
+    },
+    {
+      "chunks": 1158,
+      "h": 22,
+      "level_pairs": 186816420,
+      "planes": 93,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h22.json",
+      "sha256": "882bccac59d72430cfb5a944000b9445e0e3cae659aa697a5f0cdb731b72e33a"
+    },
+    {
+      "chunks": 3709,
+      "h": 23,
+      "level_pairs": 686280497,
+      "planes": 339,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h23.json",
+      "sha256": "98f4da3a1f29933192e7ab2cc34c5e7705a097bc6b7b7b16b19cc994c5bd83ae"
+    },
+    {
+      "chunks": 0,
+      "h": 24,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h24.json",
+      "sha256": "ebabf6d00f64cdfd64f7eb01852475e37b4d9e5e386656af51a278f7dabfcefc"
+    },
+    {
+      "chunks": 3558,
+      "h": 25,
+      "level_pairs": 797104761,
+      "planes": 306,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h25.json",
+      "sha256": "ec20ec9c3b2128923e075188ee45f89dc0bce27ce0e2bdd419b38834f779396d"
+    },
+    {
+      "chunks": 1619,
+      "h": 26,
+      "level_pairs": 370881038,
+      "planes": 113,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h26.json",
+      "sha256": "40ef2a2e73224f14c7401fd217e7abaa4126e0399da321efffdd5eac7fb796ef"
+    },
+    {
+      "chunks": 934,
+      "h": 27,
+      "level_pairs": 271779182,
+      "planes": 108,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/continuacion/685292587721d8cb15fbe688/coverage/h27.json",
+      "sha256": "cd72c1b1ebc793b872a7e0df69df0c4e63b9e25f7a0ce1872f3236fbbc213094"
+    },
+    {
+      "chunks": 1806,
+      "h": 28,
+      "level_pairs": 484907532,
+      "planes": 111,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h28.json",
+      "sha256": "a1914f77428496766c98f6f02929d9b1c820074aa6b869b574a49aaff77c80ec"
+    },
+    {
+      "chunks": 5831,
+      "h": 29,
+      "level_pairs": 1739432711,
+      "planes": 430,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h29.json",
+      "sha256": "b62b4afb54679b9ad424494d96687f37126e92ea69a5a903c8f855adb916f0e5"
+    },
+    {
+      "chunks": 0,
+      "h": 30,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h30.json",
+      "sha256": "5f1d24930b3711b02d88e958ea45c6e092b220eb074d2c2437d4ab7f556da71a"
+    },
+    {
+      "chunks": 6653,
+      "h": 31,
+      "level_pairs": 2271537461,
+      "planes": 460,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h31.json",
+      "sha256": "a4a0256c860bd188dc3d84d9aaa3f99943032e9e5b9e985176c57df1a0da17ad"
+    },
+    {
+      "chunks": 2676,
+      "h": 32,
+      "level_pairs": 928056382,
+      "planes": 149,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h32.json",
+      "sha256": "8a54469b857315612503c345dc02cd4c355d0d97b29da866f6292906af41dbea"
+    },
+    {
+      "chunks": 1229,
+      "h": 33,
+      "level_pairs": 542324359,
+      "planes": 120,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h33.json",
+      "sha256": "2cd9792b8ff4f4b7f77d7f57d2cd7357f141e7854f001d10ea59e2ac415f36f7"
+    },
+    {
+      "chunks": 2848,
+      "h": 34,
+      "level_pairs": 1108389560,
+      "planes": 149,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h34.json",
+      "sha256": "868ace79c2ed369c4c63efbdf9baeecad5b03c0d3bd1a6cf01dd0de6f8d20368"
+    },
+    {
+      "chunks": 5823,
+      "h": 35,
+      "level_pairs": 2586102632,
+      "planes": 367,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h35.json",
+      "sha256": "b7633657a7b9313a9d81265bc0e9ffd8a0c8c568410e1b5eac6b5ddacbd953c3"
+    },
+    {
+      "chunks": 0,
+      "h": 36,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h36.json",
+      "sha256": "3f46be9a0fce78d902e26d56faa37d1924f0a0038f046d11029f0e8f5659ca5a"
+    },
+    {
+      "chunks": 9415,
+      "h": 37,
+      "level_pairs": 4613062334,
+      "planes": 552,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h37.json",
+      "sha256": "e49a728cb1bcfae7cd7889f66e48b2d2fcc83110c96c5ef072c83602eb81ee68"
+    },
+    {
+      "chunks": 3591,
+      "h": 38,
+      "level_pairs": 1740618673,
+      "planes": 168,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h38.json",
+      "sha256": "8f93e9f7f81cca6ed4e8434a03e2d9a8d9a2f50f606c247336b6f499f422a364"
+    },
+    {
+      "chunks": 1734,
+      "h": 39,
+      "level_pairs": 1074700870,
+      "planes": 144,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h39.json",
+      "sha256": "e1318b241dc2aa937510cbae4438d57c1c8a199d4fc0bab689a29bbe94dd5999"
+    },
+    {
+      "chunks": 3291,
+      "h": 40,
+      "level_pairs": 1770424007,
+      "planes": 149,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h40.json",
+      "sha256": "b9a07bd386da0247a83d20e7b19f0100e6bbc6afb619963508cbb42fc492fe7c"
+    },
+    {
+      "chunks": 11566,
+      "h": 41,
+      "level_pairs": 6964301177,
+      "planes": 615,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h41.json",
+      "sha256": "8929754451c82b02140688d87b3a9ea9aa5683660c928a615e2d4afce8a2ead4"
+    },
+    {
+      "chunks": 0,
+      "h": 42,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h42.json",
+      "sha256": "5c4b2d43c113bd776e8dc0765bb550cd93f58c48b4cbd4bfe7ee5af0cd1d74c4"
+    },
+    {
+      "chunks": 12692,
+      "h": 43,
+      "level_pairs": 8425915173,
+      "planes": 645,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h43.json",
+      "sha256": "411305bcc402a5da041db1c507affe41004b4623e4b27477d8a5ce71a75fbd5e"
+    },
+    {
+      "chunks": 4617,
+      "h": 44,
+      "level_pairs": 3042634118,
+      "planes": 187,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h44.json",
+      "sha256": "1d1498b3558bcc62ab1d7ec0ec66e2d2b25ed6496bf2a18c474d5fdb81ae824d"
+    },
+    {
+      "chunks": 1996,
+      "h": 45,
+      "level_pairs": 1656151828,
+      "planes": 144,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h45.json",
+      "sha256": "a9571d4574ac88b9cd1430fd6a0486b6b9348adc51ac0cae27b2ad327648651a"
+    },
+    {
+      "chunks": 5193,
+      "h": 46,
+      "level_pairs": 3757427595,
+      "planes": 204,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h46.json",
+      "sha256": "bc432f7da43a4c5b115bc8c63c618459bc70d259fa9b8bd19c0e1a576b747f5f"
+    },
+    {
+      "chunks": 15187,
+      "h": 47,
+      "level_pairs": 12038962425,
+      "planes": 706,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h47.json",
+      "sha256": "c86f18f444f71ee4c8511cc2f98984994600472549d513f90a5e7eed6256624c"
+    },
+    {
+      "chunks": 0,
+      "h": 48,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h48.json",
+      "sha256": "73578740ca0b9e353e78fa03821b693affa2dec8e0f7f094264352f0ac6f6bda"
+    },
+    {
+      "chunks": 14296,
+      "h": 49,
+      "level_pairs": 12389790881,
+      "planes": 643,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h49.json",
+      "sha256": "8fe63b6cfea1bcc90eec700c6291be3182808928bbe6695db4f88cc3a8fefccc"
+    },
+    {
+      "chunks": 5238,
+      "h": 50,
+      "level_pairs": 4386717943,
+      "planes": 188,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h50.json",
+      "sha256": "6468fcffd7df3a4a2f4441b3cb8b47ba6890ca161c965d359caace8602d514cc"
+    },
+    {
+      "chunks": 2990,
+      "h": 51,
+      "level_pairs": 3198923254,
+      "planes": 192,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h51.json",
+      "sha256": "ae509e92ba880172f3e31227d50fa331369ebe35b0ea9d2b3601ad92ee743873"
+    },
+    {
+      "chunks": 6548,
+      "h": 52,
+      "level_pairs": 6001129168,
+      "planes": 224,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h52.json",
+      "sha256": "66b3bf1019d727c6179eb506d7427081d9200dac7358a6846d38fcc6c3cb8906"
+    },
+    {
+      "chunks": 19254,
+      "h": 53,
+      "level_pairs": 19471805725,
+      "planes": 799,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h53.json",
+      "sha256": "a9614c243bbe52386c1139d0eb687e3ddb1a8eaf926f8ea13fc5c380734d1bfc"
+    },
+    {
+      "chunks": 0,
+      "h": 54,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h54.json",
+      "sha256": "7bd53e4dab56d71fa7e924264b4b5e9fc0fd536907c9f86b5a1d37e2bacbbb77"
+    },
+    {
+      "chunks": 15040,
+      "h": 55,
+      "level_pairs": 16557210135,
+      "planes": 611,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h55.json",
+      "sha256": "76b0c564d14ae10b5dbd1554866f1d757192b2c3ca89dda20bdb06b25d9a9f04"
+    },
+    {
+      "chunks": 6855,
+      "h": 56,
+      "level_pairs": 7286211508,
+      "planes": 223,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h56.json",
+      "sha256": "ce8960bda99f5576c93d4f2e0fabad2bac635364f95e53daf38bdcf4ba6757c4"
+    },
+    {
+      "chunks": 3735,
+      "h": 57,
+      "level_pairs": 5018377448,
+      "planes": 216,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h57.json",
+      "sha256": "3c009dd2f73e7fb88f50b87c398eff2c7413255bab45c795279faed1aab21d63"
+    },
+    {
+      "chunks": 8320,
+      "h": 58,
+      "level_pairs": 9560998751,
+      "planes": 261,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h58.json",
+      "sha256": "482b778ea79145144058c357c98225071b35a8cbd8dbb11cb067279f04e81068"
+    },
+    {
+      "chunks": 23847,
+      "h": 59,
+      "level_pairs": 29920298018,
+      "planes": 891,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h59.json",
+      "sha256": "8f43a996dcb838f13eba368f07f88187e808b96a84dc17565aab8ef3347e3e43"
+    },
+    {
+      "chunks": 0,
+      "h": 60,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h60.json",
+      "sha256": "5ab3d3deb1a00d8969db6cbf804d7acbaecb10d01edb49a6020c3eb179b88286"
+    },
+    {
+      "chunks": 25439,
+      "h": 61,
+      "level_pairs": 34182497561,
+      "planes": 921,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h61.json",
+      "sha256": "3d0ce0db16bd783240b5a62003e556ce6301a627e186fe0376f34c72fc5d3003"
+    },
+    {
+      "chunks": 9524,
+      "h": 62,
+      "level_pairs": 12509236235,
+      "planes": 281,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h62.json",
+      "sha256": "37ed19311490a963ef2f4096d863582ba37f287075533133a8dbb7268e850d8f"
+    },
+    {
+      "chunks": 4146,
+      "h": 63,
+      "level_pairs": 6800272998,
+      "planes": 216,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h63.json",
+      "sha256": "c70fa4047ca18caa8ab32f34b80ea00d309e9a587995a97fa8dd1ec72cccf93f"
+    },
+    {
+      "chunks": 10450,
+      "h": 64,
+      "level_pairs": 14616993774,
+      "planes": 298,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h64.json",
+      "sha256": "555470e60503a269f71cce536476bb79808f0b50e562ff275ea5a0dd264e27a0"
+    },
+    {
+      "chunks": 21351,
+      "h": 65,
+      "level_pairs": 32815769155,
+      "planes": 735,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h65.json",
+      "sha256": "ad57bdf063510cef1214c857ec77c2de01aa9ed39dd2d805b6d36c22fd1576d9"
+    },
+    {
+      "chunks": 0,
+      "h": 66,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h66.json",
+      "sha256": "e88d4604201da196a7fffbfdd48be6b0f1c61b2c80ad995fba5e688fa4e8fb62"
+    },
+    {
+      "chunks": 30644,
+      "h": 67,
+      "level_pairs": 49768455685,
+      "planes": 1012,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h67.json",
+      "sha256": "801d73f5aa2bb898d01ea82919d65a8d710b083cb06ade57a9142212d04a9670"
+    },
+    {
+      "chunks": 11247,
+      "h": 68,
+      "level_pairs": 17746930321,
+      "planes": 298,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h68.json",
+      "sha256": "c0272048d32a31e8fd0ddc69126e19e56b6bb6aab943dbdf33c5a5a8f8017941"
+    },
+    {
+      "chunks": 5493,
+      "h": 69,
+      "level_pairs": 10871610226,
+      "planes": 264,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h69.json",
+      "sha256": "200dddeef1df332d70639812d94753797060abcda21dda8bc5145e4e0e1aa42e"
+    },
+    {
+      "chunks": 8676,
+      "h": 70,
+      "level_pairs": 14368608694,
+      "planes": 225,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h70.json",
+      "sha256": "8d23ba64550a6650866eaee2025368aaa15a0ba0a8f8586bfe83241ef687206e"
+    },
+    {
+      "chunks": 34436,
+      "h": 71,
+      "level_pairs": 62778462915,
+      "planes": 1075,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h71.json",
+      "sha256": "1da8fca32f5d414c12b99137bd26ed3243539b043165e9a0ae0427a33c1c7bf1"
+    },
+    {
+      "chunks": 0,
+      "h": 72,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h72.json",
+      "sha256": "718d0154dfd8ea1ce0e11ffcfa85acc6261ac510d4378f5589cddfe47a617442"
+    },
+    {
+      "chunks": 36350,
+      "h": 73,
+      "level_pairs": 70148894890,
+      "planes": 1104,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h73.json",
+      "sha256": "195ca17f5c016ee2de1d59a374b0e2b176cc4187bbb276de2a1f4c907668e50d"
+    },
+    {
+      "chunks": 13617,
+      "h": 74,
+      "level_pairs": 25504751257,
+      "planes": 336,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h74.json",
+      "sha256": "7c6de5671fe0e0b910ccbe24543fe5637c03e666514447731abc4da0cefebe32"
+    },
+    {
+      "chunks": 5445,
+      "h": 75,
+      "level_pairs": 12724712855,
+      "planes": 240,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h75.json",
+      "sha256": "26aaa933debf1c167f9aaa2114efcca603178a4022d14d9ad32953a672611bcb"
+    },
+    {
+      "chunks": 14111,
+      "h": 76,
+      "level_pairs": 27794939584,
+      "planes": 336,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h76.json",
+      "sha256": "722d3f0e7559ae3d8c275adda0c08ada92b1cc1d587cb1e269e6d57a6e765a09"
+    },
+    {
+      "chunks": 31596,
+      "h": 77,
+      "level_pairs": 67962772489,
+      "planes": 920,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h77.json",
+      "sha256": "a9ee9965d529b69ad3aacddc6596a3a913fe516b4a3c631045879be965c3a421"
+    },
+    {
+      "chunks": 0,
+      "h": 78,
+      "level_pairs": 0,
+      "planes": 0,
+      "status": "complete_in_declared_domain",
+      "unresolved_degeneracies": [],
+      "source": "/workspace/tarasutra-perfiles-2026-11-18/frontera_rapida/227563795d971cb4d0bc37ad/coverage/h78.json",
+      "sha256": "d8a05f721c85b1b3ecb0ead6e685bc27affbc20b90e6deb577237d2f335af62a"
+    }
+  ],
+  "scope": "Archived production reports, not an independent replay of all chunks. No assertion for h15..18."
+}

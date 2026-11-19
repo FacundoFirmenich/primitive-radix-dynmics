@@ -1,0 +1,26 @@
+{
+  "h_min": 19,
+  "h_max": 40,
+  "policies": {
+    "LOGITS": {
+      "level_pairs": 21698169219,
+      "visited_pairs": 5930124433,
+      "square_root_calls": 5068774441,
+      "chunks": 59786
+    },
+    "T1": {
+      "level_pairs": 21698169219,
+      "visited_pairs": 12997382299,
+      "square_root_calls": 11081465490,
+      "chunks": 59786
+    },
+    "T2": {
+      "level_pairs": 21698169219,
+      "visited_pairs": 5718876493,
+      "square_root_calls": 4871893206,
+      "chunks": 59786
+    }
+  },
+  "units": "exact dimensionless event counts",
+  "scope": "Completed-range work counters; not wall-time benchmarks or existence probabilities."
+}

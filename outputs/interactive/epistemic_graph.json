@@ -1171,6 +1171,36 @@
       "scope": "Any complete decimal DFA; no universal sublinear bound; original FST15/16 engines not received"
     },
     {
+      "id": "TARA1",
+      "label": "TARA1",
+      "title": "Explicit realization of 119772/r2 with complete CRT base fibre",
+      "kind": "claim",
+      "layer": "Counterexample",
+      "status": "PROVED_SYMBOLIC_PLUS_CRT",
+      "artifact": "research/rc33/tarasutra/RESULTS.md#tara1",
+      "scope": "Five primitive states, ten edges, exact gcds and strong connectivity; no global least base or uniqueness"
+    },
+    {
+      "id": "TARA2",
+      "label": "TARA2",
+      "title": "Certified refinement and sound modular rejection are distinct sufficient checks",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/tarasutra/RESULTS.md#tara2",
+      "scope": "Finite observation partitions; exact necessary square tests, independent of query ranking"
+    },
+    {
+      "id": "TARA3",
+      "label": "TARA3",
+      "title": "Dated production coverage and completed-range policy counters",
+      "kind": "claim",
+      "layer": "Claims",
+      "status": "RECORDED_PRODUCTION_SCOPE",
+      "artifact": "research/rc33/tarasutra/RESULTS.md#tara3",
+      "scope": "Coverage reports h19..78 and comparison counters h19..40; not freshly replayed in full; no h15..18 assertion"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -2846,6 +2876,16 @@
       "source": "F16D",
       "target": "F13B",
       "relation": "depends_on"
+    },
+    {
+      "source": "TARA1",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "TARA1",
+      "target": "C012",
+      "relation": "extends"
     },
     {
       "source": "A001",

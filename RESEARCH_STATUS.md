@@ -1,5 +1,18 @@
 # Research status · RC3.3
 
+## Current Tarasutra continuation — 19 November 2026
+
+119772/factor 2 (0003/S) is explicitly realized. The independent checker
+verifies five primitive states, ten edges and the complete CRT base fibre.
+The current ledger is 37 excluded / 2 realized-containing / 1 existence-open.
+Only 606897/factor 3 (0007/T) remains existence-open.
+Run make tarasutra-verify. [Evidence](research/rc33/tarasutra/RESULTS.md).
+Current public register:119 records, including65 continuation records.
+Private manuscripts are synchronized separately; manuscript HTML is not rebuilt.
+Uniqueness within realized types and the global minimum-base problems remain open.
+Earlier dated counts below are historical. Original DOI/tag unchanged.
+
+
 ## Current compiled continuation · FST16 and causal traces
 
 The three prior causal results are now incorporated into the six private PDF/HTML manuscripts. Three FST16 records add a3-adic isometry, coprime prefix/suffix inversion and exact DFA-cylinder pruning, with reconstructed10000-digit counts3944/986/110/2/1. The value/key precision shift and general-prime contractions are explicit. Current public ledger:116 records;62 continuation cards. [FST16 evidence](research/rc33/fst16/RESULTS.md) · [Causal evidence](research/rc33/causal-traces/RESULTS.md). Original FST15/16 software was not supplied; independent reconstruction is distinguished from its missing suites. Private sources remain embargoed; the original DOI/tag is unchanged. Earlier dated pending-document paragraphs are historical checkpoints superseded here.
@@ -20,7 +33,7 @@ Current public counts:113 claim records and59 continuation records. The previous
 
 The exact content laws and two-chart cycle balance imply permutation rigidity through four states. An explicit five-state CRT family attains the sharp threshold. Strict-edge uniqueness, the twenty generator-unoriented forms and the complete forty-case oriented ledger are certified.
 
-The current oriented classification is **37 excluded / 1 realized-containing / 2 open**. The historical 7/1/12 and eleven-branch checkpoints are superseded by the [forty-row ledger](research/five-state/continuation/ORIENTED_STATUS.csv). A realized orientation need not have a unique primitive carrier.
+The current oriented classification is **37 excluded / 2 realized-containing / 1 existence-open**. The historical 7/1/12 and eleven-branch checkpoints are superseded by the [forty-row ledger](research/five-state/continuation/ORIENTED_STATUS.csv). A realized orientation need not have a unique primitive carrier.
 
 ## Integrated continuation
 
@@ -40,11 +53,10 @@ The [T007 cross-branch records](research/rc33/t007/RESULTS.md) add a complete Q<
 
 ## Global questions still open
 
-1. Existence of the 119772 factor-two orientation (0003/S).
-2. Existence of the 606897 factor-three orientation (0007/T).
-3. Unrestricted uniqueness of the known 119772 factor-three primitive carrier.
-4. The least base among all five-state nonpermutation components.
-5. The least base when arbitrary cardinalities are allowed.
+1. Existence of the 606897 factor-three orientation (0007/T).
+2. Uniqueness within each realized 119772 factor-two or factor-three type.
+3. The least base among all five-state nonpermutation components.
+4. The least base when arbitrary cardinalities are allowed.
 
 The t ≤ 5000 exclusion is uniform over bases in its chamber stratum, not over all heights. Fixed-base, bounded-cardinality decidability supplies no uniform global height bound. Historical base bounds derived from earlier coordinate cutoffs are recorded as conditional on those cutoffs, not as a new globally complete census.
 

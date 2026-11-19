@@ -118,6 +118,9 @@
 | F16I | `PROVED_SYMBOLIC` | Admissible seven-erasure ranks and values form a bijective3-adic isometry | `research/rc33/fst16/RESULTS.md#f16i` | depends_on:F13B |
 | F16C | `PROVED_SYMBOLIC` | Prefix, suffix and ternary residues admit exact joint rank/select and sharp resolution | `research/rc33/fst16/RESULTS.md#f16c` | depends_on:F16I<br>depends_on:F14I |
 | F16D | `PROVED_SYMBOLIC` | DFA cylinder pruning counts structured fibres exactly | `research/rc33/fst16/RESULTS.md#f16d` | depends_on:F16C<br>depends_on:F13B |
+| TARA1 | `PROVED_SYMBOLIC_PLUS_CRT` | Explicit realization of 119772/r2 with complete CRT base fibre | `research/rc33/tarasutra/RESULTS.md#tara1` | depends_on:C003<br>extends:C012 |
+| TARA2 | `PROVED_SYMBOLIC` | Certified refinement and sound modular rejection are distinct sufficient checks | `research/rc33/tarasutra/RESULTS.md#tara2` | — |
+| TARA3 | `RECORDED_PRODUCTION_SCOPE` | Dated production coverage and completed-range policy counters | `research/rc33/tarasutra/RESULTS.md#tara3` | — |
 
 ## Artifact registry
 

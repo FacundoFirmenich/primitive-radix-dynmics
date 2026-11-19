@@ -1,0 +1,8 @@
+{
+  "discovery_chunk": "aa879e28e67016882fedb3002570762e895b2fb1a96e453f7a01a3a7aac8a762",
+  "independent_checker": "a1339b6f2b99141085ab6c80042f59b18800229d3f3c3b94edc47afa353d4c3b",
+  "source_fingerprint": "64eb3b53407cedfae158e2001e062a75446e595c9ecb535bf8cc47869ba11486",
+  "model_sha256": "5b13afa7a99d5c4a6b235acc320c659a16393c2dc1218a05df9fbfb421d55e6e",
+  "derived_solver_sha256": "74ab85d91055cecbe2a1c84949a6818a575d9e8752340419e364048cbf33b668",
+  "archive_scope": "The DOI identifies the previously archived RC3.3 baseline; this dated continuation has not been deposited there."
+}

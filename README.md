@@ -1,5 +1,18 @@
 # Primitive Radix–Möbius Dynamics · RGΦ
 
+## Current Tarasutra continuation — 19 November 2026
+
+119772/factor 2 (0003/S) is explicitly realized. The independent checker
+verifies five primitive states, ten edges and the complete CRT base fibre.
+The current ledger is 37 excluded / 2 realized-containing / 1 existence-open.
+Only 606897/factor 3 (0007/T) remains existence-open.
+Run make tarasutra-verify. [Evidence](research/rc33/tarasutra/RESULTS.md).
+Current public register:119 records, including65 continuation records.
+Private manuscripts are synchronized separately; manuscript HTML is not rebuilt.
+Uniqueness within realized types and the global minimum-base problems remain open.
+Earlier dated counts below are historical. Original DOI/tag unchanged.
+
+
 ## Current compiled continuation · FST16 and causal traces
 
 The three prior causal results are now incorporated into the six private PDF/HTML manuscripts. Three FST16 records add a3-adic isometry, coprime prefix/suffix inversion and exact DFA-cylinder pruning, with reconstructed10000-digit counts3944/986/110/2/1. The value/key precision shift and general-prime contractions are explicit. Current public ledger:116 records;62 continuation cards. [FST16 evidence](research/rc33/fst16/RESULTS.md) · [Causal evidence](research/rc33/causal-traces/RESULTS.md). Original FST15/16 software was not supplied; independent reconstruction is distinguished from its missing suites. Private sources remain embargoed; the original DOI/tag is unchanged. Earlier dated pending-document paragraphs are historical checkpoints superseded here.
@@ -25,12 +38,12 @@ Public software, exact certificates and research records for *Finite Rational Co
 | Result | Evidence |
 | --- | --- |
 | Both maps permute every finite high component with at most four states; five states attain the first failure | [Threshold proof](proofs/SHARP_THRESHOLD.md) · [CRT witness](certificates/ARITHMETIC_PROGRESSION.json) |
-| Complete forty-case oriented ledger: **37 exclusions / 1 realized-containing row / 2 open rows** | [Oriented ledger](research/five-state/continuation/ORIENTED_STATUS.csv) |
+| Complete forty-case oriented ledger: **37 exclusions / 2 realized-containing rows / 1 existence-open row** | [Oriented ledger](research/five-state/continuation/ORIENTED_STATUS.csv) |
 | All-height certificates on specified cofactor strata, including h ≤ 14, and fifth-coordinate restrictions | [RC3.3 checkers](research/rc33/README.md) |
 | Exact chamber reduction for 606897/3; saved exhaustive t ≤ 5000 exclusion with current prefix and terminal replay | [Recent result register](research/rc33/recent/RESULTS.md#r17b) |
 | Weighted and coupled finite-group covers, deterministic phases and finite recovery records | [Recent modules](research/rc33/recent/RESULTS.md) · [24 claim cards](research/rc33/recent/CLAIMS.json) |
 
-The two existence orientations, unrestricted uniqueness of the known carrier and least-base questions remain open. The [live research dashboard](RESEARCH_STATUS.md) distinguishes these questions from proven finite and conditional statements.
+One existence orientation, uniqueness within each realized type and least-base questions remain open. The [live research dashboard](RESEARCH_STATUS.md) distinguishes these questions from proven finite and conditional statements.
 
 The **FST-11 continuation** adds [five word-observation claims](research/rc33/fst11/RESULTS.md): complete variable-length forms, complementary normalization channels, language-conditioned CRT and a nonregular global fibre. It includes the unchanged received engine and an exact cross-checker.
 

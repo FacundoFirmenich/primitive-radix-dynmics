@@ -21,8 +21,8 @@ check(read('codemeta.json')['codeRepository']==repo,'CodeMeta URL')
 check(read('research/rc33/REPOSITORY_STATUS.json')['DOI']==doi['doi'],'RC3.3 DOI metadata')
 oriented=rows('research/five-state/continuation/ORIENTED_STATUS.csv')
 from collections import Counter
-check(Counter(r['status'] for r in oriented)=={'EXCLUDED':37,'REALIZED_CONTAINING':1,'OPEN':2},'37/1/2 oriented frontier')
-check({(r['form'],r['strict_letter'],r['factor']) for r in oriented if r['status']=='OPEN'}=={('DF015-0003','S','2'),('DF015-0007','T','3')},'open-row identifiers and factors')
+check(Counter(r['status'] for r in oriented)=={'EXCLUDED':37,'REALIZED_CONTAINING':2,'OPEN':1},'37/2/1 oriented frontier')
+check({(r['form'],r['strict_letter'],r['factor']) for r in oriented if r['status']=='OPEN'}=={('DF015-0007','T','3')},'open-row identifiers and factors')
 claims=rows('data/claims.csv');ids=[c['claim_id'] for c in claims];check(len(set(ids))==len(ids),'duplicate claim identifiers')
 new=read('research/rc33/recent/CLAIMS.json')['claims'];check(len(new)==24,'24 continuation claims')
 text=(R/'research/rc33/recent/RESULTS.md').read_text()
@@ -105,11 +105,13 @@ for a in r16['input_artifacts']:check(sha(R/'research/rc33/fst16'/a['path'])==a[
 d16=read('outputs/reports/fst16/EXACT_RESULTS.json')
 check(d16['large_example']['DFA']['nodes']==21 and [x['count'] for x in d16['large_example']['rows']]==[3944,986,110,2,1],'FST16 deep example')
 check(not r16['original_FST15_16_artifacts_received'],'original artifacts absent scope')
+tara=read('research/rc33/tarasutra/results/TARASUTRA_R2_REALIZATION.json')
+check(tara['status']=='PASS' and tara['core']['r']==2 and len(tara['edges'])==10,'factor-two independent witness')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
          'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,
-         'new_global_existence_rows_closed':0}
+         'new_global_existence_rows_closed':1}
 p=R/'outputs/reports/synchronization_audit.json';p.write_text(json.dumps(receipt,indent=2)+'\n')
 print(json.dumps(receipt,indent=2))

@@ -2,16 +2,16 @@
 
 ## Argüelles Loom and Yijing scoped instruments — 20 November 2026
 
-Four explicit claim/evidence records (`ARG1`–`ARG4`) and self-contained Python
+Five explicit claim/evidence records (`ARG1`–`ARG5`) and self-contained Python
 checkers transfer the **modern Argüelles** 52-position Loom, 13 quartets of
 sum 28, 60 adjacency intervals of sum 270, and the 260×384 joint phase
 bijection to the RC3.3 reproducibility companion. The five-state TARA1
 witness yields modular observation ranks 2/3/4/4/5 and explicit abstention
-for three readings modulo 260. `make arguelles-verify` runs 15 local
+for three readings modulo 260. A lossless five-castle Q scheduler checks\nfull coverage of Q=2..20000 and Q=20001..22000 without executing the solver.\n`make arguelles-verify` runs 20 local
 Python tests and checks the saved Loom report without regenerating manuscript
 files. These are **scoped instruments, not new Diophantine restrictions**.
 
-Current branch ledger: **137 records, including 83 continuation/boundary records**.
+Current branch ledger: **138 records, including 84 continuation/boundary records**.
 The oriented front remains **37 excluded / 2 realized-containing / 1
 existence-open (`606897/factor 3`)**; global uniqueness and both least-base
 questions remain open. No main/supplement manuscripts, DOI change, or release

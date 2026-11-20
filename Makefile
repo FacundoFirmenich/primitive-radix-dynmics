@@ -103,4 +103,5 @@ lean-records-check:
 .PHONY: arguelles-verify
 arguelles-verify:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*loom*.py' -v
+	$(PYTHON) -m unittest discover -s tests -p 'test_partition_scheduler.py' -v
 	$(PYTHON) -c "import json; from arguelles.audit import make_report; assert json.loads(json.dumps(make_report())) == json.load(open('research/rc33/arguelles/LOOM_RC33_AUDIT.json',encoding='utf-8'))"

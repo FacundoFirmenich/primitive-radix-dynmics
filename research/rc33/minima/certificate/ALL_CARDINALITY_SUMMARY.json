@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "base_range_inclusive": [
+    2,
+    53
+  ],
+  "all_cardinalities": true,
+  "rational_height_cutoff": null,
+  "closed_strong_components": 25,
+  "size_counts": {
+    "1": 23,
+    "2": 2
+  },
+  "all_permutational": true,
+  "minimum_base_lower_bound": 54,
+  "independent_cutpoint_reconstruction": true,
+  "matched_historical_cardinality5_census": true,
+  "historical_census_source_sha256": "6df32983abcb1987875e40cb14854869bf1c5665e720d151aa7f264e3147783e"
+}

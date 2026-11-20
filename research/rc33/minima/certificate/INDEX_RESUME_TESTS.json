@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "completed_indices": [
+    1,
+    2,
+    3
+  ],
+  "checkpoint_equal": true,
+  "tiles": 9,
+  "timestamp_fields_excluded": true
+}

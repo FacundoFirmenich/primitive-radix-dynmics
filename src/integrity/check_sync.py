@@ -117,9 +117,19 @@ offensive_run=read('outputs/reports/offensive/OFFENSIVE_REPLAY.json')
 check(offensive_run['status']=='PASS' and offensive_run['inputs_unchanged'],'offensive fixed replay')
 scan=offensive_run['results']['PAIR_SCAN_RESULTS.json']
 check(scan['counts']['contexts']==128058 and scan['counts']['joint_pairs']==0 and not scan['deferred'],'opposite-fibre scope')
+minima=read('research/rc33/minima/CLAIMS.json')['claims']
+check(len(minima)==4,'four uniqueness and minimum records')
+for card in minima:
+ check(card['id'] in ids and (R/card['public_evidence'].split('#')[0]).is_file(),card['id']+' minimum evidence')
+for name,digest in read('research/rc33/minima/certificate/MANIFEST_SHA256.json').items():
+ check(sha(R/'research/rc33/minima/certificate'/name)==digest,name+' minimum source')
+min_run=read('outputs/reports/minima/MINIMA_REPLAY.json')
+check(min_run['status']=='PASS' and min_run['original_inputs_unchanged'],'minimum replay receipt')
+window=read('research/rc33/minima/certificate/MINIMUM_WINDOW.json')
+check(window['H_cap_inclusive']==11750908 and window['lambda_cap_inclusive']==523225,'finite minimum window')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16)+len(offensive),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
-         'offensive_claims':len(offensive),'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
+         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16)+len(offensive)+len(minima),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'offensive_claims':len(offensive),'minima_claims':len(minima),'all_cardinality_base_lower_bound':54,'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,
          'new_global_existence_rows_closed':1}

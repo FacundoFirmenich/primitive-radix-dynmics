@@ -24,7 +24,7 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify fst16-verify tarasutra-verify offensive-verify trace graph figures rc33-seal sync-check seal integrity
+reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify fst16-verify tarasutra-verify offensive-verify minima-full-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
 
 recent-verify:
@@ -87,3 +87,9 @@ tarasutra-verify:
 .PHONY: offensive-verify
 offensive-verify:
 	$(PYTHON) research/rc33/offensive/replay.py
+
+.PHONY: minima-verify minima-full-verify
+minima-verify:
+	$(PYTHON) research/rc33/minima/replay.py
+minima-full-verify:
+	$(PYTHON) research/rc33/minima/replay.py --full

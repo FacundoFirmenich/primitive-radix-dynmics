@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "signed_coefficient_pairs": 44100,
+  "positive_carriers": [
+    {
+      "r": 3,
+      "L": 557,
+      "K": -497150,
+      "J": 4035325,
+      "core": [
+        406,
+        712,
+        1265,
+        731,
+        557
+      ],
+      "tile_pairs": 9,
+      "recovered": true
+    },
+    {
+      "r": 2,
+      "L": 140383,
+      "K": -28909861274,
+      "J": 140613554543,
+      "core": [
+        1089859,
+        1627375,
+        3121631,
+        2087631,
+        2105745
+      ],
+      "tile_pairs": 9,
+      "recovered": true
+    }
+  ],
+  "symbolic_discriminant_factorization": true,
+  "mods": [
+    16,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23
+  ],
+  "scope": "Exact square filter and two full ten-edge positive controls; not a global scan."
+}

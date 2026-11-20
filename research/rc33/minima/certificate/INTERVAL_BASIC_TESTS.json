@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "grid_endpoint_checks": 12540,
+  "matching_refinement_layers": 33,
+  "touching_endpoints_preserved": true
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "B_star": 88011536665779,
+  "B_max": 88011536665778,
+  "minimum_index": 13,
+  "H_cap_inclusive": 11750908,
+  "lambda_cap_inclusive": 523225,
+  "chambers": [
+    {
+      "chamber": "119772/r2,j=-1",
+      "L_strict_lower": "1/16 H^4",
+      "E_over_H_strict_upper": "1/2",
+      "lambda_cap_inclusive": 378282,
+      "H_cap_inclusive": 9881297
+    },
+    {
+      "chamber": "119772/r2,j=1",
+      "L_strict_lower": "1/16 H^4",
+      "E_over_H_strict_upper": "3/4",
+      "lambda_cap_inclusive": 523225,
+      "H_cap_inclusive": 9881297
+    },
+    {
+      "chamber": "119772/r3,j=1",
+      "L_strict_lower": "1/32 H^4",
+      "E_over_H_strict_upper": "4/9",
+      "lambda_cap_inclusive": 395457,
+      "H_cap_inclusive": 11750908
+    },
+    {
+      "chamber": "119772/r3,j=2",
+      "L_strict_lower": "1/32 H^4",
+      "E_over_H_strict_upper": "5/9",
+      "lambda_cap_inclusive": 472745,
+      "H_cap_inclusive": 11750908
+    },
+    {
+      "chamber": "606897/r3,reflected",
+      "L_strict_lower": "3/32 H^4",
+      "E_over_H_strict_upper": "2/3",
+      "lambda_cap_inclusive": 439084,
+      "H_cap_inclusive": 8928759
+    }
+  ],
+  "scope": "Finite necessary envelope for B<Bstar in five classified chambers; indices1..12 are separately exhausted at all heights; no global uniqueness/minimum proved."
+}

@@ -1,0 +1,31 @@
+{
+  "lambda_value": 6,
+  "packets": [],
+  "symbolic_exclusions": [
+    {
+      "branch": "119772/2/j-1",
+      "reason": "lambda divides E and gcd(r,E)=1",
+      "lambda_value": 6
+    },
+    {
+      "branch": "119772/2/j1",
+      "reason": "lambda divides E and gcd(r,E)=1",
+      "lambda_value": 6
+    },
+    {
+      "branch": "119772/3/j1",
+      "reason": "lambda divides E and gcd(r,E)=1",
+      "lambda_value": 6
+    },
+    {
+      "branch": "119772/3/j2",
+      "reason": "lambda divides E and gcd(r,E)=1",
+      "lambda_value": 6
+    },
+    {
+      "branch": "606897/3/reflected",
+      "reason": "lambda divides E and gcd(r,E)=1",
+      "lambda_value": 6
+    }
+  ]
+}

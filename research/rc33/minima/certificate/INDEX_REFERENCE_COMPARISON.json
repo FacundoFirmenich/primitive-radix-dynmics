@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "reference_program_sha256": "38516a8c8d618998ce2b7d67af1503bcd867d756b28234d41320ef21c9cf27ea",
+  "lambda3_matching_unit_admissible_pairs": 6068,
+  "lambda5_matching_pairs": 649044,
+  "necessary_candidates": 0,
+  "scope": "Original rational Python method versus new C++ integer filter and rational reconstruction on the stated full strata."
+}

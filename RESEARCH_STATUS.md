@@ -1,5 +1,21 @@
 # Research status · RC3.3
 
+## Uniqueness and minimum-base fronts — 20 November 2026
+
+[Four new records](research/rc33/minima/RESULTS.md) certify an all-cardinality
+base lower bound54, the all-height index prefix1..12, and a finite necessary
+window H<=11750908,13<=lambda<=523225 below the known five-state base.
+The interval certificate covers every base2..53 with23 singleton and2 two-state
+components, all permutational. Its scope has no cardinality or rational-height
+cutoff. The index prefix exhausts117093402 level pairs.
+
+Run `make minima-verify`; `make minima-full-verify` replays the complete domains.
+The public register now has127 records, including73 continuation records.
+The oriented ledger remains37/2/1. Global uniqueness and both global minima
+remain open. Private PDFs are synchronized in both languages; manuscript HTML
+is not rebuilt. Earlier dated counters below are historical checkpoints.
+
+
 ## Opposite-coordinate and parity offensive — 20 November 2026
 
 Four new scoped records give exact opposite-pair completion, the half-inversion

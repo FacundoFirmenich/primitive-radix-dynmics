@@ -125,6 +125,10 @@
 | OPP2 | `PROVED_SYMBOLIC` | Half inversion swaps the generators exactly when every branch-parity bit is one | `research/rc33/offensive/RESULTS.md#opp2` | depends_on:C002<br>depends_on:C003 |
 | OPP3 | `PROVED_SYMBOLIC` | An all-odd normal factor-three carrier would realize the remaining reflected orientation | `research/rc33/offensive/RESULTS.md#opp3` | depends_on:OPP2<br>depends_on:C014 |
 | OPP4 | `EXACT_CERTIFICATE` | All opposite completions of the 128058 fixed snapshot contexts have no quadratic core | `research/rc33/offensive/RESULTS.md#opp4` | depends_on:OPP1 |
+| MIN1 | `PROVED_SYMBOLIC` | A finite common-survivor criterion can classify all high components without a cardinality cutoff | `research/rc33/minima/RESULTS.md#min1` | depends_on:C001 |
+| MIN2 | `EXACT_CERTIFICATE` | Every nonpermutation high component has base at least54, at any cardinality | `research/rc33/minima/RESULTS.md#min2` | depends_on:MIN1 |
+| MIN3 | `PROVED_SYMBOLIC` | Every nonpermutation five-state realization below the known base lies in an explicit finite search window | `research/rc33/minima/RESULTS.md#min3` | depends_on:MIN4<br>depends_on:C014 |
+| MIN4 | `EXACT_CERTIFICATE` | The exact index prefix1..12 excludes all necessary primitive candidates at every height | `research/rc33/minima/RESULTS.md#min4` | depends_on:LCF |
 
 ## Artifact registry
 

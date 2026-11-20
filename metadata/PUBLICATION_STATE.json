@@ -9,5 +9,16 @@
   "manuscript_arxiv_id": null,
   "doi": "10.5281/zenodo.24270311",
   "current_continuation_archived_under_that_doi": false,
-  "scientific_status": "37 excluded / 2 realized-containing / 1 existence-open oriented row; uniqueness within realized types and global least-base questions open"
+  "scientific_status": "37 excluded / 2 realized-containing / 1 existence-open oriented row; uniqueness within realized types and global least-base questions open",
+  "certified_all_cardinality_base_lower_bound": 54,
+  "certified_index_prefix": [
+    1,
+    12
+  ],
+  "below_known_base_five_state_window": {
+    "H_max": 11750908,
+    "lambda_min": 13,
+    "lambda_max": 523225,
+    "exhausted": false
+  }
 }

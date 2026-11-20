@@ -1,0 +1,709 @@
+{
+  "status": "PASS_FOR_CHECKED_BASES",
+  "results": [
+    {
+      "B": 2,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 1,
+      "all_cardinalities": true,
+      "row_sha256": "f0c382be8072e18da04a7d4d94455dfe40e2cd81da142142280cb19fc61e079e"
+    },
+    {
+      "B": 3,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "479d8fdb6cf17cc5505431bc26245c25c6f361f4bb4cb080b802ddcffd40371d"
+    },
+    {
+      "B": 4,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "314ec2803fbfc39acd28f9ca3147841fc60ae6153a7343b246172cda45648b8f"
+    },
+    {
+      "B": 5,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "a530991bd3ae88c3af09d66229f9bbacf41cb4c620c728506f401a8ab4e15655"
+    },
+    {
+      "B": 6,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "82a300d08cefc5179c143714bc4530fe19508668f1ea2ebf46ac63df5bb18676"
+    },
+    {
+      "B": 7,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "cee64945fa3576a0c16dc55184203b61f9dec496f601259890f05c5e6266da5e"
+    },
+    {
+      "B": 8,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "1719dc89c1017ee65bb5341703995935219ce34858706a251150b0e79bf45331"
+    },
+    {
+      "B": 9,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "a1e7d7bfde707a8ac04243f72fcc627f4aeb6027a80dc7bd105ec0141ab0c444"
+    },
+    {
+      "B": 10,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "c59bfaca8d600176bb89e67429294afbabeaef1ed558862653bbacb83a2e4046"
+    },
+    {
+      "B": 11,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "81c01cabc518b284447b7b4a92340ad898e018dce524ed8bbd4a4951270b524e"
+    },
+    {
+      "B": 12,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "aacda7d9b0f750ed738109b05600feb2fe7fa545d5a83e2ac2a78f26dca3578c"
+    },
+    {
+      "B": 13,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "3/4"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "3/4"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "400392a873176c7db0df2401a8ac605ae9c0779d1abf0bce779b7b5a67a83de6"
+    },
+    {
+      "B": 14,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "54c2ae09cc5502e4d48579a1cb83ac28e6e0fd52b5e002967ac11ecd5faa712b"
+    },
+    {
+      "B": 15,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "3af3714eb6c01b05f3bccd73901fe95c1a76a937505f92e23f72753cab5a4dd5"
+    },
+    {
+      "B": 16,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "3/5"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "3/5"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "6b3c7d043290a78522a8c1194865b4fe1e6015a4061d6b3b75b95e7006966c14"
+    },
+    {
+      "B": 17,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "847867559e009405b2c41d4b11f27a65012db990fe3f2deac2de1c1f51928d66"
+    },
+    {
+      "B": 18,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "9515ae12436fb00d7bd9c0f292aefbbbcec1ea33d84c04c962e0b9dcc4218c43"
+    },
+    {
+      "B": 19,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "5/6",
+            "5/9"
+          ],
+          "size": 2,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "5/6",
+        "5/9"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "9eb251e3313313afd57c8969569a95a35df133da347d9089339e03c9a3b19239"
+    },
+    {
+      "B": 20,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "2771011e0841dab94494af838a85943457202233970d627bd265f4cffc4407f0"
+    },
+    {
+      "B": 21,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "4/5"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "4/5"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "56b4289875bb98873cff6d05d5208c06de791c75dee6298205b009c84499a6c6"
+    },
+    {
+      "B": 22,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "c9c92235bbb514c38b8c7c24c9a00ad48cf6f3bac19ede578df6ab19e616a59e"
+    },
+    {
+      "B": 23,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "4804107e1fdaad5a9fc7417c38c5cf610f8cd2b4193f29d3a88b3d1f6bc5ab01"
+    },
+    {
+      "B": 24,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "b6deee2f444e46a533595ec66577ca19be5731c890ee9c131e3c2e6fe540f10c"
+    },
+    {
+      "B": 25,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "3/4"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "13/15",
+        "13/24",
+        "2/3",
+        "3/4"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "6b202dbc5a08f694a0fc733a1bb2519e406d19f9d15b81d470ab049fca192d66"
+    },
+    {
+      "B": 26,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "95c0371dd3c3a9ff0844f6e6f41861a92a149a62fb8ca86c81ff447752940b37"
+    },
+    {
+      "B": 27,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "7504c2b578a284df44b086ba1835f0aba912602aad179828000e52fa16c56ce6"
+    },
+    {
+      "B": 28,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "bbf47c3870e18bc161a0afee5c3f5001261af5d1c1733ddd888ad26f8a99e3f6"
+    },
+    {
+      "B": 29,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "4/7"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "4/7"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "c1c8ac06c953f5e922aec7dfc1808cc5cf3d87a5f306e012656784c08347068d"
+    },
+    {
+      "B": 30,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "fe87d348075302873ba6eb91cfe037760afd8a804d9f28e0e901d9363cde6399"
+    },
+    {
+      "B": 31,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "3/5"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "5/6"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "3/5",
+        "5/6"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "5632d3db86bffe44f826eecc9cac84d8a108dd9fdf3a474bbd0dab77766c1b15"
+    },
+    {
+      "B": 32,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "cb9db076fd171faefd0587ff865de84d2bcd9af4b729ae25f592d14beada648f"
+    },
+    {
+      "B": 33,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "97353343d70c379eafb73d3a042d5414bd376d7d43b0d0f6b855e872d391d9fd"
+    },
+    {
+      "B": 34,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "c0f2eb9e28b42b789a650a7304211f16a6cfeaf2f58f41f8977be69c08cc0887"
+    },
+    {
+      "B": 35,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "f51bdffa78de49d7672de8efa12ee42122da25544cffa6e71ff582083b023e3f"
+    },
+    {
+      "B": 36,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "5/7"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "5/7"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "11b3bf5cf5bec0ffee6742943f04cc29de4cf3b6fe2bf811f2cbffcbf9b455e4"
+    },
+    {
+      "B": 37,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "3/4"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "3/4"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "7e68e79c5e435f3a3771dfc83951a3a94875ba5e3254ddee06b71f1ce787e4d1"
+    },
+    {
+      "B": 38,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "c3c36dc0c66195a4e52005e74666cbb49a894a20fcd7c573c75e97f30dfee2b0"
+    },
+    {
+      "B": 39,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "01bb9bc14aa44076eb5093c78647416ad54f8396fa374216d687738a5e7857f3"
+    },
+    {
+      "B": 40,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "ebe7057991f6c84a51c69fc300ee51062b513f41de8981f74e5ced081d199265"
+    },
+    {
+      "B": 41,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "3/4",
+            "3/5"
+          ],
+          "size": 2,
+          "permutational": true
+        },
+        {
+          "states": [
+            "4/5"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "5/8"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "3/4",
+        "3/5",
+        "4/5",
+        "5/8"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "9275a1eff7a931f35e006dbb026d93ac6808c9452ca989dd257c7a804e243d4e"
+    },
+    {
+      "B": 42,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "82377c40288eb2f12a8e6ac60afdc39b370e35233146b356413e7142045beae3"
+    },
+    {
+      "B": 43,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "6/7"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "6/7"
+      ],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "f8239bba50f25259979d498f2d60d0677b3d7309d174bfe4e5af0d45e31675ab"
+    },
+    {
+      "B": 44,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "e712f36e70f685261f4a79d650a5c48acd48a14b78a196f91c7c96b195eed9ae"
+    },
+    {
+      "B": 45,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "b096a71288bc157678c0445ff599c6e9d9015923278480bcb7a14eacc1c15230"
+    },
+    {
+      "B": 46,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "3/5"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "5/9"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "3/5",
+        "5/9"
+      ],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "2fd83ecbb22714d938bf32691e03893305e03b4de4ba85199e5e0f59a7be5fa9"
+    },
+    {
+      "B": 47,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "205e3fa3316a057e07e5655852b4831e73bb19fd01ff054adaffefb8b04a87f5"
+    },
+    {
+      "B": 48,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 3,
+      "all_cardinalities": true,
+      "row_sha256": "46a2caa1bbd1176dce3e8252fd11613dde387487bf58197448bace559601119f"
+    },
+    {
+      "B": 49,
+      "status": "PASS",
+      "components": [
+        {
+          "states": [
+            "2/3"
+          ],
+          "size": 1,
+          "permutational": true
+        },
+        {
+          "states": [
+            "3/4"
+          ],
+          "size": 1,
+          "permutational": true
+        }
+      ],
+      "real_survivor_points": [
+        "2/3",
+        "3/4"
+      ],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "d5aeaa4aa54417522ad07ec2ba1b4a889190f566f8d93d842bc3e7b30808f9bb"
+    },
+    {
+      "B": 50,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "1e03f29059d14a7dd431315a241670d4ab379c5026f3b09a2abc5caaf042e855"
+    },
+    {
+      "B": 51,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "6c56d88bf2b0cf6a4e00deebdc4d5a352a7d57cf259fee8b374892c66da483d6"
+    },
+    {
+      "B": 52,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "7627aea2db9a67aeb58ea926d8eee102c6177feb9a76a47e0727193e724d4df1"
+    },
+    {
+      "B": 53,
+      "status": "PASS",
+      "components": [],
+      "real_survivor_points": [],
+      "depth": 4,
+      "all_cardinalities": true,
+      "row_sha256": "3dd200e84217bf90ecf436b191893bb0218870f2bf4310ba4faa6f8bcc553907"
+    }
+  ],
+  "seconds": 160.06323299899668,
+  "scope": "All-cardinality scope at each checked base; unchecked bases receive no conclusion."
+}

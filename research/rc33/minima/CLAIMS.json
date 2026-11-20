@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-20",
+  "claims": [
+    {
+      "id": "MIN1",
+      "claim": "A finite common-survivor criterion can classify all high components without a cardinality cutoff",
+      "status": "PROVED_SYMBOLIC",
+      "scope": "Fixed base; rational open interval refinement and deterministic-letter graph core; failure to meet the criterion gives no exclusion",
+      "public_evidence": "research/rc33/minima/RESULTS.md#min1"
+    },
+    {
+      "id": "MIN2",
+      "claim": "Every nonpermutation high component has base at least54, at any cardinality",
+      "status": "EXACT_CERTIFICATE",
+      "scope": "Exact common-survivor certificates for bases2..53;23 singleton and2 two-state components, all permutational; separate cut-point reconstruction",
+      "public_evidence": "research/rc33/minima/RESULTS.md#min2"
+    },
+    {
+      "id": "MIN3",
+      "claim": "Every nonpermutation five-state realization below the known base lies in an explicit finite search window",
+      "status": "PROVED_SYMBOLIC",
+      "scope": "B<88011536665779 implies H<=11750908 and13<=lambda<=523225 in the five classified chambers; domain not exhausted",
+      "public_evidence": "research/rc33/minima/RESULTS.md#min3"
+    },
+    {
+      "id": "MIN4",
+      "claim": "The exact index prefix1..12 excludes all necessary primitive candidates at every height",
+      "status": "EXACT_CERTIFICATE",
+      "scope": "Five stated chambers;117093402 integral-level pairs; strict-prime unit exclusions included; no uniform global index bound",
+      "public_evidence": "research/rc33/minima/RESULTS.md#min4"
+    }
+  ]
+}

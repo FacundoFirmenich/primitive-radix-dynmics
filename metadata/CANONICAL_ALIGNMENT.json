@@ -14,24 +14,26 @@
     "rc33_coupled_ES.svg": "6917e344fc8b689d3cba638e066a7514eaa7722a7863577d39c5c353218b790b"
   },
   "private_document_hashes": {
-    "RGPHI_RC3_3_COMPANION_EN.pdf": "1777fef261cfde8a409eb9ea876aaff6de67a47ccb20bd37422dc02bfe27d3a6",
-    "RGPHI_RC3_3_COMPANION_ES.pdf": "ab91c676d7629e2d7f5e188e38b1e0d5c5d50f9d4596a11a4b0fe84ea08062f5",
-    "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "bc86a2483b916bb97be3f07accbb5c161d8d78fe06f9494ec5c25d4459c68095",
-    "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "8165065ec182758f78e7a70c0ab424b42a53ca2bb9ef48d99aa4524d566f1fd5",
+    "RGPHI_RC3_3_MAIN_EN.pdf": "04fe6f0b3f4dc4e989f92d1899ef7427a8f2e2f73a8ef942480c6b410604365f",
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "80d7dc67ad20b6e55be390861a8b1ac1e447f6d81ac59bc64a6cf40580d3bb19",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "28289cdf45d3184d9d87eda5b52e6688646142adbc07e06a96c5180644c518fb",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "bc86a2483b916bb97be3f07accbb5c161d8d78fe06f9494ec5c25d4459c68095",
+    "RGPHI_RC3_3_MAIN_ES.pdf": "f6605605c625b51fff0a7c6485af1531ca9e2b2b0df951c64c0ff91731e497ca",
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "2519ba9bcd6794686a0542558c4448c8607b0de14e860695b5f2f536601b21bf",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "3670800160b58d3ea7f19bbe1469bfb0e3f05d3886d905babbb2af2a2ce5cd6d",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
-    "RGPHI_RC3_3_MAIN_EN.pdf": "5156565e6beb6b96201fad4189d4beb1ca07e698f5fdafdbfd71eac7f723d725",
-    "RGPHI_RC3_3_MAIN_ES.pdf": "fe8421f22f2fc7e53e639af0bd8bcd3ecf6bfe8adfc52cc99c9d31d1ff53d4d5",
-    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "1b416b530deedd9c1431620c4b71abf5410d0532b629d90cba872acdc5b656a1",
-    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "782b99908a6159466d582f33776e801d773ea5db35c6797b2726ac1b3dacf149"
+    "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "8165065ec182758f78e7a70c0ab424b42a53ca2bb9ef48d99aa4524d566f1fd5"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "69 continuation cards;123 public records; four new opposite-fibre/parity records; 37/2/1 unchanged; manuscript HTML not rebuilt",
+  "continuation": "73 continuation cards; 127 public records; four uniqueness/minimum records; 37/2/1 unchanged; B>=54 at all cardinalities; manuscript HTML historical",
   "public_research_checkpoint": {
     "added_since_sine": 6,
-    "total_public_cards": 123,
-    "continuation_cards": 69,
-    "private_document_integration": "six current PDFs; new material in companion and supplement in both languages; main hashes unchanged",
-    "offensive_records": 4
+    "total_public_cards": 127,
+    "continuation_cards": 73,
+    "private_document_integration": "Six synchronized PDFs; main Corollary8.4, companion Sections5.4-5.5 and supplement Section15, in both languages",
+    "offensive_records": 4,
+    "minima_records": 4,
+    "all_cardinality_base_lower_bound": 54
   }
 }

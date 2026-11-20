@@ -6,5 +6,10 @@
   "DOI_status": "registered for the immutable 16 November 2026 rc3.3-zenodo archive; current continuation is additional",
   "manuscripts": "excluded under current publication boundary",
   "preserved_release": "https://github.com/FacundoFirmenich/primitive-radix-mobius-dynamics/releases/tag/rc3.3",
-  "integration_date": "2026-11-17"
+  "integration_date": "2026-11-17",
+  "current_continuation_date": "2026-11-20",
+  "current_public_records": 127,
+  "current_continuation_records": 73,
+  "certified_all_cardinality_base_lower_bound": 54,
+  "current_minima_module": "research/rc33/minima"
 }

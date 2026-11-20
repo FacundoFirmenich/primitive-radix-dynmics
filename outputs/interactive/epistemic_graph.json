@@ -1241,6 +1241,46 @@
       "scope": "Explicit hashed fixed-pair domain only; 138985 candidate pairs, zero joint labels; earlier context-generation history not independently replayed"
     },
     {
+      "id": "MIN1",
+      "label": "MIN1",
+      "title": "A finite common-survivor criterion can classify all high components without a cardinality cutoff",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/minima/RESULTS.md#min1",
+      "scope": "Fixed base; rational open interval refinement and deterministic-letter graph core; failure to meet the criterion gives no exclusion"
+    },
+    {
+      "id": "MIN2",
+      "label": "MIN2",
+      "title": "Every nonpermutation high component has base at least54, at any cardinality",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/minima/RESULTS.md#min2",
+      "scope": "Exact common-survivor certificates for bases2..53;23 singleton and2 two-state components, all permutational; separate cut-point reconstruction"
+    },
+    {
+      "id": "MIN3",
+      "label": "MIN3",
+      "title": "Every nonpermutation five-state realization below the known base lies in an explicit finite search window",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/minima/RESULTS.md#min3",
+      "scope": "B<88011536665779 implies H<=11750908 and13<=lambda<=523225 in the five classified chambers; domain not exhausted"
+    },
+    {
+      "id": "MIN4",
+      "label": "MIN4",
+      "title": "The exact index prefix1..12 excludes all necessary primitive candidates at every height",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/minima/RESULTS.md#min4",
+      "scope": "Five stated chambers;117093402 integral-level pairs; strict-prime unit exclusions included; no uniform global index bound"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -2960,6 +3000,31 @@
     {
       "source": "OPP4",
       "target": "OPP1",
+      "relation": "depends_on"
+    },
+    {
+      "source": "MIN1",
+      "target": "C001",
+      "relation": "depends_on"
+    },
+    {
+      "source": "MIN2",
+      "target": "MIN1",
+      "relation": "depends_on"
+    },
+    {
+      "source": "MIN4",
+      "target": "LCF",
+      "relation": "depends_on"
+    },
+    {
+      "source": "MIN3",
+      "target": "MIN4",
+      "relation": "depends_on"
+    },
+    {
+      "source": "MIN3",
+      "target": "C014",
       "relation": "depends_on"
     },
     {

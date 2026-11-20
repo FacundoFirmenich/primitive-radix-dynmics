@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "mode": "full-domain replay",
+  "level_pairs_fixed_domain": 117093402,
+  "bases_fixed_domain": 52,
+  "minimum_base_all_cardinality_lower_bound": 54,
+  "original_inputs_unchanged": true,
+  "full_domains_replayed_now": true,
+  "seconds": 758.3730057840003,
+  "scope": "No global uniqueness or minimum-base assertion."
+}

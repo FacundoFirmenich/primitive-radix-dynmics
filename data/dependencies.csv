@@ -159,3 +159,8 @@ OPP2,C003,depends_on
 OPP3,OPP2,depends_on
 OPP3,C014,depends_on
 OPP4,OPP1,depends_on
+MIN1,C001,depends_on
+MIN2,MIN1,depends_on
+MIN4,LCF,depends_on
+MIN3,MIN4,depends_on
+MIN3,C014,depends_on

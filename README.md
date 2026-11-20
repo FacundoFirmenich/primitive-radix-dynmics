@@ -86,3 +86,10 @@ Four scoped records and a reproducible declared-adapter audit extend FST12/13: e
 
 [Exact proofs and fixed-fibre certificates](research/rc33/offensive/RESULTS.md),
 with `make offensive-verify`. Four additional scoped records; 37/2/1 unchanged.
+
+## Uniqueness and minimum-base certificates
+
+[Finite-survivor and index certificates](research/rc33/minima/RESULTS.md) now
+prove B>=54 for nonpermutation components at any cardinality. The complete
+index prefix1..12 and finite five-state minimum window have separate contracts.
+Use `make minima-verify` or `make minima-full-verify`.

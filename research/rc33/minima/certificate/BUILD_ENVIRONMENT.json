@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "GMP": "6.3.0",
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "square_levels.cpp",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "square_levels"
+  ],
+  "original_binary_sha256": "dd29566b136ab92f06053d20b0d6e2c1753e2e837bec41835c11b3264a427479"
+}

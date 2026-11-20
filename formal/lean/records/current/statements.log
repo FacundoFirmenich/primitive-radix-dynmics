@@ -1,0 +1,391 @@
+RadixMobius.code_eq_iff_word_actions (u v : List RadixMobius.Letter) :
+  RadixMobius.codeOf u = RadixMobius.codeOf v ↔ ∀ (i : Fin 5), RadixMobius.runGraph u i = RadixMobius.runGraph v i
+RadixMobius.rational_word_actions_eq_iff (B : ℕ) (x : Fin 5 → ℚ) (hinj : Function.Injective x)
+  (hT : ∀ (i : Fin 5), RadixMobius.radix B (x i) = x (RadixMobius.graphT i))
+  (hS : ∀ (i : Fin 5), RadixMobius.mobius B (x i) = x (RadixMobius.graphS i)) (u v : List RadixMobius.Letter) :
+  (∀ (i : Fin 5), RadixMobius.runRational B u (x i) = RadixMobius.runRational B v (x i)) ↔
+    RadixMobius.codeOf u = RadixMobius.codeOf v
+RadixMobius.old_family_action_classification (t : ℕ) (u v : List RadixMobius.Letter) :
+  (∀ (i : Fin 5),
+      RadixMobius.runRational (RadixMobius.oldBase + t * RadixMobius.oldPeriod) u
+          (RadixMobius.value (RadixMobius.oldCarrier i)) =
+        RadixMobius.runRational (RadixMobius.oldBase + t * RadixMobius.oldPeriod) v
+          (RadixMobius.value (RadixMobius.oldCarrier i))) ↔
+    RadixMobius.codeOf u = RadixMobius.codeOf v
+RadixMobius.new_family_action_classification (t : ℕ) (u v : List RadixMobius.Letter) :
+  (∀ (i : Fin 5),
+      RadixMobius.runRational (RadixMobius.newBase + t * RadixMobius.newPeriod) u
+          (RadixMobius.value (RadixMobius.newCarrier i)) =
+        RadixMobius.runRational (RadixMobius.newBase + t * RadixMobius.newPeriod) v
+          (RadixMobius.value (RadixMobius.newCarrier i))) ↔
+    RadixMobius.codeOf u = RadixMobius.codeOf v
+RadixMobius.codeOf_cons (a : RadixMobius.Letter) (w : List RadixMobius.Letter) :
+  RadixMobius.codeOf (a :: w) = RadixMobius.prependCode a (RadixMobius.codeOf w)
+RadixMobius.actionCodes_closed_table (m : RadixMobius.ActionCode) :
+  m ∈ RadixMobius.actionCodes →
+    RadixMobius.prependCode RadixMobius.Letter.T m ∈ RadixMobius.actionCodes ∧
+      RadixMobius.prependCode RadixMobius.Letter.S m ∈ RadixMobius.actionCodes
+RadixMobius.actionCodes_closed (m : RadixMobius.ActionCode) (hm : m ∈ RadixMobius.actionCodes)
+  (a : RadixMobius.Letter) : RadixMobius.prependCode a m ∈ RadixMobius.actionCodes
+RadixMobius.actionCodes_generated : RadixMobius.actionCodes = List.map RadixMobius.codeOf RadixMobius.generatingWords
+RadixMobius.actionCodes_cardinality : RadixMobius.actionCodes.Nodup ∧ RadixMobius.actionCodes.length = 36
+RadixMobius.all_word_actions (w : List RadixMobius.Letter) : RadixMobius.codeOf w ∈ RadixMobius.actionCodes
+RadixMobius.reachable_action_iff (m : RadixMobius.ActionCode) :
+  (∃ w, RadixMobius.codeOf w = m) ↔ m ∈ RadixMobius.actionCodes
+RadixMobius.action_rank_lower (m : RadixMobius.ActionCode) : m ∈ RadixMobius.actionCodes → 2 ≤ RadixMobius.codeRank m
+RadixMobius.rank_two_attained : ∃ m ∈ RadixMobius.actionCodes, RadixMobius.codeRank m = 2
+RadixMobius.no_rank_one_word (w : List RadixMobius.Letter) : 2 ≤ RadixMobius.codeRank (RadixMobius.codeOf w)
+RadixMobius.rank_two_word_exists : ∃ w, RadixMobius.codeRank (RadixMobius.codeOf w) = 2
+RadixMobius.pairT_den_conservation (B : ℕ) (x : RadixMobius.FractionPair) (hx : RadixMobius.PairPrimitive x) :
+  x.q = B.gcd x.q * (RadixMobius.pairT B x).q
+RadixMobius.pairS_num_conservation (B : ℕ) (x : RadixMobius.FractionPair) (hpq : x.p ≤ x.q)
+  (hx : RadixMobius.PairPrimitive x) : x.p = B.gcd x.p * (RadixMobius.pairS B x).p
+RadixMobius.actual_step_conservation (B : ℕ) (a : RadixMobius.Letter) (x : RadixMobius.FractionPair)
+  (hh : RadixMobius.PairHigh x) (hx : RadixMobius.PairPrimitive x) :
+  match a with
+  | RadixMobius.Letter.T => x.q = RadixMobius.defect B a x * (RadixMobius.pairStep B a x).q
+  | RadixMobius.Letter.S => x.p = RadixMobius.defect B a x * (RadixMobius.pairStep B a x).p
+RadixMobius.actual_cycle_balance (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  (∏ i ∈ Finset.range n, ↑(RadixMobius.defect B (a i) (x i)) =
+      ∏ i ∈ Finset.range n,
+        if a i = RadixMobius.Letter.T then RadixMobius.value (x (i + 1)) / RadixMobius.value (x i) else 1) ∧
+    ∏ i ∈ Finset.range n, ↑(RadixMobius.defect B (a i) (x i)) =
+      ∏ i ∈ Finset.range n,
+        if a i = RadixMobius.Letter.S then RadixMobius.value (x i) / RadixMobius.value (x (i + 1)) else 1
+RadixMobius.radix_gcd (B p q : ℕ) (h : p.Coprime q) : (B * p % q).gcd q = B.gcd q
+RadixMobius.mobius_gcd (B p q : ℕ) (hpq : p ≤ q) (h : p.Coprime q) : p.gcd (p + B * (q - p) % p) = B.gcd p
+RadixMobius.gcd_periodic (B t M d : ℕ) (hd : d ∣ M) : (B + t * M).gcd d = B.gcd d
+RadixMobius.primitive_value_mk (x : RadixMobius.FractionPair) (hq : x.q ≠ 0) (hp : RadixMobius.PairPrimitive x) :
+  RadixMobius.value x = { num := ↑x.p, den := x.q, den_nz := hq, reduced := ⋯ }
+RadixMobius.primitive_value_num (x : RadixMobius.FractionPair) (hq : x.q ≠ 0) (hp : RadixMobius.PairPrimitive x) :
+  (RadixMobius.value x).num = ↑x.p
+RadixMobius.primitive_value_den (x : RadixMobius.FractionPair) (hq : x.q ≠ 0) (hp : RadixMobius.PairPrimitive x) :
+  (RadixMobius.value x).den = x.q
+RadixMobius.canonical_primitive (x : ℚ) : RadixMobius.PairPrimitive (RadixMobius.canonicalPair x)
+RadixMobius.canonical_value (x : ℚ) (hx : 0 ≤ x) : RadixMobius.value (RadixMobius.canonicalPair x) = x
+RadixMobius.canonical_inverse (x : RadixMobius.FractionPair) (hq : x.q ≠ 0) (hp : RadixMobius.PairPrimitive x) :
+  RadixMobius.canonicalPair (RadixMobius.value x) = x
+RadixMobius.pairHigh_of_value (x : RadixMobius.FractionPair) (hq : 0 < x.q)
+  (hx : RadixMobius.High (RadixMobius.value x)) : RadixMobius.PairHigh x
+RadixMobius.canonical_high (x : ℚ) (hx : RadixMobius.High x) : RadixMobius.PairHigh (RadixMobius.canonicalPair x)
+RadixMobius.every_high_rational_has_primitive_coordinates (x : ℚ) (hx : RadixMobius.High x) :
+  ∃ p, RadixMobius.PairHigh p ∧ RadixMobius.PairPrimitive p ∧ RadixMobius.value p = x
+RadixMobius.reduced_pair_primitive (p q : ℕ) (hq : 0 < q) : RadixMobius.PairPrimitive (RadixMobius.reducePair p q)
+RadixMobius.reduced_pair_den_pos (p q : ℕ) (hq : 0 < q) : 0 < (RadixMobius.reducePair p q).q
+RadixMobius.canonical_radix (B : ℕ) (x : ℚ) (hx : 0 ≤ x) :
+  RadixMobius.canonicalPair (RadixMobius.radix B x) = RadixMobius.pairT B (RadixMobius.canonicalPair x)
+RadixMobius.canonical_mobius (B : ℕ) (x : ℚ) (hx : RadixMobius.High x) :
+  RadixMobius.canonicalPair (RadixMobius.mobius B x) = RadixMobius.pairS B (RadixMobius.canonicalPair x)
+RadixMobius.canonical_step (B : ℕ) (a : RadixMobius.Letter) (x : ℚ) (hx : RadixMobius.High x) :
+  RadixMobius.canonicalPair (RadixMobius.rationalStep B a x) = RadixMobius.pairStep B a (RadixMobius.canonicalPair x)
+RadixMobius.canonical_trajectory (B n : ℕ) (x : ℕ → ℚ) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.High (x i)) (he : ∀ i < n, x (i + 1) = RadixMobius.rationalStep B (a i) (x i)) (i : ℕ) :
+  i < n → RadixMobius.canonicalPair (x (i + 1)) = RadixMobius.pairStep B (a i) (RadixMobius.canonicalPair (x i))
+RadixMobius.rational_cycle_balance (B n : ℕ) (x : ℕ → ℚ) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.High (x i)) (he : ∀ i < n, x (i + 1) = RadixMobius.rationalStep B (a i) (x i))
+  (hc : x n = x 0) :
+  (RadixMobius.cycleReduction B n (fun i => RadixMobius.canonicalPair (x i)) a =
+      ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.T then x (i + 1) / x i else 1) ∧
+    RadixMobius.cycleReduction B n (fun i => RadixMobius.canonicalPair (x i)) a =
+      ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.S then x i / x (i + 1) else 1
+RadixMobius.rational_no_strict_short_cycle (B n : ℕ) (x : ℕ → ℚ) (a : ℕ → RadixMobius.Letter) (hn : n ≤ 3)
+  (hh : ∀ i ≤ n, RadixMobius.High (x i)) (he : ∀ i < n, x (i + 1) = RadixMobius.rationalStep B (a i) (x i))
+  (hc : x n = x 0) : ¬∃ i < n, 1 < RadixMobius.defect B (a i) (RadixMobius.canonicalPair (x i))
+RadixMobius.rational_cycle_letter_budget (B n : ℕ) (x : ℕ → ℚ) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.High (x i)) (he : ∀ i < n, x (i + 1) = RadixMobius.rationalStep B (a i) (x i))
+  (hc : x n = x 0) (hr : 1 < RadixMobius.cycleReduction B n (fun i => RadixMobius.canonicalPair (x i)) a) :
+  RadixMobius.cycleReduction B n (fun i => RadixMobius.canonicalPair (x i)) a <
+    2 ^ min (RadixMobius.TIndices n a).card (RadixMobius.SIndices n a).card
+RadixMobius.coordinate_num_balance (p q p' q' d : ℚ) (a : RadixMobius.Letter) (hp : p ≠ 0) (hq' : q' ≠ 0)
+  (he :
+    match a with
+    | RadixMobius.Letter.T => q = d * q'
+    | RadixMobius.Letter.S => p = d * p') :
+  d * (p' / p) = if a = RadixMobius.Letter.T then p' / q' / (p / q) else 1
+RadixMobius.coordinate_den_balance (p q p' q' d : ℚ) (a : RadixMobius.Letter) (hq : q ≠ 0) (hp' : p' ≠ 0)
+  (he :
+    match a with
+    | RadixMobius.Letter.T => q = d * q'
+    | RadixMobius.Letter.S => p = d * p') :
+  d * (q' / q) = if a = RadixMobius.Letter.S then p / q / (p' / q') else 1
+RadixMobius.prod_coordinate_ratios (p : ℕ → ℚ) (n : ℕ) :
+  (∀ i ≤ n, p i ≠ 0) → ∏ i ∈ Finset.range n, p (i + 1) / p i = p n / p 0
+RadixMobius.path_num_balance (n : ℕ) (p q d : ℕ → ℚ) (a : ℕ → RadixMobius.Letter) (hp : ∀ i ≤ n, p i ≠ 0)
+  (hq : ∀ i ≤ n, q i ≠ 0)
+  (he :
+    ∀ i < n,
+      match a i with
+      | RadixMobius.Letter.T => q i = d i * q (i + 1)
+      | RadixMobius.Letter.S => p i = d i * p (i + 1)) :
+  (∏ i ∈ Finset.range n, d i) * (p n / p 0) =
+    ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.T then p (i + 1) / q (i + 1) / (p i / q i) else 1
+RadixMobius.path_den_balance (n : ℕ) (p q d : ℕ → ℚ) (a : ℕ → RadixMobius.Letter) (hp : ∀ i ≤ n, p i ≠ 0)
+  (hq : ∀ i ≤ n, q i ≠ 0)
+  (he :
+    ∀ i < n,
+      match a i with
+      | RadixMobius.Letter.T => q i = d i * q (i + 1)
+      | RadixMobius.Letter.S => p i = d i * p (i + 1)) :
+  (∏ i ∈ Finset.range n, d i) * (q n / q 0) =
+    ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.S then p i / q i / (p (i + 1) / q (i + 1)) else 1
+RadixMobius.cycle_balance (n : ℕ) (p q d : ℕ → ℚ) (a : ℕ → RadixMobius.Letter) (hp : ∀ i ≤ n, p i ≠ 0)
+  (hq : ∀ i ≤ n, q i ≠ 0)
+  (he :
+    ∀ i < n,
+      match a i with
+      | RadixMobius.Letter.T => q i = d i * q (i + 1)
+      | RadixMobius.Letter.S => p i = d i * p (i + 1))
+  (hpn : p n = p 0) (hqn : q n = q 0) :
+  (∏ i ∈ Finset.range n, d i =
+      ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.T then p (i + 1) / q (i + 1) / (p i / q i) else 1) ∧
+    ∏ i ∈ Finset.range n, d i =
+      ∏ i ∈ Finset.range n, if a i = RadixMobius.Letter.S then p i / q i / (p (i + 1) / q (i + 1)) else 1
+RadixMobius.high_ratio_lt_two {x y : ℚ} (hx : RadixMobius.High x) (hy : RadixMobius.High y) : 0 < y / x ∧ y / x < 2
+RadixMobius.selected_ratios_lt_two_power (s : Finset ℕ) (x y : ℕ → ℚ) (hs : s.Nonempty)
+  (hx : ∀ i ∈ s, RadixMobius.High (x i)) (hy : ∀ i ∈ s, RadixMobius.High (y i)) : ∏ i ∈ s, y i / x i < 2 ^ s.card
+RadixMobius.letter_count_partition (n : ℕ) (a : ℕ → RadixMobius.Letter) :
+  (RadixMobius.TIndices n a).card + (RadixMobius.SIndices n a).card = n
+RadixMobius.defect_pos (B : ℕ) (a : RadixMobius.Letter) (x : RadixMobius.FractionPair) (hh : RadixMobius.PairHigh x) :
+  0 < RadixMobius.defect B a x
+RadixMobius.strict_edge_product (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i < n, RadixMobius.PairHigh (x i)) (hs : ∃ i < n, 1 < RadixMobius.defect B (a i) (x i)) :
+  2 ≤ RadixMobius.cycleReduction B n x a
+RadixMobius.actual_cycle_T_product (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  RadixMobius.cycleReduction B n x a =
+    ∏ i ∈ RadixMobius.TIndices n a, RadixMobius.value (x (i + 1)) / RadixMobius.value (x i)
+RadixMobius.actual_cycle_S_product (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  RadixMobius.cycleReduction B n x a =
+    ∏ i ∈ RadixMobius.SIndices n a, RadixMobius.value (x i) / RadixMobius.value (x (i + 1))
+RadixMobius.strict_cycle_mixed (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0)
+  (hr : 1 < RadixMobius.cycleReduction B n x a) :
+  (RadixMobius.TIndices n a).Nonempty ∧ (RadixMobius.SIndices n a).Nonempty
+RadixMobius.actual_cycle_letter_budget (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0)
+  (hr : 1 < RadixMobius.cycleReduction B n x a) :
+  RadixMobius.cycleReduction B n x a < 2 ^ min (RadixMobius.TIndices n a).card (RadixMobius.SIndices n a).card
+RadixMobius.no_strict_cycle_length_le_three (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hn : n ≤ 3) (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  ¬∃ i < n, 1 < RadixMobius.defect B (a i) (x i)
+RadixMobius.one_block_product (B n split : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hsplit : split ≤ n) (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0)
+  (hword : ∀ i < n, a i = if i < split then RadixMobius.Letter.T else RadixMobius.Letter.S) :
+  RadixMobius.cycleReduction B n x a = RadixMobius.value (x split) / RadixMobius.value (x 0)
+RadixMobius.no_strict_one_block_cycle (B n split : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hsplit : split ≤ n) (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0)
+  (hword : ∀ i < n, a i = if i < split then RadixMobius.Letter.T else RadixMobius.Letter.S) :
+  ¬∃ i < n, 1 < RadixMobius.defect B (a i) (x i)
+RadixMobius.high_pos {x : ℚ} (hx : RadixMobius.High x) : 0 < x
+RadixMobius.high_ne_zero {x : ℚ} (hx : RadixMobius.High x) : x ≠ 0
+RadixMobius.phi_phiInv {x : ℚ} (hx : x ≠ 0) : RadixMobius.phi (RadixMobius.phiInv x) = x
+RadixMobius.phiInv_phi {x : ℚ} (hx : 1 + x ≠ 0) : RadixMobius.phiInv (RadixMobius.phi x) = x
+RadixMobius.high_phiInv {x : ℚ} (hx : RadixMobius.High x) : 0 < RadixMobius.phiInv x ∧ RadixMobius.phiInv x < 1
+RadixMobius.phi_high {y : ℚ} (hy0 : 0 < y) (hy1 : y < 1) : RadixMobius.High (RadixMobius.phi y)
+RadixMobius.conic_discriminant_factorization (u v w K U V W : ℤ) :
+  (2 * u * U * V + v * V * W - K * W ^ 2) ^ 2 - 4 * (u * U ^ 2 + v * U * W + w * W ^ 2) * (u * (V ^ 2 - W ^ 2)) =
+    W ^ 2 *
+      ((v ^ 2 - 4 * u * w) * V ^ 2 - 2 * K * (2 * u * U + v * W) * V + K ^ 2 * W ^ 2 +
+        4 * u * (u * U ^ 2 + v * U * W + w * W ^ 2))
+RadixMobius.conic_linear_elimination (u v w P h z K J q s : ℚ) (h₁ : u * (s ^ 2 - 1) + v * s * q + w * q ^ 2 = K * q)
+  (h₂ : P * (1 - s ^ 2) + h * q + z * q ^ 2 = J * s * q) (hq : q ≠ 0) :
+  (u * J - P * v) * s = (P * w + u * z) * q + (u * h - P * K)
+RadixMobius.old_family_defects (t : ℕ) (i : Fin 5) :
+  RadixMobius.defect (RadixMobius.oldBase + t * RadixMobius.oldPeriod) RadixMobius.Letter.T (RadixMobius.oldCarrier i) =
+      1 ∧
+    RadixMobius.defect (RadixMobius.oldBase + t * RadixMobius.oldPeriod) RadixMobius.Letter.S
+        (RadixMobius.oldCarrier i) =
+      if i = 3 then 3 else 1
+RadixMobius.new_family_defects (t : ℕ) (i : Fin 5) :
+  RadixMobius.defect (RadixMobius.newBase + t * RadixMobius.newPeriod) RadixMobius.Letter.T (RadixMobius.newCarrier i) =
+      1 ∧
+    RadixMobius.defect (RadixMobius.newBase + t * RadixMobius.newPeriod) RadixMobius.Letter.S
+        (RadixMobius.newCarrier i) =
+      if i = 3 then 2 else 1
+RadixMobius.runGraph_append (u v : List RadixMobius.Letter) (i : Fin 5) :
+  RadixMobius.runGraph (u ++ v) i = RadixMobius.runGraph v (RadixMobius.runGraph u i)
+RadixMobius.toRoot_correct (i : Fin 5) : RadixMobius.runGraph (RadixMobius.toRoot i) i = 0
+RadixMobius.fromRoot_correct (i : Fin 5) : RadixMobius.runGraph (RadixMobius.fromRoot i) 0 = i
+RadixMobius.graph_strongly_connected (i j : Fin 5) : ∃ w, RadixMobius.runGraph w i = j
+RadixMobius.graphS_not_injective : ¬∀ (i j : Fin 5), RadixMobius.graphS i = RadixMobius.graphS j → i = j
+RadixMobius.oldCarrier_primitive (i : Fin 5) : RadixMobius.PairPrimitive (RadixMobius.oldCarrier i)
+RadixMobius.oldCarrier_high (i : Fin 5) : RadixMobius.PairHigh (RadixMobius.oldCarrier i)
+RadixMobius.oldCarrier_distinct (i j : Fin 5) : RadixMobius.oldCarrier i = RadixMobius.oldCarrier j → i = j
+RadixMobius.oldCarrier_T_edges (i : Fin 5) :
+  RadixMobius.pairT RadixMobius.oldBase (RadixMobius.oldCarrier i) = RadixMobius.oldCarrier (RadixMobius.graphT i)
+RadixMobius.oldCarrier_S_edges (i : Fin 5) :
+  RadixMobius.pairS RadixMobius.oldBase (RadixMobius.oldCarrier i) = RadixMobius.oldCarrier (RadixMobius.graphS i)
+RadixMobius.newCarrier_primitive (i : Fin 5) : RadixMobius.PairPrimitive (RadixMobius.newCarrier i)
+RadixMobius.newCarrier_high (i : Fin 5) : RadixMobius.PairHigh (RadixMobius.newCarrier i)
+RadixMobius.newCarrier_distinct (i j : Fin 5) : RadixMobius.newCarrier i = RadixMobius.newCarrier j → i = j
+RadixMobius.newCarrier_T_edges (i : Fin 5) :
+  RadixMobius.pairT RadixMobius.newBase (RadixMobius.newCarrier i) = RadixMobius.newCarrier (RadixMobius.graphT i)
+RadixMobius.newCarrier_S_edges (i : Fin 5) :
+  RadixMobius.pairS RadixMobius.newBase (RadixMobius.newCarrier i) = RadixMobius.newCarrier (RadixMobius.graphS i)
+RadixMobius.oldCarrier_strict_edge (i : Fin 5) :
+  (RadixMobius.oldCarrier i).p.gcd RadixMobius.oldBase = if i = 3 then 3 else 1
+RadixMobius.newCarrier_strict_edge (i : Fin 5) :
+  (RadixMobius.newCarrier i).p.gcd RadixMobius.newBase = if i = 3 then 2 else 1
+RadixMobius.oldCarrier_T_defects (i : Fin 5) : (RadixMobius.oldCarrier i).q.gcd RadixMobius.oldBase = 1
+RadixMobius.newCarrier_T_defects (i : Fin 5) : (RadixMobius.newCarrier i).q.gcd RadixMobius.newBase = 1
+RadixMobius.value_reducePair (p q : ℕ) : RadixMobius.value (RadixMobius.reducePair p q) = ↑p / ↑q
+RadixMobius.radix_fraction (B p q : ℕ) (hq : 0 < q) : RadixMobius.radix B (↑p / ↑q) = ↑(B * p % q) / ↑q
+RadixMobius.phiInv_fraction (p q : ℕ) (hp : 0 < p) (hpq : p ≤ q) : RadixMobius.phiInv (↑p / ↑q) = ↑(q - p) / ↑p
+RadixMobius.pairT_value (B : ℕ) (x : RadixMobius.FractionPair) (hq : 0 < x.q) :
+  RadixMobius.value (RadixMobius.pairT B x) = RadixMobius.radix B (RadixMobius.value x)
+RadixMobius.pairS_value (B : ℕ) (x : RadixMobius.FractionPair) (hp : 0 < x.p) (hpq : x.p ≤ x.q) :
+  RadixMobius.value (RadixMobius.pairS B x) = RadixMobius.mobius B (RadixMobius.value x)
+RadixMobius.pairHigh_value {x : RadixMobius.FractionPair} (hx : RadixMobius.PairHigh x) :
+  RadixMobius.High (RadixMobius.value x)
+RadixMobius.pairT_denominator (B : ℕ) (x : RadixMobius.FractionPair) (h : RadixMobius.PairPrimitive x) :
+  (RadixMobius.pairT B x).q = x.q / B.gcd x.q
+RadixMobius.pairS_numerator (B : ℕ) (x : RadixMobius.FractionPair) (hpq : x.p ≤ x.q) (h : RadixMobius.PairPrimitive x) :
+  (RadixMobius.pairS B x).p = x.p / B.gcd x.p
+RadixMobius.pairT_num_conservation (B : ℕ) (x : RadixMobius.FractionPair) (hx : RadixMobius.PairPrimitive x) :
+  B * x.p % x.q = B.gcd x.q * (RadixMobius.pairT B x).p
+RadixMobius.pairS_den_conservation (B : ℕ) (x : RadixMobius.FractionPair) (hpq : x.p ≤ x.q)
+  (hx : RadixMobius.PairPrimitive x) : x.p + B * (x.q - x.p) % x.p = B.gcd x.p * (RadixMobius.pairS B x).q
+RadixMobius.actual_branch_lift (B : ℕ) (a : RadixMobius.Letter) (x : RadixMobius.FractionPair)
+  (hh : RadixMobius.PairHigh x) (hx : RadixMobius.PairPrimitive x) :
+  Matrix.mulVec (RadixMobius.actualMatrix B a x) (RadixMobius.integerLift x) =
+    ↑(RadixMobius.defect B a x) • RadixMobius.integerLift (RadixMobius.pairStep B a x)
+RadixMobius.actualMatrix_det (B : ℕ) (a : RadixMobius.Letter) (x : RadixMobius.FractionPair) :
+  Matrix.det (RadixMobius.actualMatrix B a x) = ↑B
+RadixMobius.actual_path_matrix_content (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i < n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) :
+  Matrix.mulVec (RadixMobius.chronologicalProduct (fun i => RadixMobius.actualMatrix B (a i) (x i)) n)
+      (RadixMobius.integerLift (x 0)) =
+    (∏ i ∈ Finset.range n, ↑(RadixMobius.defect B (a i) (x i))) • RadixMobius.integerLift (x n)
+RadixMobius.actual_path_determinant (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter) :
+  Matrix.det (RadixMobius.chronologicalProduct (fun i => RadixMobius.actualMatrix B (a i) (x i)) n) = ↑B ^ n
+RadixMobius.actual_cycle_matrix_content (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i < n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  Matrix.mulVec (RadixMobius.chronologicalProduct (fun i => RadixMobius.actualMatrix B (a i) (x i)) n)
+      (RadixMobius.integerLift (x 0)) =
+    (∏ i ∈ Finset.range n, ↑(RadixMobius.defect B (a i) (x i))) • RadixMobius.integerLift (x 0)
+RadixMobius.actual_cycle_spectrum (B n : ℕ) (x : ℕ → RadixMobius.FractionPair) (a : ℕ → RadixMobius.Letter)
+  (hh : ∀ i ≤ n, RadixMobius.PairHigh (x i)) (hp : ∀ i < n, RadixMobius.PairPrimitive (x i))
+  (he : ∀ i < n, x (i + 1) = RadixMobius.pairStep B (a i) (x i)) (hc : x n = x 0) :
+  let M := RadixMobius.chronologicalProduct (fun i => RadixMobius.actualMatrix B (a i) (x i)) n;
+  let Δ := ∏ i ∈ Finset.range n, ↑(RadixMobius.defect B (a i) (x i));
+  Δ ∣ ↑B ^ n ∧ M 0 0 + M 1 1 = Δ + ↑B ^ n / Δ ∧ (M 0 0 + M 1 1) ^ 2 - 4 * ↑B ^ n = (↑B ^ n / Δ - Δ) ^ 2
+RadixMobius.matrix_content_path (M : ℕ → RadixMobius.Mat2) (v : ℕ → Fin 2 → ℤ) (d : ℕ → ℤ) (n : ℕ) :
+  (∀ i < n, Matrix.mulVec (M i) (v i) = d i • v (i + 1)) →
+    Matrix.mulVec (RadixMobius.chronologicalProduct M n) (v 0) = (∏ i ∈ Finset.range n, d i) • v n
+RadixMobius.matrix_path_determinant (M : ℕ → RadixMobius.Mat2) (B : ℤ) (n : ℕ) :
+  (∀ i < n, Matrix.det (M i) = B) → Matrix.det (RadixMobius.chronologicalProduct M n) = B ^ n
+RadixMobius.matrix_cycle_content (M : ℕ → RadixMobius.Mat2) (v : ℕ → Fin 2 → ℤ) (d : ℕ → ℤ) (n : ℕ)
+  (he : ∀ i < n, Matrix.mulVec (M i) (v i) = d i • v (i + 1)) (hc : v n = v 0) :
+  Matrix.mulVec (RadixMobius.chronologicalProduct M n) (v 0) = (∏ i ∈ Finset.range n, d i) • v 0
+RadixMobius.two_by_two_characteristic (a b c d p q δ : ℚ) (hv : p ≠ 0 ∨ q ≠ 0) (h0 : a * p + b * q = δ * p)
+  (h1 : c * p + d * q = δ * q) : δ ^ 2 - (a + d) * δ + (a * d - b * c) = 0
+RadixMobius.cycle_trace (a b c d p q δ : ℚ) (hv : p ≠ 0 ∨ q ≠ 0) (hδ : δ ≠ 0) (h0 : a * p + b * q = δ * p)
+  (h1 : c * p + d * q = δ * q) : a + d = δ + (a * d - b * c) / δ
+RadixMobius.cycle_square_discriminant (a b c d p q δ : ℚ) (hv : p ≠ 0 ∨ q ≠ 0) (hδ : δ ≠ 0) (h0 : a * p + b * q = δ * p)
+  (h1 : c * p + d * q = δ * q) : (a + d) ^ 2 - 4 * (a * d - b * c) = ((a * d - b * c) / δ - δ) ^ 2
+RadixMobius.integer_characteristic (a b c d p q δ : ℤ) (hv : p ≠ 0 ∨ q ≠ 0) (h0 : a * p + b * q = δ * p)
+  (h1 : c * p + d * q = δ * q) : δ ^ 2 - (a + d) * δ + (a * d - b * c) = 0
+RadixMobius.integer_eigenvalue_identities (a b c d p q δ : ℤ) (hv : p ≠ 0 ∨ q ≠ 0) (hδ : δ ≠ 0)
+  (h0 : a * p + b * q = δ * p) (h1 : c * p + d * q = δ * q) :
+  δ ∣ a * d - b * c ∧
+    a + d = δ + (a * d - b * c) / δ ∧ (a + d) ^ 2 - 4 * (a * d - b * c) = ((a * d - b * c) / δ - δ) ^ 2
+RadixMobius.branchT_det (B k : ℤ) : Matrix.det (RadixMobius.branchT B k) = B
+RadixMobius.branchS_det (B k : ℤ) : Matrix.det (RadixMobius.branchS B k) = B
+RadixMobius.content_dvd_det (M : RadixMobius.Mat2) (v : Fin 2 → ℤ) (hv : RadixMobius.content v = 1) :
+  ↑(RadixMobius.content (Matrix.mulVec M v)) ∣ Matrix.det M
+RadixMobius.content_dvd_natAbs_det (M : RadixMobius.Mat2) (v : Fin 2 → ℤ) (hv : RadixMobius.content v = 1) :
+  RadixMobius.content (Matrix.mulVec M v) ∣ (Matrix.det M).natAbs
+RadixMobius.content_dvd_image (M : RadixMobius.Mat2) (v : Fin 2 → ℤ) :
+  RadixMobius.content v ∣ RadixMobius.content (Matrix.mulVec M v)
+RadixMobius.content_of_integral_left_inverse (M N : RadixMobius.Mat2) (hNM : N * M = 1) (v : Fin 2 → ℤ) :
+  RadixMobius.content (Matrix.mulVec M v) = RadixMobius.content v
+RadixMobius.unimodular_content (U : RadixMobius.Mat2ˣ) (v : Fin 2 → ℤ) :
+  RadixMobius.content (Matrix.mulVec (↑U) v) = RadixMobius.content v
+RadixMobius.runRational_intertwines (B : ℕ) (x : Fin 5 → ℚ)
+  (hT : ∀ (i : Fin 5), RadixMobius.radix B (x i) = x (RadixMobius.graphT i))
+  (hS : ∀ (i : Fin 5), RadixMobius.mobius B (x i) = x (RadixMobius.graphS i)) (w : List RadixMobius.Letter)
+  (i : Fin 5) : RadixMobius.runRational B w (x i) = x (RadixMobius.runGraph w i)
+RadixMobius.realization_from_graph (B : ℕ) (x : Fin 5 → ℚ) (hB : 2 ≤ B) (hh : ∀ (i : Fin 5), RadixMobius.High (x i))
+  (hinj : Function.Injective x) (hT : ∀ (i : Fin 5), RadixMobius.radix B (x i) = x (RadixMobius.graphT i))
+  (hS : ∀ (i : Fin 5), RadixMobius.mobius B (x i) = x (RadixMobius.graphS i)) :
+  ∃ F, RadixMobius.HighComponent B F ∧ F.card = 5 ∧ ¬Set.InjOn (RadixMobius.mobius B) ↑F
+RadixMobius.pairT_periodic (B t M : ℕ) (x : RadixMobius.FractionPair) (hM : x.q ∣ M) :
+  RadixMobius.pairT (B + t * M) x = RadixMobius.pairT B x
+RadixMobius.pairS_periodic (B t M : ℕ) (x : RadixMobius.FractionPair) (hM : x.p ∣ M) :
+  RadixMobius.pairS (B + t * M) x = RadixMobius.pairS B x
+RadixMobius.oldCarrier_period_divisibility (i : Fin 5) :
+  (RadixMobius.oldCarrier i).p ∣ RadixMobius.oldPeriod ∧ (RadixMobius.oldCarrier i).q ∣ RadixMobius.oldPeriod
+RadixMobius.newCarrier_period_divisibility (i : Fin 5) :
+  (RadixMobius.newCarrier i).p ∣ RadixMobius.newPeriod ∧ (RadixMobius.newCarrier i).q ∣ RadixMobius.newPeriod
+RadixMobius.oldCarrier_rational_edges (t : ℕ) :
+  (∀ (i : Fin 5),
+      RadixMobius.radix (RadixMobius.oldBase + t * RadixMobius.oldPeriod)
+          (RadixMobius.value (RadixMobius.oldCarrier i)) =
+        RadixMobius.value (RadixMobius.oldCarrier (RadixMobius.graphT i))) ∧
+    ∀ (i : Fin 5),
+      RadixMobius.mobius (RadixMobius.oldBase + t * RadixMobius.oldPeriod)
+          (RadixMobius.value (RadixMobius.oldCarrier i)) =
+        RadixMobius.value (RadixMobius.oldCarrier (RadixMobius.graphS i))
+RadixMobius.newCarrier_rational_edges (t : ℕ) :
+  (∀ (i : Fin 5),
+      RadixMobius.radix (RadixMobius.newBase + t * RadixMobius.newPeriod)
+          (RadixMobius.value (RadixMobius.newCarrier i)) =
+        RadixMobius.value (RadixMobius.newCarrier (RadixMobius.graphT i))) ∧
+    ∀ (i : Fin 5),
+      RadixMobius.mobius (RadixMobius.newBase + t * RadixMobius.newPeriod)
+          (RadixMobius.value (RadixMobius.newCarrier i)) =
+        RadixMobius.value (RadixMobius.newCarrier (RadixMobius.graphS i))
+RadixMobius.oldCarrier_values_injective : Function.Injective fun i => RadixMobius.value (RadixMobius.oldCarrier i)
+RadixMobius.newCarrier_values_injective : Function.Injective fun i => RadixMobius.value (RadixMobius.newCarrier i)
+RadixMobius.oldBase_valid (t : ℕ) : 2 ≤ RadixMobius.oldBase + t * RadixMobius.oldPeriod
+RadixMobius.newBase_valid (t : ℕ) : 2 ≤ RadixMobius.newBase + t * RadixMobius.newPeriod
+RadixMobius.old_infinite_family (t : ℕ) :
+  ∃ F,
+    RadixMobius.HighComponent (RadixMobius.oldBase + t * RadixMobius.oldPeriod) F ∧
+      F.card = 5 ∧ ¬Set.InjOn (RadixMobius.mobius (RadixMobius.oldBase + t * RadixMobius.oldPeriod)) ↑F
+RadixMobius.new_infinite_family (t : ℕ) :
+  ∃ F,
+    RadixMobius.HighComponent (RadixMobius.newBase + t * RadixMobius.newPeriod) F ∧
+      F.card = 5 ∧ ¬Set.InjOn (RadixMobius.mobius (RadixMobius.newBase + t * RadixMobius.newPeriod)) ↑F
+RadixMobius.integer_quadratic_discriminant_square (a b c : ℤ) (q : ℚ) (hq : ↑a * q ^ 2 + ↑b * q + ↑c = 0) :
+  IsSquare (b ^ 2 - 4 * a * c)
+RadixMobius.square_factor_cancel (W Z : ℤ) (hW : W ≠ 0) (hs : IsSquare (W ^ 2 * Z)) : IsSquare Z
+RadixMobius.eliminated_quadratic (u v w K U V W q s : ℚ) (hf : u * (s ^ 2 - 1) + v * s * q + w * q ^ 2 = K * q)
+  (hl : W * s = U * q + V) :
+  (u * U ^ 2 + v * U * W + w * W ^ 2) * q ^ 2 + (2 * u * U * V + v * V * W - K * W ^ 2) * q + u * (V ^ 2 - W ^ 2) = 0
+RadixMobius.conic_filter_nonzero_W (u v w K U V W : ℤ) (q s : ℚ) (hW : W ≠ 0)
+  (hf : ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q) (hl : ↑W * s = ↑U * q + ↑V) :
+  IsSquare (RadixMobius.conicZ u v w K U V W)
+RadixMobius.zero_W_discriminant_identity (u v w K U V : ℤ) :
+  (-v * V * U) ^ 2 - 4 * (u * U ^ 2) * (w * V ^ 2 - u * U ^ 2 + K * V * U) = U ^ 2 * RadixMobius.conicZ u v w K U V 0
+RadixMobius.conic_filter_zero_W (u v w K U V : ℤ) (q s : ℚ) (hU : U ≠ 0)
+  (hf : ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q) (hl : ↑U * q + ↑V = 0) :
+  IsSquare (RadixMobius.conicZ u v w K U V 0)
+RadixMobius.conic_square_filter_sound (u v w K U V W : ℤ) (q s : ℚ)
+  (hf : ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q) (hl : ↑W * s = ↑U * q + ↑V) :
+  IsSquare (RadixMobius.conicZ u v w K U V W)
+RadixMobius.square_has_residue (m Z : ℤ) (hm : 0 < m) (hZ : IsSquare Z) : RadixMobius.ResidueSquare m Z
+RadixMobius.nonsquare_residue_rejects (m Z : ℤ) (hm : 0 < m) (hr : ¬RadixMobius.ResidueSquare m Z) : ¬IsSquare Z
+RadixMobius.conic_modular_rejection (m u v w K U V W : ℤ) (hm : 0 < m)
+  (hr : ¬RadixMobius.ResidueSquare m (RadixMobius.conicZ u v w K U V W)) :
+  ¬∃ q s, ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q ∧ ↑W * s = ↑U * q + ↑V
+RadixMobius.two_conics_require_square (u v w P h z K J : ℤ) (q s : ℚ) (hq : q ≠ 0)
+  (h₁ : ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q)
+  (h₂ : ↑P * (1 - s ^ 2) + ↑h * q + ↑z * q ^ 2 = ↑J * s * q) :
+  IsSquare (RadixMobius.conicZ u v w K (P * w + u * z) (u * h - P * K) (u * J - P * v))
+RadixMobius.two_conics_modular_rejection (m u v w P h z K J : ℤ) (hm : 0 < m)
+  (hr : ¬RadixMobius.ResidueSquare m (RadixMobius.conicZ u v w K (P * w + u * z) (u * h - P * K) (u * J - P * v))) :
+  ¬∃ q s,
+      q ≠ 0 ∧ ↑u * (s ^ 2 - 1) + ↑v * s * q + ↑w * q ^ 2 = ↑K * q ∧ ↑P * (1 - s ^ 2) + ↑h * q + ↑z * q ^ 2 = ↑J * s * q

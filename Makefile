@@ -93,3 +93,9 @@ minima-verify:
 	$(PYTHON) research/rc33/minima/replay.py
 minima-full-verify:
 	$(PYTHON) research/rc33/minima/replay.py --full
+
+.PHONY: lean-verify lean-records-check
+lean-verify:
+	cd formal/lean && $(PYTHON) scripts/audit.py
+lean-records-check:
+	$(PYTHON) src/integrity/check_lean_records.py

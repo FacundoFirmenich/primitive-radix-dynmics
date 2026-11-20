@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-20T03:46:42.034665+00:00",
+  "units": "dimensionless exact arithmetic over Nat, Int and Rat",
+  "Lean": "4.19.0",
+  "mathlib_tag": "v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "equations": [
+    "T_B(x)=B*x-floor(B*x)",
+    "Phi(x)=1/(1+x)",
+    "S_B(x)=Phi(T_B((1-x)/x))",
+    "g_T=gcd(B,q); g_S=gcd(B,p)",
+    "M_i v_i=d_i v_(i+1)",
+    "Delta=product of exact edge factors"
+  ],
+  "high_interval": "1/2<x<1",
+  "witnesses": [
+    {
+      "r": 3,
+      "B": 88011536665779,
+      "CRT_period": 223336848698040,
+      "A": 406,
+      "C": 712,
+      "D": 1265,
+      "Q": 731,
+      "E": 557,
+      "j": 1
+    },
+    {
+      "r": 2,
+      "B": 2720751096305053288157586672376,
+      "CRT_period": 3245172386374697665101193455750,
+      "A": 1089859,
+      "C": 1627375,
+      "D": 3121631,
+      "Q": 2087631,
+      "E": 2105745,
+      "j": 1
+    }
+  ],
+  "transitions": {
+    "T": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "S": [
+      4,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  "formalization_scope": "Target contract; proof status is pending until Lean accepts each declaration"
+}

@@ -129,6 +129,12 @@
 | MIN2 | `EXACT_CERTIFICATE` | Every nonpermutation high component has base at least54, at any cardinality | `research/rc33/minima/RESULTS.md#min2` | depends_on:MIN1 |
 | MIN3 | `PROVED_SYMBOLIC` | Every nonpermutation five-state realization below the known base lies in an explicit finite search window | `research/rc33/minima/RESULTS.md#min3` | depends_on:MIN4<br>depends_on:C014 |
 | MIN4 | `EXACT_CERTIFICATE` | The exact index prefix1..12 excludes all necessary primitive candidates at every height | `research/rc33/minima/RESULTS.md#min4` | depends_on:LCF |
+| LEAN1 | `PROVED_LEAN_KERNEL` | Exact rational maps, primitive coordinates and local reduction factors | `formal/lean/RESULTS.md#lean1` | formalizes:C002<br>formalizes:C003 |
+| LEAN2 | `PROVED_LEAN_KERNEL` | Integral content, chronological lifts and cycle spectrum | `formal/lean/RESULTS.md#lean2` | depends_on:LEAN1<br>depends_on:LEAN3<br>formalizes:C004<br>formalizes:C005 |
+| LEAN3 | `PROVED_LEAN_KERNEL` | Two-chart cycle balance and partial strict-cycle exclusions | `formal/lean/RESULTS.md#lean3` | depends_on:LEAN1<br>formalizes:C016 |
+| LEAN4 | `PROVED_LEAN_KERNEL` | Two nonpermutation five-state families and their exact defects | `formal/lean/RESULTS.md#lean4` | depends_on:LEAN1<br>formalizes:C011<br>formalizes:TARA1 |
+| LEAN5 | `PROVED_LEAN_KERNEL` | Exactly36 induced actions and minimum rank2 | `formal/lean/RESULTS.md#lean5` | depends_on:LEAN4 |
+| LEAN6 | `PROVED_LEAN_KERNEL` | Sound square and modular filters from the original two conics | `formal/lean/RESULTS.md#lean6` | formalizes_filter_only:LCF |
 
 ## Artifact registry
 

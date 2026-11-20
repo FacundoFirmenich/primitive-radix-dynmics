@@ -1,0 +1,21 @@
+{
+  "verified_utc_date": "2026-11-20",
+  "sources": [
+    {
+      "authors": "Leonardo de Moura; Sebastian Ullrich",
+      "title": "The Lean4 Theorem Prover and Programming Language",
+      "year": 2021,
+      "DOI": "10.1007/978-3-030-79876-5_37",
+      "official_citation_route": "https://lean-lang.org/learn/",
+      "publisher": "https://link.springer.com/chapter/10.1007/978-3-030-79876-5_37"
+    },
+    {
+      "authors": "The mathlib Community",
+      "title": "The Lean Mathematical Library",
+      "year": 2020,
+      "DOI": "10.1145/3372885.3373824",
+      "official_citation_route": "https://leanprover-community.github.io/cite.html",
+      "scope": "Foundational library publication; the actual proof dependency is the separately pinned Mathlib4 revision."
+    }
+  ]
+}

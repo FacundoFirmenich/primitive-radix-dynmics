@@ -1,5 +1,19 @@
 # Research status · RC3.3
 
+## Lean kernel verification — 20 November 2026
+
+The [formal library](formal/lean/README.md) checks 144 declarations in 17 modules:
+exact rational maps and defects, two-chart balance, integral cycle spectrum,
+both infinite five-state families, their 36-action monoid of minimum rank 2,
+and the sound conic square filter including degeneracies.
+[Six scope records](formal/lean/RESULTS.md) distinguish this from the remaining
+formalization of the general four-state exclusion and external enumerations.
+Run `make lean-verify` with the pinned toolchain; `make lean-records-check`
+checks the committed receipt and source integrity without invoking Lean.
+Current register: **133 records, including 79 continuation records**.
+The oriented frontier stays 37/2/1; global uniqueness and minimum bases stay open.
+The existing DOI/tag remain unchanged; the full manuscripts remain private.
+
 ## Uniqueness and minimum-base fronts — 20 November 2026
 
 [Four new records](research/rc33/minima/RESULTS.md) certify an all-cardinality
@@ -50,7 +64,7 @@ The three prior causal results are now incorporated into the six private PDF/HTM
 
 ## Causal trace continuation · 17 November2026
 
-Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.
+Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank 2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.
 
 Current public counts:113 claim records and59 continuation records. The previous private PDF/HTML project was unavailable; its56-card continuation and PDF hashes remain the last compiled delivery. [Private integration destinations are pending](research/rc33/causal-traces/INTEGRATION_STATUS.json). No rebuilt manuscripts, full Python aggregate rerun, source browser tests or remote CI certification are claimed. The two existence rows, uniqueness and least-base gates remain open; original DOI/tag unchanged.
 

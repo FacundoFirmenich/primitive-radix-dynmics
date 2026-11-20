@@ -1281,6 +1281,66 @@
       "scope": "Five stated chambers;117093402 integral-level pairs; strict-prime unit exclusions included; no uniform global index bound"
     },
     {
+      "id": "LEAN1",
+      "label": "LEAN1",
+      "title": "Exact rational maps, primitive coordinates and local reduction factors",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean1",
+      "scope": "All natural bases; stated positivity and primitive-coordinate hypotheses; open high interval."
+    },
+    {
+      "id": "LEAN2",
+      "label": "LEAN2",
+      "title": "Integral content, chronological lifts and cycle spectrum",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean2",
+      "scope": "Integral 2x2 matrices with the stated primitive/nonzero hypotheses; actual high closed paths of any finite length."
+    },
+    {
+      "id": "LEAN3",
+      "label": "LEAN3",
+      "title": "Two-chart cycle balance and partial strict-cycle exclusions",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean3",
+      "scope": "Every high rational cycle; letter-count bound; no strict cycle of length <=3 or of the displayed T^a S^b form. General four-state exclusion is not formalized."
+    },
+    {
+      "id": "LEAN4",
+      "label": "LEAN4",
+      "title": "Two nonpermutation five-state families and their exact defects",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean4",
+      "scope": "Both displayed carriers and every base B0+t*M with t a natural number; five distinct high rational states, ten edges, strong connectivity, S noninjective, single strict factor r. No minimality or complete-CRT necessity claim."
+    },
+    {
+      "id": "LEAN5",
+      "label": "LEAN5",
+      "title": "Exactly36 induced actions and minimum rank2",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean5",
+      "scope": "Arbitrary finite words on both entire realized base families. Closure plus generation, not a word-length cutoff."
+    },
+    {
+      "id": "LEAN6",
+      "label": "LEAN6",
+      "title": "Sound square and modular filters from the original two conics",
+      "kind": "claim",
+      "layer": "Formal proofs",
+      "status": "PROVED_LEAN_KERNEL",
+      "artifact": "formal/lean/RESULTS.md#lean6",
+      "scope": "Integer coefficients, rational q,s with q !=0, any positive modulus; W=0 and U=0 branches included. No coverage proof for an external enumerator or execution."
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -3026,6 +3086,71 @@
       "source": "MIN3",
       "target": "C014",
       "relation": "depends_on"
+    },
+    {
+      "source": "LEAN1",
+      "target": "C002",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN1",
+      "target": "C003",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN2",
+      "target": "LEAN1",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LEAN2",
+      "target": "LEAN3",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LEAN2",
+      "target": "C004",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN2",
+      "target": "C005",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN3",
+      "target": "LEAN1",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LEAN3",
+      "target": "C016",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN4",
+      "target": "LEAN1",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LEAN4",
+      "target": "C011",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN4",
+      "target": "TARA1",
+      "relation": "formalizes"
+    },
+    {
+      "source": "LEAN5",
+      "target": "LEAN4",
+      "relation": "depends_on"
+    },
+    {
+      "source": "LEAN6",
+      "target": "LCF",
+      "relation": "formalizes_filter_only"
     },
     {
       "source": "A001",

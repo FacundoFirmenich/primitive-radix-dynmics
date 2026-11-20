@@ -19,7 +19,7 @@ The three prior causal results are now incorporated into the six private PDF/HTM
 
 ## Causal trace continuation · 17 November2026
 
-Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.
+Three new scoped research records transfer XI–XIII to the actual RGΦ witness: based-loop trace rank 2 and an explicit blind pair; four admissible suffix probes of length at most2 for the whole known CRT family; and fixed-point-trace Hankel rank11 with30 future-trace classes among36 actions. [Proofs and contracts](research/rc33/causal-traces/RESULTS.md) · [Origin return](research/rc33/causal-traces/RETURN_XI_XIII_ES.md). Independent exact ECMAScript replay covers the2,097,151 binary and265,720 ternary histories and Apéry–CRT data. Run make causal-trace-verify.
 
 Current public counts:113 claim records and59 continuation records. The previous private PDF/HTML project was unavailable; its56-card continuation and PDF hashes remain the last compiled delivery. [Private integration destinations are pending](research/rc33/causal-traces/INTEGRATION_STATUS.json). No rebuilt manuscripts, full Python aggregate rerun, source browser tests or remote CI certification are claimed. The two existence rows, uniqueness and least-base gates remain open; original DOI/tag unchanged.
 
@@ -93,3 +93,10 @@ with `make offensive-verify`. Four additional scoped records; 37/2/1 unchanged.
 prove B>=54 for nonpermutation components at any cardinality. The complete
 index prefix1..12 and finite five-state minimum window have separate contracts.
 Use `make minima-verify` or `make minima-full-verify`.
+
+## Lean proof library
+
+[Partial formalization](formal/lean/README.md): 144 checked declarations in 17
+modules, with pinned dependencies, axiom audit, exact scopes and negative
+controls. Run `make lean-verify`; read [COVERAGE.json](formal/lean/COVERAGE.json)
+for the boundary with the full four-state exclusion and finite search campaigns.

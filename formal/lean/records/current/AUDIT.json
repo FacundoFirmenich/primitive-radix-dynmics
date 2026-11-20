@@ -1,0 +1,1880 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-20T04:47:37.346888+00:00",
+  "author": "Facundo Firmenich",
+  "Lean": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "named_theorems": 144,
+  "modules": 17,
+  "dependency_revisions": {
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+  },
+  "standard_axioms_used": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "custom_axioms": [],
+  "sorry_admit_native_decide": false,
+  "kernel_trust_argument": 0,
+  "mutation_pairs": 7,
+  "commands": [
+    {
+      "label": "lean-version",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:14.146913+00:00"
+    },
+    {
+      "label": "dependency-mathlib",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.785690+00:00"
+    },
+    {
+      "label": "dependency-clean-mathlib",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/mathlib",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.789019+00:00"
+    },
+    {
+      "label": "dependency-plausible",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.973799+00:00"
+    },
+    {
+      "label": "dependency-clean-plausible",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/plausible",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.977713+00:00"
+    },
+    {
+      "label": "dependency-LeanSearchClient",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.986654+00:00"
+    },
+    {
+      "label": "dependency-clean-LeanSearchClient",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/LeanSearchClient",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:15.991778+00:00"
+    },
+    {
+      "label": "dependency-importGraph",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.001694+00:00"
+    },
+    {
+      "label": "dependency-clean-importGraph",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/importGraph",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.037989+00:00"
+    },
+    {
+      "label": "dependency-proofwidgets",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.048330+00:00"
+    },
+    {
+      "label": "dependency-clean-proofwidgets",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/proofwidgets",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.054348+00:00"
+    },
+    {
+      "label": "dependency-aesop",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.067435+00:00"
+    },
+    {
+      "label": "dependency-clean-aesop",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/aesop",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.071390+00:00"
+    },
+    {
+      "label": "dependency-Qq",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.095694+00:00"
+    },
+    {
+      "label": "dependency-clean-Qq",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/Qq",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.100676+00:00"
+    },
+    {
+      "label": "dependency-batteries",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.136794+00:00"
+    },
+    {
+      "label": "dependency-clean-batteries",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/batteries",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.139391+00:00"
+    },
+    {
+      "label": "dependency-Cli",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.165574+00:00"
+    },
+    {
+      "label": "dependency-clean-Cli",
+      "argv": [
+        "git",
+        "-C",
+        "/workspace/rgphi-lean-2026-11-20/.lake/packages/Cli",
+        "diff",
+        "--exit-code",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.171372+00:00"
+    },
+    {
+      "label": "build",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:16.182588+00:00"
+    },
+    {
+      "label": "axioms",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/Audit.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:18.473948+00:00"
+    },
+    {
+      "label": "statements",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/Statements.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:35.270929+00:00"
+    },
+    {
+      "label": "wrong-base-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/wrong-base-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:39.545023+00:00"
+    },
+    {
+      "label": "wrong-base-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/wrong-base-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:46:45.095710+00:00"
+    },
+    {
+      "label": "missing-primitivity-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/missing-primitivity-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:51.824484+00:00"
+    },
+    {
+      "label": "missing-primitivity-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/missing-primitivity-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:46:56.554841+00:00"
+    },
+    {
+      "label": "saturation-subtraction-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/saturation-subtraction-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:46:59.447695+00:00"
+    },
+    {
+      "label": "saturation-subtraction-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/saturation-subtraction-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:47:02.950526+00:00"
+    },
+    {
+      "label": "missing-square-guard-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/missing-square-guard-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:47:06.042651+00:00"
+    },
+    {
+      "label": "missing-square-guard-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/missing-square-guard-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:47:12.424219+00:00"
+    },
+    {
+      "label": "closed-half-endpoint-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/closed-half-endpoint-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:47:15.730023+00:00"
+    },
+    {
+      "label": "closed-half-endpoint-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/closed-half-endpoint-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:47:21.073900+00:00"
+    },
+    {
+      "label": "closed-one-endpoint-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/closed-one-endpoint-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:47:23.543262+00:00"
+    },
+    {
+      "label": "closed-one-endpoint-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/closed-one-endpoint-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:47:26.827012+00:00"
+    },
+    {
+      "label": "truncated-monoid-control",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/truncated-monoid-control.lean"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "started_utc": "2026-11-20T04:47:28.989945+00:00"
+    },
+    {
+      "label": "truncated-monoid-reject",
+      "argv": [
+        "/workspace/lean-tools/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "records/current/truncated-monoid-reject.lean"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "started_utc": "2026-11-20T04:47:32.900310+00:00"
+    }
+  ],
+  "source_hashes": {
+    "RadixMobius.lean": "bc0246b9d4481e77ae77e799b5982fe42b321bc3d8cccdc6d75cd09e554cd71a",
+    "RadixMobius/ActionBridge.lean": "bd4b8cb8bbd62ab493107d96941517659f19c711902e5ba309eb760bd3f8e29e",
+    "RadixMobius/ActionMonoid.lean": "5178514790ca2e327af5459b335e16856a66fe8abde7b0989ae893dc18080eed",
+    "RadixMobius/ActualCycles.lean": "690a5327a3cc876cb3196a3ad6f0fc2c993833dd049e7720bdb0aab0b9b6d76e",
+    "RadixMobius/Arithmetic.lean": "7c68ee231f745bfd798c21660cd59d14dfa0e27d4cde8da71068e113790511e6",
+    "RadixMobius/CanonicalRepresentation.lean": "a4ea1bef44bf3f2977552844a3f8e709c92079ca1821564b746613c899baba49",
+    "RadixMobius/CycleBalance.lean": "88b99a580fa4be65484202186bcb4fb2c29d94dace8c34e1ae2e18a625aa74ac",
+    "RadixMobius/CycleBudget.lean": "410ba5e82d49cc23903a0d1fee6326dea029d8025626623b853f98966f5fdce8",
+    "RadixMobius/Definitions.lean": "4647691affb5dbcecf9e07a13598728d2b9988a66951d90dac14595d28bf043d",
+    "RadixMobius/Discriminant.lean": "de1ed5cbdcbfd9549f4771451d9e5cc298bde7dc8fb75e4ae9db9f3559f20a35",
+    "RadixMobius/FamilyDefects.lean": "ad83e0954763ab840dd9313be44fec368f45de10bf1f8a58f99e1c330bc6e9b1",
+    "RadixMobius/FiniteWitness.lean": "35ead8c7f636be6c9e10e979c07c62871248f6eba214406ca159cb8736ac8428",
+    "RadixMobius/FractionBridge.lean": "2b1eb0b82097c4a8ed12bcea2412f7557a937880a7de812bb0969e150258019a",
+    "RadixMobius/IntegerLifts.lean": "61d39bfc9bd65938b31ac88cafb1d7eff940fcc97474c84c10af688bc8ba030e",
+    "RadixMobius/MatrixCocycle.lean": "9bcd0550d5756438e72880c8fed0084a2c4ab25e47c6eaaee5fc857b4a8718e3",
+    "RadixMobius/MatrixContent.lean": "d3c8a5bd6eaeff6f7da225dce356b8a155cc106bb61db8ab936e305e58e3c40e",
+    "RadixMobius/Realization.lean": "49164855818eaa4b7510670d59377d9eeadbed07a19afe51979ddfd055ca347b",
+    "RadixMobius/SquareFilter.lean": "8edf2b360c985b4773f148de91149ee88236a23617c933d4c7c24fa291b806a0",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "lakefile.lean": "aa29c58b2c368f336a8a35a713313d1fba569132fffe3fb67e93744e24a2e3d2",
+    "lake-manifest.json": "743e2fc9fc27f51034d9840baaaea57118d349a8e805ff2093a6270a080aed69",
+    "scripts/audit.py": "aadcfa80e25b4e8994f1ea08ebaab3597990c84bc23fe0bd789aeda43765938e",
+    "COVERAGE.json": "8f8b5c5fb19891c8648c6b5975fc8c5b46e4d595569c0912d017911bdad1d3b6"
+  },
+  "declarations": [
+    {
+      "name": "RadixMobius.code_eq_iff_word_actions",
+      "file": "RadixMobius/ActionBridge.lean",
+      "line": 7,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.rational_word_actions_eq_iff",
+      "file": "RadixMobius/ActionBridge.lean",
+      "line": 25,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.old_family_action_classification",
+      "file": "RadixMobius/ActionBridge.lean",
+      "line": 41,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.new_family_action_classification",
+      "file": "RadixMobius/ActionBridge.lean",
+      "line": 47,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.codeOf_cons",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 91,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actionCodes_closed_table",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 96,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actionCodes_closed",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 96,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actionCodes_generated",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 106,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actionCodes_cardinality",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 108,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.all_word_actions",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 110,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.reachable_action_iff",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 115,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.action_rank_lower",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 129,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.rank_two_attained",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 132,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.no_rank_one_word",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 134,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.rank_two_word_exists",
+      "file": "RadixMobius/ActionMonoid.lean",
+      "line": 137,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairT_den_conservation",
+      "file": "RadixMobius/ActualCycles.lean",
+      "line": 13,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairS_num_conservation",
+      "file": "RadixMobius/ActualCycles.lean",
+      "line": 18,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_step_conservation",
+      "file": "RadixMobius/ActualCycles.lean",
+      "line": 24,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_balance",
+      "file": "RadixMobius/ActualCycles.lean",
+      "line": 33,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.radix_gcd",
+      "file": "RadixMobius/Arithmetic.lean",
+      "line": 6,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.mobius_gcd",
+      "file": "RadixMobius/Arithmetic.lean",
+      "line": 13,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.gcd_periodic",
+      "file": "RadixMobius/Arithmetic.lean",
+      "line": 23,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.primitive_value_mk",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 9,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.primitive_value_num",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 14,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.primitive_value_den",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 17,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_primitive",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 20,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_value",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 22,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_inverse",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 31,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairHigh_of_value",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 37,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_high",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 51,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.every_high_rational_has_primitive_coordinates",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 56,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.reduced_pair_primitive",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 61,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.reduced_pair_den_pos",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 65,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_radix",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 69,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_mobius",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 77,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_step",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 87,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.canonical_trajectory",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 93,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.rational_cycle_balance",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 101,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.rational_no_strict_short_cycle",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 127,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.rational_cycle_letter_budget",
+      "file": "RadixMobius/CanonicalRepresentation.lean",
+      "line": 135,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.coordinate_num_balance",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 8,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.coordinate_den_balance",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 23,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.prod_coordinate_ratios",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 38,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.path_num_balance",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 50,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.path_den_balance",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 62,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.cycle_balance",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 74,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.high_ratio_lt_two",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 86,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.selected_ratios_lt_two_power",
+      "file": "RadixMobius/CycleBalance.lean",
+      "line": 95,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.letter_count_partition",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 14,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.defect_pos",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 28,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.strict_edge_product",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 34,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_T_product",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 46,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_S_product",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 53,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.strict_cycle_mixed",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 60,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_letter_budget",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 77,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.no_strict_cycle_length_le_three",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 101,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.one_block_product",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 116,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.no_strict_one_block_cycle",
+      "file": "RadixMobius/CycleBudget.lean",
+      "line": 141,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.high_pos",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 21,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.high_ne_zero",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 25,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.phi_phiInv",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 27,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.phiInv_phi",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 31,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.high_phiInv",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 35,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.phi_high",
+      "file": "RadixMobius/Definitions.lean",
+      "line": 44,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_discriminant_factorization",
+      "file": "RadixMobius/Discriminant.lean",
+      "line": 7,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_linear_elimination",
+      "file": "RadixMobius/Discriminant.lean",
+      "line": 14,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.old_family_defects",
+      "file": "RadixMobius/FamilyDefects.lean",
+      "line": 6,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.new_family_defects",
+      "file": "RadixMobius/FamilyDefects.lean",
+      "line": 17,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.runGraph_append",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 48,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.toRoot_correct",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 62,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.fromRoot_correct",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 63,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.graph_strongly_connected",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 65,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.graphS_not_injective",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 70,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_primitive",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 92,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_high",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 94,
+      "axioms": []
+    },
+    {
+      "name": "RadixMobius.oldCarrier_distinct",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 96,
+      "axioms": []
+    },
+    {
+      "name": "RadixMobius.oldCarrier_T_edges",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 99,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_S_edges",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 102,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_primitive",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 105,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_high",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 107,
+      "axioms": []
+    },
+    {
+      "name": "RadixMobius.newCarrier_distinct",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 109,
+      "axioms": []
+    },
+    {
+      "name": "RadixMobius.newCarrier_T_edges",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 112,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_S_edges",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 115,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_strict_edge",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 118,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_strict_edge",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 122,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_T_defects",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 126,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_T_defects",
+      "file": "RadixMobius/FiniteWitness.lean",
+      "line": 129,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.value_reducePair",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 10,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.radix_fraction",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 13,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.phiInv_fraction",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 26,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairT_value",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 34,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairS_value",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 40,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairHigh_value",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 51,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairT_denominator",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 61,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairS_numerator",
+      "file": "RadixMobius/FractionBridge.lean",
+      "line": 66,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairT_num_conservation",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 15,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairS_den_conservation",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 24,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_branch_lift",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 34,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actualMatrix_det",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 60,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_path_matrix_content",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 64,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_path_determinant",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 75,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_matrix_content",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 81,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.actual_cycle_spectrum",
+      "file": "RadixMobius/IntegerLifts.lean",
+      "line": 88,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.matrix_content_path",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 12,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.matrix_path_determinant",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 25,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.matrix_cycle_content",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 35,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.two_by_two_characteristic",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 41,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.cycle_trace",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 55,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.cycle_square_discriminant",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 63,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.integer_characteristic",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 71,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.integer_eigenvalue_identities",
+      "file": "RadixMobius/MatrixCocycle.lean",
+      "line": 80,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.branchT_det",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 13,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.branchS_det",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 16,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.content_dvd_det",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 21,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.content_dvd_natAbs_det",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 45,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.content_dvd_image",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 49,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.content_of_integral_left_inverse",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 62,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.unimodular_content",
+      "file": "RadixMobius/MatrixContent.lean",
+      "line": 68,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.runRational_intertwines",
+      "file": "RadixMobius/Realization.lean",
+      "line": 19,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.realization_from_graph",
+      "file": "RadixMobius/Realization.lean",
+      "line": 31,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairT_periodic",
+      "file": "RadixMobius/Realization.lean",
+      "line": 59,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.pairS_periodic",
+      "file": "RadixMobius/Realization.lean",
+      "line": 64,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_period_divisibility",
+      "file": "RadixMobius/Realization.lean",
+      "line": 69,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_period_divisibility",
+      "file": "RadixMobius/Realization.lean",
+      "line": 72,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_rational_edges",
+      "file": "RadixMobius/Realization.lean",
+      "line": 75,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_rational_edges",
+      "file": "RadixMobius/Realization.lean",
+      "line": 86,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldCarrier_values_injective",
+      "file": "RadixMobius/Realization.lean",
+      "line": 98,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.newCarrier_values_injective",
+      "file": "RadixMobius/Realization.lean",
+      "line": 103,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.oldBase_valid",
+      "file": "RadixMobius/Realization.lean",
+      "line": 107,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.newBase_valid",
+      "file": "RadixMobius/Realization.lean",
+      "line": 111,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.old_infinite_family",
+      "file": "RadixMobius/Realization.lean",
+      "line": 115,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.new_infinite_family",
+      "file": "RadixMobius/Realization.lean",
+      "line": 122,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.integer_quadratic_discriminant_square",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 13,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.square_factor_cancel",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 20,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.eliminated_quadratic",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 31,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_filter_nonzero_W",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 38,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.zero_W_discriminant_identity",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 48,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_filter_zero_W",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 54,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_square_filter_sound",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 68,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.square_has_residue",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 85,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.nonsquare_residue_rejects",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 91,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "RadixMobius.conic_modular_rejection",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 95,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.two_conics_require_square",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 102,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "RadixMobius.two_conics_modular_rejection",
+      "file": "RadixMobius/SquareFilter.lean",
+      "line": 111,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "project_olean_hashes": {
+    ".lake/build/lib/lean/RadixMobius/ActionBridge.olean": "33c1d7ef309c60e5ad9a3f6085b1ac9fadfff50f25efe8acc3a2c315e6fa0145",
+    ".lake/build/lib/lean/RadixMobius/ActionMonoid.olean": "c2cedbbc28abc2d77d8c79b623e4da85255adc6c1da1809bbb63607de626d607",
+    ".lake/build/lib/lean/RadixMobius/ActualCycles.olean": "a25e1b374c48e1d0059a63ba7d9afe54849ba8e08816acf2a6cb199750245b75",
+    ".lake/build/lib/lean/RadixMobius/Arithmetic.olean": "cdf17a7e332ad0cd17a8d71ec00e44070e5eadeae31d8269cf25253c171252c8",
+    ".lake/build/lib/lean/RadixMobius/CanonicalRepresentation.olean": "07340245a6cbb51b739dba6fab84d58dac878d0b69dd22362912064a6b72540d",
+    ".lake/build/lib/lean/RadixMobius/CycleBalance.olean": "450164b59387be18b544dac431c6785379b3c06e6c6c96745a7444ca23d72949",
+    ".lake/build/lib/lean/RadixMobius/CycleBudget.olean": "d6196630a94374e3c9942dc5a4c083c814cf8675987a577804494153a5a94e06",
+    ".lake/build/lib/lean/RadixMobius/Definitions.olean": "856018ff671fbe4e520c904b271b5e70d4af9f862e844e964186946458bcdcfc",
+    ".lake/build/lib/lean/RadixMobius/Discriminant.olean": "2d43bd7f4812f946ff9e705dd2ed9b7d165c7243506c41e4254cbd82cecaa966",
+    ".lake/build/lib/lean/RadixMobius/FamilyDefects.olean": "86025abee8975b0f948ff878c0ff66d1c140f298374025bc4676191ee420a9e1",
+    ".lake/build/lib/lean/RadixMobius/FiniteWitness.olean": "765618aa9b16e79b480a267c3f20d426012cd0432de7989870a650ff6f31b523",
+    ".lake/build/lib/lean/RadixMobius/FractionBridge.olean": "6382df1ad70301a80aabc94337f8c6b524bc50e7aeb62c1742cc0de5007dd12c",
+    ".lake/build/lib/lean/RadixMobius/IntegerLifts.olean": "948753499b19de45859e6c4c24981f3462526b1680ac141c8d4f7301ce5358fd",
+    ".lake/build/lib/lean/RadixMobius/MatrixCocycle.olean": "6fd9e33a3da2d23a04c8670e97ad858553e06a9215a3d1a5ecaa4156c1a452e7",
+    ".lake/build/lib/lean/RadixMobius/MatrixContent.olean": "3dd14c8cc845d24eec9ec019d38ef1712c49324cfc62a7b1c149e93d57c475b2",
+    ".lake/build/lib/lean/RadixMobius/Realization.olean": "682e52bf3df356d34259a8e6d10e130acdf4cce3ae14b3117326583f28415ad2",
+    ".lake/build/lib/lean/RadixMobius/SquareFilter.olean": "b9296bb6422787fc65ba9f231bbe9307e71a72d1302c6e1a5c8fe65c939537a5"
+  },
+  "coverage": "See COVERAGE.json; this is partial formalization, not a certificate of the full paper.",
+  "audit_provenance": "Self-review of semantics; Lean kernel verification of proof terms."
+}

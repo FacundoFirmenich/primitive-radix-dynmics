@@ -20,5 +20,14 @@
     "lambda_min": 13,
     "lambda_max": 523225,
     "exhausted": false
+  },
+  "formal_verification": {
+    "path": "formal/lean",
+    "scope": "partial",
+    "Lean": "4.19.0",
+    "theorems": 144,
+    "modules": 17,
+    "full_threshold_formalized": false,
+    "large_enumerations_formalized": false
   }
 }

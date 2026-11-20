@@ -164,3 +164,16 @@ MIN2,MIN1,depends_on
 MIN4,LCF,depends_on
 MIN3,MIN4,depends_on
 MIN3,C014,depends_on
+LEAN1,C002,formalizes
+LEAN1,C003,formalizes
+LEAN2,LEAN1,depends_on
+LEAN2,LEAN3,depends_on
+LEAN2,C004,formalizes
+LEAN2,C005,formalizes
+LEAN3,LEAN1,depends_on
+LEAN3,C016,formalizes
+LEAN4,LEAN1,depends_on
+LEAN4,C011,formalizes
+LEAN4,TARA1,formalizes
+LEAN5,LEAN4,depends_on
+LEAN6,LCF,formalizes_filter_only

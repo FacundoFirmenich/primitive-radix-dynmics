@@ -1,0 +1,2 @@
+records/current/missing-square-guard-reject.lean:3:32: error: unsolved goals
+⊢ ∃ r, 2 = r * r

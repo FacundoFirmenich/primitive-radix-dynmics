@@ -1,0 +1,138 @@
+{
+  "version": "RC3.3",
+  "date": "2026-11-20",
+  "author": "Facundo Firmenich",
+  "status": "partial formalization",
+  "theorems_expected": 144,
+  "modules_expected": 17,
+  "claims": [
+    {
+      "id": "LEAN1",
+      "claim": "Exact rational maps, primitive coordinates and local reduction factors",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/Definitions.lean",
+        "RadixMobius/Arithmetic.lean",
+        "RadixMobius/FractionBridge.lean",
+        "RadixMobius/CanonicalRepresentation.lean"
+      ],
+      "theorems": [
+        "RadixMobius.radix_fraction",
+        "RadixMobius.pairS_value",
+        "RadixMobius.canonical_step",
+        "RadixMobius.every_high_rational_has_primitive_coordinates",
+        "RadixMobius.radix_gcd",
+        "RadixMobius.mobius_gcd"
+      ],
+      "scope": "All natural bases; stated positivity and primitive-coordinate hypotheses; open high interval.",
+      "manuscript_locator": "main Section 2; supplement formal layer",
+      "public_evidence": "formal/lean/RESULTS.md#lean1"
+    },
+    {
+      "id": "LEAN2",
+      "claim": "Integral content, chronological lifts and cycle spectrum",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/MatrixContent.lean",
+        "RadixMobius/MatrixCocycle.lean",
+        "RadixMobius/IntegerLifts.lean"
+      ],
+      "theorems": [
+        "RadixMobius.content_dvd_det",
+        "RadixMobius.unimodular_content",
+        "RadixMobius.actual_branch_lift",
+        "RadixMobius.actual_cycle_spectrum"
+      ],
+      "scope": "Integral 2x2 matrices with the stated primitive/nonzero hypotheses; actual high closed paths of any finite length.",
+      "manuscript_locator": "main Section 2; companion matrix cocycle",
+      "public_evidence": "formal/lean/RESULTS.md#lean2"
+    },
+    {
+      "id": "LEAN3",
+      "claim": "Two-chart cycle balance and partial strict-cycle exclusions",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/CycleBalance.lean",
+        "RadixMobius/ActualCycles.lean",
+        "RadixMobius/CycleBudget.lean",
+        "RadixMobius/CanonicalRepresentation.lean"
+      ],
+      "theorems": [
+        "RadixMobius.rational_cycle_balance",
+        "RadixMobius.actual_cycle_letter_budget",
+        "RadixMobius.rational_no_strict_short_cycle",
+        "RadixMobius.no_strict_one_block_cycle"
+      ],
+      "scope": "Every high rational cycle; letter-count bound; no strict cycle of length <=3 or of the displayed T^a S^b form. General four-state exclusion is not formalized.",
+      "manuscript_locator": "main cycle-balance section; companion core",
+      "public_evidence": "formal/lean/RESULTS.md#lean3"
+    },
+    {
+      "id": "LEAN4",
+      "claim": "Two nonpermutation five-state families and their exact defects",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/FiniteWitness.lean",
+        "RadixMobius/Realization.lean",
+        "RadixMobius/FamilyDefects.lean"
+      ],
+      "theorems": [
+        "RadixMobius.old_infinite_family",
+        "RadixMobius.new_infinite_family",
+        "RadixMobius.old_family_defects",
+        "RadixMobius.new_family_defects"
+      ],
+      "scope": "Both displayed carriers and every base B0+t*M with t a natural number; five distinct high rational states, ten edges, strong connectivity, S noninjective, single strict factor r. No minimality or complete-CRT necessity claim.",
+      "manuscript_locator": "main five-state construction; companion realization",
+      "public_evidence": "formal/lean/RESULTS.md#lean4"
+    },
+    {
+      "id": "LEAN5",
+      "claim": "Exactly36 induced actions and minimum rank2",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/ActionMonoid.lean",
+        "RadixMobius/ActionBridge.lean"
+      ],
+      "theorems": [
+        "RadixMobius.reachable_action_iff",
+        "RadixMobius.actionCodes_cardinality",
+        "RadixMobius.no_rank_one_word",
+        "RadixMobius.rank_two_word_exists",
+        "RadixMobius.old_family_action_classification",
+        "RadixMobius.new_family_action_classification"
+      ],
+      "scope": "Arbitrary finite words on both entire realized base families. Closure plus generation, not a word-length cutoff.",
+      "manuscript_locator": "companion transformation monoid",
+      "public_evidence": "formal/lean/RESULTS.md#lean5"
+    },
+    {
+      "id": "LEAN6",
+      "claim": "Sound square and modular filters from the original two conics",
+      "status": "PROVED_LEAN_KERNEL",
+      "modules": [
+        "RadixMobius/Discriminant.lean",
+        "RadixMobius/SquareFilter.lean"
+      ],
+      "theorems": [
+        "RadixMobius.conic_discriminant_factorization",
+        "RadixMobius.conic_square_filter_sound",
+        "RadixMobius.two_conics_require_square",
+        "RadixMobius.two_conics_modular_rejection"
+      ],
+      "scope": "Integer coefficients, rational q,s with q !=0, any positive modulus; W=0 and U=0 branches included. No coverage proof for an external enumerator or execution.",
+      "manuscript_locator": "companion completion index; supplement minima certificates",
+      "public_evidence": "formal/lean/RESULTS.md#lean6"
+    }
+  ],
+  "not_formalized": [
+    "General four-state exclusion and therefore the complete sharp-threshold theorem",
+    "Full necessity and minimal period of the CRT base fibres",
+    "Thirty-seven oriented exclusions and completeness of the40-row classification",
+    "External C++/Python enumeration and the1..12 completion-index exhaustion",
+    "The all-cardinality base2..53 census and lower bound54",
+    "Uniform global uniqueness and either global least base",
+    "606897/r3 nonexistence or existence",
+    "Period lattices, modular equidistribution, CLT and passive infinite Markov order"
+  ]
+}

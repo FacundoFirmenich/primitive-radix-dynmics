@@ -127,9 +127,12 @@ min_run=read('outputs/reports/minima/MINIMA_REPLAY.json')
 check(min_run['status']=='PASS' and min_run['original_inputs_unchanged'],'minimum replay receipt')
 window=read('research/rc33/minima/certificate/MINIMUM_WINDOW.json')
 check(window['H_cap_inclusive']==11750908 and window['lambda_cap_inclusive']==523225,'finite minimum window')
+lean=read('formal/lean/COVERAGE.json')['claims']
+check(len(lean)==6 and all(c['id'] in ids for c in lean),'six scoped Lean records')
+exec(compile((R/'src/integrity/check_lean_records.py').read_text(),str(R/'src/integrity/check_lean_records.py'),'exec'),{'__file__':str(R/'src/integrity/check_lean_records.py'),'__name__':'__main__'})
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16)+len(offensive)+len(minima),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
-         'offensive_claims':len(offensive),'minima_claims':len(minima),'all_cardinality_base_lower_bound':54,'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
+         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16)+len(offensive)+len(minima)+len(lean),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'offensive_claims':len(offensive),'minima_claims':len(minima),'lean_claims':len(lean),'all_cardinality_base_lower_bound':54,'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,
          'new_global_existence_rows_closed':1}

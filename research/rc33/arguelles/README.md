@@ -1,12 +1,14 @@
 # Argüelles · El factor maya → RGΦ RC3.3
 
-**Estado:** instrumental exacto (19 contratos internos, 11 tests), no claim de cierre global. Python ≥3.10, biblioteca estándar. **No contiene Marte.**
+**Estado:** instrumental exacto (19 contratos internos, 20 tests), no claim de cierre global. Python ≥3.10, biblioteca estándar. **No contiene Marte.**
 
 ## Archivos
 
 - `arguelles/loom_bridge.py`: figura de 52 Kin, 13 cuartetos, 60 intervalos; cinco castillos, ondas, armónicas, cromáticas; dualidad 261; CRT 260/64; cuadrado 8×8 de Benjamin Franklin; observación racional modular con ABSTAIN; ciclos finitos de multiplicación por base; números armónicos de El factor maya.
-- `tests/test_loom_bridge.py`: once tests independientes; exhaustivos en 260 kins y rangos finitos declarados.
+- `tests/test_loom_bridge.py`: veinte tests independientes; exhaustivos en 260 kins y rangos finitos declarados.
 - `reports/LOOM_RC33_AUDIT.json`: certificado reproducible con la matriz y 13 cuartetos.
+- `arguelles/iching_loom_coupler.py`: acoplamiento CRT no canónico 260 × 384 yao; inversión exacta en 24.960 fases compatibles.
+- `arguelles/partition_scheduler.py`: cinco carriles sin pérdidas sobre Q; `Q_SCHEDULER.md` y certificado JSON de cobertura; ningún nuevo solver o rechazo aritmético.
 
 ```bash
 python -m unittest discover -s tests -v

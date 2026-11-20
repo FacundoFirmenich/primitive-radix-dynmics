@@ -24,7 +24,7 @@ seal:
 integrity:
 	$(PYTHON) src/integrity/validate_outputs.py
 
-reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify fst16-verify tarasutra-verify offensive-verify minima-full-verify trace graph figures rc33-seal sync-check seal integrity
+reproduce: verify test rc33-verify recent-verify fst11-verify t007-verify fst1213-verify fst14-verify sine-assault-verify causal-trace-verify fst16-verify tarasutra-verify offensive-verify minima-full-verify arguelles-verify trace graph figures rc33-seal sync-check seal integrity
 	@echo "REPRODUCE PASS"
 
 recent-verify:
@@ -99,3 +99,8 @@ lean-verify:
 	cd formal/lean && $(PYTHON) scripts/audit.py
 lean-records-check:
 	$(PYTHON) src/integrity/check_lean_records.py
+
+.PHONY: arguelles-verify
+arguelles-verify:
+	$(PYTHON) -m unittest discover -s tests -p 'test_*loom*.py' -v
+	$(PYTHON) -c "import json; from arguelles.audit import make_report; assert json.loads(json.dumps(make_report())) == json.load(open('research/rc33/arguelles/LOOM_RC33_AUDIT.json',encoding='utf-8'))"

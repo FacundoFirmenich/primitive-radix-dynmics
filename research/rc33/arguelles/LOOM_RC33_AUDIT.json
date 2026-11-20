@@ -1,0 +1,424 @@
+{
+  "checks": {
+    "B01_grid": true,
+    "B02_portals_52": true,
+    "B03_halves_26_26_center_0": true,
+    "B04_quartets_13x4": true,
+    "B05_quartet_sum_28": true,
+    "B06_tone_7_eight": true,
+    "B07_edges_60": true,
+    "B08_interval_270": true,
+    "B09_reflection_orbits": true,
+    "B10_castles_5x52": true,
+    "B11_wavespells_20x13": true,
+    "B12_harmonics_65x4": true,
+    "B13_chromatics_52x5": true,
+    "B14_occult_261": true,
+    "B15_crt_260_64": true,
+    "B16_franklin_260": true,
+    "B17_radix_noninvertible": true,
+    "B18_rational_abstain": true,
+    "B19_harmonics": true
+  },
+  "franklin": {
+    "column_sums": [
+      260,
+      260,
+      260,
+      260,
+      260,
+      260,
+      260,
+      260
+    ],
+    "distinct_1_64": true,
+    "half_row_sums": [
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130
+    ],
+    "ordinary_diagonal_sums": [
+      228,
+      292
+    ],
+    "row_sums": [
+      260,
+      260,
+      260,
+      260,
+      260,
+      260,
+      260,
+      260
+    ],
+    "toroidal_2x2_sums": [
+      130
+    ]
+  },
+  "harmonics": {
+    "calendar_round": 18980,
+    "difference_365_364": 1,
+    "exact_quotients": {
+      "260": 5256,
+      "360": 3796,
+      "365": 3744,
+      "584": 2340,
+      "2920": 468,
+      "18980": 72,
+      "37960": 36
+    },
+    "harmonic": 1366560,
+    "thirteen_moons": 364,
+    "venus_solar": 2920
+  },
+  "loom": {
+    "central_column": 0,
+    "count_tone_seven": 8,
+    "edges": {
+      "edges": 60,
+      "interval_histogram": {
+        "1": 20,
+        "5": 12,
+        "6": 12,
+        "7": 10,
+        "8": 6
+      },
+      "sum_intervals": 270
+    },
+    "grid": [
+      "#...........#",
+      ".#.........#.",
+      "..#.......#..",
+      "...#.....#...",
+      "....#...#....",
+      ".....#.#.....",
+      ".....#.#.....",
+      "....##.##....",
+      "...#.#.#.#...",
+      "..#..#.#..#..",
+      "..#..#.#..#..",
+      "...#.#.#.#...",
+      "....##.##....",
+      ".....#.#.....",
+      ".....#.#.....",
+      "....#...#....",
+      "...#.....#...",
+      "..#.......#..",
+      ".#.........#.",
+      "#...........#"
+    ],
+    "left": 26,
+    "portals": 52,
+    "quartet_count": 13,
+    "quartet_tone_sums": [
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28
+    ],
+    "quartets": [
+      [
+        1,
+        20,
+        241,
+        260
+      ],
+      [
+        22,
+        39,
+        222,
+        239
+      ],
+      [
+        43,
+        58,
+        203,
+        218
+      ],
+      [
+        50,
+        51,
+        210,
+        211
+      ],
+      [
+        64,
+        77,
+        184,
+        197
+      ],
+      [
+        69,
+        72,
+        189,
+        192
+      ],
+      [
+        85,
+        96,
+        165,
+        176
+      ],
+      [
+        88,
+        93,
+        168,
+        173
+      ],
+      [
+        106,
+        115,
+        146,
+        155
+      ],
+      [
+        107,
+        114,
+        147,
+        154
+      ],
+      [
+        108,
+        113,
+        148,
+        153
+      ],
+      [
+        109,
+        112,
+        149,
+        152
+      ],
+      [
+        110,
+        111,
+        150,
+        151
+      ]
+    ],
+    "right": 26
+  },
+  "pass": true,
+  "phase_260_64": {
+    "ambient_size": 16640,
+    "noncanonical": true,
+    "orbit_classes": 4,
+    "periods": [
+      260,
+      64
+    ],
+    "radix_base": 20,
+    "temporal_orbit": 4160
+  },
+  "reproducible": true,
+  "rgphi_witness_modular_observer": {
+    "2": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "rank": 2,
+      "readings": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "4": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "rank": 3,
+      "readings": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    "8": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "rank": 4,
+      "readings": [
+        5,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    "16": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "rank": 4,
+      "readings": [
+        13,
+        1,
+        1,
+        10,
+        3
+      ]
+    },
+    "32": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "rank": 5,
+      "readings": [
+        13,
+        1,
+        17,
+        26,
+        19
+      ]
+    },
+    "64": {
+      "abstentions": [],
+      "defined": 5,
+      "fibres": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "rank": 5,
+      "readings": [
+        13,
+        33,
+        49,
+        58,
+        19
+      ]
+    },
+    "260": {
+      "abstentions": [
+        0,
+        1,
+        4
+      ],
+      "defined": 2,
+      "fibres": [
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "rank": 2,
+      "readings": [
+        null,
+        null,
+        125,
+        218,
+        null
+      ]
+    }
+  },
+  "status": "SCOPED_INSTRUMENT_NOT_RGPHI_GLOBAL_PROOF",
+  "witness_source": "primitive-radix-mobius-dynamics/research/rc33/tarasutra/RESULTS.md"
+}

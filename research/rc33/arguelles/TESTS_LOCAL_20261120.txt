@@ -1,0 +1,25 @@
+test_full_24960_joint_bijection (test_iching_loom_coupler.IChingLoomExactTests.test_full_24960_joint_bijection) ... ok
+test_full_384_yao_bijection (test_iching_loom_coupler.IChingLoomExactTests.test_full_384_yao_bijection) ... ok
+test_incompatible_noninvented (test_iching_loom_coupler.IChingLoomExactTests.test_incompatible_noninvented) ... ok
+test_invariants (test_iching_loom_coupler.IChingLoomExactTests.test_invariants) ... ok
+test_1366560_exact_no_mars (test_loom_bridge.LoomExactTests.test_1366560_exact_no_mars) ... ok
+test_13_quartets_disjoint_cover (test_loom_bridge.LoomExactTests.test_13_quartets_disjoint_cover) ... ok
+test_all_19_certificates (test_loom_bridge.LoomExactTests.test_all_19_certificates) ... ok
+test_all_260_occult (test_loom_bridge.LoomExactTests.test_all_260_occult) ... ok
+test_franklin_not_ordinary_magic_diagonals (test_loom_bridge.LoomExactTests.test_franklin_not_ordinary_magic_diagonals) ... ok
+test_generalized_crt_non_coprime (test_loom_bridge.LoomExactTests.test_generalized_crt_non_coprime) ... ok
+test_grid_roundtrip_260 (test_loom_bridge.LoomExactTests.test_grid_roundtrip_260) ... ok
+test_portal_grid_52_and_mystic_column (test_loom_bridge.LoomExactTests.test_portal_grid_52_and_mystic_column) ... ok
+test_radix_orbit_exact (test_loom_bridge.LoomExactTests.test_radix_orbit_exact) ... ok
+test_rational_abstain_primitive (test_loom_bridge.LoomExactTests.test_rational_abstain_primitive) ... ok
+test_real_rc33_witness_observation (test_loom_bridge.LoomExactTests.test_real_rc33_witness_observation) ... ok
+test_all_castles_complete_on_one_cycle (test_partition_scheduler.SchedulerExactTests.test_all_castles_complete_on_one_cycle) ... ok
+test_existing_excluded_Q_interval_2_20000_coverage_not_solver (test_partition_scheduler.SchedulerExactTests.test_existing_excluded_Q_interval_2_20000_coverage_not_solver) ... ok
+test_modular_exact_counts_exhaustive_small (test_partition_scheduler.SchedulerExactTests.test_modular_exact_counts_exhaustive_small) ... ok
+test_next_unchecked_Q_interval_scheduler (test_partition_scheduler.SchedulerExactTests.test_next_unchecked_Q_interval_scheduler) ... ok
+test_roundtrip_assignment_yijing_and_castle (test_partition_scheduler.SchedulerExactTests.test_roundtrip_assignment_yijing_and_castle) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.228s
+
+OK

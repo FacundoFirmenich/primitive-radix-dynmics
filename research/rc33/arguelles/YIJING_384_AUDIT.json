@@ -1,0 +1,21 @@
+{
+  "ambient_states": 99840,
+  "calibration": "zero phase = kin1, hexagram1, line1",
+  "claims_closed": [],
+  "classes": 4,
+  "classification": "MODERN_CLOCK_NOT_ANCIENT_HISTORIC_CLAIM",
+  "compatible_states": 24960,
+  "exhaustive_replay": {
+    "passed": true,
+    "phases": 24960
+  },
+  "gcd": 4,
+  "label_to_joint": "Z/24960 <-> compatible (kin, hexagram, yao)",
+  "lcm": 24960,
+  "m": 260,
+  "members_per_class": 24960,
+  "n": 384,
+  "portal_kin_count": 52,
+  "result": "PASS_SCOPED",
+  "solver": "pure_python_crt"
+}

@@ -1,0 +1,50 @@
+{
+  "old_Q_2_20000": {
+    "Q_interval": [
+      2,
+      20000
+    ],
+    "coverage_exact": true,
+    "expected_count": 19999,
+    "interpretation": "SCHEDULER_ONLY_NO_ARITHMETIC_EXCLUSION",
+    "lane_counts": [
+      4002,
+      4004,
+      4004,
+      4004,
+      3985
+    ],
+    "missing_count": 0,
+    "overlap_count": 0,
+    "portal_class_counts": {
+      "N": 15997,
+      "P": 4002
+    },
+    "solver_calls": 0,
+    "sorted_Q_sha256": "ac1a5cab9c5036b98657389bb7fcd167dd79cdcc99170023f5c636407180d4bf"
+  },
+  "proposed_Q_20001_22000": {
+    "Q_interval": [
+      20001,
+      22000
+    ],
+    "coverage_exact": true,
+    "expected_count": 2000,
+    "interpretation": "SCHEDULER_ONLY_NO_ARITHMETIC_EXCLUSION",
+    "lane_counts": [
+      416,
+      416,
+      416,
+      369,
+      383
+    ],
+    "missing_count": 0,
+    "overlap_count": 0,
+    "portal_class_counts": {
+      "N": 1599,
+      "P": 401
+    },
+    "solver_calls": 0,
+    "sorted_Q_sha256": "90289a44163865299545daf946957f669504eeaf51e4b3290ca91ae786385228"
+  }
+}

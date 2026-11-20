@@ -1201,6 +1201,46 @@
       "scope": "Coverage reports h19..78 and comparison counters h19..40; not freshly replayed in full; no h15..18 assertion"
     },
     {
+      "id": "OPP1",
+      "label": "OPP1",
+      "title": "Opposite-coordinate divisor fibres admit exact joint completion by two remainder labels",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/offensive/RESULTS.md#opp1",
+      "scope": "Fixed opposite pair; chamber and original gcd conditions retained; no global height bound"
+    },
+    {
+      "id": "OPP2",
+      "label": "OPP2",
+      "title": "Half inversion swaps the generators exactly when every branch-parity bit is one",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/offensive/RESULTS.md#opp2",
+      "scope": "High strongly connected component; odd-base admissible dual preserves exact defects; even denominators give automatic admissibility"
+    },
+    {
+      "id": "OPP3",
+      "label": "OPP3",
+      "title": "An all-odd normal factor-three carrier would realize the remaining reflected orientation",
+      "kind": "claim",
+      "layer": "Theorems",
+      "status": "PROVED_SYMBOLIC",
+      "artifact": "research/rc33/offensive/RESULTS.md#opp3",
+      "scope": "Choose an odd base in its CRT fibre; the j=1 completion is obstructed and the transfer uses j=2; no new carrier asserted"
+    },
+    {
+      "id": "OPP4",
+      "label": "OPP4",
+      "title": "All opposite completions of the 128058 fixed snapshot contexts have no quadratic core",
+      "kind": "claim",
+      "layer": "Certificates",
+      "status": "EXACT_CERTIFICATE",
+      "artifact": "research/rc33/offensive/RESULTS.md#opp4",
+      "scope": "Explicit hashed fixed-pair domain only; 138985 candidate pairs, zero joint labels; earlier context-generation history not independently replayed"
+    },
+    {
       "id": "A001",
       "label": "A001",
       "title": "Nonsquare certificate j=1..37",
@@ -2886,6 +2926,41 @@
       "source": "TARA1",
       "target": "C012",
       "relation": "extends"
+    },
+    {
+      "source": "OPP1",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP1",
+      "target": "C014",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP2",
+      "target": "C002",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP2",
+      "target": "C003",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP3",
+      "target": "OPP2",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP3",
+      "target": "C014",
+      "relation": "depends_on"
+    },
+    {
+      "source": "OPP4",
+      "target": "OPP1",
+      "relation": "depends_on"
     },
     {
       "source": "A001",

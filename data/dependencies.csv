@@ -152,3 +152,10 @@ F16D,F16C,depends_on
 F16D,F13B,depends_on
 TARA1,C003,depends_on
 TARA1,C012,extends
+OPP1,C003,depends_on
+OPP1,C014,depends_on
+OPP2,C002,depends_on
+OPP2,C003,depends_on
+OPP3,OPP2,depends_on
+OPP3,C014,depends_on
+OPP4,OPP1,depends_on

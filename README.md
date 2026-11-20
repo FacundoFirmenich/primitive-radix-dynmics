@@ -81,3 +81,8 @@ The **FST12/13 continuation** adds [nine scoped records](research/rc33/fst1213/R
 ### FST14 terminal-inverse continuation
 
 Four scoped records and a reproducible declared-adapter audit extend FST12/13: exact terminal periods, bounded lifting/CRT inversion and logarithmic suffix resolution. Run `make fst14-verify`. The missing historical baselines and browser suites are not represented as replayed. Current combined continuation:49 cards;103 public claim records. Full manuscripts remain private; original DOI/tag unchanged.
+
+## Opposite-coordinate and parity continuation
+
+[Exact proofs and fixed-fibre certificates](research/rc33/offensive/RESULTS.md),
+with `make offensive-verify`. Four additional scoped records; 37/2/1 unchanged.

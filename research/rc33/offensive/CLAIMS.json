@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-20",
+  "claims": [
+    {
+      "id": "OPP1",
+      "claim": "Opposite-coordinate divisor fibres admit exact joint completion by two remainder labels",
+      "status": "PROVED_SYMBOLIC",
+      "scope": "Fixed opposite pair; chamber and original gcd conditions retained; no global height bound",
+      "public_evidence": "research/rc33/offensive/RESULTS.md#opp1"
+    },
+    {
+      "id": "OPP2",
+      "claim": "Half inversion swaps the generators exactly when every branch-parity bit is one",
+      "status": "PROVED_SYMBOLIC",
+      "scope": "High strongly connected component; odd-base admissible dual preserves exact defects; even denominators give automatic admissibility",
+      "public_evidence": "research/rc33/offensive/RESULTS.md#opp2"
+    },
+    {
+      "id": "OPP3",
+      "claim": "An all-odd normal factor-three carrier would realize the remaining reflected orientation",
+      "status": "PROVED_SYMBOLIC",
+      "scope": "Choose an odd base in its CRT fibre; the j=1 completion is obstructed and the transfer uses j=2; no new carrier asserted",
+      "public_evidence": "research/rc33/offensive/RESULTS.md#opp3"
+    },
+    {
+      "id": "OPP4",
+      "claim": "All opposite completions of the 128058 fixed snapshot contexts have no quadratic core",
+      "status": "EXACT_CERTIFICATE",
+      "scope": "Explicit hashed fixed-pair domain only; 138985 candidate pairs, zero joint labels; earlier context-generation history not independently replayed",
+      "public_evidence": "research/rc33/offensive/RESULTS.md#opp4"
+    }
+  ]
+}

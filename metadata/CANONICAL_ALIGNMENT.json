@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "edition": "RC3.3",
   "figure_assets": {
     "rc33_fibres_ES.svg": "57de5c34fe53520efba37fb965c8cafc4496fab6ca244c3a5b3dc7a55259eabf",
@@ -14,23 +14,24 @@
     "rc33_coupled_ES.svg": "6917e344fc8b689d3cba638e066a7514eaa7722a7863577d39c5c353218b790b"
   },
   "private_document_hashes": {
-    "RGPHI_RC3_3_COMPANION_EN.pdf": "413f75289c36bdda307f405d5910c18bbd30d6c59fff948102e0b3c1ef4258b7",
-    "RGPHI_RC3_3_COMPANION_ES.pdf": "dbf47f7d42d07a8f936afd38c9abf54c67f3b5dda27d3b68fbdfb508133d618d",
+    "RGPHI_RC3_3_COMPANION_EN.pdf": "1777fef261cfde8a409eb9ea876aaff6de67a47ccb20bd37422dc02bfe27d3a6",
+    "RGPHI_RC3_3_COMPANION_ES.pdf": "ab91c676d7629e2d7f5e188e38b1e0d5c5d50f9d4596a11a4b0fe84ea08062f5",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_EN.pdf": "bc86a2483b916bb97be3f07accbb5c161d8d78fe06f9494ec5c25d4459c68095",
     "RGPHI_RC3_3_EPISTEMIC_GRAPH_ES.pdf": "8165065ec182758f78e7a70c0ab424b42a53ca2bb9ef48d99aa4524d566f1fd5",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_EN.pdf": "32a60c17cfabd5d3116eb31ce19bcdea3dd601dca8e467051e9edfdb2280cfe3",
     "RGPHI_RC3_3_GRAPHICAL_ABSTRACT_ES.pdf": "fd42ad62f4813c89961d36c269584c001f3031a5d8af00b80107c0cd7bbf3a0c",
     "RGPHI_RC3_3_MAIN_EN.pdf": "5156565e6beb6b96201fad4189d4beb1ca07e698f5fdafdbfd71eac7f723d725",
     "RGPHI_RC3_3_MAIN_ES.pdf": "fe8421f22f2fc7e53e639af0bd8bcd3ecf6bfe8adfc52cc99c9d31d1ff53d4d5",
-    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "ebb915e3c8b46380780f736f10918ff97f2a757acb54e0a9ea955457b6f44788",
-    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "5067e95eff1db4f6a0a2b401d73af419995ad26150f9677f1787bdb5ff0afb2d"
+    "RGPHI_RC3_3_SUPPLEMENT_EN.pdf": "1b416b530deedd9c1431620c4b71abf5410d0532b629d90cba872acdc5b656a1",
+    "RGPHI_RC3_3_SUPPLEMENT_ES.pdf": "782b99908a6159466d582f33776e801d773ea5db35c6797b2726ac1b3dacf149"
   },
   "publication_boundary": "Only standalone figures and provenance hashes are public; complete manuscripts remain private.",
-  "continuation": "65 continuation cards;114 private cards;119 public records; new explicit factor-two realization and current 37/2/1 ledger; manuscript HTML not rebuilt",
+  "continuation": "69 continuation cards;123 public records; four new opposite-fibre/parity records; 37/2/1 unchanged; manuscript HTML not rebuilt",
   "public_research_checkpoint": {
     "added_since_sine": 6,
-    "total_public_cards": 119,
-    "continuation_cards": 65,
-    "private_document_integration": "six current PDFs; manuscript HTML excluded from this update"
+    "total_public_cards": 123,
+    "continuation_cards": 69,
+    "private_document_integration": "six current PDFs; new material in companion and supplement in both languages; main hashes unchanged",
+    "offensive_records": 4
   }
 }

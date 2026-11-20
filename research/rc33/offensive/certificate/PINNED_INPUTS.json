@@ -1,0 +1,17 @@
+[
+  {
+    "name": "fibre_arithmetic.py",
+    "source": "/workspace/rgphi-tarasutra-sync-2026-11-19/sinus-pi/global-closure-2026-11-20/fibre_arithmetic.py",
+    "sha256": "39e211cf8ccee02dd27365dec11dbecaf0569b6578d455e6723d480840721a5e"
+  },
+  {
+    "name": "CANDIDATE_DIAGNOSTIC.json",
+    "source": "/workspace/rgphi-tarasutra-sync-2026-11-19/sinus-pi/global-closure-2026-11-20/CANDIDATE_DIAGNOSTIC.json",
+    "sha256": "173770c034c8a1bbac411103b1dc774dd2192db2ce415e41778a2f86ebd8ef3f"
+  },
+  {
+    "name": "CORE_GATE_RESULTS.json",
+    "source": "/workspace/rgphi-tarasutra-sync-2026-11-19/sinus-pi/global-closure-2026-11-20/CORE_GATE_RESULTS.json",
+    "sha256": "02a1b22b2b89e521157a546e7c3b2419794f9f3c49c56647b112b5822a98374a"
+  }
+]

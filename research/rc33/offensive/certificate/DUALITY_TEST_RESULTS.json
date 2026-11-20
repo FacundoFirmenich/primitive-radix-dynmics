@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "rational_identity_cases": 8400,
+  "high_intertwining_cases": 4095,
+  "positive_and_negative_closed_controls": [
+    {
+      "base": 13,
+      "states": [
+        "3/4"
+      ],
+      "period": 12,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 13,
+            "epsilon": [
+              1
+            ],
+            "admissible": true
+          },
+          {
+            "lift": 1,
+            "base": 25,
+            "epsilon": [
+              1
+            ],
+            "admissible": true
+          }
+        ],
+        "fibres": [
+          [
+            1,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "base": 211,
+      "states": [
+        "5/8",
+        "7/8"
+      ],
+      "period": 280,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 211,
+            "epsilon": [
+              1,
+              1
+            ],
+            "admissible": true
+          },
+          {
+            "lift": 1,
+            "base": 491,
+            "epsilon": [
+              1,
+              1
+            ],
+            "admissible": true
+          }
+        ],
+        "fibres": [
+          [
+            211,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "base": 211,
+      "states": [
+        "4/5",
+        "4/7"
+      ],
+      "period": 280,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 211,
+            "epsilon": [
+              1,
+              1
+            ],
+            "admissible": true
+          },
+          {
+            "lift": 1,
+            "base": 491,
+            "epsilon": [
+              1,
+              1
+            ],
+            "admissible": true
+          }
+        ],
+        "fibres": [
+          [
+            211,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "base": 41,
+      "states": [
+        "3/4",
+        "3/5"
+      ],
+      "period": 60,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 41,
+            "epsilon": [
+              0,
+              0
+            ],
+            "admissible": false
+          },
+          {
+            "lift": 1,
+            "base": 101,
+            "epsilon": [
+              0,
+              0
+            ],
+            "admissible": false
+          }
+        ],
+        "fibres": []
+      }
+    }
+  ],
+  "known_nonpermutation_controls": [
+    {
+      "r": 3,
+      "j": 1,
+      "base": 88011536665779,
+      "period": 223336848698040,
+      "S_digits": [
+        70452584769404,
+        2348622467204,
+        68357274966539,
+        3396175881191,
+        32733354769784
+      ],
+      "digit_difference": 29337178888593,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 88011536665779,
+            "epsilon": [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "admissible": false
+          },
+          {
+            "lift": 1,
+            "base": 311348385363819,
+            "epsilon": [
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "admissible": false
+          }
+        ],
+        "fibres": []
+      },
+      "original_carrier_still_valid": true
+    },
+    {
+      "r": 2,
+      "j": 1,
+      "base": 2720751096305053288157586672376,
+      "period": 3245172386374697665101193455750,
+      "S_digits": [
+        2490862820660732837396004042054,
+        769485838593427210196947975408,
+        2498194116390139768737508460384,
+        1175707512335991012510965609008,
+        2536083060488517656589758945196
+      ],
+      "digit_difference": 1360375548152526644078793336188,
+      "gate": {
+        "tests": [
+          {
+            "lift": 0,
+            "base": 2720751096305053288157586672376,
+            "epsilon": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "admissible": false
+          },
+          {
+            "lift": 1,
+            "base": 5965923482679750953258780128126,
+            "epsilon": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "admissible": false
+          }
+        ],
+        "fibres": []
+      },
+      "original_carrier_still_valid": true
+    }
+  ],
+  "seconds": 0.2532185610034503,
+  "scope": "Elementary identities and the stated parity criterion. No j=2 nonpermutation positive witness is claimed."
+}

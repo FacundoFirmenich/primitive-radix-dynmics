@@ -1,0 +1,173 @@
+{
+  "seeds": [
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        86,
+        148,
+        145,
+        77
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        1328,
+        2483,
+        2059,
+        1295
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        27808,
+        44399,
+        43435,
+        25063
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        60421,
+        112348,
+        111517,
+        57005
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        385640,
+        703687,
+        580699,
+        367063
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        550559,
+        1034264,
+        855773,
+        519535
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        654313,
+        1192871,
+        1036630,
+        599804
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        4694891,
+        8286661,
+        7441262,
+        4254866
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        10418030,
+        18353126,
+        17308817,
+        9907049
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        20879840,
+        33712774,
+        31380793,
+        20291189
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "core": [
+        4491526490,
+        7558467128,
+        7290203473,
+        4075840243
+      ],
+      "source": {
+        "kind": "recorded_near_miss"
+      }
+    },
+    {
+      "r": 3,
+      "orientation": "normal",
+      "core": [
+        406,
+        712,
+        1265,
+        731
+      ],
+      "source": {
+        "kind": "positive_control"
+      }
+    },
+    {
+      "r": 2,
+      "orientation": "normal",
+      "core": [
+        1089859,
+        1627375,
+        3121631,
+        2087631
+      ],
+      "source": {
+        "kind": "positive_control"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "/workspace/rgphi-tarasutra-sync-2026-11-19/sinus-pi/global-closure-2026-11-20/REPAIR_STATE.sqlite",
+  "captured_at": "2026-11-20T01:15:52.511283+00:00",
+  "source_expanded": 389345,
+  "selected_vertices": 96127,
+  "opposite_contexts": 128058,
+  "sha256": "25f8226e12cf98a4b7ba7b479ff12de4a27144bc3c858dc14a238a3e4f91634d",
+  "selection": "qp>=2; deduplicate opposite fixed coordinates; keep maximum observed priority",
+  "scope": "Finite snapshot, not all rational cores."
+}

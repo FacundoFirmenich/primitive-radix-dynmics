@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "resume_equal": true,
+  "requested_reference_steps": 160,
+  "processed": 112,
+  "closed_for_static_inputs": true,
+  "known_carriers_recovered": 2,
+  "new_carriers": 0,
+  "contexts": 112,
+  "state_sha256": "c7f13e0e1a3be4ab6b8382c5b62b7b8297134f980fd0fb735c3d64e100d89a09",
+  "seconds": 2.497667472998728
+}

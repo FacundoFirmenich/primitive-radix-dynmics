@@ -1,0 +1,738 @@
+{
+  "status": "PASS",
+  "snapshot": {
+    "captured_at_utc": "2026-11-20T00:42:20.590926+00:00",
+    "summary_mtime": 1795133461.4469144,
+    "summary": {
+      "completed_h": [
+        {
+          "chunks": 1806,
+          "h": 28,
+          "level_pairs": 484907532,
+          "planes": 111,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5831,
+          "h": 29,
+          "level_pairs": 1739432711,
+          "planes": 430,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 30,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 6653,
+          "h": 31,
+          "level_pairs": 2271537461,
+          "planes": 460,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 2676,
+          "h": 32,
+          "level_pairs": 928056382,
+          "planes": 149,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 1229,
+          "h": 33,
+          "level_pairs": 542324359,
+          "planes": 120,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 2848,
+          "h": 34,
+          "level_pairs": 1108389560,
+          "planes": 149,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5823,
+          "h": 35,
+          "level_pairs": 2586102632,
+          "planes": 367,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 36,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 9415,
+          "h": 37,
+          "level_pairs": 4613062334,
+          "planes": 552,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 3591,
+          "h": 38,
+          "level_pairs": 1740618673,
+          "planes": 168,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 1734,
+          "h": 39,
+          "level_pairs": 1074700870,
+          "planes": 144,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 3291,
+          "h": 40,
+          "level_pairs": 1770424007,
+          "planes": 149,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 11566,
+          "h": 41,
+          "level_pairs": 6964301177,
+          "planes": 615,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 42,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 12692,
+          "h": 43,
+          "level_pairs": 8425915173,
+          "planes": 645,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 4617,
+          "h": 44,
+          "level_pairs": 3042634118,
+          "planes": 187,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 1996,
+          "h": 45,
+          "level_pairs": 1656151828,
+          "planes": 144,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5193,
+          "h": 46,
+          "level_pairs": 3757427595,
+          "planes": 204,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 15187,
+          "h": 47,
+          "level_pairs": 12038962425,
+          "planes": 706,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 48,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 14296,
+          "h": 49,
+          "level_pairs": 12389790881,
+          "planes": 643,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5238,
+          "h": 50,
+          "level_pairs": 4386717943,
+          "planes": 188,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 2990,
+          "h": 51,
+          "level_pairs": 3198923254,
+          "planes": 192,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 6548,
+          "h": 52,
+          "level_pairs": 6001129168,
+          "planes": 224,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 19254,
+          "h": 53,
+          "level_pairs": 19471805725,
+          "planes": 799,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 54,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 15040,
+          "h": 55,
+          "level_pairs": 16557210135,
+          "planes": 611,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 6855,
+          "h": 56,
+          "level_pairs": 7286211508,
+          "planes": 223,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 3735,
+          "h": 57,
+          "level_pairs": 5018377448,
+          "planes": 216,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 8320,
+          "h": 58,
+          "level_pairs": 9560998751,
+          "planes": 261,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 23847,
+          "h": 59,
+          "level_pairs": 29920298018,
+          "planes": 891,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 60,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 25439,
+          "h": 61,
+          "level_pairs": 34182497561,
+          "planes": 921,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 9524,
+          "h": 62,
+          "level_pairs": 12509236235,
+          "planes": 281,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 4146,
+          "h": 63,
+          "level_pairs": 6800272998,
+          "planes": 216,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 10450,
+          "h": 64,
+          "level_pairs": 14616993774,
+          "planes": 298,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 21351,
+          "h": 65,
+          "level_pairs": 32815769155,
+          "planes": 735,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 66,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 30644,
+          "h": 67,
+          "level_pairs": 49768455685,
+          "planes": 1012,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 11247,
+          "h": 68,
+          "level_pairs": 17746930321,
+          "planes": 298,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5493,
+          "h": 69,
+          "level_pairs": 10871610226,
+          "planes": 264,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 8676,
+          "h": 70,
+          "level_pairs": 14368608694,
+          "planes": 225,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 34436,
+          "h": 71,
+          "level_pairs": 62778462915,
+          "planes": 1075,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 72,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 36350,
+          "h": 73,
+          "level_pairs": 70148894890,
+          "planes": 1104,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 13617,
+          "h": 74,
+          "level_pairs": 25504751257,
+          "planes": 336,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 5445,
+          "h": 75,
+          "level_pairs": 12724712855,
+          "planes": 240,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 14111,
+          "h": 76,
+          "level_pairs": 27794939584,
+          "planes": 336,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 31596,
+          "h": 77,
+          "level_pairs": 67962772489,
+          "planes": 920,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 0,
+          "h": 78,
+          "level_pairs": 0,
+          "planes": 0,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 42546,
+          "h": 79,
+          "level_pairs": 96253589377,
+          "planes": 1197,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 12729,
+          "h": 80,
+          "level_pairs": 28097456992,
+          "planes": 299,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        },
+        {
+          "chunks": 7935,
+          "h": 81,
+          "level_pairs": 21662794361,
+          "planes": 324,
+          "status": "complete_in_declared_domain",
+          "unresolved_degeneracies": []
+        }
+      ],
+      "policies": {
+        "T1": {
+          "audit_seconds": 15421.749608640532,
+          "chunks": 539465,
+          "level_pairs": 801636570030,
+          "solver_seconds": 207701.44319513906,
+          "square_root_calls": 397125343568,
+          "visited_pairs": 465477114041
+        }
+      },
+      "realizations": [
+        {
+          "base_and_period": [
+            88011536665779,
+            223336848698040
+          ],
+          "coordinates": [
+            406,
+            712,
+            1265,
+            731,
+            557
+          ]
+        },
+        {
+          "base_and_period": [
+            2720751096305053288157586672376,
+            3245172386374697665101193455750
+          ],
+          "coordinates": [
+            1089859,
+            1627375,
+            3121631,
+            2087631,
+            2105745
+          ]
+        }
+      ]
+    },
+    "scope": "Immutable cached candidate headers with mtime at most this summary timestamp; no new coverage claim."
+  },
+  "headers": 539465,
+  "nonempty_headers": 42457,
+  "sorted_header_fingerprints_sha256": "ba46ab0e62d2e17827e722b9830e3359810a5e0cfe7d099b79e28ea63b4a8dec",
+  "seconds": 125.54487873700054,
+  "diagnostics": [
+    {
+      "code": 119772,
+      "r": 2,
+      "unique_high_candidates": 51745,
+      "counts": {
+        "strict_prime_nonunit": 45379,
+        "adjacent_gcd": 6274,
+        "opposite_gcd": 56,
+        "quadratic": 35,
+        "valid_square_core": 1,
+        "j-1:E_outside_chamber": 1,
+        "j1:CRT_complete": 1
+      },
+      "square_cores_common": [
+        [
+          1089859,
+          1627375,
+          3121631,
+          2087631
+        ]
+      ],
+      "completions": [
+        {
+          "core": [
+            1089859,
+            1627375,
+            3121631,
+            2087631
+          ],
+          "j": 1,
+          "E": 2105745,
+          "defect_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "coprime_quadratic_near_misses": []
+    },
+    {
+      "code": 119772,
+      "r": 3,
+      "unique_high_candidates": 105501,
+      "counts": {
+        "strict_prime_nonunit": 82950,
+        "adjacent_gcd": 22517,
+        "quadratic": 12,
+        "opposite_gcd": 21,
+        "valid_square_core": 1,
+        "j1:CRT_complete": 1,
+        "j2:E_noninteger": 1
+      },
+      "square_cores_common": [
+        [
+          406,
+          712,
+          1265,
+          731
+        ]
+      ],
+      "completions": [
+        {
+          "core": [
+            406,
+            712,
+            1265,
+            731
+          ],
+          "j": 1,
+          "E": 557,
+          "defect_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "coprime_quadratic_near_misses": []
+    },
+    {
+      "code": 606897,
+      "r": 3,
+      "unique_high_candidates": 104699,
+      "counts": {
+        "adjacent_gcd": 22445,
+        "strict_prime_nonunit": 82221,
+        "quadratic": 11,
+        "opposite_gcd": 22
+      },
+      "square_cores_common": [],
+      "completions": [],
+      "coprime_quadratic_near_misses": [
+        {
+          "common_core": [
+            86,
+            148,
+            145,
+            77
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 0,
+            "Q": 32
+          }
+        },
+        {
+          "common_core": [
+            1328,
+            2483,
+            2059,
+            1295
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 1218,
+            "Q": 0
+          }
+        },
+        {
+          "common_core": [
+            27808,
+            44399,
+            43435,
+            25063
+          ],
+          "remainders": {
+            "A": 1760,
+            "C": 0,
+            "D": 0,
+            "Q": 0
+          }
+        },
+        {
+          "common_core": [
+            60421,
+            112348,
+            111517,
+            57005
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 0,
+            "Q": 42973
+          }
+        },
+        {
+          "common_core": [
+            385640,
+            703687,
+            580699,
+            367063
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 272573,
+            "Q": 0
+          }
+        },
+        {
+          "common_core": [
+            550559,
+            1034264,
+            855773,
+            519535
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 0,
+            "Q": 447875
+          }
+        },
+        {
+          "common_core": [
+            654313,
+            1192871,
+            1036630,
+            599804
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 621637,
+            "D": 0,
+            "Q": 0
+          }
+        },
+        {
+          "common_core": [
+            4694891,
+            8286661,
+            7441262,
+            4254866
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 0,
+            "Q": 4199608
+          }
+        },
+        {
+          "common_core": [
+            10418030,
+            18353126,
+            17308817,
+            9907049
+          ],
+          "remainders": {
+            "A": 0,
+            "C": 0,
+            "D": 0,
+            "Q": 3799964
+          }
+        },
+        {
+          "common_core": [
+            20879840,
+            33712774,
+            31380793,
+            20291189
+          ],
+          "remainders": {
+            "A": 10439920,
+            "C": 0,
+            "D": 6629745,
+            "Q": 0
+          }
+        },
+        {
+          "common_core": [
+            4491526490,
+            7558467128,
+            7290203473,
+            4075840243
+          ],
+          "remainders": {
+            "A": 2531587658,
+            "C": 0,
+            "D": 0,
+            "Q": 0
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Diagnostic of cached high-candidate outputs only. No new generation replay, no assertion that this snapshot exhausts h15..27 or all h82, no global existence conclusion."
+}

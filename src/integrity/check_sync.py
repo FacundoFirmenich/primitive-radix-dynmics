@@ -107,9 +107,19 @@ check(d16['large_example']['DFA']['nodes']==21 and [x['count'] for x in d16['lar
 check(not r16['original_FST15_16_artifacts_received'],'original artifacts absent scope')
 tara=read('research/rc33/tarasutra/results/TARASUTRA_R2_REALIZATION.json')
 check(tara['status']=='PASS' and tara['core']['r']==2 and len(tara['edges'])==10,'factor-two independent witness')
+offensive=read('research/rc33/offensive/CLAIMS.json')['claims']
+check(len(offensive)==4,'four opposite-fibre and parity claims')
+for card in offensive:
+ check(card['id'] in ids and (R/card['public_evidence'].split('#')[0]).is_file(),card['id']+' offensive evidence')
+for name,digest in read('research/rc33/offensive/certificate/MANIFEST_SHA256.json').items():
+ check(sha(R/'research/rc33/offensive/certificate'/name)==digest,name+' offensive source')
+offensive_run=read('outputs/reports/offensive/OFFENSIVE_REPLAY.json')
+check(offensive_run['status']=='PASS' and offensive_run['inputs_unchanged'],'offensive fixed replay')
+scan=offensive_run['results']['PAIR_SCAN_RESULTS.json']
+check(scan['counts']['contexts']==128058 and scan['counts']['joint_pairs']==0 and not scan['deferred'],'opposite-fibre scope')
 receipt={'status':'PASS','edition':'RC3.3','package_version':'0.3.3','repository':repo,
-         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
-         'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
+         'claims':len(ids),'continuation_claims':3+len(new)+len(fst)+len(t007)+len(fst13)+len(fst14)+len(sine)+len(causal)+len(fst16)+len(offensive),'FST16_claims':len(fst16),'causal_trace_claims':len(causal),'sine_assault_claims':len(sine),'FST14_claims':len(fst14),'FST1213_claims':len(fst13),'T007_claims':len(t007),'FST11_claims':len(fst),'dependency_edges':len(rows('data/dependencies.csv')),
+         'offensive_claims':len(offensive),'immutable_source_files':len(manifest),'aligned_figure_assets':len(align['figure_assets']),
          'current_rc33_checksum_entries':entries,'recent_scripts_passed':len(recent['runs']),
          'original_archive_commit':doi['archival_commit'],'full_manuscripts_public':False,
          'new_global_existence_rows_closed':1}

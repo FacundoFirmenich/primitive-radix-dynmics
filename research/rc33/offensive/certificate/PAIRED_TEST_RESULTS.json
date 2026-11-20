@@ -1,0 +1,706 @@
+{
+  "status": "PASS",
+  "independent_fixed_pair_contexts": 1536,
+  "independent_unknown_bound": 32,
+  "masked_pair_controls": [
+    {
+      "r": 3,
+      "orientation": "normal",
+      "unknown": "AC",
+      "fixed": [
+        1265,
+        731
+      ],
+      "divisor_counts": [
+        112,
+        32
+      ],
+      "candidate_counts": [
+        3,
+        1
+      ],
+      "cartesian_pairs": 3,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 1,
+      "joint_pairs": 1,
+      "square_cores": [
+        [
+          406,
+          712,
+          1265,
+          731
+        ]
+      ],
+      "realizations": [
+        {
+          "core": [
+            406,
+            712,
+            1265,
+            731
+          ],
+          "E": 557,
+          "j": 1,
+          "base": 88011536665779,
+          "period": 223336848698040
+        }
+      ]
+    },
+    {
+      "r": 3,
+      "orientation": "normal",
+      "unknown": "DQ",
+      "fixed": [
+        406,
+        712
+      ],
+      "divisor_counts": [
+        48,
+        72
+      ],
+      "candidate_counts": [
+        1,
+        1
+      ],
+      "cartesian_pairs": 1,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 1,
+      "joint_pairs": 1,
+      "square_cores": [
+        [
+          406,
+          712,
+          1265,
+          731
+        ]
+      ],
+      "realizations": [
+        {
+          "core": [
+            406,
+            712,
+            1265,
+            731
+          ],
+          "E": 557,
+          "j": 1,
+          "base": 88011536665779,
+          "period": 223336848698040
+        }
+      ]
+    },
+    {
+      "r": 2,
+      "orientation": "normal",
+      "unknown": "AC",
+      "fixed": [
+        3121631,
+        2087631
+      ],
+      "divisor_counts": [
+        96,
+        384
+      ],
+      "candidate_counts": [
+        3,
+        1
+      ],
+      "cartesian_pairs": 3,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 1,
+      "joint_pairs": 1,
+      "square_cores": [
+        [
+          1089859,
+          1627375,
+          3121631,
+          2087631
+        ]
+      ],
+      "realizations": [
+        {
+          "core": [
+            1089859,
+            1627375,
+            3121631,
+            2087631
+          ],
+          "E": 2105745,
+          "j": 1,
+          "base": 2720751096305053288157586672376,
+          "period": 3245172386374697665101193455750
+        }
+      ]
+    },
+    {
+      "r": 2,
+      "orientation": "normal",
+      "unknown": "DQ",
+      "fixed": [
+        1089859,
+        1627375
+      ],
+      "divisor_counts": [
+        128,
+        768
+      ],
+      "candidate_counts": [
+        4,
+        4
+      ],
+      "cartesian_pairs": 16,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 1,
+      "joint_pairs": 1,
+      "square_cores": [
+        [
+          1089859,
+          1627375,
+          3121631,
+          2087631
+        ]
+      ],
+      "realizations": [
+        {
+          "core": [
+            1089859,
+            1627375,
+            3121631,
+            2087631
+          ],
+          "E": 2105745,
+          "j": 1,
+          "base": 2720751096305053288157586672376,
+          "period": 3245172386374697665101193455750
+        }
+      ]
+    }
+  ],
+  "constructed_barrier": {
+    "source": [
+      376,
+      637,
+      1265,
+      731
+    ],
+    "target": [
+      406,
+      712,
+      1265,
+      731
+    ],
+    "A_first_opposite_gcd": 7,
+    "C_first_opposite_gcd": 8,
+    "paired_move_recovers_target": true,
+    "scope": "Two direct one-coordinate orders fail; no claim that all longer paths fail."
+  },
+  "initial_target_contexts": [
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        145,
+        77
+      ],
+      "divisor_counts": [
+        20,
+        32
+      ],
+      "candidate_counts": [
+        2,
+        1
+      ],
+      "cartesian_pairs": 2,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        86,
+        148
+      ],
+      "divisor_counts": [
+        48,
+        36
+      ],
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        2059,
+        1295
+      ],
+      "divisor_counts": [
+        40,
+        64
+      ],
+      "candidate_counts": [
+        1,
+        2
+      ],
+      "cartesian_pairs": 2,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 1,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        1328,
+        2483
+      ],
+      "divisor_counts": [
+        16,
+        64
+      ],
+      "candidate_counts": [
+        1,
+        1
+      ],
+      "cartesian_pairs": 1,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        43435,
+        25063
+      ],
+      "divisor_counts": [
+        56,
+        64
+      ],
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        27808,
+        44399
+      ],
+      "divisor_counts": [
+        96,
+        48
+      ],
+      "candidate_counts": [
+        2,
+        1
+      ],
+      "cartesian_pairs": 2,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 1,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        111517,
+        57005
+      ],
+      "divisor_counts": [
+        128,
+        48
+      ],
+      "candidate_counts": [
+        5,
+        1
+      ],
+      "cartesian_pairs": 5,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        60421,
+        112348
+      ],
+      "divisor_counts": [
+        64,
+        32
+      ],
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        580699,
+        367063
+      ],
+      "divisor_counts": [
+        672,
+        128
+      ],
+      "candidate_counts": [
+        4,
+        2
+      ],
+      "cartesian_pairs": 8,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 1,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        385640,
+        703687
+      ],
+      "divisor_counts": [
+        32,
+        64
+      ],
+      "candidate_counts": [
+        0,
+        3
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        855773,
+        519535
+      ],
+      "divisor_counts": [
+        192,
+        1152
+      ],
+      "candidate_counts": [
+        2,
+        6
+      ],
+      "cartesian_pairs": 12,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        550559,
+        1034264
+      ],
+      "divisor_counts": [
+        32,
+        64
+      ],
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        1036630,
+        599804
+      ],
+      "divisor_counts": [
+        96,
+        288
+      ],
+      "candidate_counts": [
+        1,
+        1
+      ],
+      "cartesian_pairs": 1,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        654313,
+        1192871
+      ],
+      "divisor_counts": [
+        256,
+        192
+      ],
+      "candidate_counts": [
+        2,
+        2
+      ],
+      "cartesian_pairs": 4,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        7441262,
+        4254866
+      ],
+      "divisor_counts": [
+        384,
+        336
+      ],
+      "candidate_counts": [
+        1,
+        1
+      ],
+      "cartesian_pairs": 1,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        4694891,
+        8286661
+      ],
+      "divisor_counts": [
+        128,
+        768
+      ],
+      "candidate_counts": [
+        1,
+        5
+      ],
+      "cartesian_pairs": 5,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        17308817,
+        9907049
+      ],
+      "divisor_counts": [
+        128,
+        960
+      ],
+      "candidate_counts": [
+        2,
+        6
+      ],
+      "cartesian_pairs": 12,
+      "first_residue_pairs": 1,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        10418030,
+        18353126
+      ],
+      "divisor_counts": [
+        112,
+        768
+      ],
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        31380793,
+        20291189
+      ],
+      "divisor_counts": [
+        320,
+        512
+      ],
+      "candidate_counts": [
+        0,
+        3
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        20879840,
+        33712774
+      ],
+      "divisor_counts": [
+        192,
+        144
+      ],
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "AC",
+      "fixed": [
+        7290203473,
+        4075840243
+      ],
+      "divisor_counts": [
+        80,
+        2048
+      ],
+      "candidate_counts": [
+        0,
+        4
+      ],
+      "cartesian_pairs": 0,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 0,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    },
+    {
+      "r": 3,
+      "orientation": "reflected",
+      "unknown": "DQ",
+      "fixed": [
+        4491526490,
+        7558467128
+      ],
+      "divisor_counts": [
+        768,
+        3072
+      ],
+      "candidate_counts": [
+        3,
+        2
+      ],
+      "cartesian_pairs": 6,
+      "first_residue_pairs": 0,
+      "second_residue_pairs": 1,
+      "joint_pairs": 0,
+      "square_cores": [],
+      "realizations": []
+    }
+  ],
+  "seconds": 0.23929358500026865
+}

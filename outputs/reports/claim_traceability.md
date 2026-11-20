@@ -121,6 +121,10 @@
 | TARA1 | `PROVED_SYMBOLIC_PLUS_CRT` | Explicit realization of 119772/r2 with complete CRT base fibre | `research/rc33/tarasutra/RESULTS.md#tara1` | depends_on:C003<br>extends:C012 |
 | TARA2 | `PROVED_SYMBOLIC` | Certified refinement and sound modular rejection are distinct sufficient checks | `research/rc33/tarasutra/RESULTS.md#tara2` | — |
 | TARA3 | `RECORDED_PRODUCTION_SCOPE` | Dated production coverage and completed-range policy counters | `research/rc33/tarasutra/RESULTS.md#tara3` | — |
+| OPP1 | `PROVED_SYMBOLIC` | Opposite-coordinate divisor fibres admit exact joint completion by two remainder labels | `research/rc33/offensive/RESULTS.md#opp1` | depends_on:C003<br>depends_on:C014 |
+| OPP2 | `PROVED_SYMBOLIC` | Half inversion swaps the generators exactly when every branch-parity bit is one | `research/rc33/offensive/RESULTS.md#opp2` | depends_on:C002<br>depends_on:C003 |
+| OPP3 | `PROVED_SYMBOLIC` | An all-odd normal factor-three carrier would realize the remaining reflected orientation | `research/rc33/offensive/RESULTS.md#opp3` | depends_on:OPP2<br>depends_on:C014 |
+| OPP4 | `EXACT_CERTIFICATE` | All opposite completions of the 128058 fixed snapshot contexts have no quadratic core | `research/rc33/offensive/RESULTS.md#opp4` | depends_on:OPP1 |
 
 ## Artifact registry
 

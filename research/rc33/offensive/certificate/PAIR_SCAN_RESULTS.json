@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "started_at": "2026-11-20T01:16:36.683924+00:00",
+  "seconds": 52.301850028001354,
+  "input_sha256": "25f8226e12cf98a4b7ba7b479ff12de4a27144bc3c858dc14a238a3e4f91634d",
+  "declared_contexts": 128058,
+  "counts": {
+    "contexts": 128058,
+    "cartesian_pairs": 138985,
+    "first_residue_pairs": 6,
+    "second_residue_pairs": 4,
+    "joint_pairs": 0
+  },
+  "square_cores": [],
+  "realizations": [],
+  "deferred": [],
+  "scope": "Exact completion of the selected opposite-coordinate fibres only. Candidate-generation history is not independently replayed; no global nonexistence claim."
+}

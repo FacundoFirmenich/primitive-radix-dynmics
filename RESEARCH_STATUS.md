@@ -1,5 +1,20 @@
 # Research status · RC3.3
 
+## Opposite-coordinate and parity offensive — 20 November 2026
+
+Four new scoped records give exact opposite-pair completion, the half-inversion
+admissibility criterion, a conditional transfer from an all-odd normal factor-three
+carrier to 606897, and the complete negative result on 128,058 explicit fixed
+fibres. Run `make offensive-verify`.
+[Proofs and certificates](research/rc33/offensive/RESULTS.md) ·
+[Return to sister branches](research/rc33/offensive/RETURN_SISTER_BRANCHES_ES.md).
+Current register: **123 records, including 69 continuation records**.
+The 37/2/1 classification is unchanged. Discovery jobs continue separately;
+no new carrier, global uniqueness or least base is asserted. Companion and
+supplement PDFs are synchronized privately in both languages; manuscript HTML
+is not rebuilt. Earlier dated counters below remain historical snapshots.
+
+
 ## Current Tarasutra continuation — 19 November 2026
 
 119772/factor 2 (0003/S) is explicitly realized. The independent checker
